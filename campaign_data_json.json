@@ -1,5 +1,14 @@
 [
 {
+    "id": 97,
+    "title": "Easthaven Ferry - Duergar Outpost",
+    "category": "location",
+    "description": "Hidden duergar base under Easthaven's ferry. Durth Sunblight's operation for chardalyn theft throughout Ten-Towns. Contains map to Sunblight Fortress location. Opportunity for investigation and intelligence gathering about larger duergar conspiracy. Could be discovered through Zhentarim spy network.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+    {
     "id": 90,
     "title": "Xardorok Sunblight - Duergar Warlord",
     "category": "npc",
