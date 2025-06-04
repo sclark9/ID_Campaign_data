@@ -1,4 +1,238 @@
 [
+{
+    "id": 90,
+    "title": "Xardorok Sunblight - Duergar Warlord",
+    "category": "npc",
+    "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra. Killed most of his own family through paranoia and violence. Two surviving sons: Durth and Nildar (both sent on distant missions). Supernatural patron drives his conquest ambitions - connects to Auril's influence rather than Asmodeus.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 91,
+    "title": "Grandolpha Muzgardt - Duergar Rebel",
+    "category": "npc",
+    "description": "Duergar matriarch secretly opposing Xardorok's plans. Once wooed by Xardorok with promises of marriage and wealth, now sees his madness. Potential ally in Sunblight Fortress. Commands loyalty from some duergar who question Xardorok's increasingly destructive obsessions. Key to creating internal faction conflict within fortress.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 92,
+    "title": "Durth Sunblight - Duergar Son",
+    "category": "npc",
+    "description": "One of Xardorok's two surviving sons. Operates from Easthaven Ferry, sending duergar to steal chardalyn from nearby towns. Has map showing location of Sunblight Fortress. Could be captured/interrogated for information. Potential for interesting family dynamics if confronted with father's madness.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 93,
+    "title": "Nildar Sunblight - Duergar Son",
+    "category": "npc",
+    "description": "Xardorok's other surviving son. Sent on distant mission to keep him away from court. Could be encountered separately or used as leverage against Xardorok. Another angle for exploring duergar family tragedy and Xardorok's paranoid destruction of his own bloodline.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 94,
+    "title": "Klondorn - Corrupted Priest",
+    "category": "npc",
+    "description": "Duergar priest of Deep Duerra serving as Xardorok's advisor. Actually feeds him information from supernatural patron (connect to Auril/Auriliths rather than Asmodeus). Creates magical constructs in temple using red dragon heart forge. Key to understanding how Xardorok receives his 'divine inspiration.'",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 95,
+    "title": "Vellynne Harpell - Arcane Brotherhood Wizard",
+    "category": "npc",
+    "description": "Necromancer from Arcane Brotherhood searching for Ythryn. Could offer aid against chardalyn dragon with undead direwolf sleds for rapid travel. Potential ally but with her own agenda seeking ancient Netherese magic. Creates opportunity for party to learn about larger magical conspiracy.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 96,
+    "title": "Sunblight Fortress - Duergar Stronghold",
+    "category": "location",
+    "description": "Three-level duergar fortress in Spine of the World. Top level: massive doors for dragon exit. Middle level: living quarters, Grandolpha's faction. Bottom level: forge with red dragon heart, construction hall, throne room, temple to Deep Duerra. About 30 rooms total. Faction dynamics between loyalists and rebels create infiltration opportunities.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 97,
+    "title": "Easthaven Ferry - Duergar Outpost",
+    "category": "location",
+    "description": "Hidden duergar base under Easthaven's ferry. Durth Sunblight's operation for chardalyn theft throughout Ten-Towns. Contains map to Sunblight Fortress location. Opportunity for investigation and intelligence gathering about larger duergar conspiracy. Could be discovered through Zhentarim spy network.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 98,
+    "title": "The Black Cabin - Cursed Location",
+    "category": "location",
+    "description": "Cabin where travelers die mysterious deaths. Connected to cursed magic items and chardalyn corruption. Good location for horror-themed encounter that reinforces deadly nature of Icewind Dale. Could contain chardalyn-corrupted items that tie to larger corruption network.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 99,
+    "title": "Cackling Chasm - Underground Passage",
+    "category": "location",
+    "description": "Underground route providing alternative access to various locations. Natural formation with unique dangers including unstable ice and strange acoustics. Useful for travel between areas or as escape route. Could connect to other Underdark passages leading to Sunblight.",
+    "priority": "low",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 100,
+    "title": "The White Moose - Corrupted Beast",
+    "category": "encounter",
+    "description": "Awakened moose corrupted by periapt of wound closure. Attacks loggers in Lonelywood forest. Led by frost druid villain seeking revenge against civilization. Connection to nature magic corruption theme. Could tie to Circle Shiverveil/Blackgleam firbolg knowledge of natural balance disruption.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 101,
+    "title": "A Beautiful Mine - Termalaine Quest",
+    "category": "encounter",
+    "description": "Kobolds have taken over gem mine in Termalaine. Involves negotiation with kobold chieftain Hrark. Mine produces precious gems valuable for trade. Could become party asset if handled diplomatically. Good early-level quest with multiple solutions - combat, negotiation, or trickery.",
+    "priority": "medium",
+    "status": "ready",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 102,
+    "title": "Mountain Climb - Yeti Investigation",
+    "category": "encounter",
+    "description": "Investigation into missing climbers on Kelvin's Cairn. Leads to yeti encounters and potentially discovers goliath settlements like Skytower Shelter. Could reveal information about supernatural activity in mountains. Ties to both survival themes and larger mysteries. Good tie-in for Keogr's background.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 103,
+    "title": "Holed Up - Winter Wolf Encounter",
+    "category": "encounter",
+    "description": "Winter wolves have cornered travelers in Dougan's Hole area. Opportunity for negotiation or combat. Winter wolves can provide information about supernatural winter if approached correctly. Tests party's problem-solving skills and understanding of natural vs supernatural threats.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 104,
+    "title": "Black Swords Cult - Caer Dineval",
+    "category": "encounter",
+    "description": "Cult following Levistus in Caer Dineval. Wears black ice amulets (similar to Huarwar's black ice shard!). Led by cultists who worship devil of frozen lake. Perfect tie-in to existing chardalyn corruption theme. Could be connected to tiefling recruiters who took Huarwar.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 105,
+    "title": "The Unseen - Invisible Stalker Mystery",
+    "category": "encounter",
+    "description": "Invisible stalker murdering people in Caer-Konig. Summoned by bitter mage seeking revenge. Investigation leads to duergar connection and information about larger conspiracy. Good mystery for party to solve using investigation skills rather than just combat.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 106,
+    "title": "Chardalyn Dragon - Doomsday Weapon",
+    "category": "plot",
+    "description": "Massive construct dragon built by Xardorok from chardalyn. Programmed to destroy each Ten-Towns settlement in sequence: Dougan's Hole → Good Mead → Easthaven → Caer-Dineval → Caer-Konig → Termalaine → Lonelywood → Bremen → Targos → Bryn Shander. Creates ultimate time pressure and represents escalation of chardalyn corruption threat.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 107,
+    "title": "Duergar Chardalyn Network",
+    "category": "plot",
+    "description": "Organized duergar operation stealing chardalyn from throughout Ten-Towns. Multiple cells operating from hidden bases (Easthaven Ferry, possibly others). Connects to existing chardalyn corruption theme. Could be working with/manipulated by Auriliths rather than devils. Explains spread of black ice artifacts.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 108,
+    "title": "Chardalyn Corruption Effects",
+    "category": "rules",
+    "description": "Extended exposure to chardalyn causes paranoia, madness, and violent tendencies. CON saves DC 15 after each day of contact, failure causes personality changes toward aggression. Fits perfectly with black ice shard corruption theme. Characters handling chardalyn items risk becoming like Huarwar.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 109,
+    "title": "Fortress Siege Mechanics",
+    "category": "rules",
+    "description": "Time pressure during Sunblight infiltration. Dragon launch creates 2-day countdown to Ten-Towns destruction. Travel times: Sunblight to Dougan's Hole (15.5 hours), between towns (varies). Balances exploration with narrative urgency. Party must choose: stop Xardorok or chase dragon.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 110,
+    "title": "Construct Creation Rituals",
+    "category": "rules",
+    "description": "How duergar create chardalyn constructs using temple rituals and red dragon heart forge. Magic circles channel Deep Duerra's power through Klondorn's rituals. Could be adapted for other chardalyn corruption processes. Destroying dragon heart forge cripples construct creation.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 111,
+    "title": "Red Dragon Heart Forge",
+    "category": "location",
+    "description": "Beating heart of ancient red dragon powers Sunblight's forge. Allows creation of powerful constructs like chardalyn dragon. Located in lowest level forge room. Destroying it cripples duergar construct production. Heavily guarded and magically warded. Key target for disrupting Xardorok's plans.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 112,
+    "title": "Aurilith-Duergar Connection",
+    "category": "plot",
+    "description": "Theory: Auriliths are manipulating Xardorok instead of devils. His 'supernatural patron' could be one of the seven Auriliths psychically influencing him to create chardalyn dragon. This would unify the chardalyn corruption, Aurilith influence, and duergar threat into single conspiracy. Creates stronger narrative connection.",
+    "priority": "high",
+    "status": "brainstorming",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 113,
+    "title": "Hrark - Kobold Chieftain",
+    "category": "npc",
+    "description": "Kobold leader who took over gem mine in Termalaine. Clever negotiator who can be reasoned with. Wants security for his tribe during harsh winter. Could become ally if party helps establish kobold-human trade relationship. Provides alternative to combat resolution in Beautiful Mine quest.",
+    "priority": "low",
+    "status": "ready",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 114,
+    "title": "Frost Druid - White Moose Controller",
+    "category": "npc",
+    "description": "Unnamed frost druid controlling the White Moose. Seeks revenge against loggers and civilization. Uses corrupted awakened animals as weapons. Could be connected to larger druidic corruption or Auril worship. Represents nature's violent response to the endless winter.",
+    "priority": "medium",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 115,
+    "title": "Chardalyn Dragon Attack Timeline",
+    "category": "encounter",
+    "description": "Precise timing of dragon's destructive path through Ten-Towns. Each town gets 2-4 hours of destruction before dragon moves on. Total attack takes ~48 hours. Party has limited time to intercept at specific towns. Creates difficult tactical decisions about which settlements can be saved.",
+    "priority": "high",
+    "status": "planning",
+    "createdAt": "Original Adventure"
+  },
   {
     "id": 89,
     "title": "Wurther - Zhentarim Spy in Bremen",
