@@ -788,12 +788,13 @@
     "id": 58,
     "title": "Zhentarim Network in Ten-Towns",
     "category": "plot",
-    "description": "Naerth commands 12+ Zhentarim spies across Ten-Towns including Wurther (Bremen fisherman spy). Active operations: disposing of suspected Harper spies, convincing business owners to buy fish exclusively from Targos. Goal is transforming Ten-Towns into Black Network trade hub. Creates faction conflict and espionage subplot throughout campaign.",
+    "description": "Naerth commands 12+ Zhentarim spies across Ten-Towns including Wurther (Bremen fisherman spy). Active operations: disposing of suspected Harper spies, convincing business owners to buy fish exclusively from Targos. Goal is transforming Ten-Towns into Black Network trade hub. Creates faction conflict and espionage subplot throughout campaign. \n\nThey have begun humanoid sacrifices, which is why Yll-Varn is following their bidding to attack Bremen.",
     "priority": "high",
     "status": "planning",
     "tags": [
       "overarching",
-      "zhentarim"
+      "zhentarim",
+      "auriliths"
     ],
     "createdAt": "Town Details"
   },
@@ -1301,13 +1302,14 @@
     "id": 20,
     "title": "Yll-Varn the Drowned Choir (Targos/Bremen)",
     "category": "location",
-    "description": "Partially submerged in Maer Dualdon. Blue-black ice tower on delicate arch (50ft tall, 100ft wide) with spiral towers around it. Hums low when sacrifices missed, ice vibrates. Makes wailing, musical sounds in wind. Fisherfolk say it sings to something deeper. Some towers appear humanoid/monstrous.",
+    "description": "Partially submerged in Maer Dualdon. Blue-black ice tower on delicate arch (50ft tall, 100ft wide) with spiral towers around it. Hums low when sacrifices missed, ice vibrates. Makes wailing, musical sounds in wind. Fisherfolk say it sings to something deeper. Some towers appear humanoid/monstrous.\n\nAwakened the lake monster. Is influenced by Zhent.",
     "priority": "high",
     "status": "ready",
     "tags": [
       "overarching",
       "auriliths",
-      "ten-towns"
+      "ten-towns",
+      "zhentarum"
     ],
     "createdAt": "Aurilith Details"
   },
@@ -1559,6 +1561,38 @@
     "priority": "high",
     "status": "brainstorming",
     "tags": [],
+    "createdAt": "6/4/2025"
+  },
+  {
+    "id": 1749078786335,
+    "title": "Termalaine Mine - Chardalyn Corruption Site",
+    "category": "encounter",
+    "description": "Former mining operation overrun by kobolds, but the true threat is chardalyn corruption. Miners unknowingly struck a vein of chardalyn ore, which began corrupting the kobold leader and driving the creatures mad with paranoia and aggression. The grell was attracted by the psychic emanations from the corrupted chardalyn. Ghost possession of kobold leader may be result of chardalyn's ability to thin the veil between life and death. Characters must decide whether to destroy the chardalyn (losing valuable resource), contain it, or find way to purify it. Connects to broader chardalyn corruption network affecting Ten-Towns.\n\nEncounter: A Beautiful Mine",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "early",
+      "chardalyn",
+      "ten-towns",
+      "combat",
+      "investigation"
+    ],
+    "createdAt": "6/4/2025"
+  },
+  {
+    "id": 1749078827471,
+    "title": "Corrupted Kobold Chieftain - Chardalyn Vessel",
+    "category": "npc",
+    "description": "Kobold leader possessed by ghost, but possession made possible by chardalyn corruption weakening his mind and spirit. The 'ghost' may actually be psychic echoes from the chardalyn itself - memories of those who died mining or handling the corrupted crystal. Speaks in multiple voices, sometimes coherent warnings about the 'black ice that watches,' other times ranting about ancient cold and endless winter. If freed from corruption, could provide valuable intelligence about chardalyn's effects and locations of other veins. Knowledge of underground tunnels that might connect to other corrupted sites.\n\nEncounter: A Beautiful Mine",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "early",
+      "chardalyn",
+      "ten-towns",
+      "social",
+      "investigation"
+    ],
     "createdAt": "6/4/2025"
   }
 ]
