@@ -1,20 +1,22 @@
 [
-{
+  {
     "id": 97,
     "title": "Easthaven Ferry - Duergar Outpost",
     "category": "location",
     "description": "Hidden duergar base under Easthaven's ferry. Durth Sunblight's operation for chardalyn theft throughout Ten-Towns. Contains map to Sunblight Fortress location. Opportunity for investigation and intelligence gathering about larger duergar conspiracy. Could be discovered through Zhentarim spy network.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "investigation", "chardalyn"],
     "createdAt": "Original Adventure"
   },
-    {
+  {
     "id": 90,
     "title": "Xardorok Sunblight - Duergar Warlord",
     "category": "npc",
     "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra. Killed most of his own family through paranoia and violence. Two surviving sons: Durth and Nildar (both sent on distant missions). Supernatural patron drives his conquest ambitions - connects to Auril's influence rather than Asmodeus.",
     "priority": "high",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "combat", "chardalyn"],
     "createdAt": "Original Adventure"
   },
   {
@@ -24,6 +26,7 @@
     "description": "Duergar matriarch secretly opposing Xardorok's plans. Once wooed by Xardorok with promises of marriage and wealth, now sees his madness. Potential ally in Sunblight Fortress. Commands loyalty from some duergar who question Xardorok's increasingly destructive obsessions. Key to creating internal faction conflict within fortress.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "social"],
     "createdAt": "Original Adventure"
   },
   {
@@ -33,6 +36,7 @@
     "description": "One of Xardorok's two surviving sons. Operates from Easthaven Ferry, sending duergar to steal chardalyn from nearby towns. Has map showing location of Sunblight Fortress. Could be captured/interrogated for information. Potential for interesting family dynamics if confronted with father's madness.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "social", "chardalyn"],
     "createdAt": "Original Adventure"
   },
   {
@@ -42,6 +46,7 @@
     "description": "Xardorok's other surviving son. Sent on distant mission to keep him away from court. Could be encountered separately or used as leverage against Xardorok. Another angle for exploring duergar family tragedy and Xardorok's paranoid destruction of his own bloodline.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "social"],
     "createdAt": "Original Adventure"
   },
   {
@@ -51,6 +56,7 @@
     "description": "Duergar priest of Deep Duerra serving as Xardorok's advisor. Actually feeds him information from supernatural patron (connect to Auril/Auriliths rather than Asmodeus). Creates magical constructs in temple using red dragon heart forge. Key to understanding how Xardorok receives his 'divine inspiration.'",
     "priority": "medium",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "social", "auriliths"],
     "createdAt": "Original Adventure"
   },
   {
@@ -60,6 +66,7 @@
     "description": "Necromancer from Arcane Brotherhood searching for Ythryn. Could offer aid against chardalyn dragon with undead direwolf sleds for rapid travel. Potential ally but with her own agenda seeking ancient Netherese magic. Creates opportunity for party to learn about larger magical conspiracy.",
     "priority": "high",
     "status": "planning",
+    "tags": ["midgame", "social", "chardalyn"],
     "createdAt": "Original Adventure"
   },
   {
@@ -69,6 +76,7 @@
     "description": "Three-level duergar fortress in Spine of the World. Top level: massive doors for dragon exit. Middle level: living quarters, Grandolpha's faction. Bottom level: forge with red dragon heart, construction hall, throne room, temple to Deep Duerra. About 30 rooms total. Faction dynamics between loyalists and rebels create infiltration opportunities.",
     "priority": "high",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "combat"],
     "createdAt": "Original Adventure"
   },
   {
@@ -78,6 +86,7 @@
     "description": "Cabin where travelers die mysterious deaths. Connected to cursed magic items and chardalyn corruption. Good location for horror-themed encounter that reinforces deadly nature of Icewind Dale. Could contain chardalyn-corrupted items that tie to larger corruption network.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["midgame", "chardalyn", "investigation"],
     "createdAt": "Original Adventure"
   },
   {
@@ -87,6 +96,7 @@
     "description": "Underground route providing alternative access to various locations. Natural formation with unique dangers including unstable ice and strange acoustics. Useful for travel between areas or as escape route. Could connect to other Underdark passages leading to Sunblight.",
     "priority": "low",
     "status": "planning",
+    "tags": ["midgame"],
     "createdAt": "Original Adventure"
   },
   {
@@ -96,6 +106,7 @@
     "description": "Awakened moose corrupted by periapt of wound closure. Attacks loggers in Lonelywood forest. Led by frost druid villain seeking revenge against civilization. Connection to nature magic corruption theme. Could tie to Circle Shiverveil/Blackgleam firbolg knowledge of natural balance disruption.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "combat"],
     "createdAt": "Original Adventure"
   },
   {
@@ -105,6 +116,7 @@
     "description": "Kobolds have taken over gem mine in Termalaine. Involves negotiation with kobold chieftain Hrark. Mine produces precious gems valuable for trade. Could become party asset if handled diplomatically. Good early-level quest with multiple solutions - combat, negotiation, or trickery.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "combat", "social", "ten-towns"],
     "createdAt": "Original Adventure"
   },
   {
@@ -114,6 +126,7 @@
     "description": "Investigation into missing climbers on Kelvin's Cairn. Leads to yeti encounters and potentially discovers goliath settlements like Skytower Shelter. Could reveal information about supernatural activity in mountains. Ties to both survival themes and larger mysteries. Good tie-in for Keogr's background.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early", "combat", "investigation"],
     "createdAt": "Original Adventure"
   },
   {
@@ -123,6 +136,7 @@
     "description": "Winter wolves have cornered travelers in Dougan's Hole area. Opportunity for negotiation or combat. Winter wolves can provide information about supernatural winter if approached correctly. Tests party's problem-solving skills and understanding of natural vs supernatural threats.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early", "combat", "social"],
     "createdAt": "Original Adventure"
   },
   {
@@ -132,6 +146,7 @@
     "description": "Cult following Levistus in Caer Dineval. Wears black ice amulets (similar to Huarwar's black ice shard!). Led by cultists who worship devil of frozen lake. Perfect tie-in to existing chardalyn corruption theme. Could be connected to tiefling recruiters who took Huarwar.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "chardalyn", "social", "investigation"],
     "createdAt": "Original Adventure"
   },
   {
@@ -141,6 +156,7 @@
     "description": "Invisible stalker murdering people in Caer-Konig. Summoned by bitter mage seeking revenge. Investigation leads to duergar connection and information about larger conspiracy. Good mystery for party to solve using investigation skills rather than just combat.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early", "investigation"],
     "createdAt": "Original Adventure"
   },
   {
@@ -150,6 +166,7 @@
     "description": "Massive construct dragon built by Xardorok from chardalyn. Programmed to destroy each Ten-Towns settlement in sequence: Dougan's Hole → Good Mead → Easthaven → Caer-Dineval → Caer-Konig → Termalaine → Lonelywood → Bremen → Targos → Bryn Shander. Creates ultimate time pressure and represents escalation of chardalyn corruption threat.",
     "priority": "high",
     "status": "planning",
+    "tags": ["midgame", "chardalyn", "combat"],
     "createdAt": "Original Adventure"
   },
   {
@@ -159,6 +176,7 @@
     "description": "Organized duergar operation stealing chardalyn from throughout Ten-Towns. Multiple cells operating from hidden bases (Easthaven Ferry, possibly others). Connects to existing chardalyn corruption theme. Could be working with/manipulated by Auriliths rather than devils. Explains spread of black ice artifacts.",
     "priority": "high",
     "status": "planning",
+    "tags": ["midgame", "chardalyn", "investigation"],
     "createdAt": "Original Adventure"
   },
   {
@@ -168,6 +186,7 @@
     "description": "Extended exposure to chardalyn causes paranoia, madness, and violent tendencies. CON saves DC 15 after each day of contact, failure causes personality changes toward aggression. Fits perfectly with black ice shard corruption theme. Characters handling chardalyn items risk becoming like Huarwar.",
     "priority": "high",
     "status": "planning",
+    "tags": ["overarching", "chardalyn", "rules"],
     "createdAt": "Original Adventure"
   },
   {
@@ -177,6 +196,7 @@
     "description": "Time pressure during Sunblight infiltration. Dragon launch creates 2-day countdown to Ten-Towns destruction. Travel times: Sunblight to Dougan's Hole (15.5 hours), between towns (varies). Balances exploration with narrative urgency. Party must choose: stop Xardorok or chase dragon.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "combat", "rules"],
     "createdAt": "Original Adventure"
   },
   {
@@ -186,6 +206,7 @@
     "description": "How duergar create chardalyn constructs using temple rituals and red dragon heart forge. Magic circles channel Deep Duerra's power through Klondorn's rituals. Could be adapted for other chardalyn corruption processes. Destroying dragon heart forge cripples construct creation.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "rules"],
     "createdAt": "Original Adventure"
   },
   {
@@ -195,6 +216,7 @@
     "description": "Beating heart of ancient red dragon powers Sunblight's forge. Allows creation of powerful constructs like chardalyn dragon. Located in lowest level forge room. Destroying it cripples duergar construct production. Heavily guarded and magically warded. Key target for disrupting Xardorok's plans.",
     "priority": "high",
     "status": "planning",
+    "tags": ["midgame", "sunblight", "combat"],
     "createdAt": "Original Adventure"
   },
   {
@@ -204,6 +226,7 @@
     "description": "Theory: Auriliths are manipulating Xardorok instead of devils. His 'supernatural patron' could be one of the seven Auriliths psychically influencing him to create chardalyn dragon. This would unify the chardalyn corruption, Aurilith influence, and duergar threat into single conspiracy. Creates stronger narrative connection.",
     "priority": "high",
     "status": "brainstorming",
+    "tags": ["overarching", "auriliths", "chardalyn"],
     "createdAt": "Original Adventure"
   },
   {
@@ -213,6 +236,7 @@
     "description": "Kobold leader who took over gem mine in Termalaine. Clever negotiator who can be reasoned with. Wants security for his tribe during harsh winter. Could become ally if party helps establish kobold-human trade relationship. Provides alternative to combat resolution in Beautiful Mine quest.",
     "priority": "low",
     "status": "ready",
+    "tags": ["early", "social", "ten-towns"],
     "createdAt": "Original Adventure"
   },
   {
@@ -222,6 +246,7 @@
     "description": "Unnamed frost druid controlling the White Moose. Seeks revenge against loggers and civilization. Uses corrupted awakened animals as weapons. Could be connected to larger druidic corruption or Auril worship. Represents nature's violent response to the endless winter.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early", "combat"],
     "createdAt": "Original Adventure"
   },
   {
@@ -231,6 +256,7 @@
     "description": "Precise timing of dragon's destructive path through Ten-Towns. Each town gets 2-4 hours of destruction before dragon moves on. Total attack takes ~48 hours. Party has limited time to intercept at specific towns. Creates difficult tactical decisions about which settlements can be saved.",
     "priority": "high",
     "status": "planning",
+    "tags": ["midgame", "chardalyn", "combat"],
     "createdAt": "Original Adventure"
   },
   {
@@ -240,6 +266,7 @@
     "description": "Lawful evil human spy posing as humble fisherman. One of Naerth's 12+ Zhentarim agents throughout Ten-Towns. Keeps low profile, gathers intelligence on Bremen's struggling economy and Speaker Shalescar's mental decline. Reports back via Naerth's flying snakes. Potential to recruit desperate locals or exploit town's vulnerabilities for Black Network expansion.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "zhentarim", "ten-towns", "social"],
     "createdAt": "Bremen NPCs"
   },
   {
@@ -249,6 +276,7 @@
     "description": "No food: CON save DC 15 after 5 days, then daily (+1 DC each day). No water: CON save DC 15 after 1 day. Failure = 2 exhaustion levels. Foraging: Survival DC 15 (varies by terrain). Extreme cold increases caloric needs.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching", "rules"],
     "createdAt": "Game Rules"
   },
   {
@@ -258,6 +286,7 @@
     "description": "Breaking through ice: 1d6 cold damage + frigid water exhaustion save. Climbing out: Athletics DC 15 (wet clothes = disadvantage). Each round in water: CON save DC 15 or gain exhaustion. Wet clothes in extreme cold = disadvantage on cold saves for 1 hour.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "rules"],
     "createdAt": "Game Rules"
   },
   {
@@ -267,6 +296,7 @@
     "description": "1: Disadvantage ability checks. 2: Speed halved. 3: Disadvantage attacks/saves. 4: HP max halved. 5: Speed reduced to 0. 6: Death. Removed by long rest (1 level) or lesser/greater restoration. CRITICAL for cold survival tracking.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "rules"],
     "createdAt": "Game Rules"
   },
   {
@@ -276,6 +306,7 @@
     "description": "Heavy snow/blizzard: heavily obscured beyond 5ft (blind condition). Light snow: lightly obscured (disadvantage Perception). Bright snow: snow blindness, CON save DC 15 or temporary blindness. Tracking in snow: Survival advantages/disadvantages vary.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching", "rules"],
     "createdAt": "Game Rules"
   },
   {
@@ -285,6 +316,7 @@
     "description": "Difficult terrain (snow, ice, rubble): costs 2 feet movement per 1 foot traveled. Climbing icy surfaces: Athletics DC varies (10-20). Prone on ice: Athletics/Acrobatics DC 10 to stand without falling. Thin ice breaks on failed DEX save.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching", "rules"],
     "createdAt": "Game Rules"
   },
   {
@@ -294,6 +326,7 @@
     "description": "Frigid water: CON save DC 15 or gain 1 exhaustion (cold shock). Drowning: hold breath for CON mod + 1 minutes (min 30 sec). After that, survive CON mod rounds before dropping to 0 HP and dying. Swimming in armor = disadvantage on STR checks.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "rules"],
     "createdAt": "Game Rules"
   },
   {
@@ -303,6 +336,7 @@
     "description": "Extreme cold (below 0°F): CON save DC 10 every hour, +1 DC each hour. Failure = 1 level exhaustion. Warm clothing/heat sources = advantage. Cold resistance = automatic success. Exhaustion kills at level 6. Icewind Dale averages -49°F.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "rules"],
     "createdAt": "Game Rules"
   },
   {
@@ -312,6 +346,7 @@
     "description": "Male and female tieflings who recruited Huarwar. Wore amulets matching his black ice shard. Offered sanctuary at their castle (Caer-Dineval). Connected to Black Swords cult. Actively recruiting corrupted individuals with chardalyn artifacts.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early", "chardalyn", "social"],
     "createdAt": "Bremen Plot"
   },
   {
@@ -321,6 +356,7 @@
     "description": "Mysterious black ice shard found by Huarwar during Speaker search. Changed his personality from kind to mean/threatening. Tieflings wore matching amulets. Connected to Black Swords cult at Caer-Dineval. Chardalyn corruption spreading through artifacts?",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "chardalyn", "investigation"],
     "createdAt": "Bremen Plot"
   },
   {
@@ -330,6 +366,7 @@
     "description": "Cora's adult son, joined search party for Speaker Shalescar two months ago. Got separated, returned with frostbite and BLACK ICE SHARD. Became mean/threatening toward mother (uncharacteristic). Two TIEFLINGS with matching amulets offered him sanctuary at their castle. Left willingly, took shard, said he'd never return. Now at Caer-Dineval keep with Black Swords cult.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "chardalyn", "investigation"],
     "createdAt": "Bremen Plot"
   },
   {
@@ -339,6 +376,7 @@
     "description": "Neutral good human commoner, middle-aged innkeeper. Eager to please, apologizes constantly fearing guests displeasure. Barely making ends meet but treats guests like royalty. Lost her only child Huarwar two months ago to mysterious tieflings after he found BLACK ICE SHARD.",
     "priority": "high",
     "status": "ready",
+    "tags": ["early", "ten-towns", "social", "chardalyn"],
     "createdAt": "Bremen NPCs"
   },
   {
@@ -348,6 +386,7 @@
     "description": "Inn catering to treasure-seekers who pan riverbank in warmer weather. Few/no visitors during winter. Run by middle-aged Cora Mulphoon who treats guests like royalty while barely making ends meet.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "ten-towns", "social"],
     "createdAt": "Bremen Details"
   },
   {
@@ -357,6 +396,7 @@
     "description": "Neutral human commoner, quiet balding man in deep depression. Fears summer will never return. Runs The Luskan Arms inn where Naerth Maxildanarr stays in the largest suite.",
     "priority": "low",
     "status": "ready",
+    "tags": ["early", "ten-towns", "social"],
     "createdAt": "Targos NPCs"
   },
   {
@@ -366,6 +406,7 @@
     "description": "Neutral good human commoner, plump gray-haired widow with grandmotherly demeanor. Runs fisherman's tavern Three Flags Sailing. Good source for rumors and local fishing community gossip.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "ten-towns", "social"],
     "createdAt": "Targos NPCs"
   },
   {
@@ -375,6 +416,7 @@
     "description": "Neutral good human commoner, scarecrow-like appearance. Ex-fisherman with crushed left hand from collision with Termalaine boat. Runs general goods store but doesn't sell fishing/sailing supplies (specialty crafters handle those). Sells common gear including fishing poles and snowshoes.",
     "priority": "low",
     "status": "ready",
+    "tags": ["early", "ten-towns", "social"],
     "createdAt": "Targos NPCs"
   },
   {
@@ -384,6 +426,7 @@
     "description": "Town Hall (government center). Triglio (general goods except fishing/sailing). Three Flags Sailing (fisherman's tavern, rumors). The Luskan Arms (inn where Naerth stays). Specialty fishing/sailing suppliers separate from general goods.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Targos Details"
   },
   {
@@ -393,6 +436,7 @@
     "description": "10gp per person to hire boat for river crossing. Could use skill challenge format. Represents safest but most expensive option for wealthy parties.",
     "priority": "low",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Travel Rules"
   },
   {
@@ -402,6 +446,7 @@
     "description": "8+ hour hike along riverbed and around dangerous crossing. Includes random encounter opportunity. Safer but much longer route. Time vs safety decision for party.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Travel Rules"
   },
   {
@@ -411,6 +456,7 @@
     "description": "200ft wide mostly frozen river. Difficult terrain requiring INDIVIDUAL Survival DC 14 checks to avoid thin ice. Failure = DC 10 DEX save or fall through. Alternative: skill challenge format. 'Ice seems to lie in wait, howling wind through Drowned Choir raising tension.' Cannot see across river but know others have made this trip.",
     "priority": "high",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Travel Rules"
   },
   {
@@ -420,6 +466,7 @@
     "description": "Light snow conditions (vision reduced to 100ft). Party WILL see Yll-Varn the Drowned Choir. Two routes: 3-hour dangerous river crossing OR 8+ hour safe riverbed hike. Boat hire available for 10gp/person. Creates tactical decision about risk vs time.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Travel Rules"
   },
   {
@@ -429,6 +476,7 @@
     "description": "Introduce Mountain Climb quest when party returns to Targos after visiting Bremen and/or Termalaine. Timing allows party to build relationships before major quest reveal.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early"],
     "createdAt": "Quest Timing"
   },
   {
@@ -438,6 +486,7 @@
     "description": "Targos has escalated to HUMANOID sacrifices to Auril - most extreme of all Ten-Towns. This could be Naerth/Zhentarim manipulation to create fear and consolidate power, or genuine desperation from largest population. Creates moral urgency for party intervention.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "ten-towns", "auriliths"],
     "createdAt": "Targos Details"
   },
   {
@@ -447,6 +496,7 @@
     "description": "Lawful evil tiefling veteran, leads Targos militia. Loyal to Speaker Naerth Maxildanarr. Commands 200 soldiers + 16 veterans - largest military force in Ten-Towns. Zhentarim enforcer ensuring Naerth's control over town and trade routes.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "zhentarim", "ten-towns", "combat"],
     "createdAt": "Targos Details"
   },
   {
@@ -456,6 +506,7 @@
     "description": "Friendliness ❄❄ Services ❄❄❄ Comfort ❄❄ \nPopulation: 1,000 (largest town). \nLeaders: Speaker Naerth Maxildanarr (LE human spy, secret Zhentarim), Skath (LE tiefling veteran) leads militia. \nMilitia: 200 soldiers + 16 veterans (strongest force). \nHeraldry: Single-sailed black ship on light blue field. \nSacrifice to Auril: HUMANOID. \nRivals: Bremen, Lonelywood, Termalaine.",
     "priority": "high",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Town Details"
   },
   {
@@ -465,6 +516,7 @@
     "description": "Militia: 25 soldiers (tribal warrior stats) + 2 veterans. Heraldry: Gold circle on white field, horizontal blue band left (Shaengarne River), flaring blue triangle right (Maer Dualdon). Gold circle = treasure from local floods, white field = snow. Small but organized defense force.",
     "priority": "low",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Bremen Details"
   },
   {
@@ -474,6 +526,7 @@
     "description": "Lawful good shield dwarf commoner, Bremen's Speaker. Age has addled his mind - vacant-eyed stare often mistaken for unflappable calmness. TWICE in past two months residents mounted search parties, found him wandering frozen Shaengarne shores in heavy furs with NO MEMORY of how he got there. Old even by dwarf standards, not long for this world. Locals fear same is true of Bremen if winter doesn't abate.",
     "priority": "high",
     "status": "ready",
+    "tags": ["early", "ten-towns", "social"],
     "createdAt": "Bremen Details"
   },
   {
@@ -483,6 +536,7 @@
     "description": "Friendliness ❄❄❄ Services ❄ Comfort ❄❄ \nAvailable Quest: Lake Monster. \nPopulation: 150. \nLeader: Speaker Dorbulgruf Shalescar (lawful good shield dwarf commoner) \nRivals: Lonelywood, Targos, Termalaine.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Town Details"
   },
   {
@@ -492,6 +546,7 @@
     "description": "The lake monster's den is inside the Drowned Choir. Luck roll. If bad luck, they will have to follow it there to confront it.",
     "priority": "high",
     "status": "ready",
+    "tags": ["early", "combat", "ten-towns"],
     "createdAt": "Encounter Design"
   },
   {
@@ -501,6 +556,7 @@
     "description": "Targos boats trapped in harbor ice forces fishers to drag vessels across frozen surface to reach unfrozen water. This creates significant economic hardship for Ten-Towns' biggest fishing operation. Could be leverage point for Zhentarim influence or create desperate townspeople willing to make deals.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Town Details"
   },
   {
@@ -510,6 +566,7 @@
     "description": "Targos has 'distinct musicality' from wind through pipe-like structures. This is likely connected to Yll-Varn the Drowned Choir Aurilith in Maer Dualdon. The musical sounds may be Aurilith influence seeping into town, or the town's proximity to the lake-bound monolith creates acoustic effects.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early", "ten-towns", "auriliths"],
     "createdAt": "Town Details"
   },
   {
@@ -519,6 +576,7 @@
     "description": "Naerth commands 12+ Zhentarim spies across Ten-Towns including Wurther (Bremen fisherman spy). Active operations: disposing of suspected Harper spies, convincing business owners to buy fish exclusively from Targos. Goal is transforming Ten-Towns into Black Network trade hub. Creates faction conflict and espionage subplot throughout campaign.",
     "priority": "high",
     "status": "planning",
+    "tags": ["overarching", "zhentarim"],
     "createdAt": "Town Details"
   },
   {
@@ -528,6 +586,7 @@
     "description": "Former Luskan rogue, moved to Targos couple years ago. Took residence in Luskan Arms largest suite, spread gold around earning fisher loyalty. Cordial, down-to-earth demeanor. Replaced well-liked Speaker who didn't want job. SECRETLY: Head of Zhentarim in Ten-Towns, wants to make it trade hub for Black Network. Commands 12+ Zhentarim spies throughout Ten-Towns, disposing Harper spies and convincing businesses to buy Targos fish over competitors. Uses THREE FLYING SNAKES in his room to deliver messages to spies.",
     "priority": "high",
     "status": "ready",
+    "tags": ["early", "zhentarim", "ten-towns", "social"],
     "createdAt": "Town Details"
   },
   {
@@ -537,6 +596,7 @@
     "description": "Wooden wall extends into Maer Dualdon creating safe harbor, now frozen solid trapping boats in ice. Fishers drag smaller vessels across ice to reach unfrozen water beyond walls. Biggest fishing fleet/industry in Ten-Towns, everything revolves around knucklehead trout fishing. Distinct musicality in air - wind blowing through large pipes of ever-shifting size (connected to Yll-Varn the Drowned Choir?).",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Town Details"
   },
   {
@@ -546,6 +606,7 @@
     "description": "Korux unconsciously drew mask patterns (matching Chwinga mask found on her body) throughout journal margins, along with crack patterns. Suggests psychic connection between Chwinga activity, mirror entity influence, and Sephek's victims. Victims may be marked/influenced before death.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early", "chwinga", "investigation"],
     "createdAt": "Journal Analysis"
   },
   {
@@ -555,6 +616,7 @@
     "description": "Korux's final entry describes 'figure near sleds. Too tall. Too thin. Made of ice. Waiting for me.' This shows Sephek stalks victims before killing them, appearing as an unnatural ice figure. Suggests he may have been watching the party's dwarf rescue mission.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "sephek", "investigation"],
     "createdAt": "Journal Analysis"
   },
   {
@@ -564,6 +626,7 @@
     "description": "Ice in Icewind Dale 'doesn't melt right' - leaves vein-like lines and seems to watch where people walk. This suggests the winter curse has fundamentally altered the nature of ice itself. Could be connected to chardalyn corruption or Auril's influence seeping into the environment.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching"],
     "createdAt": "Journal Analysis"
   },
   {
@@ -573,6 +636,7 @@
     "description": "Mysterious entity appearing in Korux's dreams through mirrors. Demands impossible moral choices (treasure vs friend). When questioned about being a god, it cracks instead of answering. Connected to Ishkar the Silver Mirror Aurilith? Could be how Auriliths psychically influence victims before Sephek arrives.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "auriliths", "investigation"],
     "createdAt": "Journal Analysis"
   },
   {
@@ -582,6 +646,7 @@
     "description": "Journal from dead dwarf (Gorga Snowjaw) killed by Sephek in Session 1. Spans 1 month before death. Key entries: Dreams of mirror watching her, ice that 'doesn't melt right' with vein-like lines, mirror demanding choice between treasure/friend, final entry about tall thin figure made of ice waiting by sleds. Margins filled with mask doodles (like Chwinga mask found on body) and crack patterns. Last 2 pages are bland logkeeping.",
     "priority": "high",
     "status": "ready",
+    "tags": ["early", "sephek", "investigation"],
     "createdAt": "Session Evidence"
   },
   {
@@ -591,6 +656,7 @@
     "description": "Mama Chrys (druid) and Joosep (ranger) have natural advantage with Whisperkin due to respecting nature. Could receive better gifts, clearer guidance, or special chwinga allies. Balances party dynamics and rewards character themes.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["overarching", "chwinga"],
     "createdAt": "Chwinga Factions"
   },
   {
@@ -600,6 +666,7 @@
     "description": "Frostling chwinga worship Sephek as divine figure - 'Chosen of Winter' or 'Spirit of Death.' This creates supernatural backing for the serial killer, making him more dangerous. Could explain how he evades capture and his frost spirit possession.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "sephek", "chwinga"],
     "createdAt": "Chwinga Factions"
   },
   {
@@ -609,6 +676,7 @@
     "description": "Crop circle-like patterns found at Sephek murder scenes. These are Whisperkin attempts to communicate/warn about the murders. Ancient chwinga language that druids/rangers might be able to interpret with proper checks.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "chwinga", "investigation"],
     "createdAt": "Clue Trail"
   },
   {
@@ -618,6 +686,7 @@
     "description": "Key item left by Whisperkin chwinga after successful first contact. Acts as spiritual key to later encounters. Physical proof of chwinga alliance and opens communication with other spirits throughout campaign.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "chwinga"],
     "createdAt": "Clue Trail"
   },
   {
@@ -627,6 +696,7 @@
     "description": "Optional encounter in glade/old druid circle. Party asked wordlessly (via illusion/emotion) to choose: uphold balance or give in to cold? Trial determines how spirits help/hinder rest of quest. Major moral decision affecting campaign direction.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "chwinga", "social"],
     "createdAt": "Clue Trail"
   },
   {
@@ -636,6 +706,7 @@
     "description": "Whisperkin lead PCs to other sites: more Sephek victims OR ancient frost circles with old chwinga markings. Some clues distorted/altered by Frostlings trying to protect Sephek. Creates investigation dynamic with helpful/harmful spirits.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early", "chwinga", "investigation"],
     "createdAt": "Clue Trail"
   },
   {
@@ -645,6 +716,7 @@
     "description": "PCs see chwinga mimicking their actions (brushing snow, lighting fire, casting motions). Successful social interaction or being still/respectful causes chwinga to leave CARVED SNOWFLAKE. This becomes key to later spirit encounters.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["early", "chwinga", "social"],
     "createdAt": "Clue Trail"
   },
   {
@@ -654,6 +726,7 @@
     "description": "Initial victim found frozen with peaceful expression. GEOMETRIC SPIRALS in snow nearby (like crop circles). WHITE MASK hidden in tree hollow. These are Whisperkin signs trying to help PCs solve the mystery.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "sephek", "investigation"],
     "createdAt": "Clue Trail"
   },
   {
@@ -663,6 +736,7 @@
     "description": "Grey/black masks (icicles/bone shapes). Mischievous/aggressive - mess with gear, erase tracks, mislead PCs. WORSHIP SEPHEK as 'Chosen of Winter' or 'Spirit of Death' and try to protect him. Use illusions/riddles to delay/derail the hunt.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "chwinga", "sephek"],
     "createdAt": "Chwinga Factions"
   },
   {
@@ -672,6 +746,7 @@
     "description": "Soft blue/white chwinga with swirling snowflake masks. Leave gifts: shiny rocks, warm food, helpful potions. One has SEEN SEPHEK and tries to guide PCs to truth. Fond of characters who respect nature (especially Mama Chrys druid and Joosep ranger). Pro-balance faction.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "chwinga"],
     "createdAt": "Chwinga Factions"
   },
   {
@@ -681,6 +756,7 @@
     "description": "The 'tiny people dancing on corpses' are CHWINGA! Two opposing factions exist in Icewind Dale, creating complex moral dynamics around Sephek's murders and the winter curse.",
     "priority": "high",
     "status": "planning",
+    "tags": ["overarching", "chwinga"],
     "createdAt": "Session 1"
   },
   {
@@ -690,6 +766,7 @@
     "description": "Need to develop rumors about: humanoid sacrifices, speculation on Auriliths, murders with witnesses seeing tiny people dancing on corpses, plus backstory-connected rumors for each PC. Northlook Inn perfect setting for information gathering.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["early", "social"],
     "createdAt": "Session 1"
   },
   {
@@ -699,6 +776,7 @@
     "description": "Dwarves still maintaining trade routes despite winter. Clan Battlehammer specifically transporting iron to Bryn Shander. Party now has dwarf friendship - could be important for Mithral Hall connections and Regis ruby quest later.",
     "priority": "medium",
     "status": "planning",
+    "tags": ["early"],
     "createdAt": "Session 1"
   },
   {
@@ -708,6 +786,7 @@
     "description": "Towns using lottery system to select sacrifice victims. Gorga Snowjaw used deception to avoid being selected. This suggests organized, systematic human sacrifice is already happening (not just rumors). Creates moral urgency for party intervention.",
     "priority": "high",
     "status": "planning",
+    "tags": ["overarching", "auriliths"],
     "createdAt": "Session 1"
   },
   {
@@ -717,6 +796,7 @@
     "description": "Blackiron Blades (cheap adventuring gear, party has 10% discount), House of the Morninglord (Amauntor shrine, Priest Mishann), Town Hall, Northlook Inn. 30ft walls with concentric wooden poles, gates closed during darkness (most of the time).",
     "priority": "low",
     "status": "ready",
+    "tags": ["early", "ten-towns"],
     "createdAt": "Session 1"
   },
   {
@@ -726,6 +806,7 @@
     "description": "Sephek will arrive in Bryn Shander with trading caravan next session. Opportunity for party to interact with him before knowing his true nature. Could establish him as friendly merchant before the horrifying reveal.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "sephek", "social"],
     "createdAt": "Session 1"
   },
   {
@@ -735,6 +816,7 @@
     "description": "Air genasi woman appearing 60s, deathly pale skin (color of sun through glacier), lightning scar over left eye, long braided hair like woven scarf. Wears knucklehead scrimshaw flute around neck. Goal: guide party through tailored experiences to become heroes who can reverse the curse.",
     "priority": "high",
     "status": "ready",
+    "tags": ["early", "social"],
     "createdAt": "Session 1"
   },
   {
@@ -744,6 +826,7 @@
     "description": "Tiny gray masks found on Sephek's victims. First one found on Gorga Snowjaw's body (DC 15 search). These could be Sephek's calling card or have deeper significance to his frost spirit nature.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "sephek", "investigation"],
     "createdAt": "Session 1"
   },
   {
@@ -753,6 +836,7 @@
     "description": "Female dwarf artisan killed by Sephek with icicle dagger (not the yeti). Journal reveals she used deception to avoid sacrificial lottery. DC 15 search finds tiny gray mask on her body. First Sephek victim the party encounters - establishes his MO.",
     "priority": "high",
     "status": "used",
+    "tags": ["early", "sephek", "investigation"],
     "createdAt": "Session 1"
   },
   {
@@ -762,6 +846,7 @@
     "description": "Hruna, Korux, and Storn (Clan Battlehammer couriers) attacked by yeti while transporting iron. Party rescued them. Reward: 50gp gemstones each + 10% discount at Blackiron Blades + dwarf friendship. TWIST: Two corpses found - Oobok killed by yeti, but Gorga Snowjaw murdered with icicle dagger by Sephek.",
     "priority": "medium",
     "status": "used",
+    "tags": ["early", "combat"],
     "createdAt": "Session 1"
   },
   {
@@ -771,6 +856,7 @@
     "description": "N human veteran, proprietor of Northlook Inn in Bryn Shander. Facilitates meeting between party and Wynnette. Cautious - warns 'never know who's watching.' Potential ally or information source.",
     "priority": "low",
     "status": "ready",
+    "tags": ["early", "ten-towns", "social"],
     "createdAt": "Session 1"
   },
   {
@@ -780,6 +866,7 @@
     "description": "Yll-Varn sings to 'something deeper' in Maer Dualdon. What's beneath the lake responding to its call? Ancient entity, Auril's true form, or something else entirely? Musical/sonic encounter possibilities.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching", "auriliths"],
     "createdAt": "Encounter Design"
   },
   {
@@ -789,6 +876,7 @@
     "description": "Ishkar shows people committing future acts. Could be used for dramatic reveals, moral dilemmas, or as warnings. Potential for players to see themselves doing terrible things - are these fixed fate or possibilities to avoid?",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching", "auriliths"],
     "createdAt": "Encounter Design"
   },
   {
@@ -798,6 +886,7 @@
     "description": "Virnax the Pale Maw has chardalyn teeth. This connects to the corrupted ruby theory - chardalyn corruption is spreading through Auril's servants/creations. Could be harvesting/corrupting magical materials.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching", "chardalyn"],
     "createdAt": "Plot Development"
   },
   {
@@ -807,6 +896,7 @@
     "description": "Zethryn whispers in Shiverveil firbolg dreams nightly, giving cryptic appeasement instructions while urging resistance/secrecy. Clan is divided: some think it's not Zethryn, others think it's Auril's trick, some believe Zethryn genuinely wants to end the curse. Creates internal clan conflict.",
     "priority": "high",
     "status": "planning",
+    "tags": ["overarching"],
     "createdAt": "Plot Development"
   },
   {
@@ -816,6 +906,7 @@
     "description": "Towering sentinel of smooth marble-white ice, arms ever outstretched. Said to carry away those who curse the Cold Lady (Auril) too loudly, even in jest. Enforces reverence through fear.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching", "auriliths", "ten-towns"],
     "createdAt": "Aurilith Details"
   },
   {
@@ -825,6 +916,7 @@
     "description": "Jagged, angular statue that reflects not just image but intentions. Shows viewers committing acts they've never done—yet. Psychological horror element, potential precognition/fate manipulation.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching", "auriliths", "ten-towns"],
     "createdAt": "Aurilith Details"
   },
   {
@@ -834,6 +926,7 @@
     "description": "Symbol: Toothy grin. Squat, wide-mouthed figure with chardalyn teeth. Children who wander too far hear 'a throat made of wind' calling their names. Child-targeting threat.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "auriliths", "ten-towns"],
     "createdAt": "Aurilith Details"
   },
   {
@@ -843,6 +936,7 @@
     "description": "Symbol: Upside-down tree. In copse of frozen-alive trees (green but frozen solid, don't sway). Stalagmite of ice with tree-trunk core, branch tendrils touching each frozen tree. Half-buried in clear ice, covered in crystalline moss-like growths. No humanoid qualities. Animals avoid area.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "auriliths", "ten-towns"],
     "createdAt": "Aurilith Details"
   },
   {
@@ -852,6 +946,7 @@
     "description": "Blackened by old fire and heatless flame, watches from ruins of old tower. Known to punish warmth and mercy. Appears where flame once bloomed. Anti-fire themed Aurilith.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching", "auriliths", "ten-towns"],
     "createdAt": "Aurilith Details"
   },
   {
@@ -861,6 +956,7 @@
     "description": "Partially submerged in Maer Dualdon. Blue-black ice tower on delicate arch (50ft tall, 100ft wide) with spiral towers around it. Hums low when sacrifices missed, ice vibrates. Makes wailing, musical sounds in wind. Fisherfolk say it sings to something deeper. Some towers appear humanoid/monstrous.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "auriliths", "ten-towns"],
     "createdAt": "Aurilith Details"
   },
   {
@@ -870,6 +966,7 @@
     "description": "Symbol: Three-pointed spike. Black crystalline spire visible from city wall, looks like ancient guardian clawing up from underground. One of the few Auriliths that has NOT been proven to move at night. Threatens to emerge if sacrifices stop.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "auriliths", "ten-towns"],
     "createdAt": "Aurilith Details"
   },
   {
@@ -879,6 +976,7 @@
     "description": "If Regis's ruby is corrupted by chardalyn and used by Auril's servants, this creates a network of corrupted magic items. Could other legendary items in the region be similarly compromised? Connects to broader chardalyn themes in campaign.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching", "chardalyn"],
     "createdAt": "Plot Development"
   },
   {
@@ -888,6 +986,7 @@
     "description": "Some Auriliths are half-submerged in frozen lakes around Ten Towns. These could be more dangerous/powerful, requiring ice traversal to investigate. Lake locations offer unique environmental challenges and potential for underwater sections if ice breaks.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching", "auriliths"],
     "createdAt": "Location Design"
   },
   {
@@ -897,6 +996,7 @@
     "description": "Auriliths have psychic whisper abilities (no sound, direct to mind/dreams). They move when not observed, change expressions subtly. Could create horror-style encounters where PCs notice changes but can't prove it. Potential for madness/paranoia effects.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching", "auriliths"],
     "createdAt": "Encounter Design"
   },
   {
@@ -906,6 +1006,7 @@
     "description": "Town Speakers believe they are directing sacrifices to appease Auril, but the Auriliths are the true source of demands. Do the Speakers know? Are they complicit or being manipulated? This deception could create major political upheaval when revealed.",
     "priority": "high",
     "status": "brainstorming",
+    "tags": ["overarching", "auriliths"],
     "createdAt": "Plot Development"
   },
   {
@@ -915,6 +1016,7 @@
     "description": "Party discovering Sephek's true nature (undead possessed by frost spirit) will provide crucial clue about their patron Wynnette/Aiswyn's similar condition and true identity.",
     "priority": "high",
     "status": "planning",
+    "tags": ["early", "sephek"],
     "createdAt": "Plot Development"
   },
   {
@@ -924,6 +1026,7 @@
     "description": "Mysterious entity Zethryn contacted Joosep and provides divination through the Zethrynstone. Need to explore who/what Zethryn is and their agenda in the Dale.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching"],
     "createdAt": "Plot Development"
   },
   {
@@ -933,6 +1036,7 @@
     "description": "Mythical tales of Regis's enchanted ruby being solution to winter curse. Rumored buried with him in Mithral Hall. Waylen believes freeing Icewind Dale could earn dwarf aid to petition for the ruby. Ruby rumors circulating among Kelvin's Cairn dwarves. TWIST: Ruby has been corrupted by chardalyn and is now being used by Auril's servants!",
     "priority": "high",
     "status": "planning",
+    "tags": ["lategame", "chardalyn"],
     "createdAt": "Plot Development"
   },
   {
@@ -942,6 +1046,7 @@
     "description": "Competitive goliath settlement in Spine of the World. Known for disliking strangers and taming griffons. Rival to another goliath settlement. Could be source of aerial reconnaissance or conflict.",
     "priority": "low",
     "status": "brainstorming",
+    "tags": ["overarching"],
     "createdAt": "World Building"
   },
   {
@@ -951,6 +1056,7 @@
     "description": "Reclusive and secretive Firbolg clan locations. Bad reputation among regular Icewind Dale residents but respected by Reghed Nomads. Could be source of useful but dangerous knowledge.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching"],
     "createdAt": "World Building"
   },
   {
@@ -960,6 +1066,7 @@
     "description": "Firbolg clan territory with crystal caves they grow themselves. Clan specializes in crystal/ice magic and believes crystal manipulation is key to ending perpetual winter. Well-respected among those who know of them.",
     "priority": "medium",
     "status": "brainstorming",
+    "tags": ["overarching"],
     "createdAt": "World Building"
   },
   {
@@ -969,6 +1076,7 @@
     "description": "Human Cleric of Helm (Matt). Motivations: protect weak, overcome personal failings, make a name. Seeks Regis Rumblebelly's enchanted ruby (rumored buried in Mithral Hall) as solution. Heard ruby rumors among dwarves at Kelvin's Cairn. Has weather-protection smoking pipe. +1 attitude bonus (people like Helm up North).",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching"],
     "createdAt": "Character Creation"
   },
   {
@@ -978,6 +1086,7 @@
     "description": "Goliath Barbarian (Kris). From Skytower Shelter - competitive goliath settlement in Spine of the World, dislike strangers, tame griffons. Special rage ability: icy focus state, auto rage damage but crits on 18-20.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching"],
     "createdAt": "Character Creation"
   },
   {
@@ -987,6 +1096,7 @@
     "description": "Firbolg Ranger (Marvin). From Circle Shiverveil - particularly reclusive/secretive clan. Bad reputation among regular Icewind Dale folk, better reputation with Reghed Nomads. Contacted by Zethryn. Has Zethrynstone (ice sphere that can't melt, daily Augury from Zethryn's perspective).",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching"],
     "createdAt": "Character Creation"
   },
   {
@@ -996,6 +1106,7 @@
     "description": "Firbolg Druid (Taylor). From Circle Blackgleam clan - holds crystals/ice in high regard, grows crystal caves. Clan believes manipulating crystals instrumental in lifting perpetual winter. Well respected among those who know them. Has Rimestone Salve special item.",
     "priority": "medium",
     "status": "ready",
+    "tags": ["overarching"],
     "createdAt": "Character Creation"
   },
   {
@@ -1005,6 +1116,7 @@
     "description": "Party patron who head-hunted the team. Publicly wants to stop escalating sacrifices before total chaos. SECRETLY: Actually fae spirit Aiswyn, one of the 'watchers' who wants to defect. Tired of being glorified babysitter to mortals. Has ruby gem giving ambition to rise above deity. Wynnette is undead corpse possessed by frost spirit (like Sephek).",
     "priority": "high",
     "status": "planning",
+    "tags": ["overarching", "early"],
     "createdAt": "Campaign Start"
   },
   {
@@ -1014,6 +1126,7 @@
     "description": "Ten Towns leaders making sacrifices to appease Auril. Citizens must spend new moon nights without heat/light. Monthly sacrifices of game and minerals left in cold. Rumors of humanoid sacrifices starting (unconfirmed but escalating).",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "auriliths"],
     "createdAt": "Campaign Start"
   },
   {
@@ -1023,6 +1136,7 @@
     "description": "Seven massive monolith structures (Auriliths) appeared last year - these are the REAL source of sacrifice demands, not town Speakers! Ominous forms that watch Dalefolk, some half-submerged in frozen lakes. Move subtly between visits, change expressions/positions without evidence. Whisper directly into thoughts/dreams (not through sound). Appear when sacrifices aren't made OR always watching?",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching", "auriliths", "ten-towns"],
     "createdAt": "Campaign Start"
   },
   {
@@ -1032,6 +1146,7 @@
     "description": "Icewind Dale frozen by Auril (NE goddess of cold, indifference, preservation). Temperature -49°F, constant howling winds, frequent blizzards. Sun only shines dimly 10am-2pm, otherwise dark except for aurora/full moon.",
     "priority": "high",
     "status": "ready",
+    "tags": ["overarching"],
     "createdAt": "Campaign Start"
   }
 ]
