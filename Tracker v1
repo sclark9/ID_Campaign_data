@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rime of the Frostmaiden Campaign Tracker</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+          "Helvetica Neue", sans-serif;
+        background-color: #111827;
+        color: white;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      .header {
+        margin-bottom: 32px;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .header-icon {
+        width: 40px;
+        height: 40px;
+        background: linear-gradient(135deg, #60a5fa, #a855f7);
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+      }
+
+      .header p {
+        color: #d1d5db;
+        margin-bottom: 16px;
+      }
+
+      .header-buttons {
+        display: flex;
+        gap: 16px;
+      }
+
+      .btn {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        transition: background-color 0.2s;
+      }
+
+      .btn-primary {
+        background-color: #2563eb;
+        color: white;
+      }
+
+      .btn-primary:hover {
+        background-color: #1d4ed8;
+      }
+
+      .btn-secondary {
+        background-color: #16a34a;
+        color: white;
+      }
+
+      .btn-secondary:hover {
+        background-color: #15803d;
+      }
+
+      .form-section {
+        background-color: #1f2937;
+        border: 1px solid #374151;
+        border-radius: 8px;
+        padding: 24px;
+        margin-bottom: 24px;
+      }
+
+      .form-section h2 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 16px;
+      }
+
+      .form-group {
+        margin-bottom: 16px;
+      }
+
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+      }
+
+      .input,
+      .textarea,
+      .select {
+        width: 100%;
+        padding: 12px;
+        background-color: #374151;
+        border: 1px solid #4b5563;
+        border-radius: 6px;
+        color: white;
+        font-size: 14px;
+      }
+
+      .input:focus,
+      .textarea:focus,
+      .select:focus {
+        outline: none;
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+      }
+
+      .textarea {
+        height: 96px;
+        resize: vertical;
+      }
+
+      .search-section {
+        margin-bottom: 24px;
+      }
+
+      .search-input {
+        position: relative;
+        margin-bottom: 16px;
+      }
+
+      .search-input input {
+        padding-left: 40px;
+      }
+
+      .search-icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #9ca3af;
+      }
+
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+      }
+
+      .filter-btn {
+        padding: 8px 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        transition: background-color 0.2s;
+      }
+
+      .filter-btn.active {
+        background-color: #2563eb;
+        color: white;
+      }
+
+      .filter-btn:not(.active) {
+        background-color: #374151;
+        color: #d1d5db;
+      }
+
+      .filter-btn:not(.active):hover {
+        background-color: #4b5563;
+      }
+
+      .ideas-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .idea-card {
+        background-color: #1f2937;
+        border: 1px solid #374151;
+        border-radius: 8px;
+        padding: 24px;
+      }
+
+      .idea-header {
+        display: flex;
+        justify-content: between;
+        align-items: flex-start;
+        margin-bottom: 12px;
+      }
+
+      .idea-content {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex: 1;
+      }
+
+      .idea-icon {
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 12px;
+        font-weight: bold;
+      }
+
+      .idea-details h3 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+
+      .idea-meta {
+        display: flex;
+        gap: 16px;
+        font-size: 12px;
+        color: #9ca3af;
+      }
+
+      .idea-actions {
+        display: flex;
+        gap: 8px;
+      }
+
+      .action-btn {
+        padding: 8px;
+        background: none;
+        border: none;
+        color: #9ca3af;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: all 0.2s;
+      }
+
+      .action-btn:hover {
+        background-color: #374151;
+      }
+
+      .idea-description {
+        color: #d1d5db;
+        line-height: 1.6;
+        white-space: pre-wrap;
+      }
+
+      .stats-section {
+        background-color: #1f2937;
+        border: 1px solid #374151;
+        border-radius: 8px;
+        padding: 16px;
+        margin-top: 32px;
+      }
+
+      .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 16px;
+        text-align: center;
+      }
+
+      .stat-item {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .stat-number {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .stat-label {
+        font-size: 12px;
+        color: #9ca3af;
+      }
+
+      .empty-state {
+        text-align: center;
+        padding: 48px 24px;
+        color: #9ca3af;
+      }
+
+      .edit-form {
+        background-color: #f9fafb;
+        border: 1px solid #d1d5db;
+        border-radius: 8px;
+        padding: 16px;
+      }
+
+      .edit-form .input,
+      .edit-form .textarea,
+      .edit-form .select {
+        background-color: white;
+        color: black;
+      }
+
+      .edit-actions {
+        display: flex;
+        gap: 8px;
+        margin-top: 12px;
+      }
+
+      .btn-save {
+        background-color: #2563eb;
+        color: white;
+      }
+
+      .btn-cancel {
+        background-color: #6b7280;
+        color: white;
+      }
+
+      /* Category colors */
+      .cat-plot {
+        background-color: #dbeafe;
+        color: #1e40af;
+      }
+      .cat-npc {
+        background-color: #dcfce7;
+        color: #166534;
+      }
+      .cat-pc {
+        background-color: #fed7aa;
+        color: #ea580c;
+      }
+      .cat-location {
+        background-color: #e9d5ff;
+        color: #7c2d12;
+      }
+      .cat-encounter {
+        background-color: #fecaca;
+        color: #dc2626;
+      }
+      .cat-misc {
+        background-color: #fef3c7;
+        color: #d97706;
+      }
+      .cat-rules {
+        background-color: #f3f4f6;
+        color: #374151;
+      }
+
+      /* Priority colors */
+      .priority-high {
+        color: #dc2626;
+      }
+      .priority-medium {
+        color: #d97706;
+      }
+      .priority-low {
+        color: #16a34a;
+      }
+
+      /* Stat colors */
+      .stat-blue {
+        color: #60a5fa;
+      }
+      .stat-green {
+        color: #4ade80;
+      }
+      .stat-yellow {
+        color: #facc15;
+      }
+      .stat-purple {
+        color: #a78bfa;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .form-row {
+          grid-template-columns: 1fr;
+        }
+
+        .filters {
+          flex-direction: column;
+          align-items: stretch;
+        }
+
+        .filter-btn {
+          text-align: center;
+        }
+
+        .idea-header {
+          flex-direction: column;
+          gap: 12px;
+        }
+
+        .stats-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <h1>
+          <div class="header-icon">❄️</div>
+          Rime of the Frostmaiden Campaign Tracker
+        </h1>
+        <p>
+          Organize your ideas, NPCs, locations, and plot hooks for the frozen
+          wastes of Icewind Dale
+        </p>
+        <div class="header-buttons">
+          <button class="btn btn-secondary" onclick="exportData()">
+            📥 Export Data
+          </button>
+          <label class="btn btn-primary" style="cursor: pointer">
+            📤 Import Data
+            <input
+              type="file"
+              accept=".json"
+              onchange="importData(event)"
+              class="hidden"
+            />
+          </label>
+          <button class="btn btn-secondary" onclick="syncWithGitHub()">
+            🔄 Sync with GitHub
+          </button>
+        </div>
+      </div>
+
+      <!-- Add New Idea Form -->
+      <div class="form-section">
+        <h2>Add New Idea</h2>
+        <div class="form-group">
+          <input
+            type="text"
+            id="newTitle"
+            class="input"
+            placeholder="What's your idea? (e.g., 'Mysterious ice sculpture appears overnight')"
+            onkeypress="handleEnter(event)"
+          />
+        </div>
+        <div class="form-row">
+          <select id="newCategory" class="select">
+            <option value="plot">Plot Hooks</option>
+            <option value="npc">NPCs</option>
+            <option value="pc">Player Characters</option>
+            <option value="location">Locations</option>
+            <option value="encounter">Encounters</option>
+            <option value="misc">Miscellaneous</option>
+            <option value="rules">Game Rules</option>
+          </select>
+          <select id="newPriority" class="select">
+            <option value="high">High Priority</option>
+            <option value="medium">Medium Priority</option>
+            <option value="low">Low Priority</option>
+          </select>
+          <select id="newStatus" class="select">
+            <option value="brainstorming">Brainstorming</option>
+            <option value="planning">Planning</option>
+            <option value="ready">Ready to Use</option>
+            <option value="used">Used</option>
+            <option value="archived">Archived</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <textarea
+            id="newDescription"
+            class="textarea"
+            placeholder="Add details, connections to existing plot, implementation notes..."
+          ></textarea>
+        </div>
+        <button class="btn btn-primary" onclick="addIdea()">✚ Add Idea</button>
+      </div>
+
+      <!-- Search and Filters -->
+      <div class="search-section">
+        <div class="search-input">
+          <input
+            type="text"
+            id="searchInput"
+            class="input"
+            placeholder="Search ideas by title, description, or source..."
+            oninput="filterIdeas()"
+          />
+          <span class="search-icon">🔍</span>
+        </div>
+        <div class="filters" id="filters">
+          <!-- Filters will be populated by JavaScript -->
+        </div>
+        <div
+          id="searchResults"
+          style="color: #9ca3af; font-size: 12px; margin-top: 8px"
+        ></div>
+      </div>
+
+      <!-- Ideas List -->
+      <div id="ideasList" class="ideas-list">
+        <!-- Ideas will be populated by JavaScript -->
+      </div>
+
+      <!-- Stats -->
+      <div id="statsSection" class="stats-section">
+        <h3 style="margin-bottom: 12px">Campaign Stats</h3>
+        <div class="stats-grid" id="statsGrid">
+          <!-- Stats will be populated by JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Global state
+      let ideas = [];
+      let currentFilter = "all";
+      let showCompleted = true;
+      let editingId = null;
+
+      // Categories and their properties
+      const categories = {
+        plot: { name: "Plot Hooks", icon: "📖", color: "cat-plot" },
+        npc: { name: "NPCs", icon: "👥", color: "cat-npc" },
+        pc: { name: "Player Characters", icon: "⭐", color: "cat-pc" },
+        location: { name: "Locations", icon: "📍", color: "cat-location" },
+        encounter: { name: "Encounters", icon: "⚔️", color: "cat-encounter" },
+        misc: { name: "Miscellaneous", icon: "💡", color: "cat-misc" },
+        rules: { name: "Game Rules", icon: "📋", color: "cat-rules" },
+      };
+
+      const priorities = {
+        high: { name: "High", color: "priority-high" },
+        medium: { name: "Medium", color: "priority-medium" },
+        low: { name: "Low", color: "priority-low" },
+      };
+
+      const statuses = {
+        brainstorming: "Brainstorming",
+        planning: "Planning",
+        ready: "Ready to Use",
+        used: "Used",
+        archived: "Archived",
+      };
+      // Add this after the existing functions like saveData(), addIdea(), etc.
+      async function syncWithGitHub() {
+        const repo = "sclark9/ID_Campaign_data";
+        const file = "campaign_data_json.json";
+        const token = "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"; // Store securely
+
+        try {
+          // Fetch current file
+          const response = await fetch(
+            `https://api.github.com/repos/${repo}/contents/${file}`,
+            {
+              headers: { Authorization: `token ${token}` },
+            }
+          );
+
+          if (response.ok) {
+            const data = await response.json();
+            const content = JSON.parse(atob(data.content));
+            ideas = content;
+            localStorage.setItem("campaignTrackerIdeas", JSON.stringify(ideas));
+
+            // Refresh the UI
+            renderFilters();
+            renderIdeas();
+            renderStats();
+
+            console.log("Synced from GitHub successfully");
+          }
+        } catch (error) {
+          console.log("GitHub sync failed:", error);
+        }
+      }
+      // Initialize the app
+      function init() {
+        loadData();
+        renderFilters();
+        renderIdeas();
+        renderStats();
+      }
+
+      // Replace the existing loadData function
+      async function loadData() {
+        try {
+          const saved = localStorage.getItem("campaignTrackerIdeas");
+          if (saved) {
+            ideas = JSON.parse(saved);
+          } else {
+            // Default data (your existing default entries)
+            ideas = [
+              /* your existing default data */
+            ];
+          }
+
+          // Try to sync with GitHub
+          await syncWithGitHub();
+        } catch (error) {
+          console.error("Error loading data:", error);
+          ideas = [];
+        }
+      }
+
+      // Save data to localStorage
+      function saveData() {
+        try {
+          localStorage.setItem("campaignTrackerIdeas", JSON.stringify(ideas));
+        } catch (error) {
+          console.error("Error saving data:", error);
+        }
+      }
+
+      // Add new idea
+      function addIdea() {
+        const title = document.getElementById("newTitle").value.trim();
+        if (!title) return;
+
+        const idea = {
+          id: Date.now(),
+          title: title,
+          category: document.getElementById("newCategory").value,
+          description: document.getElementById("newDescription").value,
+          priority: document.getElementById("newPriority").value,
+          status: document.getElementById("newStatus").value,
+          createdAt: new Date().toLocaleDateString(),
+        };
+
+        ideas.push(idea);
+        saveData();
+
+        // Clear form
+        document.getElementById("newTitle").value = "";
+        document.getElementById("newDescription").value = "";
+
+        renderFilters();
+        renderIdeas();
+        renderStats();
+      }
+
+      // Handle Enter key in title input
+      function handleEnter(event) {
+        if (event.key === "Enter") {
+          addIdea();
+        }
+      }
+
+      // Delete idea
+      function deleteIdea(id) {
+        if (confirm("Are you sure you want to delete this idea?")) {
+          ideas = ideas.filter((idea) => idea.id !== id);
+          saveData();
+          renderFilters();
+          renderIdeas();
+          renderStats();
+        }
+      }
+
+      // Start editing
+      function startEdit(id) {
+        editingId = id;
+        renderIdeas();
+      }
+
+      // Cancel editing
+      function cancelEdit() {
+        editingId = null;
+        renderIdeas();
+      }
+
+      // Save edit
+      function saveEdit(id) {
+        const title = document.getElementById(`edit-title-${id}`).value;
+        const category = document.getElementById(`edit-category-${id}`).value;
+        const priority = document.getElementById(`edit-priority-${id}`).value;
+        const status = document.getElementById(`edit-status-${id}`).value;
+        const description = document.getElementById(
+          `edit-description-${id}`
+        ).value;
+
+        const ideaIndex = ideas.findIndex((idea) => idea.id === id);
+        if (ideaIndex !== -1) {
+          ideas[ideaIndex] = {
+            ...ideas[ideaIndex],
+            title,
+            category,
+            priority,
+            status,
+            description,
+          };
+          saveData();
+        }
+
+        editingId = null;
+        renderFilters();
+        renderIdeas();
+        renderStats();
+      }
+
+      // Filter ideas
+      function filterIdeas() {
+        renderIdeas();
+      }
+
+      // Set filter
+      function setFilter(filter) {
+        currentFilter = filter;
+        renderFilters();
+        renderIdeas();
+      }
+
+      // Toggle completed visibility
+      function toggleCompleted() {
+        showCompleted = !showCompleted;
+        renderFilters();
+        renderIdeas();
+      }
+
+      // Get filtered ideas
+      function getFilteredIdeas() {
+        const searchTerm = document
+          .getElementById("searchInput")
+          .value.toLowerCase();
+
+        return ideas
+          .filter((idea) => {
+            // Filter by completion status
+            if (
+              !showCompleted &&
+              (idea.status === "used" || idea.status === "archived")
+            ) {
+              return false;
+            }
+
+            // Filter by category
+            if (currentFilter !== "all" && idea.category !== currentFilter) {
+              return false;
+            }
+
+            // Filter by search term
+            if (searchTerm) {
+              return (
+                idea.title.toLowerCase().includes(searchTerm) ||
+                idea.description.toLowerCase().includes(searchTerm) ||
+                idea.createdAt.toLowerCase().includes(searchTerm)
+              );
+            }
+
+            return true;
+          })
+          .sort((a, b) => b.id - a.id);
+      }
+
+      // Render filters
+      function renderFilters() {
+        const filtersContainer = document.getElementById("filters");
+        const filteredIdeas = getFilteredIdeas();
+
+        let html = `
+                <button class="filter-btn ${
+                  currentFilter === "all" ? "active" : ""
+                }" onclick="setFilter('all')">
+                    All Ideas (${ideas.length})
+                </button>
+            `;
+
+        Object.entries(categories).forEach(([key, cat]) => {
+          const count = ideas.filter((idea) => idea.category === key).length;
+          html += `
+                    <button class="filter-btn ${
+                      currentFilter === key ? "active" : ""
+                    }" onclick="setFilter('${key}')">
+                        ${cat.icon} ${cat.name} (${count})
+                    </button>
+                `;
+        });
+
+        html += `
+                <button class="filter-btn" onclick="toggleCompleted()">
+                    ${showCompleted ? "👁️" : "🙈"} ${
+          showCompleted ? "Hide" : "Show"
+        } Used/Archived
+                </button>
+            `;
+
+        filtersContainer.innerHTML = html;
+
+        // Update search results text
+        const searchTerm = document.getElementById("searchInput").value;
+        const resultsEl = document.getElementById("searchResults");
+        if (searchTerm) {
+          resultsEl.textContent = `Found ${filteredIdeas.length} result${
+            filteredIdeas.length !== 1 ? "s" : ""
+          } for "${searchTerm}"`;
+        } else {
+          resultsEl.textContent = "";
+        }
+      }
+
+      // Render ideas
+      function renderIdeas() {
+        const container = document.getElementById("ideasList");
+        const filteredIdeas = getFilteredIdeas();
+
+        if (filteredIdeas.length === 0) {
+          container.innerHTML = `
+                    <div class="empty-state">
+                        <div style="font-size: 48px; margin-bottom: 16px;">💡</div>
+                        <p style="font-size: 18px; margin-bottom: 8px;">No ideas match your search or filters.</p>
+                        <p style="font-size: 14px;">Try adjusting your search terms or clearing filters...</p>
+                    </div>
+                `;
+          return;
+        }
+
+        let html = "";
+        filteredIdeas.forEach((idea) => {
+          const category = categories[idea.category];
+          const priority = priorities[idea.priority];
+
+          if (editingId === idea.id) {
+            html += renderEditForm(idea);
+          } else {
+            html += `
+                        <div class="idea-card">
+                            <div class="idea-header">
+                                <div class="idea-content">
+                                    <div class="idea-icon ${category.color}">
+                                        ${category.icon}
+                                    </div>
+                                    <div class="idea-details">
+                                        <h3>${escapeHtml(idea.title)}</h3>
+                                        <div class="idea-meta">
+                                            <span class="${
+                                              priority.color
+                                            }">⭐ ${
+              priority.name
+            } Priority</span>
+                                            <span>${
+                                              statuses[idea.status]
+                                            }</span>
+                                            <span>Added ${idea.createdAt}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="idea-actions">
+                                    <button class="action-btn" onclick="startEdit(${
+                                      idea.id
+                                    })" title="Edit">✏️</button>
+                                    <button class="action-btn" onclick="deleteIdea(${
+                                      idea.id
+                                    })" title="Delete">🗑️</button>
+                                </div>
+                            </div>
+                            ${
+                              idea.description
+                                ? `<div class="idea-description">${escapeHtml(
+                                    idea.description
+                                  )}</div>`
+                                : ""
+                            }
+                        </div>
+                    `;
+          }
+        });
+
+        container.innerHTML = html;
+      }
+
+      // Render edit form
+      function renderEditForm(idea) {
+        return `
+                <div class="edit-form">
+                    <div class="form-group">
+                        <input type="text" id="edit-title-${
+                          idea.id
+                        }" class="input" value="${escapeHtml(
+          idea.title
+        )}" placeholder="Title">
+                    </div>
+                    <div class="form-row">
+                        <select id="edit-category-${idea.id}" class="select">
+                            ${Object.entries(categories)
+                              .map(
+                                ([key, cat]) =>
+                                  `<option value="${key}" ${
+                                    idea.category === key ? "selected" : ""
+                                  }>${cat.name}</option>`
+                              )
+                              .join("")}
+                        </select>
+                        <select id="edit-priority-${idea.id}" class="select">
+                            ${Object.entries(priorities)
+                              .map(
+                                ([key, priority]) =>
+                                  `<option value="${key}" ${
+                                    idea.priority === key ? "selected" : ""
+                                  }>${priority.name}</option>`
+                              )
+                              .join("")}
+                        </select>
+                        <select id="edit-status-${idea.id}" class="select">
+                            ${Object.entries(statuses)
+                              .map(
+                                ([key, status]) =>
+                                  `<option value="${key}" ${
+                                    idea.status === key ? "selected" : ""
+                                  }>${status}</option>`
+                              )
+                              .join("")}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="edit-description-${
+                          idea.id
+                        }" class="textarea" placeholder="Description...">${escapeHtml(
+          idea.description
+        )}</textarea>
+                    </div>
+                    <div class="edit-actions">
+                        <button class="btn btn-save" onclick="saveEdit(${
+                          idea.id
+                        })">Save</button>
+                        <button class="btn btn-cancel" onclick="cancelEdit()">Cancel</button>
+                    </div>
+                </div>
+            `;
+      }
+
+      // Render stats
+      function renderStats() {
+        if (ideas.length === 0) {
+          document.getElementById("statsSection").style.display = "none";
+          return;
+        }
+
+        document.getElementById("statsSection").style.display = "block";
+
+        const statsGrid = document.getElementById("statsGrid");
+        statsGrid.innerHTML = `
+                <div class="stat-item">
+                    <div class="stat-number stat-blue">${ideas.length}</div>
+                    <div class="stat-label">Total Ideas</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number stat-green">${
+                      ideas.filter((i) => i.status === "ready").length
+                    }</div>
+                    <div class="stat-label">Ready to Use</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number stat-yellow">${
+                      ideas.filter((i) => i.priority === "high").length
+                    }</div>
+                    <div class="stat-label">High Priority</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number stat-purple">${
+                      ideas.filter((i) => i.status === "used").length
+                    }</div>
+                    <div class="stat-label">Already Used</div>
+                </div>
+            `;
+      }
+
+      // Export data
+      function exportData() {
+        const dataStr = JSON.stringify(ideas, null, 2);
+        const dataBlob = new Blob([dataStr], { type: "application/json" });
+        const url = URL.createObjectURL(dataBlob);
+        const link = document.createElement("a");
+        link.href = url;
+        link.download = "campaign-tracker-data.json";
+        link.click();
+        URL.revokeObjectURL(url);
+      }
+
+      // Import data
+      function importData(event) {
+        const file = event.target.files[0];
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = (e) => {
+            try {
+              const importedData = JSON.parse(e.target.result);
+              if (Array.isArray(importedData)) {
+                ideas = importedData;
+                saveData();
+                renderFilters();
+                renderIdeas();
+                renderStats();
+                alert("Data imported successfully!");
+              } else {
+                alert("Invalid file format. Please select a valid JSON file.");
+              }
+            } catch (error) {
+              alert(
+                "Error reading file. Please make sure it's a valid JSON file."
+              );
+            }
+          };
+          reader.readAsText(file);
+        }
+        event.target.value = "";
+      }
+
+      // Utility function to escape HTML
+      function escapeHtml(text) {
+        const div = document.createElement("div");
+        div.textContent = text;
+        return div.innerHTML;
+      }
+
+      // Initialize the app when the page loads
+      window.addEventListener("DOMContentLoaded", init);
+    </script>
+  </body>
+</html>
