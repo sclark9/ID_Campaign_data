@@ -1080,14 +1080,25 @@
     "createdAt": "Character Creation"
   },
   {
-    "id": 7,
-    "title": "Keogr - Skytower Shelter Barbarian",
-    "category": "pc",
-    "description": "Goliath Barbarian (Kris). From Skytower Shelter - competitive goliath settlement in Spine of the World, dislike strangers, tame griffons. Special rage ability: icy focus state, auto rage damage but crits on 18-20.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": ["overarching"],
-    "createdAt": "Character Creation"
+    "id": 7,{
+  id: 7,
+  title: "Keogr - Skytower Shelter Barbarian/Werebear",
+  category: "pc",
+  description: "Goliath Barbarian/Werebear (Kris). From Skytower Shelter - competitive goliath settlement in Spine of the World that dislikes strangers and tames griffons. SECRETLY AFFLICTED with lycanthropy (werebear). His clan sent him away on a quest to find Oyaminartok, the legendary Polar Werebear, believing this ancient werebear can teach him to control his curse. Special rage ability: icy focus state with auto rage damage but crits on 18-20. His lycanthropic condition may be connected to his unique rage mechanics - the 'icy focus' could be his attempt to suppress the bear's fury through cold discipline.",
+  priority: "medium",
+  status: "ready",
+  createdAt: "Character Creation"
+},
+
+{
+  id: 90,
+  title: "Oyaminartok - The Polar Werebear Legend",
+  category: "npc",
+  description: "Ancient polar werebear of legendary status, rumored to dwell in the deepest reaches of Icewind Dale's wilderness. Known among northern tribes as the 'Ice Walker' or 'White Bear of the Endless Hunt.' Oyaminartok allegedly achieved perfect balance between human consciousness and bear instincts - neither fully human nor fully beast, but something greater. Keogr's clan believes finding this legendary figure is the only way for their exiled kinsman to master his lycanthropic curse. May be connected to ancient Reghed tribal legends or even Auril's influence over the region.",
+  priority: "high",
+  status: "planning",
+  createdAt: "PC Backstory"
+}
   },
   {
     "id": 6,
