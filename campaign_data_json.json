@@ -231,7 +231,7 @@
     "category": "plot",
     "description": "Massive construct dragon built by Xardorok from chardalyn. Programmed to destroy each Ten-Towns settlement in sequence: Dougan's Hole → Good Mead → Easthaven → Caer-Dineval → Caer-Konig → Termalaine → Lonelywood → Bremen → Targos → Bryn Shander. Creates ultimate time pressure and represents escalation of chardalyn corruption threat.",
     "priority": "high",
-    "status": "planning",
+    "status": "brainstorming",
     "tags": [
       "midgame",
       "chardalyn",
@@ -872,7 +872,7 @@
     "category": "plot",
     "description": "Mysterious entity appearing in Korux's dreams through mirrors. Demands impossible moral choices (treasure vs friend). When questioned about being a god, it cracks instead of answering. Connected to Ishkar the Silver Mirror Aurilith? Could be how Auriliths psychically influence victims before Sephek arrives.",
     "priority": "high",
-    "status": "planning",
+    "status": "archived",
     "tags": [
       "early",
       "auriliths",
@@ -882,7 +882,7 @@
   },
   {
     "id": 51,
-    "title": "Korux's Journal - Mirror Visions & Sephek Encounter",
+    "title": "Gorga's Journal - Mirror Visions & Sephek Encounter",
     "category": "plot",
     "description": "Journal from dead dwarf (Gorga Snowjaw) killed by Sephek in Session 1. Spans 1 month before death. Key entries: Dreams of mirror watching her, ice that 'doesn't melt right' with vein-like lines, mirror demanding choice between treasure/friend, final entry about tall thin figure made of ice waiting by sleds. Margins filled with mask doodles (like Chwinga mask found on body) and crack patterns. Last 2 pages are bland logkeeping.",
     "priority": "high",
@@ -906,34 +906,6 @@
       "chwinga"
     ],
     "createdAt": "Chwinga Factions"
-  },
-  {
-    "id": 49,
-    "title": "Sephek as 'Chosen of Winter' Cult",
-    "category": "plot",
-    "description": "Frostling chwinga worship Sephek as divine figure - 'Chosen of Winter' or 'Spirit of Death.' This creates supernatural backing for the serial killer, making him more dangerous. Could explain how he evades capture and his frost spirit possession.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "early",
-      "sephek",
-      "chwinga"
-    ],
-    "createdAt": "Chwinga Factions"
-  },
-  {
-    "id": 48,
-    "title": "Geometric Snow Spirals - Chwinga Signs",
-    "category": "misc",
-    "description": "Crop circle-like patterns found at Sephek murder scenes. These are Whisperkin attempts to communicate/warn about the murders. Ancient chwinga language that druids/rangers might be able to interpret with proper checks.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "chwinga",
-      "investigation"
-    ],
-    "createdAt": "Clue Trail"
   },
   {
     "id": 47,
@@ -987,20 +959,6 @@
       "early",
       "chwinga",
       "social"
-    ],
-    "createdAt": "Clue Trail"
-  },
-  {
-    "id": 43,
-    "title": "Sephek Murder Scene - Enhanced Clues",
-    "category": "encounter",
-    "description": "Initial victim found frozen with peaceful expression. GEOMETRIC SPIRALS in snow nearby (like crop circles). WHITE MASK hidden in tree hollow. These are Whisperkin signs trying to help PCs solve the mystery.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "early",
-      "sephek",
-      "investigation"
     ],
     "createdAt": "Clue Trail"
   },
@@ -1070,19 +1028,6 @@
     "createdAt": "Session 1"
   },
   {
-    "id": 37,
-    "title": "Sacrificial Lottery System",
-    "category": "plot",
-    "description": "Towns using lottery system to select sacrifice victims. Gorga Snowjaw used deception to avoid being selected. This suggests organized, systematic human sacrifice is already happening (not just rumors). Creates moral urgency for party intervention.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "auriliths"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
     "id": 36,
     "title": "Bryn Shander Key Locations",
     "category": "location",
@@ -1140,13 +1085,14 @@
     "id": 32,
     "title": "Gorga Snowjaw - Murdered Artisan",
     "category": "plot",
-    "description": "Female dwarf artisan killed by Sephek with icicle dagger (not the yeti). Journal reveals she used deception to avoid sacrificial lottery. DC 15 search finds tiny gray mask on her body. First Sephek victim the party encounters - establishes his MO.",
+    "description": "Female dwarf artisan from Caer-Konig, killed by Sephek with icicle dagger for refusing Ishkar the Silver Mirror's psychic demands. Her journal reveals month-long torment by Ishkar appearing in her dreams through mirrors, demanding she sacrifice her father's treasured tankard - the most precious thing she owned. When she refused the Aurilith's test of devotion, asking 'what kind of god demands that,' Ishkar's mirror image cracked in her dreams. Days later, Sephek arrived as enforcement. Journal margins filled with unconscious doodles of masks and cracks, suggesting Ishkar's influence was affecting her subconscious. Her defiance of an Aurilith's will made her Sephek's target - first documented case of the Aurilith-Sephek enforcement pattern.",
     "priority": "high",
     "status": "used",
     "tags": [
       "early",
       "sephek",
-      "investigation"
+      "investigation",
+      "auriliths"
     ],
     "createdAt": "Session 1"
   },
@@ -1246,7 +1192,7 @@
     "id": 24,
     "title": "Ishkar the Silver Mirror (Caer Konig)",
     "category": "location",
-    "description": "Jagged, angular statue that reflects not just image but intentions. Shows viewers committing acts they've never done—yet. Psychological horror element, potential precognition/fate manipulation.",
+    "description": "Jagged, angular Aurilith near Caer Konig that reflects not just image but intentions. Shows viewers committing acts they've never done—yet. Exerts influence through mirror-based dreams and psychological torture, appearing to victims in reflective surfaces to demand impossible moral choices. Ishkar tests devotion by demanding people sacrifice their most precious possessions or relationships. Those who refuse face escalating torment - mirrors crack in dreams, reflective surfaces show the Aurilith growing closer and more threatening. Victims report feeling watched through every mirror, window, or ice surface. When someone definitively refuses Ishkar's demands (like Gorga Snowjaw did), Sephek is dispatched as enforcement. Creates mirror phobia in those exposed to its influence - they must make WIS saves to look at reflective surfaces without fear.\n",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -1309,7 +1255,7 @@
       "overarching",
       "auriliths",
       "ten-towns",
-      "zhentarum"
+      "zhentarim"
     ],
     "createdAt": "Aurilith Details"
   },
@@ -1317,7 +1263,7 @@
     "id": 19,
     "title": "Tal-Kora the Black Shard (Bryn Shander)",
     "category": "location",
-    "description": "Symbol: Three-pointed spike. Black crystalline spire visible from city wall, looks like ancient guardian clawing up from underground. One of the few Auriliths that has NOT been proven to move at night. Threatens to emerge if sacrifices stop.",
+    "description": "Symbol: Three-pointed spike. Black crystalline spire visible from city wall, looks like ancient guardian clawing up from underground. One of the few Auriliths that has NOT been proven to move at night. Threatens to emerge if sacrifices stop.\n\n\nTal-Kora the Black Shard exerts influence through constant surveillance and paranoia --the oppressive feeling of being watched. Bryn Shander residents report: shadows moving wrong, feeling eyes on them from empty windows, mirrors reflecting the Black Shard when it shouldn't be visible, and compulsive need to confess secrets or wrongdoings. Tal-Kora doesn't whisper demands - it creates overwhelming guilt and paranoia until people voluntarily confess crimes, turn in neighbors, or perform acts of penance. Those who resist the urge to 'come clean' begin seeing the Black Shard in reflections everywhere, growing larger and more threatening until they break. \n\nSephek targets those who know they're being watched but refuse to submit to the judgment.\n",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -1594,5 +1540,35 @@
       "investigation"
     ],
     "createdAt": "6/4/2025"
+  },
+  {
+    "id": 1749160820402,
+    "title": "Sephek as Aurilith Enforcer - The Winter's Blade",
+    "category": "plot",
+    "description": "Sephek doesn't kill randomly - he targets individuals who defy specific Auriliths' psychic demands. When someone refuses an Aurilith's mental compulsions or challenges their authority, Sephek is dispatched as Auril's physical enforcer. Gorga refused Ishkar the Silver Mirror's demand to sacrifice something precious, so Sephek was sent to kill her. This creates a pattern: Auriliths psychically manipulate and test people, and those who resist face Sephek's ice daggers. Each murder location corresponds to someone who defied a specific Aurilith's will. The frost spirit inside Sephek can sense these acts of defiance across Ten-Towns, making him an extension of the Auriliths' influence.\nTags: ",
+    "priority": "high",
+    "status": "brainstorming",
+    "tags": [
+      "sephek",
+      "auriliths",
+      "overarching",
+      "investigation"
+    ],
+    "createdAt": "6/5/2025"
+  },
+  {
+    "id": 1749166155463,
+    "title": "Fear Rules - Aurilith Psychological Effects",
+    "category": "rules",
+    "description": "Auriliths and their associated encounters can trigger fear effects beyond standard frightened condition. When exposed to Aurilith influence: WIS save DC 13-15 (varies by proximity/duration). Failure = frightened for 1 minute, can repeat save at end of each turn. Critical failure (natural 1) = additional effects: Tal-Kora causes paranoia (disadvantage on Insight checks for 24 hours), Ishkar causes mirror phobia (must save to look at reflective surfaces), Yll-Varn causes auditory hallucinations (hear phantom music). Repeated exposure increases DC by +1 per previous encounter. Characters with passive Insight 15+ notice when others are being psychically influenced. Calm Emotions ends most effects early. Fear immunity protects against basic frightened condition but not unique psychological effects.",
+    "priority": "low",
+    "status": "brainstorming",
+    "tags": [
+      "rules",
+      "auriliths",
+      "combat",
+      "social"
+    ],
+    "createdAt": "6/5/2025"
   }
 ]
