@@ -1,1279 +1,1235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rime of the Frostmaiden Campaign Tracker</title>
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-          "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-          "Helvetica Neue", sans-serif;
-        background-color: #111827;
-        color: white;
-        min-height: 100vh;
-      }
-
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 24px;
-      }
-
-      .header {
-        margin-bottom: 32px;
-      }
-
-      .header h1 {
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 8px;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-      }
-
-      .header-icon {
-        width: 40px;
-        height: 40px;
-        background: linear-gradient(135deg, #60a5fa, #a855f7);
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 20px;
-      }
-
-      .header p {
-        color: #d1d5db;
-        margin-bottom: 16px;
-      }
-
-      .header-buttons {
-        display: flex;
-        gap: 16px;
-        flex-wrap: wrap;
-      }
-
-      .btn {
-        padding: 8px 16px;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-        font-size: 14px;
-        transition: background-color 0.2s;
-      }
-
-      .btn-primary {
-        background-color: #2563eb;
-        color: white;
-      }
-
-      .btn-primary:hover {
-        background-color: #1d4ed8;
-      }
-
-      .btn-secondary {
-        background-color: #16a34a;
-        color: white;
-      }
-
-      .btn-secondary:hover {
-        background-color: #15803d;
-      }
-
-      .form-section {
-        background-color: #1f2937;
-        border: 1px solid #374151;
-        border-radius: 8px;
-        padding: 24px;
-        margin-bottom: 24px;
-      }
-
-      .form-section h2 {
-        font-size: 1.25rem;
-        font-weight: 600;
-        margin-bottom: 16px;
-      }
-
-      .form-group {
-        margin-bottom: 16px;
-      }
-
-      .form-row {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 16px;
-      }
-
-      .input,
-      .textarea,
-      .select {
-        width: 100%;
-        padding: 12px;
-        background-color: #374151;
-        border: 1px solid #4b5563;
-        border-radius: 6px;
-        color: white;
-        font-size: 14px;
-      }
-
-      .input:focus,
-      .textarea:focus,
-      .select:focus {
-        outline: none;
-        border-color: #2563eb;
-        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-      }
-
-      .textarea {
-        height: 96px;
-        resize: vertical;
-      }
-
-      .search-section {
-        margin-bottom: 24px;
-      }
-
-      .search-input {
-        position: relative;
-        margin-bottom: 16px;
-      }
-
-      .search-input input {
-        padding-left: 40px;
-      }
-
-      .search-icon {
-        position: absolute;
-        left: 12px;
-        top: 50%;
-        transform: translateY(-50%);
-        color: #9ca3af;
-      }
-
-      .sort-controls {
-        margin-bottom: 16px;
-        display: flex;
-        gap: 12px;
-        align-items: center;
-        flex-wrap: wrap;
-      }
-
-      .sort-label {
-        color: #d1d5db;
-        font-size: 14px;
-        font-weight: 500;
-      }
-
-      .sort-select {
-        width: auto;
-        min-width: 160px;
-      }
-
-      .filters {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        align-items: center;
-        margin-bottom: 16px;
-      }
-
-      .filter-btn {
-        padding: 8px 16px;
-        border: none;
-        border-radius: 6px;
-        cursor: pointer;
-        font-size: 12px;
-        transition: background-color 0.2s;
-      }
-
-      .filter-btn.active {
-        background-color: #2563eb;
-        color: white;
-      }
-
-      .filter-btn:not(.active) {
-        background-color: #374151;
-        color: #d1d5db;
-      }
-
-      .filter-btn:not(.active):hover {
-        background-color: #4b5563;
-      }
-
-      .tag-filters {
-        margin-top: 16px;
-        padding-top: 16px;
-        border-top: 1px solid #374151;
-      }
-
-      .tag-filters h4 {
-        color: #d1d5db;
-        font-size: 14px;
-        font-weight: 500;
-        margin-bottom: 8px;
-      }
-
-      .tag-filter-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-      }
-
-      .tag-filter {
-        padding: 4px 12px;
-        background-color: #374151;
-        color: #d1d5db;
-        border: none;
-        border-radius: 16px;
-        font-size: 11px;
-        cursor: pointer;
-        transition: all 0.2s;
-      }
-
-      .tag-filter:hover {
-        background-color: #4b5563;
-      }
-
-      .tag-filter.active {
-        background-color: #7c3aed;
-        color: white;
-      }
-
-      .ideas-list {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-      }
-
-      .idea-card {
-        background-color: #1f2937;
-        border: 1px solid #374151;
-        border-radius: 8px;
-        padding: 24px;
-      }
-
-      .idea-header {
-        display: flex;
-        justify-content: between;
-        align-items: flex-start;
-        margin-bottom: 12px;
-      }
-
-      .idea-content {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        flex: 1;
-      }
-
-      .idea-icon {
-        padding: 8px;
-        border-radius: 4px;
-        font-size: 12px;
-        font-weight: bold;
-      }
-
-      .idea-details h3 {
-        font-size: 1.125rem;
-        font-weight: 600;
-        margin-bottom: 4px;
-      }
-
-      .idea-meta {
-        display: flex;
-        gap: 16px;
-        font-size: 12px;
-        color: #9ca3af;
-        align-items: center;
-        flex-wrap: wrap;
-      }
-
-      .idea-actions {
-        display: flex;
-        gap: 8px;
-      }
-
-      .action-btn {
-        padding: 8px;
-        background: none;
-        border: none;
-        color: #9ca3af;
-        cursor: pointer;
-        border-radius: 4px;
-        transition: all 0.2s;
-      }
-
-      .action-btn:hover {
-        background-color: #374151;
-      }
-
-      .idea-description {
-        color: #d1d5db;
-        line-height: 1.6;
-        white-space: pre-wrap;
-        margin-bottom: 12px;
-      }
-
-      .idea-tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-      }
-
-      .tag {
-        padding: 4px 8px;
-        background-color: #7c3aed;
-        color: white;
-        border-radius: 12px;
-        font-size: 11px;
-        cursor: pointer;
-        transition: background-color 0.2s;
-      }
-
-      .tag:hover {
-        background-color: #6d28d9;
-      }
-
-      .tag-input-container {
-        position: relative;
-      }
-
-      .tag-suggestions {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #374151;
-        border: 1px solid #4b5563;
-        border-top: none;
-        border-radius: 0 0 6px 6px;
-        max-height: 120px;
-        overflow-y: auto;
-        z-index: 10;
-      }
-
-      .tag-suggestion {
-        padding: 8px 12px;
-        cursor: pointer;
-        font-size: 12px;
-        transition: background-color 0.2s;
-      }
-
-      .tag-suggestion:hover {
-        background-color: #4b5563;
-      }
-
-      .stats-section {
-        background-color: #1f2937;
-        border: 1px solid #374151;
-        border-radius: 8px;
-        padding: 16px;
-        margin-top: 32px;
-      }
-
-      .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 16px;
-        text-align: center;
-      }
-
-      .stat-item {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-      }
-
-      .stat-number {
-        font-size: 2rem;
-        font-weight: bold;
-      }
-
-      .stat-label {
-        font-size: 12px;
-        color: #9ca3af;
-      }
-
-      .empty-state {
-        text-align: center;
-        padding: 48px 24px;
-        color: #9ca3af;
-      }
-
-      .edit-form {
-        background-color: #f9fafb;
-        border: 1px solid #d1d5db;
-        border-radius: 8px;
-        padding: 16px;
-      }
-
-      .edit-form .input,
-      .edit-form .textarea,
-      .edit-form .select {
-        background-color: white;
-        color: black;
-      }
-
-      .edit-actions {
-        display: flex;
-        gap: 8px;
-        margin-top: 12px;
-      }
-
-      .btn-save {
-        background-color: #2563eb;
-        color: white;
-      }
-
-      .btn-cancel {
-        background-color: #6b7280;
-        color: white;
-      }
-
-      /* Category colors */
-      .cat-plot {
-        background-color: #dbeafe;
-        color: #1e40af;
-      }
-      .cat-npc {
-        background-color: #dcfce7;
-        color: #166534;
-      }
-      .cat-pc {
-        background-color: #fed7aa;
-        color: #ea580c;
-      }
-      .cat-location {
-        background-color: #e9d5ff;
-        color: #7c2d12;
-      }
-      .cat-encounter {
-        background-color: #fecaca;
-        color: #dc2626;
-      }
-      .cat-misc {
-        background-color: #fef3c7;
-        color: #d97706;
-      }
-      .cat-rules {
-        background-color: #f3f4f6;
-        color: #374151;
-      }
-
-      /* Priority colors */
-      .priority-high {
-        color: #dc2626;
-      }
-      .priority-medium {
-        color: #d97706;
-      }
-      .priority-low {
-        color: #16a34a;
-      }
-
-      /* Stat colors */
-      .stat-blue {
-        color: #60a5fa;
-      }
-      .stat-green {
-        color: #4ade80;
-      }
-      .stat-yellow {
-        color: #facc15;
-      }
-      .stat-purple {
-        color: #a78bfa;
-      }
-
-      /* Responsive */
-      @media (max-width: 768px) {
-        .form-row {
-          grid-template-columns: 1fr;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        .filters {
-          flex-direction: column;
-          align-items: stretch;
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+            background-color: #111827;
+            color: white;
+            min-height: 100vh;
         }
 
-        .filter-btn {
-          text-align: center;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
         }
 
-        .idea-header {
-          flex-direction: column;
-          gap: 12px;
+        .header {
+            margin-bottom: 32px;
         }
 
-        .stats-grid {
-          grid-template-columns: repeat(2, 1fr);
+        .header h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .header-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #60a5fa, #a855f7);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .header p {
+            color: #d1d5db;
+            margin-bottom: 16px;
         }
 
         .header-buttons {
-          flex-direction: column;
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.2s;
+        }
+
+        .btn-primary {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #1d4ed8;
+        }
+
+        .btn-secondary {
+            background-color: #16a34a;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background-color: #15803d;
+        }
+
+        .form-section {
+            background-color: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        .form-section h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+        }
+
+        .form-group {
+            margin-bottom: 16px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 16px;
+        }
+
+        .input, .textarea, .select {
+            width: 100%;
+            padding: 12px;
+            background-color: #374151;
+            border: 1px solid #4b5563;
+            border-radius: 6px;
+            color: white;
+            font-size: 14px;
+        }
+
+        .input:focus, .textarea:focus, .select:focus {
+            outline: none;
+            border-color: #2563eb;
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .textarea {
+            height: 96px;
+            resize: vertical;
+        }
+
+        .search-section {
+            margin-bottom: 24px;
+        }
+
+        .search-input {
+            position: relative;
+            margin-bottom: 16px;
+        }
+
+        .search-input input {
+            padding-left: 40px;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #9ca3af;
         }
 
         .sort-controls {
-          flex-direction: column;
-          align-items: stretch;
+            margin-bottom: 16px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .sort-label {
+            color: #d1d5db;
+            font-size: 14px;
+            font-weight: 500;
         }
 
         .sort-select {
-          min-width: 100%;
+            width: auto;
+            min-width: 160px;
         }
-      }
 
-      .hidden {
-        display: none;
-      }
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            margin-bottom: 16px;
+        }
 
-      .loading {
-        text-align: center;
-        padding: 20px;
-        color: #9ca3af;
-      }
+        .filter-btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: background-color 0.2s;
+        }
+
+        .filter-btn.active {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .filter-btn:not(.active) {
+            background-color: #374151;
+            color: #d1d5db;
+        }
+
+        .filter-btn:not(.active):hover {
+            background-color: #4b5563;
+        }
+
+        .tag-filters {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #374151;
+        }
+
+        .tag-filters h4 {
+            color: #d1d5db;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+
+        .tag-filter-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag-filter {
+            padding: 4px 12px;
+            background-color: #374151;
+            color: #d1d5db;
+            border: none;
+            border-radius: 16px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .tag-filter:hover {
+            background-color: #4b5563;
+        }
+
+        .tag-filter.active {
+            background-color: #7c3aed;
+            color: white;
+        }
+
+        .ideas-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .idea-card {
+            background-color: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 8px;
+            padding: 24px;
+        }
+
+        .idea-header {
+            display: flex;
+            justify-content: between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        .idea-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex: 1;
+        }
+
+        .idea-icon {
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .idea-details h3 {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .idea-meta {
+            display: flex;
+            gap: 16px;
+            font-size: 12px;
+            color: #9ca3af;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .idea-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .action-btn {
+            padding: 8px;
+            background: none;
+            border: none;
+            color: #9ca3af;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .action-btn:hover {
+            background-color: #374151;
+        }
+
+        .idea-description {
+            color: #d1d5db;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            margin-bottom: 12px;
+        }
+
+        .idea-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag {
+            padding: 4px 8px;
+            background-color: #7c3aed;
+            color: white;
+            border-radius: 12px;
+            font-size: 11px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .tag:hover {
+            background-color: #6d28d9;
+        }
+
+        .tag-input-container {
+            position: relative;
+        }
+
+        .tag-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #374151;
+            border: 1px solid #4b5563;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
+            max-height: 120px;
+            overflow-y: auto;
+            z-index: 10;
+        }
+
+        .tag-suggestion {
+            padding: 8px 12px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: background-color 0.2s;
+        }
+
+        .tag-suggestion:hover {
+            background-color: #4b5563;
+        }
+
+        .stats-section {
+            background-color: #1f2937;
+            border: 1px solid #374151;
+            border-radius: 8px;
+            padding: 16px;
+            margin-top: 32px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            text-align: center;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #9ca3af;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 48px 24px;
+            color: #9ca3af;
+        }
+
+        .edit-form {
+            background-color: #f9fafb;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            padding: 16px;
+        }
+
+        .edit-form .input, .edit-form .textarea, .edit-form .select {
+            background-color: white;
+            color: black;
+        }
+
+        .edit-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 12px;
+        }
+
+        .btn-save {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .btn-cancel {
+            background-color: #6b7280;
+            color: white;
+        }
+
+        /* Category colors */
+        .cat-plot { background-color: #dbeafe; color: #1e40af; }
+        .cat-npc { background-color: #dcfce7; color: #166534; }
+        .cat-pc { background-color: #fed7aa; color: #ea580c; }
+        .cat-location { background-color: #e9d5ff; color: #7c2d12; }
+        .cat-encounter { background-color: #fecaca; color: #dc2626; }
+        .cat-misc { background-color: #fef3c7; color: #d97706; }
+        .cat-rules { background-color: #f3f4f6; color: #374151; }
+
+        /* Priority colors */
+        .priority-high { color: #dc2626; }
+        .priority-medium { color: #d97706; }
+        .priority-low { color: #16a34a; }
+
+        /* Stat colors */
+        .stat-blue { color: #60a5fa; }
+        .stat-green { color: #4ade80; }
+        .stat-yellow { color: #facc15; }
+        .stat-purple { color: #a78bfa; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .filter-btn {
+                text-align: center;
+            }
+
+            .idea-header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .header-buttons {
+                flex-direction: column;
+            }
+
+            .sort-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .sort-select {
+                min-width: 100%;
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #9ca3af;
+        }
+
+        /* Quick import styles */
+        .quick-import-examples {
+            background: #374151;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 16px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        .example-label {
+            color: #9ca3af;
+            margin-bottom: 8px;
+        }
+
+        .example-code {
+            color: #d1d5db;
+            word-break: break-all;
+        }
     </style>
-  </head>
-  <body>
+</head>
+<body>
     <div class="container">
-      <!-- Header -->
-      <div class="header">
-        <h1>
-          <div class="header-icon">❄️</div>
-          Rime of the Frostmaiden Campaign Tracker
-        </h1>
-        <p>
-          Organize your ideas, NPCs, locations, and plot hooks for the frozen
-          wastes of Icewind Dale
-        </p>
-        <div class="header-buttons">
-          <button class="btn btn-primary" onclick="refreshFromGitHub()">
-            🔄 Refresh from GitHub
-          </button>
-          <button class="btn btn-secondary" onclick="exportData()">
-            📥 Export Data
-          </button>
-          <label class="btn btn-primary" style="cursor: pointer">
-            📤 Import Data
-            <input
-              type="file"
-              accept=".json"
-              onchange="importData(event)"
-              class="hidden"
-            />
-          </label>
-        </div>
-      </div>
-
-      <div id="loadingMessage" class="loading">
-        <div style="font-size: 24px; margin-bottom: 8px">❄️</div>
-        <p>Loading campaign data from GitHub...</p>
-      </div>
-
-      <div id="mainContent" class="hidden">
-        <!-- Add New Idea Form -->
-        <div class="form-section">
-          <h2>Add New Idea</h2>
-          <div class="form-group">
-            <input
-              type="text"
-              id="newTitle"
-              class="input"
-              placeholder="What's your idea? (e.g., 'Mysterious ice sculpture appears overnight')"
-              onkeypress="handleEnter(event)"
-            />
-          </div>
-          <div class="form-row">
-            <select id="newCategory" class="select">
-              <option value="plot">Plot Hooks</option>
-              <option value="npc">NPCs</option>
-              <option value="pc">Player Characters</option>
-              <option value="location">Locations</option>
-              <option value="encounter">Encounters</option>
-              <option value="misc">Miscellaneous</option>
-              <option value="rules">Game Rules</option>
-            </select>
-            <select id="newPriority" class="select">
-              <option value="high">High Priority</option>
-              <option value="medium">Medium Priority</option>
-              <option value="low">Low Priority</option>
-            </select>
-            <select id="newStatus" class="select">
-              <option value="brainstorming">Brainstorming</option>
-              <option value="planning">Planning</option>
-              <option value="ready">Ready to Use</option>
-              <option value="used">Used</option>
-              <option value="archived">Archived</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <div class="tag-input-container">
-              <input
-                type="text"
-                id="newTags"
-                class="input"
-                placeholder="Add tags (comma-separated, e.g. 'combat, outdoor, npcs')"
-                oninput="showTagSuggestions(this)"
-                onblur="hideTagSuggestions()"
-              />
-              <div id="tagSuggestions" class="tag-suggestions hidden"></div>
+        <!-- Header -->
+        <div class="header">
+            <h1>
+                <div class="header-icon">❄️</div>
+                Rime of the Frostmaiden Campaign Tracker
+            </h1>
+            <p>Organize your ideas, NPCs, locations, and plot hooks for the frozen wastes of Icewind Dale</p>
+            <div class="header-buttons">
+                <button class="btn btn-primary" onclick="refreshFromGitHub()">🔄 Refresh from GitHub</button>
+                <button class="btn btn-secondary" onclick="exportData()">📥 Export Data</button>
+                <label class="btn btn-primary" style="cursor: pointer;">
+                    📤 Import File
+                    <input type="file" accept=".json" onchange="importData(event)" class="hidden">
+                </label>
+                <button class="btn btn-primary" onclick="toggleQuickImport()">⚡ Quick Import</button>
             </div>
-          </div>
-          <div class="form-group">
-            <textarea
-              id="newDescription"
-              class="textarea"
-              placeholder="Add details, connections to existing plot, implementation notes..."
-            ></textarea>
-          </div>
-          <button class="btn btn-primary" onclick="addIdea()">
-            ✚ Add Idea
-          </button>
         </div>
 
-        <!-- Search and Filters -->
-        <div class="search-section">
-          <div class="search-input">
-            <input
-              type="text"
-              id="searchInput"
-              class="input"
-              placeholder="Search ideas by title, description, tags, or source..."
-              oninput="filterIdeas()"
-            />
-            <span class="search-icon">🔍</span>
-          </div>
+        <div id="loadingMessage" class="loading">
+            <div style="font-size: 24px; margin-bottom: 8px;">❄️</div>
+            <p>Loading campaign data from GitHub...</p>
+        </div>
 
-          <!-- Sort Controls -->
-          <div class="sort-controls">
-            <label class="sort-label">📊 Sort by:</label>
-            <select
-              id="sortBy"
-              class="select sort-select"
-              onchange="renderIdeas()"
-            >
-              <option value="newest">📅 Newest First</option>
-              <option value="oldest">📅 Oldest First</option>
-              <option value="priority">🔥 Priority (High → Low)</option>
-              <option value="priority-reverse">❄️ Priority (Low → High)</option>
-              <option value="title">🔤 Title A-Z</option>
-              <option value="title-reverse">🔤 Title Z-A</option>
-              <option value="status">⚡ Status</option>
-              <option value="category">📂 Category</option>
-            </select>
-          </div>
-
-          <div class="filters" id="filters">
-            <!-- Filters will be populated by JavaScript -->
-          </div>
-
-          <!-- Tag Filters -->
-          <div id="tagFilters" class="tag-filters">
-            <h4>🏷️ Filter by Tags:</h4>
-            <div class="tag-filter-list" id="tagFilterList">
-              <!-- Tag filters will be populated by JavaScript -->
+        <div id="mainContent" class="hidden">
+            <!-- Quick Import Section -->
+            <div id="quickImportSection" class="form-section hidden">
+                <h2>⚡ Quick Import JSON Entries</h2>
+                <p style="color: #d1d5db; margin-bottom: 16px;">
+                    Paste single entries or arrays of entries below. Examples:
+                </p>
+                <div style="background: #374151; padding: 12px; border-radius: 6px; margin-bottom: 16px; font-family: monospace; font-size: 12px;">
+                    <div style="color: #9ca3af; margin-bottom: 8px;">Single entry:</div>
+                    <div style="color: #d1d5db;">{"id": 200, "title": "New Idea", "category": "plot", "description": "...", "priority": "high", "status": "ready", "tags": ["early", "combat"], "createdAt": "Today"}</div>
+                    <div style="color: #9ca3af; margin: 12px 0 8px 0;">Multiple entries (array):</div>
+                    <div style="color: #d1d5db;">[{"id": 201, "title": "Idea 1", ...}, {"id": 202, "title": "Idea 2", ...}]</div>
+                </div>
+                <textarea id="quickImportText" class="textarea" style="height: 200px; font-family: monospace;" placeholder="Paste your JSON entry or entries here..."></textarea>
+                <div class="form-group" style="display: flex; gap: 12px; align-items: center;">
+                    <button class="btn btn-primary" onclick="processQuickImport()">✅ Import Entries</button>
+                    <button class="btn btn-cancel" onclick="toggleQuickImport()">❌ Cancel</button>
+                    <label style="display: flex; align-items: center; gap: 8px; color: #d1d5db;">
+                        <input type="checkbox" id="replaceExisting" style="margin: 0;">
+                        Replace existing entries with same ID
+                    </label>
+                </div>
             </div>
-          </div>
+            <!-- Add New Idea Form -->
+            <div class="form-section">
+                <h2>Add New Idea</h2>
+                <div class="form-group">
+                    <input type="text" id="newTitle" class="input" placeholder="What's your idea? (e.g., 'Mysterious ice sculpture appears overnight')" onkeypress="handleEnter(event)">
+                </div>
+                <div class="form-row">
+                    <select id="newCategory" class="select">
+                        <option value="plot">Plot Hooks</option>
+                        <option value="npc">NPCs</option>
+                        <option value="pc">Player Characters</option>
+                        <option value="location">Locations</option>
+                        <option value="encounter">Encounters</option>
+                        <option value="misc">Miscellaneous</option>
+                        <option value="rules">Game Rules</option>
+                    </select>
+                    <select id="newPriority" class="select">
+                        <option value="high">High Priority</option>
+                        <option value="medium">Medium Priority</option>
+                        <option value="low">Low Priority</option>
+                    </select>
+                    <select id="newStatus" class="select">
+                        <option value="brainstorming">Brainstorming</option>
+                        <option value="planning">Planning</option>
+                        <option value="ready">Ready to Use</option>
+                        <option value="used">Used</option>
+                        <option value="archived">Archived</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="tag-input-container">
+                        <input type="text" id="newTags" class="input" placeholder="Add tags (comma-separated, e.g. 'combat, outdoor, npcs')" oninput="showTagSuggestions(this)" onblur="hideTagSuggestions()">
+                        <div id="tagSuggestions" class="tag-suggestions hidden"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea id="newDescription" class="textarea" placeholder="Add details, connections to existing plot, implementation notes..."></textarea>
+                </div>
+                <button class="btn btn-primary" onclick="addIdea()">✚ Add Idea</button>
+            </div>
 
-          <div
-            id="searchResults"
-            style="color: #9ca3af; font-size: 12px; margin-top: 8px"
-          ></div>
-        </div>
+            <!-- Search and Filters -->
+            <div class="search-section">
+                <div class="search-input">
+                    <input type="text" id="searchInput" class="input" placeholder="Search ideas by title, description, tags, or source..." oninput="filterIdeas()">
+                    <span class="search-icon">🔍</span>
+                </div>
+                
+                <!-- Sort Controls -->
+                <div class="sort-controls">
+                    <label class="sort-label">📊 Sort by:</label>
+                    <select id="sortBy" class="select sort-select" onchange="renderIdeas()">
+                        <option value="newest">📅 Newest First</option>
+                        <option value="oldest">📅 Oldest First</option>
+                        <option value="priority">🔥 Priority (High → Low)</option>
+                        <option value="priority-reverse">❄️ Priority (Low → High)</option>
+                        <option value="title">🔤 Title A-Z</option>
+                        <option value="title-reverse">🔤 Title Z-A</option>
+                        <option value="status">⚡ Status</option>
+                        <option value="category">📂 Category</option>
+                    </select>
+                </div>
+                
+                <div class="filters" id="filters">
+                    <!-- Filters will be populated by JavaScript -->
+                </div>
 
-        <!-- Ideas List -->
-        <div id="ideasList" class="ideas-list">
-          <!-- Ideas will be populated by JavaScript -->
-        </div>
+                <!-- Tag Filters -->
+                <div id="tagFilters" class="tag-filters">
+                    <h4>🏷️ Filter by Tags:</h4>
+                    <div class="tag-filter-list" id="tagFilterList">
+                        <!-- Tag filters will be populated by JavaScript -->
+                    </div>
+                </div>
 
-        <!-- Stats -->
-        <div id="statsSection" class="stats-section">
-          <h3 style="margin-bottom: 12px">Campaign Stats</h3>
-          <div class="stats-grid" id="statsGrid">
-            <!-- Stats will be populated by JavaScript -->
-          </div>
+                <div id="searchResults" style="color: #9ca3af; font-size: 12px; margin-top: 8px;"></div>
+            </div>
+
+            <!-- Ideas List -->
+            <div id="ideasList" class="ideas-list">
+                <!-- Ideas will be populated by JavaScript -->
+            </div>
+
+            <!-- Stats -->
+            <div id="statsSection" class="stats-section">
+                <h3 style="margin-bottom: 12px;">Campaign Stats</h3>
+                <div class="stats-grid" id="statsGrid">
+                    <!-- Stats will be populated by JavaScript -->
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <script>
-      // Global state
-      let ideas = [];
-      let currentFilter = "all";
-      let showCompleted = true;
-      let editingId = null;
-      let selectedTags = [];
+        // Global state
+        let ideas = [];
+        let currentFilter = 'all';
+        let showCompleted = true;
+        let editingId = null;
+        let selectedTags = [];
+        let selectedStatuses = [];
 
-      // Categories and their properties
-      const categories = {
-        plot: { name: "Plot Hooks", icon: "📖", color: "cat-plot" },
-        npc: { name: "NPCs", icon: "👥", color: "cat-npc" },
-        pc: { name: "Player Characters", icon: "⭐", color: "cat-pc" },
-        location: { name: "Locations", icon: "📍", color: "cat-location" },
-        encounter: { name: "Encounters", icon: "⚔️", color: "cat-encounter" },
-        misc: { name: "Miscellaneous", icon: "💡", color: "cat-misc" },
-        rules: { name: "Game Rules", icon: "📋", color: "cat-rules" },
-      };
-
-      const priorities = {
-        high: { name: "High", color: "priority-high" },
-        medium: { name: "Medium", color: "priority-medium" },
-        low: { name: "Low", color: "priority-low" },
-      };
-
-      const statuses = {
-        brainstorming: "Brainstorming",
-        planning: "Planning",
-        ready: "Ready to Use",
-        used: "Used",
-        archived: "Archived",
-      };
-
-      // Initialize the app
-      async function init() {
-        await loadData();
-        document.getElementById("loadingMessage").classList.add("hidden");
-        document.getElementById("mainContent").classList.remove("hidden");
-        renderFilters();
-        renderTagFilters();
-        renderIdeas();
-        renderStats();
-      }
-
-      // Load data from GitHub or localStorage
-      async function loadData() {
-        const githubUrl =
-          "https://raw.githubusercontent.com/sclark9/ID_Campaign_data/main/campaign_data_json.json";
-
-        try {
-          // Try to fetch from GitHub first
-          console.log("Fetching data from GitHub...");
-          const response = await fetch(githubUrl);
-          if (response.ok) {
-            const githubData = await response.json();
-            if (Array.isArray(githubData) && githubData.length > 0) {
-              // Ensure all ideas have tags array
-              ideas = githubData.map((idea) => ({
-                ...idea,
-                tags: idea.tags || [],
-              }));
-              console.log("Data loaded from GitHub successfully");
-              // Also save to localStorage as backup
-              localStorage.setItem(
-                "campaignTrackerIdeas",
-                JSON.stringify(ideas)
-              );
-              return;
-            }
-          }
-        } catch (error) {
-          console.log(
-            "Could not fetch from GitHub, trying localStorage...",
-            error
-          );
-        }
-
-        // Fallback to localStorage
-        try {
-          const saved = localStorage.getItem("campaignTrackerIdeas");
-          if (saved) {
-            const savedIdeas = JSON.parse(saved);
-            // Ensure all ideas have tags array
-            ideas = savedIdeas.map((idea) => ({
-              ...idea,
-              tags: idea.tags || [],
-            }));
-            console.log("Data loaded from localStorage");
-            return;
-          }
-        } catch (error) {
-          console.error("Error loading from localStorage:", error);
-        }
-
-        // Final fallback to default data
-        console.log("Using default data");
-        ideas = [
-          {
-            id: 88,
-            title: "Food, Water & Survival",
-            category: "rules",
-            description:
-              "No food: CON save DC 15 after 5 days, then daily (+1 DC each day). No water: CON save DC 15 after 1 day. Failure = 2 exhaustion levels. Foraging: Survival DC 15 (varies by terrain). Extreme cold increases caloric needs.",
-            priority: "medium",
-            status: "ready",
-            tags: ["survival", "rules", "exhaustion"],
-            createdAt: "Game Rules",
-          },
-          {
-            id: 87,
-            title: "Falling Through Ice Rules",
-            category: "rules",
-            description:
-              "Breaking through ice: 1d6 cold damage + frigid water exhaustion save. Climbing out: Athletics DC 15 (wet clothes = disadvantage). Each round in water: CON save DC 15 or gain exhaustion. Wet clothes in extreme cold = disadvantage on cold saves for 1 hour.",
-            priority: "high",
-            status: "ready",
-            tags: ["cold", "hazard", "water", "rules"],
-            createdAt: "Game Rules",
-          },
-          {
-            id: 1,
-            title: "Auril's Perpetual Winter",
-            category: "plot",
-            description:
-              "Icewind Dale frozen by Auril (NE goddess of cold, indifference, preservation). Temperature -49°F, constant howling winds, frequent blizzards. Sun only shines dimly 10am-2pm, otherwise dark except for aurora/full moon.",
-            priority: "high",
-            status: "ready",
-            tags: ["auril", "weather", "main-plot", "curse"],
-            createdAt: "Campaign Start",
-          },
-        ];
-      }
-
-      // Manual refresh from GitHub
-      async function refreshFromGitHub() {
-        document.getElementById("loadingMessage").classList.remove("hidden");
-        document.getElementById("mainContent").classList.add("hidden");
-
-        await loadData();
-
-        document.getElementById("loadingMessage").classList.add("hidden");
-        document.getElementById("mainContent").classList.remove("hidden");
-        renderFilters();
-        renderTagFilters();
-        renderIdeas();
-        renderStats();
-
-        alert("Data refreshed from GitHub!");
-      }
-
-      // Save data to localStorage
-      function saveData() {
-        try {
-          localStorage.setItem("campaignTrackerIdeas", JSON.stringify(ideas));
-        } catch (error) {
-          console.error("Error saving data:", error);
-        }
-      }
-
-      // Parse tags from string
-      function parseTags(tagString) {
-        if (!tagString) return [];
-        return tagString
-          .split(",")
-          .map((tag) => tag.trim().toLowerCase())
-          .filter((tag) => tag.length > 0);
-      }
-
-      // Get all unique tags
-      function getAllTags() {
-        const tagSet = new Set();
-        ideas.forEach((idea) => {
-          if (idea.tags) {
-            idea.tags.forEach((tag) => tagSet.add(tag));
-          }
-        });
-        return Array.from(tagSet).sort();
-      }
-
-      // Show tag suggestions
-      function showTagSuggestions(input) {
-        const value = input.value;
-        const lastComma = value.lastIndexOf(",");
-        const currentTag = value
-          .substring(lastComma + 1)
-          .trim()
-          .toLowerCase();
-
-        if (currentTag.length < 1) {
-          hideTagSuggestions();
-          return;
-        }
-
-        const allTags = getAllTags();
-        const suggestions = allTags.filter(
-          (tag) => tag.includes(currentTag) && !parseTags(value).includes(tag)
-        );
-
-        const suggestionsDiv = document.getElementById("tagSuggestions");
-        if (suggestions.length > 0) {
-          suggestionsDiv.innerHTML = suggestions
-            .map(
-              (tag) =>
-                `<div class="tag-suggestion" onmousedown="selectTagSuggestion('${tag}')">${tag}</div>`
-            )
-            .join("");
-          suggestionsDiv.classList.remove("hidden");
-        } else {
-          hideTagSuggestions();
-        }
-      }
-
-      // Hide tag suggestions
-      function hideTagSuggestions() {
-        setTimeout(() => {
-          document.getElementById("tagSuggestions").classList.add("hidden");
-        }, 150);
-      }
-
-      // Select tag suggestion
-      function selectTagSuggestion(tag) {
-        const input = document.getElementById("newTags");
-        const value = input.value;
-        const lastComma = value.lastIndexOf(",");
-
-        if (lastComma === -1) {
-          input.value = tag + ", ";
-        } else {
-          input.value = value.substring(0, lastComma + 1) + " " + tag + ", ";
-        }
-
-        hideTagSuggestions();
-        input.focus();
-      }
-
-      // Add new idea
-      function addIdea() {
-        const title = document.getElementById("newTitle").value.trim();
-        if (!title) return;
-
-        const tags = parseTags(document.getElementById("newTags").value);
-
-        const idea = {
-          id: Date.now(),
-          title: title,
-          category: document.getElementById("newCategory").value,
-          description: document.getElementById("newDescription").value,
-          priority: document.getElementById("newPriority").value,
-          status: document.getElementById("newStatus").value,
-          tags: tags,
-          createdAt: new Date().toLocaleDateString(),
+        // Categories and their properties
+        const categories = {
+            plot: { name: 'Plot Hooks', icon: '📖', color: 'cat-plot' },
+            npc: { name: 'NPCs', icon: '👥', color: 'cat-npc' },
+            pc: { name: 'Player Characters', icon: '⭐', color: 'cat-pc' },
+            location: { name: 'Locations', icon: '📍', color: 'cat-location' },
+            encounter: { name: 'Encounters', icon: '⚔️', color: 'cat-encounter' },
+            misc: { name: 'Miscellaneous', icon: '💡', color: 'cat-misc' },
+            rules: { name: 'Game Rules', icon: '📋', color: 'cat-rules' }
         };
 
-        ideas.push(idea);
-        saveData();
+        const priorities = {
+            high: { name: 'High', color: 'priority-high' },
+            medium: { name: 'Medium', color: 'priority-medium' },
+            low: { name: 'Low', color: 'priority-low' }
+        };
 
-        // Clear form
-        document.getElementById("newTitle").value = "";
-        document.getElementById("newDescription").value = "";
-        document.getElementById("newTags").value = "";
+        const statuses = {
+            brainstorming: 'Brainstorming',
+            planning: 'Planning',
+            ready: 'Ready to Use',
+            used: 'Used',
+            archived: 'Archived'
+        };
 
-        renderFilters();
-        renderTagFilters();
-        renderIdeas();
-        renderStats();
-      }
-
-      // Handle Enter key in title input
-      function handleEnter(event) {
-        if (event.key === "Enter") {
-          addIdea();
-        }
-      }
-
-      // Delete idea
-      function deleteIdea(id) {
-        if (confirm("Are you sure you want to delete this idea?")) {
-          ideas = ideas.filter((idea) => idea.id !== id);
-          saveData();
-          renderFilters();
-          renderTagFilters();
-          renderIdeas();
-          renderStats();
-        }
-      }
-
-      // Start editing
-      function startEdit(id) {
-        editingId = id;
-        renderIdeas();
-      }
-
-      // Cancel editing
-      function cancelEdit() {
-        editingId = null;
-        renderIdeas();
-      }
-
-      // Save edit
-      function saveEdit(id) {
-        const title = document.getElementById(`edit-title-${id}`).value;
-        const category = document.getElementById(`edit-category-${id}`).value;
-        const priority = document.getElementById(`edit-priority-${id}`).value;
-        const status = document.getElementById(`edit-status-${id}`).value;
-        const description = document.getElementById(
-          `edit-description-${id}`
-        ).value;
-        const tags = parseTags(
-          document.getElementById(`edit-tags-${id}`).value
-        );
-
-        const ideaIndex = ideas.findIndex((idea) => idea.id === id);
-        if (ideaIndex !== -1) {
-          ideas[ideaIndex] = {
-            ...ideas[ideaIndex],
-            title,
-            category,
-            priority,
-            status,
-            description,
-            tags,
-          };
-          saveData();
+        // Initialize the app
+        async function init() {
+            await loadData();
+            document.getElementById('loadingMessage').classList.add('hidden');
+            document.getElementById('mainContent').classList.remove('hidden');
+            renderFilters();
+            renderTagFilters();
+            renderIdeas();
+            renderStats();
         }
 
-        editingId = null;
-        renderFilters();
-        renderTagFilters();
-        renderIdeas();
-        renderStats();
-      }
+        // Load data from GitHub or localStorage
+        async function loadData() {
+            const githubUrl = 'https://raw.githubusercontent.com/sclark9/ID_Campaign_data/main/campaign_data_json.json';
+            
+            try {
+                // Try to fetch from GitHub first
+                console.log('Fetching data from GitHub...');
+                const response = await fetch(githubUrl);
+                if (response.ok) {
+                    const githubData = await response.json();
+                    if (Array.isArray(githubData) && githubData.length > 0) {
+                        // Ensure all ideas have tags array
+                        ideas = githubData.map(idea => ({
+                            ...idea,
+                            tags: idea.tags || []
+                        }));
+                        console.log('Data loaded from GitHub successfully');
+                        // Also save to localStorage as backup
+                        localStorage.setItem('campaignTrackerIdeas', JSON.stringify(ideas));
+                        return;
+                    }
+                }
+            } catch (error) {
+                console.log('Could not fetch from GitHub, trying localStorage...', error);
+            }
 
-      // Filter ideas
-      function filterIdeas() {
-        renderIdeas();
-      }
+            // Fallback to localStorage
+            try {
+                const saved = localStorage.getItem('campaignTrackerIdeas');
+                if (saved) {
+                    const savedIdeas = JSON.parse(saved);
+                    // Ensure all ideas have tags array
+                    ideas = savedIdeas.map(idea => ({
+                        ...idea,
+                        tags: idea.tags || []
+                    }));
+                    console.log('Data loaded from localStorage');
+                    return;
+                }
+            } catch (error) {
+                console.error('Error loading from localStorage:', error);
+            }
 
-      // Set filter
-      function setFilter(filter) {
-        currentFilter = filter;
-        renderFilters();
-        renderIdeas();
-      }
-
-      // Toggle completed visibility
-      function toggleCompleted() {
-        showCompleted = !showCompleted;
-        renderFilters();
-        renderIdeas();
-      }
-
-      // Toggle tag filter
-      function toggleTagFilter(tag) {
-        if (selectedTags.includes(tag)) {
-          selectedTags = selectedTags.filter((t) => t !== tag);
-        } else {
-          selectedTags.push(tag);
+            // Final fallback to default data
+            console.log('Using default data');
+            ideas = [
+                {
+                    id: 88,
+                    title: "Food, Water & Survival",
+                    category: 'rules',
+                    description: "No food: CON save DC 15 after 5 days, then daily (+1 DC each day). No water: CON save DC 15 after 1 day. Failure = 2 exhaustion levels. Foraging: Survival DC 15 (varies by terrain). Extreme cold increases caloric needs.",
+                    priority: 'medium',
+                    status: 'ready',
+                    tags: ['survival', 'rules', 'exhaustion'],
+                    createdAt: 'Game Rules'
+                },
+                {
+                    id: 87,
+                    title: "Falling Through Ice Rules",
+                    category: 'rules',
+                    description: "Breaking through ice: 1d6 cold damage + frigid water exhaustion save. Climbing out: Athletics DC 15 (wet clothes = disadvantage). Each round in water: CON save DC 15 or gain exhaustion. Wet clothes in extreme cold = disadvantage on cold saves for 1 hour.",
+                    priority: 'high',
+                    status: 'ready',
+                    tags: ['cold', 'hazard', 'water', 'rules'],
+                    createdAt: 'Game Rules'
+                },
+                {
+                    id: 1,
+                    title: "Auril's Perpetual Winter",
+                    category: 'plot',
+                    description: "Icewind Dale frozen by Auril (NE goddess of cold, indifference, preservation). Temperature -49°F, constant howling winds, frequent blizzards. Sun only shines dimly 10am-2pm, otherwise dark except for aurora/full moon.",
+                    priority: 'high',
+                    status: 'ready',
+                    tags: ['auril', 'weather', 'main-plot', 'curse'],
+                    createdAt: 'Campaign Start'
+                }
+            ];
         }
-        renderTagFilters();
-        renderIdeas();
-      }
 
-      // Filter by tag (from clicking tag on card)
-      function filterByTag(tag) {
-        selectedTags = [tag];
-        renderTagFilters();
-        renderIdeas();
-      }
+        // Manual refresh from GitHub
+        async function refreshFromGitHub() {
+            document.getElementById('loadingMessage').classList.remove('hidden');
+            document.getElementById('mainContent').classList.add('hidden');
+            
+            await loadData();
+            
+            document.getElementById('loadingMessage').classList.add('hidden');
+            document.getElementById('mainContent').classList.remove('hidden');
+            renderFilters();
+            renderTagFilters();
+            renderIdeas();
+            renderStats();
+            
+            alert('Data refreshed from GitHub!');
+        }
 
-      // Clear tag filters
-      function clearTagFilters() {
-        selectedTags = [];
-        renderTagFilters();
-        renderIdeas();
-      }
+        // Save data to localStorage
+        function saveData() {
+            try {
+                localStorage.setItem('campaignTrackerIdeas', JSON.stringify(ideas));
+            } catch (error) {
+                console.error('Error saving data:', error);
+            }
+        }
 
-      // Get filtered and sorted ideas
-      function getFilteredIdeas() {
-        const searchTerm = document
-          .getElementById("searchInput")
-          .value.toLowerCase();
-        const sortBy = document.getElementById("sortBy")?.value || "newest";
+        // Parse tags from string
+        function parseTags(tagString) {
+            if (!tagString) return [];
+            return tagString.split(',')
+                .map(tag => tag.trim().toLowerCase())
+                .filter(tag => tag.length > 0);
+        }
 
-        let filtered = ideas.filter((idea) => {
-          // Filter by completion status
-          if (
-            !showCompleted &&
-            (idea.status === "used" || idea.status === "archived")
-          ) {
-            return false;
-          }
+        // Get all unique tags
+        function getAllTags() {
+            const tagSet = new Set();
+            ideas.forEach(idea => {
+                if (idea.tags) {
+                    idea.tags.forEach(tag => tagSet.add(tag));
+                }
+            });
+            return Array.from(tagSet).sort();
+        }
 
-          // Filter by category
-          if (currentFilter !== "all" && idea.category !== currentFilter) {
-            return false;
-          }
+        // Show tag suggestions
+        function showTagSuggestions(input) {
+            const value = input.value;
+            const lastComma = value.lastIndexOf(',');
+            const currentTag = value.substring(lastComma + 1).trim().toLowerCase();
+            
+            if (currentTag.length < 1) {
+                hideTagSuggestions();
+                return;
+            }
 
-          // Filter by selected tags
-          if (selectedTags.length > 0) {
-            const hasAllTags = selectedTags.every(
-              (tag) => idea.tags && idea.tags.includes(tag)
+            const allTags = getAllTags();
+            const suggestions = allTags.filter(tag => 
+                tag.includes(currentTag) && !parseTags(value).includes(tag)
             );
-            if (!hasAllTags) return false;
-          }
 
-          // Filter by search term
-          if (searchTerm) {
-            const tagString = idea.tags ? idea.tags.join(" ") : "";
-            return (
-              idea.title.toLowerCase().includes(searchTerm) ||
-              idea.description.toLowerCase().includes(searchTerm) ||
-              tagString.toLowerCase().includes(searchTerm) ||
-              idea.createdAt.toLowerCase().includes(searchTerm)
-            );
-          }
+            const suggestionsDiv = document.getElementById('tagSuggestions');
+            if (suggestions.length > 0) {
+                suggestionsDiv.innerHTML = suggestions.map(tag => 
+                    `<div class="tag-suggestion" onmousedown="selectTagSuggestion('${tag}')">${tag}</div>`
+                ).join('');
+                suggestionsDiv.classList.remove('hidden');
+            } else {
+                hideTagSuggestions();
+            }
+        }
 
-          return true;
-        });
+        // Hide tag suggestions
+        function hideTagSuggestions() {
+            setTimeout(() => {
+                document.getElementById('tagSuggestions').classList.add('hidden');
+            }, 150);
+        }
 
-        // Sort the filtered results
-        filtered.sort((a, b) => {
-          switch (sortBy) {
-            case "newest":
-              return b.id - a.id;
-            case "oldest":
-              return a.id - b.id;
-            case "priority":
-              const priorityOrder = { high: 3, medium: 2, low: 1 };
-              const aPriority = priorityOrder[a.priority] || 0;
-              const bPriority = priorityOrder[b.priority] || 0;
-              return bPriority - aPriority;
-            case "priority-reverse":
-              const priorityOrderReverse = { high: 1, medium: 2, low: 3 };
-              const aPriorityRev = priorityOrderReverse[a.priority] || 99;
-              const bPriorityRev = priorityOrderReverse[b.priority] || 99;
-              return aPriorityRev - bPriorityRev;
-            case "title":
-              return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
-            case "title-reverse":
-              return b.title.toLowerCase().localeCompare(a.title.toLowerCase());
-            case "status":
-              const statusOrder = {
-                brainstorming: 1,
-                planning: 2,
-                ready: 3,
-                used: 4,
-                archived: 5,
-              };
-              const aStatus = statusOrder[a.status] || 99;
-              const bStatus = statusOrder[b.status] || 99;
-              return aStatus - bStatus;
-            case "category":
-              return a.category.localeCompare(b.category);
-            default:
-              return b.id - a.id;
-          }
-        });
+        // Select tag suggestion
+        function selectTagSuggestion(tag) {
+            const input = document.getElementById('newTags');
+            const value = input.value;
+            const lastComma = value.lastIndexOf(',');
+            
+            if (lastComma === -1) {
+                input.value = tag + ', ';
+            } else {
+                input.value = value.substring(0, lastComma + 1) + ' ' + tag + ', ';
+            }
+            
+            hideTagSuggestions();
+            input.focus();
+        }
 
-        return filtered;
-      }
+        // Add new idea
+        function addIdea() {
+            const title = document.getElementById('newTitle').value.trim();
+            if (!title) return;
 
-      // Render filters
-      function renderFilters() {
-        const filtersContainer = document.getElementById("filters");
-        const filteredIdeas = getFilteredIdeas();
+            const tags = parseTags(document.getElementById('newTags').value);
 
-        let html = `
-                <button class="filter-btn ${
-                  currentFilter === "all" ? "active" : ""
-                }" onclick="setFilter('all')">
+            const idea = {
+                id: Date.now(),
+                title: title,
+                category: document.getElementById('newCategory').value,
+                description: document.getElementById('newDescription').value,
+                priority: document.getElementById('newPriority').value,
+                status: document.getElementById('newStatus').value,
+                tags: tags,
+                createdAt: new Date().toLocaleDateString()
+            };
+
+            ideas.push(idea);
+            saveData();
+
+            // Clear form
+            document.getElementById('newTitle').value = '';
+            document.getElementById('newDescription').value = '';
+            document.getElementById('newTags').value = '';
+
+            renderFilters();
+            renderTagFilters();
+            renderIdeas();
+            renderStats();
+        }
+
+        // Handle Enter key in title input
+        function handleEnter(event) {
+            if (event.key === 'Enter') {
+                addIdea();
+            }
+        }
+
+        // Delete idea
+        function deleteIdea(id) {
+            if (confirm('Are you sure you want to delete this idea?')) {
+                ideas = ideas.filter(idea => idea.id !== id);
+                saveData();
+                renderFilters();
+                renderTagFilters();
+                renderIdeas();
+                renderStats();
+            }
+        }
+
+        // Start editing
+        function startEdit(id) {
+            editingId = id;
+            renderIdeas();
+        }
+
+        // Cancel editing
+        function cancelEdit() {
+            editingId = null;
+            renderIdeas();
+        }
+
+        // Save edit
+        function saveEdit(id) {
+            const title = document.getElementById(`edit-title-${id}`).value;
+            const category = document.getElementById(`edit-category-${id}`).value;
+            const priority = document.getElementById(`edit-priority-${id}`).value;
+            const status = document.getElementById(`edit-status-${id}`).value;
+            const description = document.getElementById(`edit-description-${id}`).value;
+            const tags = parseTags(document.getElementById(`edit-tags-${id}`).value);
+
+            const ideaIndex = ideas.findIndex(idea => idea.id === id);
+            if (ideaIndex !== -1) {
+                ideas[ideaIndex] = {
+                    ...ideas[ideaIndex],
+                    title,
+                    category,
+                    priority,
+                    status,
+                    description,
+                    tags
+                };
+                saveData();
+            }
+
+            editingId = null;
+            renderFilters();
+            renderTagFilters();
+            renderIdeas();
+            renderStats();
+        }
+
+        // Filter ideas
+        function filterIdeas() {
+            renderIdeas();
+        }
+
+        // Set filter
+        function setFilter(filter) {
+            currentFilter = filter;
+            renderFilters();
+            renderIdeas();
+        }
+
+        // Toggle completed visibility
+        function toggleCompleted() {
+            showCompleted = !showCompleted;
+            renderFilters();
+            renderIdeas();
+        }
+
+        // Toggle tag filter
+        function toggleTagFilter(tag) {
+            if (selectedTags.includes(tag)) {
+                selectedTags = selectedTags.filter(t => t !== tag);
+            } else {
+                selectedTags.push(tag);
+            }
+            renderTagFilters();
+            renderIdeas();
+        }
+
+        // Toggle status filter
+        function toggleStatusFilter(status) {
+            if (selectedStatuses.includes(status)) {
+                selectedStatuses = selectedStatuses.filter(s => s !== status);
+            } else {
+                selectedStatuses.push(status);
+            }
+            renderFilters();
+            renderIdeas();
+        }
+
+        // Clear status filters
+        function clearStatusFilters() {
+            selectedStatuses = [];
+            renderFilters();
+            renderIdeas();
+        }
+
+        // Filter by tag (from clicking tag on card)
+        function filterByTag(tag) {
+            selectedTags = [tag];
+            renderTagFilters();
+            renderIdeas();
+        }
+
+        // Clear tag filters
+        function clearTagFilters() {
+            selectedTags = [];
+            renderTagFilters();
+            renderIdeas();
+        }
+
+        // Get filtered and sorted ideas
+        function getFilteredIdeas() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const sortBy = document.getElementById('sortBy')?.value || 'newest';
+            
+            let filtered = ideas.filter(idea => {
+                // Filter by completion status
+                if (!showCompleted && (idea.status === 'used' || idea.status === 'archived')) {
+                    return false;
+                }
+
+                // Filter by category
+                if (currentFilter !== 'all' && idea.category !== currentFilter) {
+                    return false;
+                }
+
+                // Filter by selected tags
+                if (selectedTags.length > 0) {
+                    const hasAllTags = selectedTags.every(tag => 
+                        idea.tags && idea.tags.includes(tag)
+                    );
+                    if (!hasAllTags) return false;
+                }
+
+                // Filter by selected statuses
+                if (selectedStatuses.length > 0) {
+                    if (!selectedStatuses.includes(idea.status)) {
+                        return false;
+                    }
+                }
+
+                // Filter by search term
+                if (searchTerm) {
+                    const tagString = idea.tags ? idea.tags.join(' ') : '';
+                    return idea.title.toLowerCase().includes(searchTerm) ||
+                           idea.description.toLowerCase().includes(searchTerm) ||
+                           tagString.toLowerCase().includes(searchTerm) ||
+                           idea.createdAt.toLowerCase().includes(searchTerm);
+                }
+
+                return true;
+            });
+
+            // Sort the filtered results
+            filtered.sort((a, b) => {
+                switch (sortBy) {
+                    case 'newest':
+                        return b.id - a.id;
+                    case 'oldest':
+                        return a.id - b.id;
+                    case 'priority':
+                        const priorityOrder = { high: 3, medium: 2, low: 1 };
+                        const aPriority = priorityOrder[a.priority] || 0;
+                        const bPriority = priorityOrder[b.priority] || 0;
+                        return bPriority - aPriority;
+                    case 'priority-reverse':
+                        const priorityOrderReverse = { high: 1, medium: 2, low: 3 };
+                        const aPriorityRev = priorityOrderReverse[a.priority] || 99;
+                        const bPriorityRev = priorityOrderReverse[b.priority] || 99;
+                        return aPriorityRev - bPriorityRev;
+                    case 'title':
+                        return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+                    case 'title-reverse':
+                        return b.title.toLowerCase().localeCompare(a.title.toLowerCase());
+                    case 'status':
+                        const statusOrder = { brainstorming: 1, planning: 2, ready: 3, used: 4, archived: 5 };
+                        const aStatus = statusOrder[a.status] || 99;
+                        const bStatus = statusOrder[b.status] || 99;
+                        return aStatus - bStatus;
+                    case 'category':
+                        return a.category.localeCompare(b.category);
+                    default:
+                        return b.id - a.id;
+                }
+            });
+
+            return filtered;
+        }
+
+        // Render filters
+        function renderFilters() {
+            const filtersContainer = document.getElementById('filters');
+            const filteredIdeas = getFilteredIdeas();
+            
+            let html = `
+                <button class="filter-btn ${currentFilter === 'all' ? 'active' : ''}" onclick="setFilter('all')">
                     All Ideas (${ideas.length})
                 </button>
             `;
 
-        Object.entries(categories).forEach(([key, cat]) => {
-          const count = ideas.filter((idea) => idea.category === key).length;
-          html += `
-                    <button class="filter-btn ${
-                      currentFilter === key ? "active" : ""
-                    }" onclick="setFilter('${key}')">
+            Object.entries(categories).forEach(([key, cat]) => {
+                const count = ideas.filter(idea => idea.category === key).length;
+                html += `
+                    <button class="filter-btn ${currentFilter === key ? 'active' : ''}" onclick="setFilter('${key}')">
                         ${cat.icon} ${cat.name} (${count})
                     </button>
                 `;
-        });
+            });
 
-        html += `
+            // Add status filters
+            html += `<div style="width: 100%; margin: 8px 0; border-top: 1px solid #374151;"></div>`;
+            html += `<div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">`;
+            html += `<span style="color: #d1d5db; font-size: 12px; font-weight: 500;">📊 Filter by Status:</span>`;
+            
+            if (selectedStatuses.length > 0) {
+                html += `<button class="filter-btn" onclick="clearStatusFilters()" style="background-color: #ef4444;">✕ Clear</button>`;
+            }
+
+            Object.entries(statuses).forEach(([key, status]) => {
+                const count = ideas.filter(idea => idea.status === key).length;
+                const isActive = selectedStatuses.includes(key);
+                html += `
+                    <button class="filter-btn ${isActive ? 'active' : ''}" onclick="toggleStatusFilter('${key}')">
+                        ${status} (${count})
+                    </button>
+                `;
+            });
+            html += `</div>`;
+
+            html += `
                 <button class="filter-btn" onclick="toggleCompleted()">
-                    ${showCompleted ? "👁️" : "🙈"} ${
-          showCompleted ? "Hide" : "Show"
-        } Used/Archived
+                    ${showCompleted ? '👁️' : '🙈'} ${showCompleted ? 'Hide' : 'Show'} Used/Archived
                 </button>
             `;
 
-        filtersContainer.innerHTML = html;
+            filtersContainer.innerHTML = html;
 
-        // Update search results text
-        const searchTerm = document.getElementById("searchInput").value;
-        const resultsEl = document.getElementById("searchResults");
-        if (searchTerm || selectedTags.length > 0) {
-          let resultText = `Found ${filteredIdeas.length} result${
-            filteredIdeas.length !== 1 ? "s" : ""
-          }`;
-          if (searchTerm) resultText += ` for "${searchTerm}"`;
-          if (selectedTags.length > 0)
-            resultText += ` with tags: ${selectedTags.join(", ")}`;
-          resultsEl.textContent = resultText;
-        } else {
-          resultsEl.textContent = "";
-        }
-      }
-
-      // Render tag filters
-      function renderTagFilters() {
-        const allTags = getAllTags();
-        const tagFilterList = document.getElementById("tagFilterList");
-
-        if (allTags.length === 0) {
-          document.getElementById("tagFilters").style.display = "none";
-          return;
+            // Update search results text
+            const searchTerm = document.getElementById('searchInput').value;
+            const resultsEl = document.getElementById('searchResults');
+            if (searchTerm || selectedTags.length > 0 || selectedStatuses.length > 0) {
+                let resultText = `Found ${filteredIdeas.length} result${filteredIdeas.length !== 1 ? 's' : ''}`;
+                if (searchTerm) resultText += ` for "${searchTerm}"`;
+                if (selectedTags.length > 0) resultText += ` with tags: ${selectedTags.join(', ')}`;
+                if (selectedStatuses.length > 0) resultText += ` with status: ${selectedStatuses.map(s => statuses[s]).join(', ')}`;
+                resultsEl.textContent = resultText;
+            } else {
+                resultsEl.textContent = '';
+            }
         }
 
-        document.getElementById("tagFilters").style.display = "block";
+        // Render tag filters
+        function renderTagFilters() {
+            const allTags = getAllTags();
+            const tagFilterList = document.getElementById('tagFilterList');
+            
+            if (allTags.length === 0) {
+                document.getElementById('tagFilters').style.display = 'none';
+                return;
+            }
 
-        let html = "";
-        if (selectedTags.length > 0) {
-          html += `<button class="tag-filter" onclick="clearTagFilters()" style="background-color: #ef4444;">✕ Clear</button>`;
-        }
+            document.getElementById('tagFilters').style.display = 'block';
 
-        allTags.forEach((tag) => {
-          const isActive = selectedTags.includes(tag);
-          const count = ideas.filter(
-            (idea) => idea.tags && idea.tags.includes(tag)
-          ).length;
-          html += `
-                    <button class="tag-filter ${
-                      isActive ? "active" : ""
-                    }" onclick="toggleTagFilter('${tag}')">
+            let html = '';
+            if (selectedTags.length > 0) {
+                html += `<button class="tag-filter" onclick="clearTagFilters()" style="background-color: #ef4444;">✕ Clear</button>`;
+            }
+
+            allTags.forEach(tag => {
+                const isActive = selectedTags.includes(tag);
+                const count = ideas.filter(idea => idea.tags && idea.tags.includes(tag)).length;
+                html += `
+                    <button class="tag-filter ${isActive ? 'active' : ''}" onclick="toggleTagFilter('${tag}')">
                         ${tag} (${count})
                     </button>
                 `;
-        });
+            });
 
-        tagFilterList.innerHTML = html;
-      }
+            tagFilterList.innerHTML = html;
+        }
 
-      // Render ideas
-      function renderIdeas() {
-        const container = document.getElementById("ideasList");
-        const filteredIdeas = getFilteredIdeas();
+        // Render ideas
+        function renderIdeas() {
+            const container = document.getElementById('ideasList');
+            const filteredIdeas = getFilteredIdeas();
 
-        if (filteredIdeas.length === 0) {
-          container.innerHTML = `
+            if (filteredIdeas.length === 0) {
+                container.innerHTML = `
                     <div class="empty-state">
                         <div style="font-size: 48px; margin-bottom: 16px;">💡</div>
                         <p style="font-size: 18px; margin-bottom: 8px;">No ideas match your search or filters.</p>
                         <p style="font-size: 14px;">Try adjusting your search terms or clearing filters...</p>
                     </div>
                 `;
-          return;
-        }
+                return;
+            }
 
-        let html = "";
-        filteredIdeas.forEach((idea) => {
-          const category = categories[idea.category];
-          const priority = priorities[idea.priority];
-
-          if (editingId === idea.id) {
-            html += renderEditForm(idea);
-          } else {
-            html += `
+            let html = '';
+            filteredIdeas.forEach(idea => {
+                const category = categories[idea.category];
+                const priority = priorities[idea.priority];
+                
+                if (editingId === idea.id) {
+                    html += renderEditForm(idea);
+                } else {
+                    html += `
                         <div class="idea-card">
                             <div class="idea-header">
                                 <div class="idea-content">
@@ -1283,151 +1239,91 @@
                                     <div class="idea-details">
                                         <h3>${escapeHtml(idea.title)}</h3>
                                         <div class="idea-meta">
-                                            <span class="${
-                                              priority.color
-                                            }">⭐ ${
-              priority.name
-            } Priority</span>
-                                            <span>${
-                                              statuses[idea.status]
-                                            }</span>
+                                            <span class="${priority.color}">⭐ ${priority.name} Priority</span>
+                                            <span>${statuses[idea.status]}</span>
                                             <span>Added ${idea.createdAt}</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="idea-actions">
-                                    <button class="action-btn" onclick="startEdit(${
-                                      idea.id
-                                    })" title="Edit">✏️</button>
-                                    <button class="action-btn" onclick="deleteIdea(${
-                                      idea.id
-                                    })" title="Delete">🗑️</button>
+                                    <button class="action-btn" onclick="startEdit(${idea.id})" title="Edit">✏️</button>
+                                    <button class="action-btn" onclick="deleteIdea(${idea.id})" title="Delete">🗑️</button>
                                 </div>
                             </div>
-                            ${
-                              idea.description
-                                ? `<div class="idea-description">${escapeHtml(
-                                    idea.description
-                                  )}</div>`
-                                : ""
-                            }
-                            ${
-                              idea.tags && idea.tags.length > 0
-                                ? `
+                            ${idea.description ? `<div class="idea-description">${escapeHtml(idea.description)}</div>` : ''}
+                            ${idea.tags && idea.tags.length > 0 ? `
                                 <div class="idea-tags">
-                                    ${idea.tags
-                                      .map(
-                                        (tag) =>
-                                          `<span class="tag" onclick="filterByTag('${tag}')">${escapeHtml(
-                                            tag
-                                          )}</span>`
-                                      )
-                                      .join("")}
+                                    ${idea.tags.map(tag => `<span class="tag" onclick="filterByTag('${tag}')">${escapeHtml(tag)}</span>`).join('')}
                                 </div>
-                            `
-                                : ""
-                            }
+                            ` : ''}
                         </div>
                     `;
-          }
-        });
+                }
+            });
 
-        container.innerHTML = html;
-      }
+            container.innerHTML = html;
+        }
 
-      // Render edit form
-      function renderEditForm(idea) {
-        return `
+        // Render edit form
+        function renderEditForm(idea) {
+            return `
                 <div class="edit-form">
                     <div class="form-group">
-                        <input type="text" id="edit-title-${
-                          idea.id
-                        }" class="input" value="${escapeHtml(
-          idea.title
-        )}" placeholder="Title">
+                        <input type="text" id="edit-title-${idea.id}" class="input" value="${escapeHtml(idea.title)}" placeholder="Title">
                     </div>
                     <div class="form-row">
                         <select id="edit-category-${idea.id}" class="select">
-                            ${Object.entries(categories)
-                              .map(
-                                ([key, cat]) =>
-                                  `<option value="${key}" ${
-                                    idea.category === key ? "selected" : ""
-                                  }>${cat.name}</option>`
-                              )
-                              .join("")}
+                            ${Object.entries(categories).map(([key, cat]) => 
+                                `<option value="${key}" ${idea.category === key ? 'selected' : ''}>${cat.name}</option>`
+                            ).join('')}
                         </select>
                         <select id="edit-priority-${idea.id}" class="select">
-                            ${Object.entries(priorities)
-                              .map(
-                                ([key, priority]) =>
-                                  `<option value="${key}" ${
-                                    idea.priority === key ? "selected" : ""
-                                  }>${priority.name}</option>`
-                              )
-                              .join("")}
+                            ${Object.entries(priorities).map(([key, priority]) => 
+                                `<option value="${key}" ${idea.priority === key ? 'selected' : ''}>${priority.name}</option>`
+                            ).join('')}
                         </select>
                         <select id="edit-status-${idea.id}" class="select">
-                            ${Object.entries(statuses)
-                              .map(
-                                ([key, status]) =>
-                                  `<option value="${key}" ${
-                                    idea.status === key ? "selected" : ""
-                                  }>${status}</option>`
-                              )
-                              .join("")}
+                            ${Object.entries(statuses).map(([key, status]) => 
+                                `<option value="${key}" ${idea.status === key ? 'selected' : ''}>${status}</option>`
+                            ).join('')}
                         </select>
                     </div>
                     <div class="form-group">
-                        <input type="text" id="edit-tags-${
-                          idea.id
-                        }" class="input" value="${
-          idea.tags ? idea.tags.join(", ") : ""
-        }" placeholder="Tags (comma-separated)">
+                        <input type="text" id="edit-tags-${idea.id}" class="input" value="${idea.tags ? idea.tags.join(', ') : ''}" placeholder="Tags (comma-separated)">
                     </div>
                     <div class="form-group">
-                        <textarea id="edit-description-${
-                          idea.id
-                        }" class="textarea" placeholder="Description...">${escapeHtml(
-          idea.description
-        )}</textarea>
+                        <textarea id="edit-description-${idea.id}" class="textarea" placeholder="Description...">${escapeHtml(idea.description)}</textarea>
                     </div>
                     <div class="edit-actions">
-                        <button class="btn btn-save" onclick="saveEdit(${
-                          idea.id
-                        })">Save</button>
+                        <button class="btn btn-save" onclick="saveEdit(${idea.id})">Save</button>
                         <button class="btn btn-cancel" onclick="cancelEdit()">Cancel</button>
                     </div>
                 </div>
             `;
-      }
-
-      // Render stats
-      function renderStats() {
-        if (ideas.length === 0) {
-          document.getElementById("statsSection").style.display = "none";
-          return;
         }
 
-        document.getElementById("statsSection").style.display = "block";
+        // Render stats
+        function renderStats() {
+            if (ideas.length === 0) {
+                document.getElementById('statsSection').style.display = 'none';
+                return;
+            }
 
-        const allTags = getAllTags();
-        const statsGrid = document.getElementById("statsGrid");
-        statsGrid.innerHTML = `
+            document.getElementById('statsSection').style.display = 'block';
+            
+            const allTags = getAllTags();
+            const statsGrid = document.getElementById('statsGrid');
+            statsGrid.innerHTML = `
                 <div class="stat-item">
                     <div class="stat-number stat-blue">${ideas.length}</div>
                     <div class="stat-label">Total Ideas</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number stat-green">${
-                      ideas.filter((i) => i.status === "ready").length
-                    }</div>
+                    <div class="stat-number stat-green">${ideas.filter(i => i.status === 'ready').length}</div>
                     <div class="stat-label">Ready to Use</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number stat-yellow">${
-                      ideas.filter((i) => i.priority === "high").length
-                    }</div>
+                    <div class="stat-number stat-yellow">${ideas.filter(i => i.priority === 'high').length}</div>
                     <div class="stat-label">High Priority</div>
                 </div>
                 <div class="stat-item">
@@ -1435,63 +1331,166 @@
                     <div class="stat-label">Unique Tags</div>
                 </div>
             `;
-      }
+        }
 
-      // Export data
-      function exportData() {
-        const dataStr = JSON.stringify(ideas, null, 2);
-        const dataBlob = new Blob([dataStr], { type: "application/json" });
-        const url = URL.createObjectURL(dataBlob);
-        const link = document.createElement("a");
-        link.href = url;
-        link.download = "campaign-tracker-data.json";
-        link.click();
-        URL.revokeObjectURL(url);
-      }
+        // Export data
+        function exportData() {
+            const dataStr = JSON.stringify(ideas, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'campaign-tracker-data.json';
+            link.click();
+            URL.revokeObjectURL(url);
+        }
 
-      // Import data
-      function importData(event) {
-        const file = event.target.files[0];
-        if (file) {
-          const reader = new FileReader();
-          reader.onload = (e) => {
+        // Import data
+        function importData(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const importedData = JSON.parse(e.target.result);
+                        if (Array.isArray(importedData)) {
+                            // Ensure all ideas have tags array
+                            ideas = importedData.map(idea => ({
+                                ...idea,
+                                tags: idea.tags || []
+                            }));
+                            saveData();
+                            renderFilters();
+                            renderTagFilters();
+                            renderIdeas();
+                            renderStats();
+                            alert('Data imported successfully!');
+                        } else {
+                            alert('Invalid file format. Please select a valid JSON file.');
+                        }
+                    } catch (error) {
+                        alert('Error reading file. Please make sure it\'s a valid JSON file.');
+                    }
+                };
+                reader.readAsText(file);
+            }
+            event.target.value = '';
+        }
+
+        // Toggle quick import section
+        function toggleQuickImport() {
+            const section = document.getElementById('quickImportSection');
+            const isHidden = section.classList.contains('hidden');
+            
+            if (isHidden) {
+                section.classList.remove('hidden');
+                document.getElementById('quickImportText').focus();
+            } else {
+                section.classList.add('hidden');
+                document.getElementById('quickImportText').value = '';
+            }
+        }
+
+        // Process quick import
+        function processQuickImport() {
+            const text = document.getElementById('quickImportText').value.trim();
+            const replaceExisting = document.getElementById('replaceExisting').checked;
+            
+            if (!text) {
+                alert('Please paste some JSON content to import.');
+                return;
+            }
+
             try {
-              const importedData = JSON.parse(e.target.result);
-              if (Array.isArray(importedData)) {
-                // Ensure all ideas have tags array
-                ideas = importedData.map((idea) => ({
-                  ...idea,
-                  tags: idea.tags || [],
-                }));
+                let importedEntries;
+                const parsed = JSON.parse(text);
+                
+                // Handle both single objects and arrays
+                if (Array.isArray(parsed)) {
+                    importedEntries = parsed;
+                } else if (typeof parsed === 'object' && parsed !== null) {
+                    importedEntries = [parsed];
+                } else {
+                    throw new Error('Invalid format');
+                }
+
+                // Validate each entry has required fields
+                const requiredFields = ['title', 'category', 'description', 'priority', 'status'];
+                let validEntries = 0;
+                let skippedEntries = 0;
+                let replacedEntries = 0;
+
+                importedEntries.forEach(entry => {
+                    // Check required fields
+                    const missingFields = requiredFields.filter(field => !entry[field]);
+                    if (missingFields.length > 0) {
+                        console.warn(`Skipping entry "${entry.title || 'Unknown'}" - missing fields: ${missingFields.join(', ')}`);
+                        skippedEntries++;
+                        return;
+                    }
+
+                    // Ensure entry has all needed properties
+                    const processedEntry = {
+                        id: entry.id || Date.now() + Math.random(),
+                        title: entry.title,
+                        category: entry.category,
+                        description: entry.description,
+                        priority: entry.priority,
+                        status: entry.status,
+                        tags: entry.tags || [],
+                        createdAt: entry.createdAt || new Date().toLocaleDateString()
+                    };
+
+                    // Check if entry with same ID exists
+                    const existingIndex = ideas.findIndex(idea => idea.id === processedEntry.id);
+                    
+                    if (existingIndex !== -1) {
+                        if (replaceExisting) {
+                            ideas[existingIndex] = processedEntry;
+                            replacedEntries++;
+                        } else {
+                            // Generate new ID to avoid conflicts
+                            processedEntry.id = Date.now() + Math.random();
+                            ideas.push(processedEntry);
+                        }
+                    } else {
+                        ideas.push(processedEntry);
+                    }
+                    
+                    validEntries++;
+                });
+
+                // Save and refresh display
                 saveData();
                 renderFilters();
                 renderTagFilters();
                 renderIdeas();
                 renderStats();
-                alert("Data imported successfully!");
-              } else {
-                alert("Invalid file format. Please select a valid JSON file.");
-              }
+
+                // Clear the import text
+                document.getElementById('quickImportText').value = '';
+                toggleQuickImport();
+
+                // Show success message
+                let message = `Successfully imported ${validEntries} entries!`;
+                if (replacedEntries > 0) message += ` (${replacedEntries} replaced)`;
+                if (skippedEntries > 0) message += ` (${skippedEntries} skipped due to missing fields)`;
+                alert(message);
+
             } catch (error) {
-              alert(
-                "Error reading file. Please make sure it's a valid JSON file."
-              );
+                alert('Error parsing JSON. Please check your format and try again.\n\nError: ' + error.message);
             }
-          };
-          reader.readAsText(file);
         }
-        event.target.value = "";
-      }
 
-      // Utility function to escape HTML
-      function escapeHtml(text) {
-        const div = document.createElement("div");
-        div.textContent = text;
-        return div.innerHTML;
-      }
+        // Utility function to escape HTML
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
 
-      // Initialize the app when the page loads
-      window.addEventListener("DOMContentLoaded", init);
+        // Initialize the app when the page loads
+        window.addEventListener('DOMContentLoaded', init);
     </script>
-  </body>
+</body>
 </html>
