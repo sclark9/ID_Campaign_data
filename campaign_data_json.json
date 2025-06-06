@@ -561,7 +561,7 @@
     "title": "'Ma' Ethen Yarbroul - Three Flags Sailing Owner",
     "category": "npc",
     "description": "Neutral good human commoner, plump gray-haired widow with grandmotherly demeanor. Runs fisherman's tavern Three Flags Sailing. Good source for rumors and local fishing community gossip.",
-    "priority": "medium",
+    "priority": "low",
     "status": "ready",
     "tags": [
       "early",
@@ -589,7 +589,7 @@
     "title": "Targos Key Locations",
     "category": "location",
     "description": "Town Hall (government center). Triglio (general goods except fishing/sailing). Three Flags Sailing (fisherman's tavern, rumors). The Luskan Arms (inn where Naerth stays). Specialty fishing/sailing suppliers separate from general goods.",
-    "priority": "medium",
+    "priority": "low",
     "status": "ready",
     "tags": [
       "early",
@@ -758,38 +758,11 @@
     "createdAt": "Encounter Design"
   },
   {
-    "id": 60,
-    "title": "Frozen Harbor Economic Impact",
-    "category": "misc",
-    "description": "Targos boats trapped in harbor ice forces fishers to drag vessels across frozen surface to reach unfrozen water. This creates significant economic hardship for Ten-Towns' biggest fishing operation. Could be leverage point for Zhentarim influence or create desperate townspeople willing to make deals.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Town Details"
-  },
-  {
-    "id": 59,
-    "title": "Targos Musical Phenomenon Connection",
-    "category": "plot",
-    "description": "Targos has 'distinct musicality' from wind through pipe-like structures. This is likely connected to Yll-Varn the Drowned Choir Aurilith in Maer Dualdon. The musical sounds may be Aurilith influence seeping into town, or the town's proximity to the lake-bound monolith creates acoustic effects.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "early",
-      "ten-towns",
-      "auriliths"
-    ],
-    "createdAt": "Town Details"
-  },
-  {
     "id": 58,
     "title": "Zhentarim Network in Ten-Towns",
     "category": "plot",
     "description": "Naerth commands 12+ Zhentarim spies across Ten-Towns including Wurther (Bremen fisherman spy). Active operations: disposing of suspected Harper spies, convincing business owners to buy fish exclusively from Targos. Goal is transforming Ten-Towns into Black Network trade hub. Creates faction conflict and espionage subplot throughout campaign. \n\nThey have begun humanoid sacrifices, which is why Yll-Varn is following their bidding to attack Bremen.",
-    "priority": "high",
+    "priority": "medium",
     "status": "planning",
     "tags": [
       "overarching",
@@ -1249,7 +1222,7 @@
     "title": "Yll-Varn the Drowned Choir (Targos/Bremen)",
     "category": "location",
     "description": "Partially submerged in Maer Dualdon. Blue-black ice tower on delicate arch (50ft tall, 100ft wide) with spiral towers around it. Hums low when sacrifices missed, ice vibrates. Makes wailing, musical sounds in wind. Fisherfolk say it sings to something deeper. Some towers appear humanoid/monstrous.\n\nAwakened the lake monster. Is influenced by Zhent.",
-    "priority": "high",
+    "priority": "medium",
     "status": "ready",
     "tags": [
       "overarching",
@@ -1466,7 +1439,7 @@
     "category": "plot",
     "description": "Ten Towns leaders making sacrifices to appease Auril. Citizens must spend new moon nights without heat/light. Monthly sacrifices of game and minerals left in cold. Rumors of humanoid sacrifices starting (unconfirmed but escalating).",
     "priority": "high",
-    "status": "ready",
+    "status": "brainstorming",
     "tags": [
       "overarching",
       "auriliths"
