@@ -201,16 +201,17 @@
     "id": 104,
     "title": "Black Swords Cult - Caer Dineval",
     "category": "encounter",
-    "description": "Cult following Levistus in Caer Dineval. Wears black ice amulets (similar to Huarwar's black ice shard!). Led by cultists who worship devil of frozen lake. Perfect tie-in to existing chardalyn corruption theme. Could be connected to tiefling recruiters who took Huarwar.",
-    "priority": "high",
-    "status": "planning",
+    "description": "Cult operating from Caer Dineval, worshipping the eternal winter and serving Auril through Uthessil the Warden in White. Members wear black ice amulets made from chardalyn (similar to Huarwar's black ice shard). The cult recruits those already corrupted by chardalyn artifacts, offering them 'sanctuary' and purpose in their madness. Led by cultists who believe embracing the cold completely will grant them favor with the Frostmaiden. Connected to tiefling recruiters who took Huarwar - they specifically target individuals showing chardalyn corruption symptoms. The 'black swords' are ceremonial weapons made of corrupted ice that channel Uthessil's influence, allowing the cult to enforce Auril's will beyond the Aurilith's immediate presence.",
+    "priority": "medium",
+    "status": "brainstorming",
     "tags": [
       "early",
       "chardalyn",
       "social",
-      "investigation"
+      "investigation",
+      "auriliths"
     ],
-    "createdAt": "Original Adventure"
+    "createdAt": "6/4/2025"
   },
   {
     "id": 105,
@@ -818,7 +819,7 @@
     "title": "Sephek's Stalking Pattern",
     "category": "plot",
     "description": "Korux's final entry describes 'figure near sleds. Too tall. Too thin. Made of ice. Waiting for me.' This shows Sephek stalks victims before killing them, appearing as an unnatural ice figure. Suggests he may have been watching the party's dwarf rescue mission.",
-    "priority": "high",
+    "priority": "low",
     "status": "ready",
     "tags": [
       "early",
@@ -1005,8 +1006,8 @@
     "title": "Sephek's Trading Caravan Arrival",
     "category": "encounter",
     "description": "Sephek will arrive in Bryn Shander with trading caravan next session. Opportunity for party to interact with him before knowing his true nature. Could establish him as friendly merchant before the horrifying reveal.",
-    "priority": "high",
-    "status": "planning",
+    "priority": "medium",
+    "status": "ready",
     "tags": [
       "early",
       "sephek",
@@ -1034,7 +1035,7 @@
     "title": "Gorga Snowjaw - Murdered Artisan",
     "category": "npc",
     "description": "Female dwarf artisan from Caer-Konig, killed by Sephek with icicle dagger for refusing Ishkar the Silver Mirror's psychic demands. Her journal reveals month-long torment by Ishkar appearing in her dreams through mirrors, demanding she sacrifice her father's treasured tankard - the most precious thing she owned. When she refused the Aurilith's test of devotion, asking 'what kind of god demands that,' Ishkar's mirror image cracked in her dreams. Days later, Sephek arrived as enforcement. Journal margins filled with unconscious doodles of masks and cracks, suggesting Ishkar's influence was affecting her subconscious. Her defiance of an Aurilith's will made her Sephek's target - first documented case of the Aurilith-Sephek enforcement pattern.",
-    "priority": "high",
+    "priority": "medium",
     "status": "used",
     "tags": [
       "early",
@@ -1278,7 +1279,7 @@
     "title": "Sephek as Patron Identity Clue",
     "category": "plot",
     "description": "Party discovering Sephek's true nature (undead possessed by frost spirit) will provide crucial clue about their patron Wynnette/Aiswyn's similar condition and true identity.",
-    "priority": "high",
+    "priority": "medium",
     "status": "planning",
     "tags": [
       "early",
