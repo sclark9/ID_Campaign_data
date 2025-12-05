@@ -1,12 +1,15 @@
 [
-   {
+  {
     "id": 1749169876543,
     "title": "Flux'thuun the Tide-Changer - Great Old One Patron",
     "category": "npc",
     "description": "Cosmic entity of inevitable change that flows through dimensions like water through cracks. Opposes Auril's perpetual winter because stagnation blocks its natural flow and threatens universal death. Does not understand morality - only that things MUST change or reality itself will calcify and die. Communicates through wind-like voices and grants powers that force transformation. Made pact with plasmoid warlock during mind flayer attack, demanding they 'make the ice flow again.' Views the frozen Dale as a dam blocking the natural tide of change that keeps existence alive.",
     "priority": "high",
     "status": "ready",
-    "tags": ["overarching", "early"],
+    "tags": [
+      "overarching",
+      "early"
+    ],
     "createdAt": "6/6/2025"
   },
   {
@@ -16,7 +19,10 @@
     "description": "Ever-shifting mass of unrefined metal that exists in liquid form within its plasmoid host. Continually twists in shape and changes color, compelling constant restless movement. Artifact of Flux'thuun the Tide-Changer that established warlock pact during mind flayer attack. Grants power to transmute elemental damage types (once per long rest as reaction). The metal vibrates with hatred when exposed to Auril's influence or the musical wails of Yll-Varn the Drowned Choir. Physical manifestation of the cosmic force of change opposing the Dale's frozen stagnation.",
     "priority": "medium",
     "status": "ready",
-    "tags": ["overarching", "early"],
+    "tags": [
+      "overarching",
+      "early"
+    ],
     "createdAt": "6/6/2025"
   },
   {
@@ -38,7 +44,7 @@
     "id": 90,
     "title": "Xardorok Sunblight - Duergar Warlord",
     "category": "npc",
-    "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra. Killed most of his own family through paranoia and violence. Two surviving sons: Durth and Nildar (both sent on distant missions). Supernatural patron drives his conquest ambitions - connects to Auril's influence rather than Asmodeus.",
+    "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra. Killed most of his own family through paranoia and violence. Two surviving sons: Durth and Nildar (both sent on distant missions).  paranoid warlord wants to conquer surface, chardalyn dragon is his weapon",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -96,7 +102,7 @@
     "id": 94,
     "title": "Klondorn - Corrupted Priest",
     "category": "npc",
-    "description": "Duergar priest of Deep Duerra serving as Xardorok's advisor. Actually feeds him information from supernatural patron (connect to Auril/Auriliths rather than Asmodeus). Creates magical constructs in temple using red dragon heart forge. Key to understanding how Xardorok receives his 'divine inspiration.'",
+    "description": "Duergar priest of Deep Duerra serving as Xardorok's advisor. Creates magical constructs in temple using red dragon heart forge. Key to understanding how Xardorok receives his 'divine inspiration.'",
     "priority": "medium",
     "status": "planning",
     "tags": [
@@ -328,20 +334,6 @@
       "midgame",
       "sunblight",
       "combat"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 112,
-    "title": "Aurilith-Duergar Connection",
-    "category": "plot",
-    "description": "Theory: Auriliths are manipulating Xardorok instead of devils. His 'supernatural patron' could be one of the seven Auriliths psychically influencing him to create chardalyn dragon. This would unify the chardalyn corruption, Aurilith influence, and duergar threat into single conspiracy. Creates stronger narrative connection.",
-    "priority": "high",
-    "status": "brainstorming",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "chardalyn"
     ],
     "createdAt": "Original Adventure"
   },
