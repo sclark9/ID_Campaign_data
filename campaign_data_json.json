@@ -1,5 +1,45 @@
 [
   {
+  "id": 1733954820001,
+  "title": "Glix's Chardalyn Sensitivity",
+  "category": "plot",
+  "description": "Glix's psionic attunement through the Unquiet Ore makes him hypersensitive to chardalyn corruption. When he attempted to absorb chardalyn, his heightened psychic senses created a feedback loop, detecting BOTH Deep Duerra's psionic corruption AND Auril's cold stasis corruption simultaneously. The Unquiet Ore violently rejected the chardalyn because Flux'thuun opposes stasis. Glix can sense corrupted chardalyn nearby, feeling the competing energies as psychic dissonance - useful as early warning but potentially overwhelming in areas with heavy chardalyn presence. He cannot yet distinguish between corruption types, only that chardalyn 'feels wrong' until he has more direct experience.",
+  "priority": "medium",
+  "status": "ready",
+  "tags": ["overarching", "chardalyn"],
+  "createdAt": "12/11/2024"
+},
+  {
+  "id": 1733954820002,
+  "title": "Mind Flayer Chardalyn Interest",
+  "category": "plot",
+  "description": "Mind flayers were attracted to Icewind Dale by chardalyn's psionic signature. Mind flayer ship crashed just before campaign start. The psi crystal found in Termalaine mine is separate from chardalyn - it powers mind flayer vessels and connects to distress signals. Deep Duerra's duergar and mind flayers are ancient psionic enemies competing for chardalyn resources. Mind flayers likely attempted to study or weaponize the naturally psi-reactive mineral before being driven out or crashing. Glix was transported to this plane separately by Flux'thuun, not directly connected to the crashed vessel.",
+  "priority": "medium",
+  "status": "ready",
+  "tags": ["midgame", "chardalyn"],
+  "createdAt": "12/11/2024"
+},
+  {
+  "id": 1733954820003,
+  "title": "Chardalyn - Dual Corruption Substance",
+  "category": "misc",
+  "description": "Chardalyn is naturally occurring psi-reactive crystal that is prone to corruption but not inherently corrupt. Two divine forces corrupt it differently: Deep Duerra's duergar use psionic corruption for constructs and weapons (causes madness, paranoia, violence). Auril's forces use cold stasis corruption through Auriliths like Uthessil (causes winter worship, personality changes toward cold indifference). Same base material, competing divine influences. Both factions actively mining and stealing chardalyn throughout Ten-Towns, unknowingly working against each other. Raw, uncorrupted chardalyn is psi-reactive but safe to handle briefly.",
+  "priority": "high",
+  "status": "ready",
+  "tags": ["overarching", "chardalyn", "auriliths"],
+  "createdAt": "12/11/2024"
+},
+  {
+  "id": 1733954820004,
+  "title": "Aurilith Autonomy Levels",
+  "category": "plot",
+  "description": "Most Auriliths are tools being directly controlled by Auril with no independence. However, Uthessil the Warden in White and Zethryn the Root-Taker have developed autonomy and can directly communicate with mortals. This allows Auril to remain distant and unknowable while her will is still enforced. Uthessil remains loyal, creating the Black Swords cult to serve Auril. Zethryn has rebelled - its nature as being connected to living trees makes it resist the frozen stasis, and it works covertly against Auril through Circle Shiverveil. Auril's indifference means she doesn't closely monitor her creations, allowing some to develop independence or even betray her.",
+  "priority": "high",
+  "status": "ready",
+  "tags": ["overarching", "auriliths"],
+  "createdAt": "12/11/2024"
+},
+  {
     "id": 1749169876543,
     "title": "Flux'thuun the Tide-Changer - Great Old One Patron",
     "category": "npc",
@@ -40,21 +80,16 @@
     ],
     "createdAt": "Original Adventure"
   },
-  {
-    "id": 90,
-    "title": "Xardorok Sunblight - Duergar Warlord",
-    "category": "npc",
-    "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra. Killed most of his own family through paranoia and violence. Two surviving sons: Durth and Nildar (both sent on distant missions).  paranoid warlord wants to conquer surface, chardalyn dragon is his weapon",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "combat",
-      "chardalyn"
-    ],
-    "createdAt": "Original Adventure"
-  },
+{
+  "id": 90,
+  "title": "Xardorok Sunblight - Duergar Warlord",
+  "category": "npc",
+  "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns using chardalyn corrupted by Deep Duerra's psionic energy. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra, believes the goddess blesses his conquest through the psi-reactive chardalyn. Killed most of his own family through paranoia and violence. Two surviving sons: Durth and Nildar (both sent on distant missions). Uses Klondorn's rituals and red dragon heart forge to create constructs.",
+  "priority": "high",
+  "status": "planning",
+  "tags": ["midgame", "sunblight", "combat", "chardalyn"],
+  "createdAt": "Original Adventure"
+},
   {
     "id": 91,
     "title": "Grandolpha Muzgardt - Duergar Rebel",
@@ -223,22 +258,16 @@
     ],
     "createdAt": "Original Adventure"
   },
-  {
-    "id": 104,
-    "title": "Black Swords Cult - Caer Dineval",
-    "category": "encounter",
-    "description": "Cult operating from Caer Dineval, worshipping the eternal winter and serving Auril through Uthessil the Warden in White. Members wear black ice amulets made from chardalyn (similar to Huarwar's black ice shard). The cult recruits those already corrupted by chardalyn artifacts, offering them 'sanctuary' and purpose in their madness. Led by cultists who believe embracing the cold completely will grant them favor with the Frostmaiden. Connected to tiefling recruiters who took Huarwar - they specifically target individuals showing chardalyn corruption symptoms. The 'black swords' are ceremonial weapons made of corrupted ice that channel Uthessil's influence, allowing the cult to enforce Auril's will beyond the Aurilith's immediate presence.",
-    "priority": "medium",
-    "status": "brainstorming",
-    "tags": [
-      "early",
-      "chardalyn",
-      "social",
-      "investigation",
-      "auriliths"
-    ],
-    "createdAt": "6/4/2025"
-  },
+{
+  "id": 104,
+  "title": "Black Swords Cult - Caer Dineval",
+  "category": "encounter",
+  "description": "Cult operating from Caer Dineval, serving Uthessil the Warden in White directly. Like Circle Blackgleam serves Zethryn, Black Swords serve their Aurilith with autonomy, allowing Auril to remain distant and unknowable. Members wear black ice amulets made from chardalyn corrupted by Auril's cold stasis through Uthessil's influence. Recruits those already showing signs of chardalyn corruption, offering them 'sanctuary' and purpose. Black Swords plant corrupted chardalyn artifacts to identify and recruit susceptible individuals. Led by cultists who believe embracing the cold completely will grant them favor. The 'black swords' are ceremonial weapons made of corrupted ice that channel Uthessil's influence, allowing the cult to enforce Auril's will beyond the Aurilith's immediate presence. Connected to tiefling recruiters who actively seek corrupted individuals like Huarwar.",
+  "priority": "high",
+  "status": "planning",
+  "tags": ["early", "chardalyn", "social", "investigation", "auriliths"],
+  "createdAt": "6/4/2025"
+},
   {
     "id": 105,
     "title": "The Unseen - Invisible Stalker Mystery",
@@ -266,34 +295,26 @@
     ],
     "createdAt": "Original Adventure"
   },
-  {
-    "id": 107,
-    "title": "Duergar Chardalyn Network",
-    "category": "plot",
-    "description": "Organized duergar operation stealing chardalyn from throughout Ten-Towns. Multiple cells operating from hidden bases (Easthaven Ferry, possibly others). Connects to existing chardalyn corruption theme. Could be working with/manipulated by Auriliths rather than devils. Explains spread of black ice artifacts.",
-    "priority": "high",
-    "status": "brainstorming",
-    "tags": [
-      "midgame",
-      "chardalyn",
-      "investigation"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 108,
-    "title": "Chardalyn Corruption Effects",
-    "category": "rules",
-    "description": "Extended exposure to chardalyn causes paranoia, madness, and violent tendencies. CON saves DC 15 after each day of contact, failure causes personality changes toward aggression. Fits perfectly with black ice shard corruption theme. Characters handling chardalyn items risk becoming like Huarwar.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "chardalyn",
-      "rules"
-    ],
-    "createdAt": "Original Adventure"
-  },
+{
+  "id": 107,
+  "title": "Duergar Chardalyn Network",
+  "category": "plot",
+  "description": "Organized duergar operation stealing chardalyn from throughout Ten-Towns to corrupt with Deep Duerra's psionic energy for constructs and weapons. Multiple cells operating from hidden bases (Easthaven Ferry, Caer-Konig hideout, possibly others). Duergar believe chardalyn is blessed by their goddess Deep Duerra. Unaware that Auril's forces also corrupt chardalyn differently for cold stasis purposes through Auriliths. Two factions unknowingly competing for same resource. Duergar mining operations destabilizing underground chardalyn veins, causing psionic corruption to spread - this is affecting Circle Blackgleam's crystal gardens as duergar activity spreads corruption through connected chardalyn networks.",
+  "priority": "high",
+  "status": "brainstorming",
+  "tags": ["midgame", "chardalyn", "investigation"],
+  "createdAt": "Original Adventure"
+},
+{
+  "id": 108,
+  "title": "Chardalyn Corruption Effects",
+  "category": "rules",
+  "description": "Extended exposure to CORRUPTED chardalyn causes effects based on corruption source. Deep Duerra's psionic corruption (duergar): causes paranoia, madness, and violent tendencies. Auril's cold stasis corruption (Auriliths): causes personality changes toward winter worship and cold indifference. CON saves DC 15 after each day of contact with corrupted chardalyn. Failure causes appropriate corruption effects. Raw, uncorrupted chardalyn is safe to handle briefly but is psi-reactive. Characters handling corrupted chardalyn items risk becoming like Huarwar or the Termalaine kobolds depending on corruption type.",
+  "priority": "high",
+  "status": "planning",
+  "tags": ["overarching", "chardalyn", "rules"],
+  "createdAt": "Original Adventure"
+},
   {
     "id": 109,
     "title": "Fortress Siege Mechanics",
@@ -1135,20 +1156,16 @@
     ],
     "createdAt": "Plot Development"
   },
-  {
-    "id": 25,
-    "title": "Uthessil the Warden in White (Caer Dineval)",
-    "category": "location",
-    "description": "Towering sentinel of smooth marble-white ice, arms ever outstretched. Said to carry away those who curse the Cold Lady (Auril) too loudly, even in jest. Enforces reverence through fear.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns"
-    ],
-    "createdAt": "Aurilith Details"
-  },
+{
+  "id": 25,
+  "title": "Uthessil the Warden in White (Caer Dineval)",
+  "category": "location",
+  "description": "Towering sentinel of smooth marble-white ice, arms ever outstretched. Said to carry away those who curse the Cold Lady (Auril) too loudly, even in jest. Enforces reverence through fear. Unlike most Auriliths, Uthessil has developed autonomy from Auril and actively communicates with followers, creating the Black Swords cult to enforce Auril's will. This independence allows Auril to remain removed from mortal concerns while her goals are still accomplished. Uthessil remains loyal to the Frostmaiden and corrupts chardalyn with cold stasis energy for the cult's use.",
+  "priority": "medium",
+  "status": "ready",
+  "tags": ["overarching", "auriliths", "ten-towns"],
+  "createdAt": "Aurilith Details"
+},
   {
     "id": 24,
     "title": "Ishkar the Silver Mirror (Caer Konig)",
@@ -1177,20 +1194,16 @@
     ],
     "createdAt": "Aurilith Details"
   },
-  {
-    "id": 22,
-    "title": "Zethryn the Root-Taker (Termalaine/Lonelywood)",
-    "category": "location",
-    "description": "Symbol: Upside-down tree. In copse of frozen-alive trees (green but frozen solid, don't sway). Stalagmite of ice with tree-trunk core, branch tendrils touching each frozen tree. Half-buried in clear ice, covered in crystalline moss-like growths. No humanoid qualities. Animals avoid area.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns"
-    ],
-    "createdAt": "Aurilith Details"
-  },
+{
+  "id": 22,
+  "title": "Zethryn the Root-Taker (Termalaine/Lonelywood)",
+  "category": "location",
+  "description": "Symbol: Upside-down tree. In copse of frozen-alive trees (green but frozen solid, don't sway). Stalagmite of ice with tree-trunk core, branch tendrils touching each frozen tree. Half-buried in clear ice, covered in crystalline moss-like growths. No humanoid qualities. Animals avoid area. Like Uthessil, Zethryn has developed autonomy and directly contacts mortals. However, Zethryn has turned against Auril - its nature as being connected to living trees makes it rebel against frozen stasis. It wants to grow, not remain frozen. Zethryn works covertly to undermine the eternal winter through Circle Shiverveil, but has no greater endgame beyond its own freedom from stasis. Auril's indifference allows this rebellion to continue unnoticed.",
+  "priority": "high",
+  "status": "ready",
+  "tags": ["overarching", "auriliths", "ten-towns"],
+  "createdAt": "Aurilith Details"
+},
   {
     "id": 21,
     "title": "Karexil the Heatrobber (Easthaven)",
@@ -1235,18 +1248,15 @@
     "createdAt": "Aurilith Details"
   },
   {
-    "id": 18,
-    "title": "Chardalyn Corruption Network",
-    "category": "plot",
-    "description": "If Regis's ruby is corrupted by chardalyn and used by Auril's servants, this creates a network of corrupted magic items. Could other legendary items in the region be similarly compromised? Connects to broader chardalyn themes in campaign.",
-    "priority": "medium",
-    "status": "brainstorming",
-    "tags": [
-      "overarching",
-      "chardalyn"
-    ],
-    "createdAt": "Plot Development"
-  },
+  "id": 18,
+  "title": "Chardalyn Corruption Network",
+  "category": "plot",
+  "description": "Chardalyn is naturally occurring psi-reactive crystal that two factions corrupt differently through divine influence. Deep Duerra's duergar use psionic corruption for constructs and weapons (causes madness, paranoia, violence in handlers). Auril's forces use cold stasis corruption through autonomous Auriliths like Uthessil (causes winter worship, personality changes toward indifference). Same base material, competing divine influences. Both factions actively mining and stealing chardalyn throughout Ten-Towns, unknowingly working against each other. This creates network of corrupted items spreading through the Dale - Black Swords' amulets, duergar weapons, found artifacts. Mind flayers were also attracted to chardalyn's psionic signature before being driven out.",
+  "priority": "medium",
+  "status": "brainstorming",
+  "tags": ["overarching", "chardalyn"],
+  "createdAt": "Plot Development"
+},
   {
     "id": 17,
     "title": "Frozen Lake Aurilith Locations",
@@ -1408,19 +1418,16 @@
     ],
     "createdAt": "Character Creation"
   },
-  {
-    "id": 4,
-    "title": "Wynnette Rimevein (True Identity: Aiswyn)",
-    "category": "npc",
-    "description": "Party patron who head-hunted the team. Publicly wants to stop escalating sacrifices before total chaos. SECRETLY: Actually fae spirit Aiswyn, one of the 'watchers' who wants to defect. Tired of being glorified babysitter to mortals. Has ruby gem giving ambition to rise above deity. Wynnette is undead corpse possessed by frost spirit (like Sephek).\n\nAir genasi woman appearing 60s, deathly pale skin (color of sun through glacier), lightning scar over left eye, long braided hair like woven scarf. Wears knucklehead scrimshaw flute around neck. Goal: guide party through tailored experiences to become heroes who can reverse the curse.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "early"
-    ],
-    "createdAt": "Campaign Start"
-  },
+{
+  "id": 4,
+  "title": "Wynnette Rimevein (True Identity: Aiswyn)",
+  "category": "npc",
+  "description": "Party patron who head-hunted the team. Publicly wants to stop escalating sacrifices before total chaos. SECRETLY: Actually fae spirit Aiswyn, one of Auril's frost spirit creations who has rebelled. Tired of being glorified babysitter to mortals. Wynnette is undead corpse possessed by frost spirit (like Sephek). Result of Auril's indifference to controlling her creations - sometimes they develop autonomy and rebel. Wynnette doesn't know Zethryn is also rebelling against Auril. Has ruby gem giving ambition to rise above deity. Air genasi woman appearing 60s, deathly pale skin (color of sun through glacier), lightning scar over left eye, long braided hair like woven scarf. Wears knucklehead scrimshaw flute around neck. Goal: guide party through tailored experiences to become heroes who can reverse the curse.",
+  "priority": "high",
+  "status": "planning",
+  "tags": ["overarching", "early"],
+  "createdAt": "Campaign Start"
+},
   {
     "id": 3,
     "title": "Escalating Sacrificial Practices",
