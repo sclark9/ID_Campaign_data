@@ -1,4 +1,74 @@
 [
+   {
+      "id": 1734467200001,
+      "title": "Toil & Trouble - Dzaan's Fatal Mistake",
+      "category": "encounter",
+      "description": "Rewritten quest replacing hag coven with White Vault-inspired horror. Dzaan (Red Wizard of Thay, Arcane Brotherhood necromancer) established research outpost in Cauldron Caves to study Karexil the Heatrobber. Discovered ancient creature buried in ice beneath sacred frost giant spring - an envoy of a Great Old One predating the Auriliths. Dzaan raised it from death to study connection to Ythryn and Netherese secrets. Karexil, whose purpose is guarding against resurrection of things that should stay dead, psychically influenced Easthaven citizens to discover Dzaan's identity and burn him alive. Creature now partially re-frozen by Karexil but still conscious and aware. Four missing fishers were affected by creature's influence. Party must choose: free the creature (gaining knowledge/power), complete its imprisonment (earning Karexil's approval), or leave it undecided. Dzaan's simulacrum still present studying the situation. Atmospheric horror with abandoned research station, journal entries revealing escalating danger, and sense of ancient wrongness awakening.",
+      "priority": "high",
+      "status": "ready",
+      "tags": ["early", "investigation", "auriliths", "easthaven", "social", "combat"],
+      "createdAt": "12/17/2024"
+    },
+    {
+      "id": 1734467200002,
+      "title": "Dzaan's Simulacrum",
+      "category": "npc",
+      "description": "Illusory duplicate of the executed Red Wizard Dzaan, created before his death. Still seeking Dzaan's research materials and spellbook from the Cauldron Caves. Unaware of or unconcerned with the danger of the partially-frozen creature in area U10. Member of Arcane Brotherhood obsessed with finding Ythryn. The simulacrum has all of Dzaan's knowledge up to the point of its creation, including theories about Karexil's vulnerability and the ancient creature's connection to Netherese secrets. May approach party as potential allies or competitors. Could provide valuable information about Ythryn's location or the nature of the Auriliths. Personality matches Dzaan - intellectual, ambitious, dismissive of non-wizards, fascinated by death and undeath.",
+      "priority": "medium",
+      "status": "planning",
+      "tags": ["early", "arcane brotherhood", "social", "easthaven"],
+      "createdAt": "12/17/2024"
+    },
+    {
+      "id": 1734467200003,
+      "title": "Karexil's True Purpose - Guardian Against Revival",
+      "category": "plot",
+      "description": "Karexil the Heatrobber's unique nature among Auriliths explained: it doesn't punish warmth or fire, it punishes REVIVAL and RESURRECTION. The blackened appearance and 'heatless flame' aren't about temperature - they're about the spark of life being returned to things that should remain dead. Karexil was placed at the Cauldron Caves specifically to keep the ancient creature sealed and dead. When Dzaan performed necromantic ritual to raise it, Karexil responded by psychically manipulating Easthaven citizens to execute him. Rather than kill Dzaan directly, the Aurilith guided townsfolk to 'discover' his identity and stoked their rage until they burned him alive - punishment fitting the crime of bringing 'life-heat' back to the dead. After execution, Karexil began re-freezing the creature, but the process is incomplete. This reveals Auriliths can have specific purposes beyond enforcing Auril's worship - some are guardians of ancient sealed threats.",
+      "priority": "high",
+      "status": "planning",
+      "tags": ["auriliths", "overarching", "easthaven"],
+      "createdAt": "12/17/2024"
+    },
+    {
+      "id": 1734467200004,
+      "title": "The Ancient Envoy - [CREATURE NAME TBD]",
+      "category": "npc",
+      "description": "[PLACEHOLDER - Details to be determined] Ancient creature discovered by Dzaan beneath the sacred frost giant spring in Cauldron Caves. Envoy or servant of a Great Old One (not Flux'thuun, but Glix recognizes kinship). Predates the Auriliths and possibly Auril's curse. Was killed and sealed long ago for unknown but presumably dire reasons. Dzaan raised it from death thinking he could control and study it for insights into Ythryn and Netherese magic. Creature is partially re-frozen by Karexil in area U10, but remains conscious and aware. Can speak in alien multi-toned voice using words that predate Common language. Affected the four missing fishers from Easthaven in [UNDEFINED WAY]. Party can choose to: free it completely (creature offers knowledge/power but escapes into Dale), help Karexil complete imprisonment (requires ritual/sacrifice), or leave situation unresolved. Stat block and specific nature to be developed.",
+      "priority": "high",
+      "status": "brainstorming",
+      "tags": ["early", "great old one", "combat", "easthaven"],
+      "createdAt": "12/17/2024"
+    },
+    {
+      "id": 1734467200005,
+      "title": "Umberlee Shrine - Lonelywood Hidden Temple",
+      "category": "location",
+      "description": "Hidden shrine to Umberlee (goddess of oceans, wave, and change) maintained by Morskaya the sea elf wereshark druid. Located in Lonelywood forest, discovered during White Moose quest investigation. Contains drowning pool - magical portal that transports victims to the Sea of Moving Ice. Morskaya uses shrine as base for opposing Auril's frozen stasis (Umberlee represents chaotic change vs Auril's permanence). Shrine has limited power - Umberlee's influence is weak in Icewind Dale compared to Auril's dominance. Morskaya mistakenly sent Circle Shiverveil leaders (Joosep's clan) through the drowning pool, believing they served Auril. Leaders now trapped on Sea of Moving Ice. Shrine could become portal for party to reach Sea of Moving Ice in later campaign. Represents ideological conflict: change/chaos (Umberlee) vs stasis/preservation (Auril).",
+      "priority": "high",
+      "status": "planning",
+      "tags": ["early", "umberlee", "lonelywood", "investigation"],
+      "createdAt": "12/17/2024"
+    },
+    {
+      "id": 1734467200006,
+      "title": "Drowning Pool Portal",
+      "category": "misc",
+      "description": "Magical pool in Umberlee shrine that transports those who drown in it to the Sea of Moving Ice. Used by Morskaya as both trial and punishment. Circle Shiverveil leaders were sent through pool when Morskaya mistook them for Auril servants - they're now stranded on ice floes or islands in the Sea of Moving Ice. Pool represents Umberlee's power to change location and state through water. Could be used by party for fast travel to Sea of Moving Ice, but requires willingness to drown (terrifying prospect). One-way portal unless Umberlee's blessing is obtained for return journey. Connection to larger plot: Sea of Moving Ice contains important late-game locations including approach to Grimskalle (Auril's fortress).",
+      "priority": "medium",
+      "status": "planning",
+      "tags": ["early", "umberlee", "lonelywood"],
+      "createdAt": "12/17/2024"
+    },
+    {
+      "id": 1734467200007,
+      "title": "Dzaan's Ythryn Research",
+      "category": "plot",
+      "description": "Dzaan's true motivation for studying Karexil and raising the ancient creature: he believed it held keys to understanding Ythryn's fall and Netherese secrets of immortality. His research notes suggest the creature 'knew death and returned from it once before' - implying it had been resurrected in the ancient past. Dzaan theorized that understanding what killed the creature originally, and what prevented its natural resurrection, could reveal what destroyed the Netherese civilization despite their powerful magic. The creature may have been sealed specifically because it witnessed or participated in Netheril's fall. This connects Toil & Trouble quest to larger Ythryn plotline. Dzaan's simulacrum continues this research. If party learns his theories, they gain valuable context for understanding both the lost city and the nature of the threats that destroyed it.",
+      "priority": "medium",
+      "status": "planning",
+      "tags": ["midgame", "arcane brotherhood", "investigation"],
+      "createdAt": "12/17/2024"
+    },
   {
   "id": 1733954820001,
   "title": "Glix's Chardalyn Sensitivity",
@@ -203,17 +273,14 @@
     "createdAt": "Original Adventure"
   },
   {
-    "id": 100,
-    "title": "The White Moose - Corrupted Beast",
-    "category": "encounter",
-    "description": "Awakened moose corrupted by periapt of wound closure. Attacks loggers in Lonelywood forest. Led by frost druid villain seeking revenge against civilization. Connection to nature magic corruption theme. Could tie to Circle Shiverveil/Blackgleam firbolg knowledge of natural balance disruption.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "early",
-      "combat"
-    ],
-    "createdAt": "Original Adventure"
+   "id": 100,
+      "title": "The White Moose - Umberlee's Bait",
+      "category": "encounter",
+      "description": "Awakened moose created by Morskaya (sea elf wereshark druid) as bait to draw attention to Lonelywood forest. Attacks loggers to create crisis that will lead investigators to discover the hidden Umberlee shrine. Not corrupted by magic item - simply following Morskaya's commands. Connection to nature magic and Umberlee's opposition to Auril's frozen stasis. Could tie to Circle Shiverveil/Blackgleam firbolg knowledge of natural balance disruption. Quest leads to Umberlee shrine rather than frost druid villain.",
+      "priority": "high",
+      "status": "planning",
+      "tags": ["early", "combat", "umberlee", "lonelywood"],
+      "createdAt": "Original Adventure"
   },
   {
     "id": 101,
@@ -259,14 +326,14 @@
     "createdAt": "Original Adventure"
   },
 {
-  "id": 104,
-  "title": "Black Swords Cult - Caer Dineval",
-  "category": "encounter",
-  "description": "Cult operating from Caer Dineval, serving Uthessil the Warden in White directly. Like Circle Blackgleam serves Zethryn, Black Swords serve their Aurilith with autonomy, allowing Auril to remain distant and unknowable. Members wear black ice amulets made from chardalyn corrupted by Auril's cold stasis through Uthessil's influence. Recruits those already showing signs of chardalyn corruption, offering them 'sanctuary' and purpose. Black Swords plant corrupted chardalyn artifacts to identify and recruit susceptible individuals. Led by cultists who believe embracing the cold completely will grant them favor. The 'black swords' are ceremonial weapons made of corrupted ice that channel Uthessil's influence, allowing the cult to enforce Auril's will beyond the Aurilith's immediate presence. Connected to tiefling recruiters who actively seek corrupted individuals like Huarwar.",
-  "priority": "high",
-  "status": "planning",
-  "tags": ["early", "chardalyn", "social", "investigation", "auriliths"],
-  "createdAt": "6/4/2025"
+      "id": 104,
+      "title": "Wardens of the White - Caer Dineval",
+      "category": "encounter",
+      "description": "Cult operating from Caer Dineval, serving Uthessil the Warden in White directly. Like Circle Shiverveil serves Zethryn, Wardens of the White serve their Aurilith with autonomy, allowing Auril to remain distant and unknowable. Members wear black ice amulets made from chardalyn corrupted by Auril's cold stasis through Uthessil's influence. Recruits those already showing signs of chardalyn corruption, offering them 'sanctuary' and purpose. Wardens plant corrupted chardalyn artifacts to identify and recruit susceptible individuals. Led by cultists who believe embracing the cold completely will grant them favor. The 'black swords' are ceremonial weapons made of corrupted ice that channel Uthessil's influence, allowing the cult to enforce Auril's will beyond the Aurilith's immediate presence. Connected to tiefling recruiters who actively seek corrupted individuals like Huarwar.",
+      "priority": "high",
+      "status": "planning",
+      "tags": ["early", "chardalyn", "social", "investigation", "auriliths"],
+      "createdAt": "6/4/2025"
 },
   {
     "id": 105,
@@ -373,17 +440,14 @@
     "createdAt": "Original Adventure"
   },
   {
-    "id": 114,
-    "title": "Frost Druid - White Moose Controller",
-    "category": "npc",
-    "description": "Unnamed frost druid controlling the White Moose. Seeks revenge against loggers and civilization. Uses corrupted awakened animals as weapons. Could be connected to larger druidic corruption or Auril worship. Represents nature's violent response to the endless winter.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "early",
-      "combat"
-    ],
-    "createdAt": "Original Adventure"
+ "id": 114,
+      "title": "Morskaya - Sea Elf Wereshark Druid",
+      "category": "npc",
+      "description": "Sea elf wereshark druid serving Umberlee. Awakened the white moose in Lonelywood forest as bait to lure people to the hidden Umberlee shrine. Opposes Auril's stasis (Umberlee represents change and chaos of the sea vs Auril's frozen permanence). Maintains drowning pool that transports to Sea of Moving Ice. Mistakenly sent Circle Shiverveil leaders through the pool, believing they served Auril. Represents Umberlee's very limited faction presence in Icewind Dale. Potential ally or antagonist depending on party's approach to the White Moose situation.",
+      "priority": "high",
+      "status": "planning",
+      "tags": ["early", "umberlee", "lonelywood", "social", "combat"],
+      "createdAt": "12/17/2024"
   },
   {
     "id": 115,
