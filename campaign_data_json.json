@@ -1,124 +1,159 @@
 [
-   {
-      "id": 1734467200001,
-      "title": "Toil & Trouble - Dzaan's Fatal Mistake",
-      "category": "encounter",
-      "description": "Rewritten quest replacing hag coven with White Vault-inspired horror. Dzaan (Red Wizard of Thay, Arcane Brotherhood necromancer) established research outpost in Cauldron Caves to study Karexil the Heatrobber. Discovered ancient creature buried in ice beneath sacred frost giant spring - an envoy of a Great Old One predating the Auriliths. Dzaan raised it from death to study connection to Ythryn and Netherese secrets. Karexil, whose purpose is guarding against resurrection of things that should stay dead, psychically influenced Easthaven citizens to discover Dzaan's identity and burn him alive. Creature now partially re-frozen by Karexil but still conscious and aware. Four missing fishers were affected by creature's influence. Party must choose: free the creature (gaining knowledge/power), complete its imprisonment (earning Karexil's approval), or leave it undecided. Dzaan's simulacrum still present studying the situation. Atmospheric horror with abandoned research station, journal entries revealing escalating danger, and sense of ancient wrongness awakening.",
-      "priority": "high",
-      "status": "ready",
-      "tags": ["early", "investigation", "auriliths", "easthaven", "social", "combat"],
-      "createdAt": "12/17/2024"
-    },
-    {
-      "id": 1734467200002,
-      "title": "Dzaan's Simulacrum",
-      "category": "npc",
-      "description": "Illusory duplicate of the executed Red Wizard Dzaan, created before his death. Still seeking Dzaan's research materials and spellbook from the Cauldron Caves. Unaware of or unconcerned with the danger of the partially-frozen creature in area U10. Member of Arcane Brotherhood obsessed with finding Ythryn. The simulacrum has all of Dzaan's knowledge up to the point of its creation, including theories about Karexil's vulnerability and the ancient creature's connection to Netherese secrets. May approach party as potential allies or competitors. Could provide valuable information about Ythryn's location or the nature of the Auriliths. Personality matches Dzaan - intellectual, ambitious, dismissive of non-wizards, fascinated by death and undeath.",
-      "priority": "medium",
-      "status": "planning",
-      "tags": ["early", "arcane brotherhood", "social", "easthaven"],
-      "createdAt": "12/17/2024"
-    },
-    {
-      "id": 1734467200003,
-      "title": "Karexil's True Purpose - Guardian Against Revival",
-      "category": "plot",
-      "description": "Karexil the Heatrobber's unique nature among Auriliths explained: it doesn't punish warmth or fire, it punishes REVIVAL and RESURRECTION. The blackened appearance and 'heatless flame' aren't about temperature - they're about the spark of life being returned to things that should remain dead. Karexil was placed at the Cauldron Caves specifically to keep the ancient creature sealed and dead. When Dzaan performed necromantic ritual to raise it, Karexil responded by psychically manipulating Easthaven citizens to execute him. Rather than kill Dzaan directly, the Aurilith guided townsfolk to 'discover' his identity and stoked their rage until they burned him alive - punishment fitting the crime of bringing 'life-heat' back to the dead. After execution, Karexil began re-freezing the creature, but the process is incomplete. This reveals Auriliths can have specific purposes beyond enforcing Auril's worship - some are guardians of ancient sealed threats.",
-      "priority": "high",
-      "status": "planning",
-      "tags": ["auriliths", "overarching", "easthaven"],
-      "createdAt": "12/17/2024"
-    },
-    {
-      "id": 1734467200004,
-      "title": "The Ancient Envoy - [CREATURE NAME TBD]",
-      "category": "npc",
-      "description": "[PLACEHOLDER - Details to be determined] Ancient creature discovered by Dzaan beneath the sacred frost giant spring in Cauldron Caves. Envoy or servant of a Great Old One (not Flux'thuun, but Glix recognizes kinship). Predates the Auriliths and possibly Auril's curse. Was killed and sealed long ago for unknown but presumably dire reasons. Dzaan raised it from death thinking he could control and study it for insights into Ythryn and Netherese magic. Creature is partially re-frozen by Karexil in area U10, but remains conscious and aware. Can speak in alien multi-toned voice using words that predate Common language. Affected the four missing fishers from Easthaven in [UNDEFINED WAY]. Party can choose to: free it completely (creature offers knowledge/power but escapes into Dale), help Karexil complete imprisonment (requires ritual/sacrifice), or leave situation unresolved. Stat block and specific nature to be developed.",
-      "priority": "high",
-      "status": "brainstorming",
-      "tags": ["early", "great old one", "combat", "easthaven"],
-      "createdAt": "12/17/2024"
-    },
-    {
-      "id": 1734467200005,
-      "title": "Umberlee Shrine - Lonelywood Hidden Temple",
-      "category": "location",
-      "description": "Hidden shrine to Umberlee (goddess of oceans, wave, and change) maintained by Morskaya the sea elf wereshark druid. Located in Lonelywood forest, discovered during White Moose quest investigation. Contains drowning pool - magical portal that transports victims to the Sea of Moving Ice. Morskaya uses shrine as base for opposing Auril's frozen stasis (Umberlee represents chaotic change vs Auril's permanence). Shrine has limited power - Umberlee's influence is weak in Icewind Dale compared to Auril's dominance. Morskaya mistakenly sent Circle Shiverveil leaders (Joosep's clan) through the drowning pool, believing they served Auril. Leaders now trapped on Sea of Moving Ice. Shrine could become portal for party to reach Sea of Moving Ice in later campaign. Represents ideological conflict: change/chaos (Umberlee) vs stasis/preservation (Auril).",
-      "priority": "high",
-      "status": "planning",
-      "tags": ["early", "umberlee", "lonelywood", "investigation"],
-      "createdAt": "12/17/2024"
-    },
-    {
-      "id": 1734467200006,
-      "title": "Drowning Pool Portal",
-      "category": "misc",
-      "description": "Magical pool in Umberlee shrine that transports those who drown in it to the Sea of Moving Ice. Used by Morskaya as both trial and punishment. Circle Shiverveil leaders were sent through pool when Morskaya mistook them for Auril servants - they're now stranded on ice floes or islands in the Sea of Moving Ice. Pool represents Umberlee's power to change location and state through water. Could be used by party for fast travel to Sea of Moving Ice, but requires willingness to drown (terrifying prospect). One-way portal unless Umberlee's blessing is obtained for return journey. Connection to larger plot: Sea of Moving Ice contains important late-game locations including approach to Grimskalle (Auril's fortress).",
-      "priority": "medium",
-      "status": "planning",
-      "tags": ["early", "umberlee", "lonelywood"],
-      "createdAt": "12/17/2024"
-    },
-    {
-      "id": 1734467200007,
-      "title": "Dzaan's Ythryn Research",
-      "category": "plot",
-      "description": "Dzaan's true motivation for studying Karexil and raising the ancient creature: he believed it held keys to understanding Ythryn's fall and Netherese secrets of immortality. His research notes suggest the creature 'knew death and returned from it once before' - implying it had been resurrected in the ancient past. Dzaan theorized that understanding what killed the creature originally, and what prevented its natural resurrection, could reveal what destroyed the Netherese civilization despite their powerful magic. The creature may have been sealed specifically because it witnessed or participated in Netheril's fall. This connects Toil & Trouble quest to larger Ythryn plotline. Dzaan's simulacrum continues this research. If party learns his theories, they gain valuable context for understanding both the lost city and the nature of the threats that destroyed it.",
-      "priority": "medium",
-      "status": "planning",
-      "tags": ["midgame", "arcane brotherhood", "investigation"],
-      "createdAt": "12/17/2024"
-    },
   {
-  "id": 1733954820001,
-  "title": "Glix's Chardalyn Sensitivity",
-  "category": "plot",
-  "description": "Glix's psionic attunement through the Unquiet Ore makes him hypersensitive to chardalyn corruption. When he attempted to absorb chardalyn, his heightened psychic senses created a feedback loop, detecting BOTH Deep Duerra's psionic corruption AND Auril's cold stasis corruption simultaneously. The Unquiet Ore violently rejected the chardalyn because Flux'thuun opposes stasis. Glix can sense corrupted chardalyn nearby, feeling the competing energies as psychic dissonance - useful as early warning but potentially overwhelming in areas with heavy chardalyn presence. He cannot yet distinguish between corruption types, only that chardalyn 'feels wrong' until he has more direct experience.",
-  "priority": "medium",
-  "status": "ready",
-  "tags": ["overarching", "chardalyn"],
-  "createdAt": "12/11/2024"
-},
+    "id": 1734467200001,
+    "title": "Toil & Trouble - Dzaan's Fatal Mistake (RESOLVED)",
+    "category": "encounter",
+    "description": "Rewritten quest replacing hag coven with White Vault-inspired horror. Dzaan (Red Wizard of Thay, Arcane Brotherhood necromancer) established research outpost in Cauldron Caves to study Karexil the Heatrobber. Discovered the Gardener, an ancient envoy of Ylmyo-Aldon, buried in ice beneath the sacred frost giant spring. Dzaan raised it from death to study its connection to Ythryn and Netherese secrets. Karexil psychically influenced Easthaven citizens to discover Dzaan's identity and burn him alive. RESOLUTION: The party negotiated a compromise (Path B) with the Gardener rather than freeing it or completing its imprisonment. Glix took the Gardener's spores as payment/bond and now carries them permanently in his plasma, giving him an ongoing two-way communication channel with the creature. The fishermen's bodies were NOT returned to Easthaven. The Gardener remains imprisoned by Karexil, weakened but conscious. The party then left Easthaven quietly, aware Karexil might turn the town against them if their involvement became known.",
+    "priority": "high",
+    "status": "used",
+    "tags": [
+      "early",
+      "investigation",
+      "auriliths",
+      "easthaven",
+      "social",
+      "combat",
+      "resolved"
+    ],
+    "createdAt": "12/17/2024"
+  },
   {
-  "id": 1733954820002,
-  "title": "Mind Flayer Chardalyn Interest",
-  "category": "plot",
-  "description": "Mind flayers were attracted to Icewind Dale by chardalyn's psionic signature. Mind flayer ship crashed just before campaign start. The psi crystal found in Termalaine mine is separate from chardalyn - it powers mind flayer vessels and connects to distress signals. Deep Duerra's duergar and mind flayers are ancient psionic enemies competing for chardalyn resources. Mind flayers likely attempted to study or weaponize the naturally psi-reactive mineral before being driven out or crashing. Glix was transported to this plane separately by Flux'thuun, not directly connected to the crashed vessel.",
-  "priority": "medium",
-  "status": "ready",
-  "tags": ["midgame", "chardalyn"],
-  "createdAt": "12/11/2024"
-},
-  {
-  "id": 1733954820003,
-  "title": "Chardalyn - Dual Corruption Substance",
-  "category": "misc",
-  "description": "Chardalyn is naturally occurring psi-reactive crystal that is prone to corruption but not inherently corrupt. Two divine forces corrupt it differently: Deep Duerra's duergar use psionic corruption for constructs and weapons (causes madness, paranoia, violence). Auril's forces use cold stasis corruption through Auriliths like Uthessil (causes winter worship, personality changes toward cold indifference). Same base material, competing divine influences. Both factions actively mining and stealing chardalyn throughout Ten-Towns, unknowingly working against each other. Raw, uncorrupted chardalyn is psi-reactive but safe to handle briefly.",
-  "priority": "high",
-  "status": "ready",
-  "tags": ["overarching", "chardalyn", "auriliths"],
-  "createdAt": "12/11/2024"
-},
-  {
-  "id": 1733954820004,
-  "title": "Aurilith Autonomy Levels",
-  "category": "plot",
-  "description": "Most Auriliths are tools being directly controlled by Auril with no independence. However, Uthessil the Warden in White and Zethryn the Root-Taker have developed autonomy and can directly communicate with mortals. This allows Auril to remain distant and unknowable while her will is still enforced. Uthessil remains loyal, creating the Black Swords cult to serve Auril. Zethryn has rebelled - its nature as being connected to living trees makes it resist the frozen stasis, and it works covertly against Auril through Circle Shiverveil. Auril's indifference means she doesn't closely monitor her creations, allowing some to develop independence or even betray her.",
-  "priority": "high",
-  "status": "ready",
-  "tags": ["overarching", "auriliths"],
-  "createdAt": "12/11/2024"
-},
-  {
-    "id": 1749169876543,
-    "title": "Flux'thuun the Tide-Changer - Great Old One Patron",
+    "id": 1734467200002,
+    "title": "Dzaan's Simulacrum",
     "category": "npc",
-    "description": "Cosmic entity of inevitable change that flows through dimensions like water through cracks. Opposes Auril's perpetual winter because stagnation blocks its natural flow and threatens universal death. Does not understand morality - only that things MUST change or reality itself will calcify and die. Communicates through wind-like voices and grants powers that force transformation. Made pact with plasmoid warlock during mind flayer attack, demanding they 'make the ice flow again.' Views the frozen Dale as a dam blocking the natural tide of change that keeps existence alive.",
+    "description": "Illusory duplicate of the executed Red Wizard Dzaan, created before his death. Still seeking Dzaan's research materials and spellbook from the Cauldron Caves. Unaware of or unconcerned with the danger of the Gardener. Member of Arcane Brotherhood obsessed with finding Ythryn. The simulacrum has all of Dzaan's knowledge up to the point of its creation, including theories about Karexil's vulnerability and the Gardener's connection to Netherese secrets. May approach party as potential allies or competitors. Could provide valuable information about Ythryn's location, the nature of the Auriliths, or \u2014 with Vellynne Harpell cut from the campaign \u2014 could be the one to carry a professor orb or similar Arcane Brotherhood plot thread into Ch. 5. Personality matches Dzaan - intellectual, ambitious, dismissive of non-wizards, fascinated by death and undeath.",
+    "priority": "medium",
+    "status": "planning",
+    "tags": [
+      "early",
+      "arcane brotherhood",
+      "social",
+      "easthaven"
+    ],
+    "createdAt": "12/17/2024"
+  },
+  {
+    "id": 1734467200003,
+    "title": "Karexil's True Purpose - Warden of the Gardener",
+    "category": "plot",
+    "description": "Karexil the Heatrobber's unique nature among Auriliths, refined: it is NOT a general enforcer against resurrection/revival everywhere in the Dale (Auril herself uses undead servants like Sephek and Wynnette/Aiswyn without Karexil's interference). Karexil has one specific, narrow job: it is the dedicated warden of a single sealed threat \u2014 the Gardener, an ancient envoy of the Great Old One Ylmyo-Aldon, imprisoned in the Cauldron Caves long before the Auriliths appeared. When Dzaan performed the necromantic ritual to raise the Gardener, Karexil responded by psychically manipulating Easthaven citizens to execute him, rather than acting directly. After the execution, Karexil began re-freezing the Gardener, but the process is incomplete/weakened following the party's compromise deal. This reveals Auriliths can have narrow, specific purposes beyond enforcing Auril's general will - some are dedicated guardians of ancient sealed threats that predate Auril's dominion, and even Auril herself wants this one to stay buried.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "auriliths",
+      "overarching",
+      "easthaven"
+    ],
+    "createdAt": "12/17/2024"
+  },
+  {
+    "id": 1734467200005,
+    "title": "Umberlee Shrine - Lonelywood Hidden Temple",
+    "category": "location",
+    "description": "Hidden shrine to Umberlee (goddess of oceans, wave, and change) maintained by Morskaya the sea elf wereshark druid. Located in Lonelywood forest, discovered during White Moose quest investigation. Contains drowning pool - magical portal that transports victims to the Sea of Moving Ice. UPDATED: The drowning pool is confirmed ONE-WAY ONLY - there is no return trip via the pool. Morskaya uses shrine as base for opposing Auril's frozen stasis (Umberlee represents chaotic change vs Auril's permanence). Shrine has limited power - Umberlee's influence is weak in Icewind Dale compared to Auril's dominance. Morskaya mistakenly sent Circle Shiverveil leaders (Joosep's clan) through the drowning pool, believing they served Auril; they are now stranded on the Sea of Moving Ice (DM note: likely dead unless retrieved via ritual - see Circle Shiverveil entry). Morskaya does not apologize easily; retrieving the leaders would function as her act of penance. If the party is ever stranded on the Sea of Moving Ice themselves (via the one-way pool), Angajuk the whale can be befriended and can carry them toward the Dark Duchess wreck / Oyaminartok. Ongoing plot thread: Morskaya senses Umberlee's agitation building for months - unclear if it's Umberlee moving against Auril, Auril retaliating against the shrine, or something else.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "early",
+      "umberlee",
+      "lonelywood",
+      "investigation"
+    ],
+    "createdAt": "12/17/2024"
+  },
+  {
+    "id": 1734467200006,
+    "title": "Drowning Pool Portal (ONE-WAY)",
+    "category": "misc",
+    "description": "Magical pool in Umberlee shrine that transports those who drown in it to the Sea of Moving Ice. CONFIRMED ONE-WAY: there is no return trip through the pool itself. Used by Morskaya as both trial and punishment. Circle Shiverveil leaders were sent through pool when Morskaya mistook them for Auril servants - they're now stranded on ice floes/islands in the Sea of Moving Ice, likely requiring a retrieval ritual (storm + Maer Dualdon water + driftwood + storm petrel feather + a humanoid bone from a drowned person) performed at the shrine to bring them back, rather than a return trip through the pool. If the party themselves goes through the pool, they can be rescued/guided by Angajuk the whale toward the Dark Duchess wreck, tying this location into the Oyaminartok/Keogr plotline. Connection to larger plot: Sea of Moving Ice contains important late-game locations including approach to Grimskalle (Auril's fortress).",
+    "priority": "medium",
+    "status": "planning",
+    "tags": [
+      "early",
+      "umberlee",
+      "lonelywood"
+    ],
+    "createdAt": "12/17/2024"
+  },
+  {
+    "id": 1734467200007,
+    "title": "Dzaan's Ythryn Research",
+    "category": "plot",
+    "description": "Dzaan's true motivation for studying Karexil and raising the Gardener: he believed it held keys to understanding Ythryn's fall and Netherese secrets of immortality. His research notes suggest the creature 'knew death and returned from it once before.' UPDATED CONNECTION: this ties directly into the now-established Spindle/Codicil/mythallar plotline - Dzaan's instincts were correct that Ythryn holds something capable of affecting death/resurrection/divine power. The actual truth (not yet known to Dzaan or the party) is that Ythryn's mythallar may function as a god-dampener capable of suppressing/killing Auriliths, and Auril deliberately caused Ythryn's fall to bury this threat. Dzaan's simulacrum continues this research and could be a source (rival or ally) for the party as they piece the Ythryn/Auril connection together in Ch. 5-6.",
+    "priority": "medium",
+    "status": "planning",
+    "tags": [
+      "midgame",
+      "arcane brotherhood",
+      "investigation"
+    ],
+    "createdAt": "12/17/2024"
+  },
+  {
+    "id": 1733954820001,
+    "title": "Glix's Chardalyn Sensitivity & Permanent Gardener Bond",
+    "category": "plot",
+    "description": "Glix's psionic attunement through the Unquiet Ore makes him hypersensitive to chardalyn corruption, detecting both Deep Duerra's psionic corruption and Auril's cold stasis corruption simultaneously as competing psychic dissonance. MAJOR UPDATE: During the Toil & Trouble resolution, Glix took the Gardener's spores as part of the party's compromise deal. The spores are now permanently absorbed into his plasma - removing them would require a concentrated effort. This gives Glix an ongoing, escalating two-way communication channel with the Gardener; the Gardener can potentially sense/communicate through him at will. This is a significant unresolved thread - the extent to which the Gardener can perceive through Glix, and whether this connection grows over time, is still to be determined.",
     "priority": "high",
     "status": "ready",
     "tags": [
       "overarching",
-      "early"
+      "chardalyn",
+      "great old one"
+    ],
+    "createdAt": "12/11/2024"
+  },
+  {
+    "id": 1733954820002,
+    "title": "Mind Flayer Chardalyn Interest",
+    "category": "plot",
+    "description": "Mind flayers were attracted to Icewind Dale by chardalyn's psionic signature. Mind flayer ship crashed just before campaign start. The psi crystal found in Termalaine mine is separate from chardalyn - it powers mind flayer vessels and connects to distress signals. Deep Duerra's duergar and mind flayers are ancient psionic enemies competing for chardalyn resources. Mind flayers likely attempted to study or weaponize the naturally psi-reactive mineral before being driven out or crashing. Glix was transported to this plane separately by Flux'thuun, not directly connected to the crashed vessel.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "chardalyn"
+    ],
+    "createdAt": "12/11/2024"
+  },
+  {
+    "id": 1733954820003,
+    "title": "Chardalyn - Dual Corruption Substance",
+    "category": "misc",
+    "description": "Chardalyn is naturally occurring psi-reactive crystal that is prone to corruption but not inherently corrupt. Two divine forces corrupt it differently: Deep Duerra's duergar use psionic corruption for constructs and weapons (causes madness, paranoia, violence). Auril's forces use cold stasis corruption through Auriliths like Uthessil (causes winter worship, personality changes toward cold indifference). Same base material, competing divine influences. Both factions actively mining and stealing chardalyn throughout Ten-Towns, unknowingly working against each other. Raw, uncorrupted chardalyn is psi-reactive but safe to handle briefly.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "chardalyn",
+      "auriliths"
+    ],
+    "createdAt": "12/11/2024"
+  },
+  {
+    "id": 1733954820004,
+    "title": "Aurilith Autonomy Levels",
+    "category": "plot",
+    "description": "Most Auriliths are tools being directly controlled by Auril with no independence. However, Uthessil the Warden in White and Zethryn the Root-Taker have developed autonomy and can directly communicate with mortals. This allows Auril to remain distant and unknowable while her will is still enforced. Uthessil remains loyal, creating the Black Swords cult to serve Auril. Zethryn has rebelled - its nature as being connected to living trees makes it resist the frozen stasis, and it works covertly against Auril through Circle Shiverveil. Auril's indifference means she doesn't closely monitor her creations, allowing some to develop independence or even betray her. Karexil represents a third category - not autonomous rebellion or loyal enforcement, but a narrow dedicated guardianship role predating Auril's general system.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths"
+    ],
+    "createdAt": "12/11/2024"
+  },
+  {
+    "id": 1749169876543,
+    "title": "Flux'thuun the Tide-Changer - Great Old One Patron",
+    "category": "npc",
+    "description": "Cosmic entity of inevitable change that flows through dimensions like water through cracks. Opposes Auril's perpetual winter because stagnation blocks its natural flow and threatens universal death. Does not understand morality - only that things MUST change or reality itself will calcify and die. Communicates through wind-like voices and grants powers that force transformation. Made pact with plasmoid warlock during mind flayer attack, demanding they 'make the ice flow again.' Views the frozen Dale as a dam blocking the natural tide of change that keeps existence alive. Would recognize philosophical kinship with Ylmyo-Aldon's Gardener - both oppose stasis, albeit through very different means (change/flow vs. decay/transformation).",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "early",
+      "great old one"
     ],
     "createdAt": "6/6/2025"
   },
@@ -126,7 +161,7 @@
     "id": 1749169876544,
     "title": "The Unquiet Ore - Artifact of Change",
     "category": "misc",
-    "description": "Ever-shifting mass of unrefined metal that exists in liquid form within its plasmoid host. Continually twists in shape and changes color, compelling constant restless movement. Artifact of Flux'thuun the Tide-Changer that established warlock pact during mind flayer attack. Grants power to transmute elemental damage types (once per long rest as reaction). The metal vibrates with hatred when exposed to Auril's influence or the musical wails of Yll-Varn the Drowned Choir. Physical manifestation of the cosmic force of change opposing the Dale's frozen stagnation.",
+    "description": "Ever-shifting mass of unrefined metal that exists in liquid form within its plasmoid host. Continually twists in shape and changes color, compelling constant restless movement. Artifact of Flux'thuun the Tide-Changer that established warlock pact during mind flayer attack. Grants power to transmute elemental damage types (once per long rest as reaction). The metal vibrates with hatred when exposed to Auril's influence or the musical wails of Yll-Varn the Drowned Choir. Physical manifestation of the cosmic force of change opposing the Dale's frozen stagnation. Now shares Glix's plasma with the Gardener's permanent spores - two competing Great Old One influences coexisting in one host.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -139,7 +174,7 @@
     "id": 97,
     "title": "Easthaven Ferry - Duergar Outpost",
     "category": "location",
-    "description": "Hidden duergar base under Easthaven's ferry. Durth Sunblight's operation for chardalyn theft throughout Ten-Towns. Contains map to Sunblight Fortress location. Opportunity for investigation and intelligence gathering about larger duergar conspiracy. Could be discovered through Zhentarim spy network.",
+    "description": "Hidden duergar base under Easthaven's ferry. Was Durth Sunblight's operation for chardalyn theft throughout Ten-Towns; Durth is now dead. Contains map to Sunblight Fortress location. Opportunity for investigation and intelligence gathering about larger duergar conspiracy. Could be discovered through Zhentarim spy network.",
     "priority": "medium",
     "status": "planning",
     "tags": [
@@ -150,21 +185,26 @@
     ],
     "createdAt": "Original Adventure"
   },
-{
-  "id": 90,
-  "title": "Xardorok Sunblight - Duergar Warlord",
-  "category": "npc",
-  "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns using chardalyn corrupted by Deep Duerra's psionic energy. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra, believes the goddess blesses his conquest through the psi-reactive chardalyn. Killed most of his own family through paranoia and violence. Two surviving sons: Durth and Nildar (both sent on distant missions). Uses Klondorn's rituals and red dragon heart forge to create constructs.",
-  "priority": "high",
-  "status": "planning",
-  "tags": ["midgame", "sunblight", "combat", "chardalyn"],
-  "createdAt": "Original Adventure"
-},
+  {
+    "id": 90,
+    "title": "Xardorok Sunblight - Duergar Warlord",
+    "category": "npc",
+    "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns using chardalyn corrupted by Deep Duerra's psionic energy. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra, believes the goddess blesses his conquest through the psi-reactive chardalyn. Killed most of his own family through paranoia and violence. Two sons: Durth (now DEAD) and Nildar (currently in Easthaven, not on a distant mission as originally planned - was allowed to escape by the party during 'The Unseen' quest in exchange for returning stolen goods). Uses Klondorn's rituals and red dragon heart forge to create constructs. Wears a jagged black crown and spiky black gauntlet, both made of chardalyn. Entirely unaware that his trusted advisor Klondorn is secretly a meenlock.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "midgame",
+      "sunblight",
+      "combat",
+      "chardalyn"
+    ],
+    "createdAt": "Original Adventure"
+  },
   {
     "id": 91,
     "title": "Grandolpha Muzgardt - Duergar Rebel",
     "category": "npc",
-    "description": "Duergar matriarch secretly opposing Xardorok's plans. Once wooed by Xardorok with promises of marriage and wealth, now sees his madness. Potential ally in Sunblight Fortress. Commands loyalty from some duergar who question Xardorok's increasingly destructive obsessions. Key to creating internal faction conflict within fortress.",
+    "description": "Duergar matriarch secretly opposing Xardorok's plans. Grand dame of the Muzgardt clan, arrived at Sunblight Fortress as Xardorok's invited guest and prospective fourth wife - once wooed by Xardorok with promises of marriage and wealth, now sees his madness. Potential ally in Sunblight Fortress. Commands loyalty from some duergar (including guards Dreck and others) who question Xardorok's increasingly destructive obsessions. Key to creating internal faction conflict within fortress.",
     "priority": "medium",
     "status": "planning",
     "tags": [
@@ -176,16 +216,17 @@
   },
   {
     "id": 92,
-    "title": "Durth Sunblight - Duergar Son",
+    "title": "Durth Sunblight - Duergar Son (DECEASED)",
     "category": "npc",
-    "description": "One of Xardorok's two surviving sons. Operates from Easthaven Ferry, sending duergar to steal chardalyn from nearby towns. Has map showing location of Sunblight Fortress. Could be captured/interrogated for information. Potential for interesting family dynamics if confronted with father's madness.",
+    "description": "One of Xardorok's two sons. Formerly operated from Easthaven Ferry, sending duergar to steal chardalyn from nearby towns, and held a map showing the location of Sunblight Fortress. UPDATE: Durth is now dead. Cause/circumstances of death to be determined/retconned if not already established at the table - useful as a lingering plot thread (does Xardorok know? Does he blame the party or someone else?).",
     "priority": "medium",
-    "status": "planning",
+    "status": "used",
     "tags": [
       "midgame",
       "sunblight",
       "social",
-      "chardalyn"
+      "chardalyn",
+      "resolved"
     ],
     "createdAt": "Original Adventure"
   },
@@ -193,41 +234,29 @@
     "id": 93,
     "title": "Nildar Sunblight - Duergar Son",
     "category": "npc",
-    "description": "Xardorok's other surviving son. Sent on distant mission to keep him away from court. Could be encountered separately or used as leverage against Xardorok. Another angle for exploring duergar family tragedy and Xardorok's paranoid destruction of his own bloodline.",
+    "description": "Xardorok's surviving son. UPDATE: Not sent on a distant mission - Nildar is currently in Easthaven. He was captured/cornered by the party during 'The Unseen' investigation (duergar hideout in Caer-Konig) and was let escape in exchange for the return of stolen goods. He may still be operating in or around Easthaven, and could resurface as a contact, threat, or bargaining chip when the party reaches Sunblight Fortress and confronts Xardorok about Durth's death.",
     "priority": "medium",
     "status": "planning",
     "tags": [
       "midgame",
       "sunblight",
-      "social"
+      "social",
+      "easthaven"
     ],
     "createdAt": "Original Adventure"
   },
   {
     "id": 94,
-    "title": "Klondorn - Corrupted Priest",
+    "title": "Klondorn - Meenlock in Disguise (not a devil)",
     "category": "npc",
-    "description": "Duergar priest of Deep Duerra serving as Xardorok's advisor. Creates magical constructs in temple using red dragon heart forge. Key to understanding how Xardorok receives his 'divine inspiration.'",
+    "description": "Duergar priest of Deep Duerra and Xardorok's trusted advisor - in fact a MEENLOCK, not an Asmodeus-sent devil. The tall black miter is a hat of disguise concealing its true form and psionic projection. Klondorn arose spontaneously from the psychic anguish and accumulated fear saturating Xardorok's fortress, where faezress-touched Underdark stone amplified the conditions for meenlock spawning. It serves Deep Duerra's will as it understands it, and its own hunger for broken minds - it has NO connection to Asmodeus or the Nine Hells. Xardorok is entirely unaware of Klondorn's true nature, perceiving only the duergar priest Klondorn projects psionically. If threatened, Klondorn discards the miter and attacks in its true form; if reduced to 0 HP, it collapses into twitching shadows and dissolves, leaving only the hat of disguise behind. Spends its time chiseling ninety-two granite tablets inscribed with Dwarvish (not Infernal) theological writings arguing that chardalyn's psionic corruption is Deep Duerra's deliberate, ancient will, and that Xardorok's dragon is an unwitting sacrament in her long war against the surface world. CR 5 meenlock priest build. Key to understanding how Xardorok receives his 'divine inspiration' - and how thoroughly he's been manipulated.",
     "priority": "medium",
-    "status": "planning",
+    "status": "ready",
     "tags": [
       "midgame",
       "sunblight",
       "social",
-      "auriliths"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 95,
-    "title": "Vellynne Harpell - Arcane Brotherhood Wizard",
-    "category": "npc",
-    "description": "Necromancer from Arcane Brotherhood searching for Ythryn. Could offer aid against chardalyn dragon with undead direwolf sleds for rapid travel. Potential ally but with her own agenda seeking ancient Netherese magic. Creates opportunity for party to learn about larger magical conspiracy.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "social",
+      "auriliths",
       "chardalyn"
     ],
     "createdAt": "Original Adventure"
@@ -236,7 +265,7 @@
     "id": 96,
     "title": "Sunblight Fortress - Duergar Stronghold",
     "category": "location",
-    "description": "Three-level duergar fortress in Spine of the World. Top level: massive doors for dragon exit. Middle level: living quarters, Grandolpha's faction. Bottom level: forge with red dragon heart, construction hall, throne room, temple to Deep Duerra. About 30 rooms total. Faction dynamics between loyalists and rebels create infiltration opportunities.",
+    "description": "Three-level duergar fortress in Spine of the World. Top level: massive doors for dragon exit. Middle level: living quarters, Grandolpha's faction. Bottom level: forge with red dragon heart, construction hall, throne room, temple to Deep Duerra. About 30 rooms total. Faction dynamics between loyalists and rebels create infiltration opportunities. Everything within (dragon, throne, figurines, statuette) is Duerra-corrupted chardalyn specifically - psionic madness effects, not Auril's cold stasis.",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -250,13 +279,14 @@
     "id": 98,
     "title": "The Black Cabin - Cursed Location",
     "category": "location",
-    "description": "Cabin where travelers die mysterious deaths. Connected to cursed magic items and chardalyn corruption. Good location for horror-themed encounter that reinforces deadly nature of Icewind Dale. Could contain chardalyn-corrupted items that tie to larger corruption network.",
+    "description": "Cabin where travelers die mysterious deaths. Connected to cursed magic items and chardalyn corruption. UPDATE: Now tied to the Karkolohk goblin encounter - contains Macreadus's (Makrud's) private stash of Sweetberry Summer Wine and the remnants of his lab, where he built the Summer Star device (inspired by goblin ingenuity) that malfunctioned and killed him three days prior to the party's arrival. His restless spirit haunts the cabin. Good location for horror-themed encounter reinforcing the deadly nature of Icewind Dale. NOTE: Sweetberry Summer Wine also appears on the Dark Duchess (Captain Bluemoon's stash) - worth having a throwaway explanation ready (popular regional import/long supply chain) if a player connects the two locations.",
     "priority": "medium",
     "status": "planning",
     "tags": [
       "midgame",
       "chardalyn",
-      "investigation"
+      "investigation",
+      "karkolohk"
     ],
     "createdAt": "Original Adventure"
   },
@@ -264,7 +294,7 @@
     "id": 99,
     "title": "Cackling Chasm - Underground Passage",
     "category": "location",
-    "description": "Underground route providing alternative access to various locations. Natural formation with unique dangers including unstable ice and strange acoustics. Useful for travel between areas or as escape route. Could connect to other Underdark passages leading to Sunblight.",
+    "description": "Underground route providing alternative access to various locations. Natural formation with unique dangers including unstable ice and strange acoustics. Useful for travel between areas or as escape route. Could connect to other Underdark passages leading to Sunblight. Also usable as an alternate route relevant to Trovus's gnoll bounty.",
     "priority": "low",
     "status": "planning",
     "tags": [
@@ -273,20 +303,25 @@
     "createdAt": "Original Adventure"
   },
   {
-   "id": 100,
-      "title": "The White Moose - Umberlee's Bait",
-      "category": "encounter",
-      "description": "Awakened moose created by Morskaya (sea elf wereshark druid) as bait to draw attention to Lonelywood forest. Attacks loggers to create crisis that will lead investigators to discover the hidden Umberlee shrine. Not corrupted by magic item - simply following Morskaya's commands. Connection to nature magic and Umberlee's opposition to Auril's frozen stasis. Could tie to Circle Shiverveil/Blackgleam firbolg knowledge of natural balance disruption. Quest leads to Umberlee shrine rather than frost druid villain.",
-      "priority": "high",
-      "status": "planning",
-      "tags": ["early", "combat", "umberlee", "lonelywood"],
-      "createdAt": "Original Adventure"
+    "id": 100,
+    "title": "The White Moose - Umberlee's Bait",
+    "category": "encounter",
+    "description": "Awakened moose created by Morskaya (sea elf wereshark druid) as bait to draw attention to Lonelywood forest. Attacks loggers to create crisis that will lead investigators to discover the hidden Umberlee shrine. Not corrupted by magic item - simply following Morskaya's commands. Connection to nature magic and Umberlee's opposition to Auril's frozen stasis. Could tie to Circle Shiverveil/Blackgleam firbolg knowledge of natural balance disruption. Quest leads to Umberlee shrine rather than frost druid villain.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "early",
+      "combat",
+      "umberlee",
+      "lonelywood"
+    ],
+    "createdAt": "Original Adventure"
   },
   {
     "id": 101,
     "title": "A Beautiful Mine - Termalaine Quest",
     "category": "encounter",
-    "description": "Kobolds have taken over gem mine in Termalaine. Involves negotiation with kobold chieftain Hrark. Mine produces precious gems valuable for trade. Could become party asset if handled diplomatically. Good early-level quest with multiple solutions - combat, negotiation, or trickery.",
+    "description": "Kobolds have taken over gem mine in Termalaine. Involves negotiation with kobold chieftain Hrark. Mine produces precious gems valuable for trade. Could become party asset if handled diplomatically. Good early-level quest with multiple solutions - combat, negotiation, or trickery. True threat underneath is chardalyn corruption of the kobold leader.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -299,15 +334,16 @@
   },
   {
     "id": 102,
-    "title": "Mountain Climb - Yeti Investigation",
+    "title": "Mountain Climb - Yeti Investigation (RESOLVED)",
     "category": "encounter",
-    "description": "Investigation into missing climbers on Kelvin's Cairn. Leads to yeti encounters and potentially discovers goliath settlements like Skytower Shelter. Could reveal information about supernatural activity in mountains. Ties to both survival themes and larger mysteries. Good tie-in for Keogr's background.",
+    "description": "Investigation into missing climbers on Kelvin's Cairn. Leads to yeti encounters and potentially discovers goliath settlements like Skytower Shelter. RESOLUTION: Party rescued Garrett Velryn and Perilou Fishfinger. Ties to survival themes and Keogr's background. Could still be revisited for supernatural mountain activity/goliath settlement hooks.",
     "priority": "medium",
-    "status": "planning",
+    "status": "used",
     "tags": [
       "early",
       "combat",
-      "investigation"
+      "investigation",
+      "resolved"
     ],
     "createdAt": "Original Adventure"
   },
@@ -325,26 +361,34 @@
     ],
     "createdAt": "Original Adventure"
   },
-{
-      "id": 104,
-      "title": "Wardens of the White - Caer Dineval",
-      "category": "encounter",
-      "description": "Cult operating from Caer Dineval, serving Uthessil the Warden in White directly. Like Circle Shiverveil serves Zethryn, Wardens of the White serve their Aurilith with autonomy, allowing Auril to remain distant and unknowable. Members wear black ice amulets made from chardalyn corrupted by Auril's cold stasis through Uthessil's influence. Recruits those already showing signs of chardalyn corruption, offering them 'sanctuary' and purpose. Wardens plant corrupted chardalyn artifacts to identify and recruit susceptible individuals. Led by cultists who believe embracing the cold completely will grant them favor. The 'black swords' are ceremonial weapons made of corrupted ice that channel Uthessil's influence, allowing the cult to enforce Auril's will beyond the Aurilith's immediate presence. Connected to tiefling recruiters who actively seek corrupted individuals like Huarwar.",
-      "priority": "high",
-      "status": "planning",
-      "tags": ["early", "chardalyn", "social", "investigation", "auriliths"],
-      "createdAt": "6/4/2025"
-},
   {
-    "id": 105,
-    "title": "The Unseen - Invisible Stalker Mystery",
+    "id": 104,
+    "title": "Wardens of the White - Caer Dineval",
     "category": "encounter",
-    "description": "Invisible stalker murdering people in Caer-Konig. Summoned by bitter mage seeking revenge. Investigation leads to duergar connection and information about larger conspiracy. Good mystery for party to solve using investigation skills rather than just combat.",
-    "priority": "medium",
+    "description": "Cult operating from Caer Dineval, serving Uthessil the Warden in White directly. Like Circle Shiverveil serves Zethryn, Wardens of the White serve their Aurilith with autonomy, allowing Auril to remain distant and unknowable. Members wear black ice amulets made from chardalyn corrupted by Auril's cold stasis through Uthessil's influence. Recruits those already showing signs of chardalyn corruption, offering them 'sanctuary' and purpose. MAJOR UPDATE: The Wardens are now the keepers of the Codicil of the White, a sacred relic they believe is a holy object of Auril's winter. In truth, it is the key to entering and navigating Ythryn's magic - Uthessil told them it is 'vital to Auril's reign,' which is technically true, but the Wardens don't know why. They will not give it up willingly. Connected to tiefling recruiters who actively seek corrupted individuals like Huarwar. Trovus is reportedly planning to confront Uthessil directly at Caer-Dineval with militia support - outcome TBD.",
+    "priority": "high",
     "status": "planning",
     "tags": [
       "early",
-      "investigation"
+      "chardalyn",
+      "social",
+      "investigation",
+      "auriliths",
+      "ythryn"
+    ],
+    "createdAt": "6/4/2025"
+  },
+  {
+    "id": 105,
+    "title": "The Unseen - Invisible Stalker Mystery (RESOLVED)",
+    "category": "encounter",
+    "description": "Invisible stalker murdering people in Caer-Konig. Summoned by bitter mage seeking revenge. RESOLUTION: Party discovered the duergar hideout connected to this mystery and encountered Nildar Sunblight, who was allowed to escape in exchange for returning stolen goods. Investigation led to information about the larger duergar conspiracy.",
+    "priority": "medium",
+    "status": "used",
+    "tags": [
+      "early",
+      "investigation",
+      "resolved"
     ],
     "createdAt": "Original Adventure"
   },
@@ -352,36 +396,45 @@
     "id": 106,
     "title": "Chardalyn Dragon - Doomsday Weapon",
     "category": "plot",
-    "description": "Massive construct dragon built by Xardorok from chardalyn. Programmed to destroy each Ten-Towns settlement in sequence: Dougan's Hole → Good Mead → Easthaven → Caer-Dineval → Caer-Konig → Termalaine → Lonelywood → Bremen → Targos → Bryn Shander. Creates ultimate time pressure and represents escalation of chardalyn corruption threat.",
+    "description": "Massive construct dragon built by Xardorok from Duerra-corrupted chardalyn. Programmed to destroy each Ten-Towns settlement in sequence: Dougan's Hole -> Good Mead -> Easthaven -> Caer-Dineval -> Caer-Konig -> Termalaine -> Lonelywood -> Bremen -> Targos -> Bryn Shander. Creates ultimate time pressure and represents escalation of chardalyn corruption threat. MAJOR ADDITION: The dragon's attack is now planned to demonstrate, for the first time, that concentrated/weaponized chardalyn can destroy Auriliths - the dragon obliterating one or more Auriliths during its rampage gives the party their first proof-of-concept that Auriliths CAN be killed, seeding the Ch.5-6 Ythryn/mythallar plotline.",
     "priority": "medium",
     "status": "brainstorming",
     "tags": [
       "midgame",
       "chardalyn",
-      "combat"
+      "combat",
+      "auriliths"
     ],
     "createdAt": "Original Adventure"
   },
-{
-  "id": 107,
-  "title": "Duergar Chardalyn Network",
-  "category": "plot",
-  "description": "Organized duergar operation stealing chardalyn from throughout Ten-Towns to corrupt with Deep Duerra's psionic energy for constructs and weapons. Multiple cells operating from hidden bases (Easthaven Ferry, Caer-Konig hideout, possibly others). Duergar believe chardalyn is blessed by their goddess Deep Duerra. Unaware that Auril's forces also corrupt chardalyn differently for cold stasis purposes through Auriliths. Two factions unknowingly competing for same resource. Duergar mining operations destabilizing underground chardalyn veins, causing psionic corruption to spread - this is affecting Circle Blackgleam's crystal gardens as duergar activity spreads corruption through connected chardalyn networks.",
-  "priority": "high",
-  "status": "brainstorming",
-  "tags": ["midgame", "chardalyn", "investigation"],
-  "createdAt": "Original Adventure"
-},
-{
-  "id": 108,
-  "title": "Chardalyn Corruption Effects",
-  "category": "rules",
-  "description": "Extended exposure to CORRUPTED chardalyn causes effects based on corruption source. Deep Duerra's psionic corruption (duergar): causes paranoia, madness, and violent tendencies. Auril's cold stasis corruption (Auriliths): causes personality changes toward winter worship and cold indifference. CON saves DC 15 after each day of contact with corrupted chardalyn. Failure causes appropriate corruption effects. Raw, uncorrupted chardalyn is safe to handle briefly but is psi-reactive. Characters handling corrupted chardalyn items risk becoming like Huarwar or the Termalaine kobolds depending on corruption type.",
-  "priority": "high",
-  "status": "planning",
-  "tags": ["overarching", "chardalyn", "rules"],
-  "createdAt": "Original Adventure"
-},
+  {
+    "id": 107,
+    "title": "Duergar Chardalyn Network",
+    "category": "plot",
+    "description": "Organized duergar operation stealing chardalyn from throughout Ten-Towns to corrupt with Deep Duerra's psionic energy for constructs and weapons. Multiple cells operating from hidden bases (Easthaven Ferry - Durth now dead, Caer-Konig hideout - tied to Nildar, possibly others). Duergar believe chardalyn is blessed by their goddess Deep Duerra. Unaware that Auril's forces also corrupt chardalyn differently for cold stasis purposes through Auriliths. Two factions unknowingly competing for same resource. Duergar mining operations destabilizing underground chardalyn veins, causing psionic corruption to spread - this is affecting Circle Blackgleam's crystal gardens as duergar activity spreads corruption through connected chardalyn networks.",
+    "priority": "high",
+    "status": "brainstorming",
+    "tags": [
+      "midgame",
+      "chardalyn",
+      "investigation"
+    ],
+    "createdAt": "Original Adventure"
+  },
+  {
+    "id": 108,
+    "title": "Chardalyn Corruption Effects",
+    "category": "rules",
+    "description": "Extended exposure to CORRUPTED chardalyn causes effects based on corruption source. Deep Duerra's psionic corruption (duergar): causes paranoia, madness, and violent tendencies. Auril's cold stasis corruption (Auriliths): causes personality changes toward winter worship and cold indifference. CON saves DC 15 after each day of contact with corrupted chardalyn. Failure causes appropriate corruption effects. Raw, uncorrupted chardalyn is safe to handle briefly but is psi-reactive. Characters handling corrupted chardalyn items risk becoming like Huarwar or the Termalaine kobolds depending on corruption type.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching",
+      "chardalyn",
+      "rules"
+    ],
+    "createdAt": "Original Adventure"
+  },
   {
     "id": 109,
     "title": "Fortress Siege Mechanics",
@@ -401,7 +454,7 @@
     "id": 110,
     "title": "Construct Creation Rituals",
     "category": "rules",
-    "description": "How duergar create chardalyn constructs using temple rituals and red dragon heart forge. Magic circles channel Deep Duerra's power through Klondorn's rituals. Could be adapted for other chardalyn corruption processes. Destroying dragon heart forge cripples construct creation.",
+    "description": "How duergar create chardalyn constructs using temple rituals and red dragon heart forge. Magic circles channel Deep Duerra's power through Klondorn's (meenlock) psionic rituals. Could be adapted for other chardalyn corruption processes. Destroying dragon heart forge cripples construct creation.",
     "priority": "medium",
     "status": "planning",
     "tags": [
@@ -440,20 +493,26 @@
     "createdAt": "Original Adventure"
   },
   {
- "id": 114,
-      "title": "Morskaya - Sea Elf Wereshark Druid",
-      "category": "npc",
-      "description": "Sea elf wereshark druid serving Umberlee. Awakened the white moose in Lonelywood forest as bait to lure people to the hidden Umberlee shrine. Opposes Auril's stasis (Umberlee represents change and chaos of the sea vs Auril's frozen permanence). Maintains drowning pool that transports to Sea of Moving Ice. Mistakenly sent Circle Shiverveil leaders through the pool, believing they served Auril. Represents Umberlee's very limited faction presence in Icewind Dale. Potential ally or antagonist depending on party's approach to the White Moose situation.",
-      "priority": "high",
-      "status": "planning",
-      "tags": ["early", "umberlee", "lonelywood", "social", "combat"],
-      "createdAt": "12/17/2024"
+    "id": 114,
+    "title": "Morskaya - Sea Elf Wereshark Druid",
+    "category": "npc",
+    "description": "Sea elf wereshark druid serving Umberlee. Awakened the white moose in Lonelywood forest as bait to lure people to the hidden Umberlee shrine. Opposes Auril's stasis (Umberlee represents change and chaos of the sea vs Auril's frozen permanence). Maintains the ONE-WAY drowning pool that transports to the Sea of Moving Ice. Mistakenly sent Circle Shiverveil leaders through the pool, believing they served Auril - does not apologize easily; retrieving them functions as her act of penance rather than a spoken apology. If reduced below half HP without a diplomatic attempt, transforms into wereshark form (panic/fury, not controlled) and her merrow allies in area U8 respond to her distress. If reduced below 10 HP with a prior diplomatic attempt, surrenders rather than dying. Can perform a retrieval ritual (with proper components: Maer Dualdon water, driftwood, storm petrel feather, a humanoid bone from a drowned person) to bring the Circle Shiverveil leaders back. Senses Umberlee's agitation building for months - possibly connected to a coming wave/attack (see Zethryn's visions). Potential ally or antagonist depending on party's approach.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "early",
+      "umberlee",
+      "lonelywood",
+      "social",
+      "combat"
+    ],
+    "createdAt": "12/17/2024"
   },
   {
     "id": 115,
     "title": "Chardalyn Dragon Attack Timeline",
     "category": "encounter",
-    "description": "Precise timing of dragon's destructive path through Ten-Towns. Each town gets 2-4 hours of destruction before dragon moves on. Total attack takes ~48 hours. Party has limited time to intercept at specific towns. Creates difficult tactical decisions about which settlements can be saved.",
+    "description": "Precise timing of dragon's destructive path through Ten-Towns. Each town gets 2-4 hours of destruction before dragon moves on. Total attack takes ~48 hours. Party has limited time to intercept at specific towns. Creates difficult tactical decisions about which settlements can be saved. May include Aurilith-destruction moment (see Chardalyn Dragon - Doomsday Weapon entry).",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -560,7 +619,7 @@
     "id": 82,
     "title": "Extreme Cold Weather Rules",
     "category": "rules",
-    "description": "Extreme cold (below 0°F): CON save DC 10 every hour, +1 DC each hour. Failure = 1 level exhaustion. Warm clothing/heat sources = advantage. Cold resistance = automatic success. Exhaustion kills at level 6. Icewind Dale averages -49°F.",
+    "description": "Extreme cold (below 0F): CON save DC 10 every hour, +1 DC each hour. Failure = 1 level exhaustion. Warm clothing/heat sources = advantage. Cold resistance = automatic success. Exhaustion kills at level 6. Icewind Dale averages -49F.",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -587,7 +646,7 @@
     "id": 80,
     "title": "Black Ice Shard - Corruption Artifact",
     "category": "plot",
-    "description": "Mysterious black ice shard found by Huarwar during Speaker search. Changed his personality from kind to mean/threatening. Tieflings wore matching amulets. Connected to Black Swords cult at Caer-Dineval. Chardalyn corruption spreading through artifacts?",
+    "description": "Mysterious black ice shard found by Huarwar during Speaker search. Changed his personality from kind to mean/threatening. Tieflings wore matching amulets. Connected to Black Swords cult at Caer-Dineval. Chardalyn corruption spreading through artifacts.",
     "priority": "high",
     "status": "brainstorming",
     "tags": [
@@ -601,7 +660,7 @@
     "id": 79,
     "title": "Huarwar Mulphoon - Corrupted Son",
     "category": "plot",
-    "description": "Cora's adult son, joined search party for Speaker Shalescar two months ago. Got separated, returned with frostbite and BLACK ICE SHARD. Became mean/threatening toward mother (uncharacteristic). Two TIEFLINGS with matching amulets offered him sanctuary at their castle. Left willingly, took shard, said he'd never return. Now at Caer-Dineval keep with Black Swords cult.",
+    "description": "Cora's adult son, joined search party for Speaker Shalescar two months ago. Got separated, returned with frostbite and BLACK ICE SHARD. Became mean/threatening toward mother (uncharacteristic). Two TIEFLINGS with matching amulets offered him sanctuary at their castle. Left willingly, took shard, said he'd never return. Now at Caer-Dineval keep with Black Swords cult, which currently guards the Codicil of the White for Uthessil.",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -749,13 +808,14 @@
   },
   {
     "id": 68,
-    "title": "Mountain Climb Quest Introduction",
+    "title": "Mountain Climb Quest Introduction (RESOLVED)",
     "category": "encounter",
-    "description": "Introduce Mountain Climb quest when party returns to Targos after visiting Bremen and/or Termalaine. Timing allows party to build relationships before major quest reveal.",
+    "description": "Introduce Mountain Climb quest when party returns to Targos after visiting Bremen and/or Termalaine. Timing allowed party to build relationships before major quest reveal. RESOLVED - see Mountain Climb entry for outcome (rescued Garrett Velryn & Perilou Fishfinger).",
     "priority": "medium",
-    "status": "planning",
+    "status": "used",
     "tags": [
-      "early"
+      "early",
+      "resolved"
     ],
     "createdAt": "Quest Timing"
   },
@@ -792,7 +852,7 @@
     "id": 65,
     "title": "Targos - In a Nutshell",
     "category": "location",
-    "description": "Friendliness ❄❄ Services ❄❄❄ Comfort ❄❄ \nPopulation: 1,000 (largest town). \nLeaders: Speaker Naerth Maxildanarr (LE human spy, secret Zhentarim), Skath (LE tiefling veteran) leads militia. \nMilitia: 200 soldiers + 16 veterans (strongest force). \nHeraldry: Single-sailed black ship on light blue field. \nSacrifice to Auril: HUMANOID. \nRivals: Bremen, Lonelywood, Termalaine.",
+    "description": "Friendliness: 2/5. Services: 3/5. Comfort: 2/5. Population: 1,000 (largest town). Leaders: Speaker Naerth Maxildanarr (LE human spy, secret Zhentarim), Skath (LE tiefling veteran) leads militia. Militia: 200 soldiers + 16 veterans (strongest force). Heraldry: Single-sailed black ship on light blue field. Sacrifice to Auril: HUMANOID. Rivals: Bremen, Lonelywood, Termalaine.",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -832,7 +892,7 @@
     "id": 62,
     "title": "Bremen - in a Nutshell",
     "category": "location",
-    "description": "Friendliness ❄❄❄ Services ❄ Comfort ❄❄ \nAvailable Quest: Lake Monster. \nPopulation: 150. \nLeader: Speaker Dorbulgruf Shalescar (lawful good shield dwarf commoner) \nRivals: Lonelywood, Targos, Termalaine.",
+    "description": "Friendliness: 3/5. Services: 1/5. Comfort: 2/5. Available Quest: Lake Monster. Population: 150. Leader: Speaker Dorbulgruf Shalescar (lawful good shield dwarf commoner). Rivals: Lonelywood, Targos, Termalaine.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -843,15 +903,16 @@
   },
   {
     "id": 61,
-    "title": "Lake Monster Quest",
+    "title": "Lake Monster Quest (RESOLVED)",
     "category": "encounter",
-    "description": "The lake monster's den is inside the Drowned Choir. Luck roll. If bad luck, they will have to follow it there to confront it.",
+    "description": "The lake monster's den is inside the Drowned Choir (Yll-Varn). RESOLUTION: The monster was awakened by Yll-Varn, renamed 'Khaleesi' by the party, and negotiated with - but the attacks were not fully stopped as a result.",
     "priority": "high",
-    "status": "ready",
+    "status": "used",
     "tags": [
       "early",
       "combat",
-      "ten-towns"
+      "ten-towns",
+      "resolved"
     ],
     "createdAt": "Encounter Design"
   },
@@ -859,7 +920,7 @@
     "id": 58,
     "title": "Zhentarim Network in Ten-Towns",
     "category": "plot",
-    "description": "Naerth commands 12+ Zhentarim spies across Ten-Towns including Wurther (Bremen fisherman spy). Active operations: disposing of suspected Harper spies, convincing business owners to buy fish exclusively from Targos. Goal is transforming Ten-Towns into Black Network trade hub. Creates faction conflict and espionage subplot throughout campaign. \n\nThey have begun humanoid sacrifices, which is why Yll-Varn is following their bidding to attack Bremen.",
+    "description": "Naerth commands 12+ Zhentarim spies across Ten-Towns including Wurther (Bremen fisherman spy). Active operations: disposing of suspected Harper spies, convincing business owners to buy fish exclusively from Targos. Goal is transforming Ten-Towns into Black Network trade hub. Creates faction conflict and espionage subplot throughout campaign. They have begun humanoid sacrifices, which is why Yll-Varn is following their bidding to attack Bremen.",
     "priority": "medium",
     "status": "planning",
     "tags": [
@@ -888,7 +949,7 @@
     "id": 56,
     "title": "Targos - Frozen Harbor & Musical Winds",
     "category": "location",
-    "description": "Wooden wall extends into Maer Dualdon creating safe harbor, now frozen solid trapping boats in ice. Fishers drag smaller vessels across ice to reach unfrozen water beyond walls. Biggest fishing fleet/industry in Ten-Towns, everything revolves around knucklehead trout fishing. Distinct musicality in air - wind blowing through large pipes of ever-shifting size (connected to Yll-Varn the Drowned Choir?).",
+    "description": "Wooden wall extends into Maer Dualdon creating safe harbor, now frozen solid trapping boats in ice. Fishers drag smaller vessels across ice to reach unfrozen water beyond walls. Biggest fishing fleet/industry in Ten-Towns, everything revolves around knucklehead trout fishing. Distinct musicality in air - wind blowing through large pipes of ever-shifting size (connected to Yll-Varn the Drowned Choir).",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -915,7 +976,7 @@
     "id": 54,
     "title": "Sephek's Stalking Pattern",
     "category": "plot",
-    "description": "Korux's final entry describes 'figure near sleds. Too tall. Too thin. Made of ice. Waiting for me.' This shows Sephek stalks victims before killing them, appearing as an unnatural ice figure. Suggests he may have been watching the party's dwarf rescue mission.",
+    "description": "Korux's final entry describes 'figure near sleds. Too tall. Too thin. Made of ice. Waiting for me.' This shows Sephek stalked victims before killing them, appearing as an unnatural ice figure. Historical/investigative detail - Sephek is now dead (killed by Waylen in Good Mead).",
     "priority": "low",
     "status": "ready",
     "tags": [
@@ -941,7 +1002,7 @@
     "id": 52,
     "title": "The Mirror Entity - Dream Manipulator",
     "category": "plot",
-    "description": "Mysterious entity appearing in Korux's dreams through mirrors. Demands impossible moral choices (treasure vs friend). When questioned about being a god, it cracks instead of answering. Connected to Ishkar the Silver Mirror Aurilith? Could be how Auriliths psychically influence victims before Sephek arrives.",
+    "description": "Mysterious entity appearing in Korux's dreams through mirrors. Demands impossible moral choices (treasure vs friend). When questioned about being a god, it cracks instead of answering. Connected to Ishkar the Silver Mirror Aurilith - this is how Ishkar psychically tests and influences victims before Sephek arrives as enforcement.",
     "priority": "high",
     "status": "archived",
     "tags": [
@@ -1022,9 +1083,9 @@
   },
   {
     "id": 42,
-    "title": "🧊 The Frostlings (Chaotic Chwinga)",
+    "title": "The Frostlings (Chaotic Chwinga)",
     "category": "npc",
-    "description": "Grey/black masks (icicles/bone shapes). Mischievous/aggressive - mess with gear, erase tracks, mislead PCs. WORSHIP SEPHEK as 'Chosen of Winter' or 'Spirit of Death' and try to protect him. Use illusions/riddles to delay/derail the hunt.",
+    "description": "Grey/black masks (icicles/bone shapes). Mischievous/aggressive - mess with gear, erase tracks, mislead PCs. WORSHIP(ped) SEPHEK as 'Chosen of Winter' or 'Spirit of Death' and tried to protect him. Use illusions/riddles to delay/derail the hunt. Sephek's death may have thrown this faction into disarray or vengeance-seeking.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -1036,7 +1097,7 @@
   },
   {
     "id": 41,
-    "title": "❄️ The Whisperkin (Helpful Chwinga)",
+    "title": "The Whisperkin (Helpful Chwinga)",
     "category": "npc",
     "description": "Soft blue/white chwinga with swirling snowflake masks. Leave gifts: shiny rocks, warm food, helpful potions. One has SEEN SEPHEK and tries to guide PCs to truth. Fond of characters who respect nature (especially Mama Chrys druid and Joosep ranger). Pro-balance faction.",
     "priority": "medium",
@@ -1077,7 +1138,7 @@
     "id": 38,
     "title": "Clan Battlehammer Iron Trade Connection",
     "category": "plot",
-    "description": "Dwarves still maintaining trade routes despite winter. Clan Battlehammer specifically transporting iron to Bryn Shander. Party now has dwarf friendship - could be important for Mithral Hall connections and Regis ruby quest later.",
+    "description": "Dwarves still maintaining trade routes despite winter. Clan Battlehammer specifically transporting iron to Bryn Shander. Party now has dwarf friendship - could be important for Mithral Hall connections and Regis ruby quest later. Biltung (of this clan) has since retired to a hermitage that turned out to be a Ythryn splinter (see Bill/Polybeus entries).",
     "priority": "medium",
     "status": "planning",
     "tags": [
@@ -1100,15 +1161,16 @@
   },
   {
     "id": 35,
-    "title": "Sephek's Trading Caravan Arrival",
+    "title": "Sephek's Trading Caravan Arrival (RESOLVED)",
     "category": "encounter",
-    "description": "Sephek will arrive in Bryn Shander with trading caravan next session. Opportunity for party to interact with him before knowing his true nature. Could establish him as friendly merchant before the horrifying reveal.",
-    "priority": "medium",
-    "status": "ready",
+    "description": "Sephek arrived in Bryn Shander with trading caravan as planned. RESOLUTION: Sephek later attacked Waylen at night in Good Mead (enforcing Ishkar's demand after Waylen refused to sacrifice his smoking pipe). Waylen fought back and killed Sephek, along with the frost spirit/Chwinga inhabiting him. No witnesses. This is a major turning point - Auril's primary enforcer is dead, and Coldlight Walkers have begun appearing/escalating in the aftermath (see Coldlight Walker Escalation entry).",
+    "priority": "high",
+    "status": "used",
     "tags": [
       "early",
       "sephek",
-      "social"
+      "social",
+      "resolved"
     ],
     "createdAt": "Session 1"
   },
@@ -1173,7 +1235,7 @@
     "id": 29,
     "title": "The Drowned Choir's Deep Song",
     "category": "encounter",
-    "description": "Yll-Varn sings to 'something deeper' in Maer Dualdon. What's beneath the lake responding to its call? Ancient entity, Auril's true form, or something else entirely? Musical/sonic encounter possibilities.",
+    "description": "Yll-Varn sings to 'something deeper' in Maer Dualdon. What's beneath the lake responding to its call? Ancient entity, Auril's true form, or something else entirely? Musical/sonic encounter possibilities. Party has since encountered/named the lake monster ('Khaleesi') - see Lake Monster Quest.",
     "priority": "medium",
     "status": "brainstorming",
     "tags": [
@@ -1186,7 +1248,7 @@
     "id": 28,
     "title": "Ishkar's Precognitive Visions",
     "category": "encounter",
-    "description": "Ishkar shows people committing future acts. Could be used for dramatic reveals, moral dilemmas, or as warnings. Potential for players to see themselves doing terrible things - are these fixed fate or possibilities to avoid?",
+    "description": "Ishkar shows people committing future acts. Could be used for dramatic reveals, moral dilemmas, or as warnings. Potential for players to see themselves doing terrible things - are these fixed fate or possibilities to avoid? UPDATE: Waylen received one of these visions/demands (sacrifice his weather-protection pipe) and refused, leading to Sephek's attack and Sephek's death. Ishkar has not yet responded to losing its enforcer.",
     "priority": "medium",
     "status": "brainstorming",
     "tags": [
@@ -1212,7 +1274,7 @@
     "id": 26,
     "title": "Zethryn's Divided Influence on Shiverveil Clan",
     "category": "plot",
-    "description": "Zethryn whispers in Shiverveil firbolg dreams nightly, giving cryptic appeasement instructions while urging resistance/secrecy. Clan is divided: some think it's not Zethryn, others think it's Auril's trick, some believe Zethryn genuinely wants to end the curse. Creates internal clan conflict.",
+    "description": "Zethryn whispers in Shiverveil firbolg dreams nightly, giving cryptic appeasement instructions while urging resistance/secrecy. Clan is divided: some think it's not Zethryn, others think it's Auril's trick, some believe Zethryn genuinely wants to end the curse. Creates internal clan conflict. UPDATE: Zethryn is now weakening/collapsing (see 'Zethryn the Root-Taker' entry) - the divided clan may soon lose their patron entirely.",
     "priority": "high",
     "status": "used",
     "tags": [
@@ -1220,21 +1282,26 @@
     ],
     "createdAt": "Plot Development"
   },
-{
-  "id": 25,
-  "title": "Uthessil the Warden in White (Caer Dineval)",
-  "category": "location",
-  "description": "Towering sentinel of smooth marble-white ice, arms ever outstretched. Said to carry away those who curse the Cold Lady (Auril) too loudly, even in jest. Enforces reverence through fear. Unlike most Auriliths, Uthessil has developed autonomy from Auril and actively communicates with followers, creating the Black Swords cult to enforce Auril's will. This independence allows Auril to remain removed from mortal concerns while her goals are still accomplished. Uthessil remains loyal to the Frostmaiden and corrupts chardalyn with cold stasis energy for the cult's use.",
-  "priority": "medium",
-  "status": "ready",
-  "tags": ["overarching", "auriliths", "ten-towns"],
-  "createdAt": "Aurilith Details"
-},
+  {
+    "id": 25,
+    "title": "Uthessil the Warden in White (Caer Dineval)",
+    "category": "location",
+    "description": "Towering sentinel of smooth marble-white ice, arms ever outstretched. Said to carry away those who curse the Cold Lady (Auril) too loudly, even in jest. Enforces reverence through fear. Unlike most Auriliths, Uthessil has developed autonomy from Auril and actively communicates with followers, creating the Black Swords cult (Wardens of the White) to enforce Auril's will. This independence allows Auril to remain removed from mortal concerns while her goals are still accomplished. Uthessil remains loyal to the Frostmaiden and corrupts chardalyn with cold stasis energy for the cult's use. UPDATE: Uthessil's cult now guards the Codicil of the White, believing it a sacred relic - it is actually the key to entering/navigating Ythryn. Uthessil told the Wardens it is 'vital to Auril's reign' without explaining why. Trovus is reportedly planning to confront Uthessil directly with militia support; outcome undetermined. Coldlight Walkers appear to be spreading outward from Caer-Dineval.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "ten-towns",
+      "ythryn"
+    ],
+    "createdAt": "Aurilith Details"
+  },
   {
     "id": 24,
     "title": "Ishkar the Silver Mirror (Caer Konig)",
     "category": "location",
-    "description": "Jagged, angular Aurilith near Caer Konig that reflects not just image but intentions. Shows viewers committing acts they've never done—yet. Exerts influence through mirror-based dreams and psychological torture, appearing to victims in reflective surfaces to demand impossible moral choices. Ishkar tests devotion by demanding people sacrifice their most precious possessions or relationships. Those who refuse face escalating torment - mirrors crack in dreams, reflective surfaces show the Aurilith growing closer and more threatening. Victims report feeling watched through every mirror, window, or ice surface. When someone definitively refuses Ishkar's demands (like Gorga Snowjaw did), Sephek is dispatched as enforcement. Creates mirror phobia in those exposed to its influence - they must make WIS saves to look at reflective surfaces without fear.\n",
+    "description": "Jagged, angular Aurilith near Caer Konig that reflects not just image but intentions. Shows viewers committing acts they've never done - yet. Exerts influence through mirror-based dreams and psychological torture, appearing to victims in reflective surfaces to demand impossible moral choices. Ishkar tests devotion by demanding people sacrifice their most precious possessions or relationships. Those who refuse face escalating torment - mirrors crack in dreams, reflective surfaces show the Aurilith growing closer and more threatening. Victims report feeling watched through every mirror, window, or ice surface. When someone definitively refuses Ishkar's demands (like Gorga Snowjaw, and more recently Waylen), Sephek was historically dispatched as enforcement. Creates mirror phobia in those exposed to its influence - they must make WIS saves to look at reflective surfaces without fear. UPDATE: Waylen refused Ishkar's demand to sacrifice his smoking pipe; Sephek was sent and was KILLED by Waylen. Ishkar's response to losing its enforcer is a major open thread.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -1258,23 +1325,13 @@
     ],
     "createdAt": "Aurilith Details"
   },
-{
-  "id": 22,
-  "title": "Zethryn the Root-Taker (Termalaine/Lonelywood)",
-  "category": "location",
-  "description": "Symbol: Upside-down tree. In copse of frozen-alive trees (green but frozen solid, don't sway). Stalagmite of ice with tree-trunk core, branch tendrils touching each frozen tree. Half-buried in clear ice, covered in crystalline moss-like growths. No humanoid qualities. Animals avoid area. Like Uthessil, Zethryn has developed autonomy and directly contacts mortals. However, Zethryn has turned against Auril - its nature as being connected to living trees makes it rebel against frozen stasis. It wants to grow, not remain frozen. Zethryn works covertly to undermine the eternal winter through Circle Shiverveil, but has no greater endgame beyond its own freedom from stasis. Auril's indifference allows this rebellion to continue unnoticed.",
-  "priority": "high",
-  "status": "ready",
-  "tags": ["overarching", "auriliths", "ten-towns"],
-  "createdAt": "Aurilith Details"
-},
   {
-    "id": 21,
-    "title": "Karexil the Heatrobber (Easthaven)",
+    "id": 22,
+    "title": "Zethryn the Root-Taker (Termalaine/Lonelywood) - COLLAPSING",
     "category": "location",
-    "description": "Blackened by old fire and heatless flame, watches from ruins of old tower. Known to punish warmth and mercy. Appears where flame once bloomed. Anti-fire themed Aurilith.",
-    "priority": "medium",
-    "status": "ready",
+    "description": "Symbol: Upside-down tree. In copse of frozen-alive trees (green but frozen solid, don't sway). Stalagmite of ice with tree-trunk core, branch tendrils touching each frozen tree. Half-buried in clear ice, covered in crystalline moss-like growths. No humanoid qualities. Animals avoid area. Like Uthessil, Zethryn has developed autonomy and directly contacts mortals. However, Zethryn has turned against Auril - its nature as being connected to living trees makes it rebel against frozen stasis. It wants to grow, not remain frozen. Zethryn works covertly to undermine the eternal winter through Circle Shiverveil, but has no greater endgame beyond its own freedom from stasis. Auril's indifference allows this rebellion to continue unnoticed. MAJOR UPDATE: Zethryn is now dying/collapsing, weakened significantly by Joosep's severance from the Circle. Recent visions to Joosep show the ice-tree damaged (branches snapped), a massive wave rising from Maer Dualdon and sweeping over Lonelywood (not yet happened), and shambling figures with faces replaced by blinding blue light emerging from the trees - confirmed to be Coldlight Walkers, which Joosep will recognize on sight before anyone else understands what they are. Zethryn's trunk is cracking. What happens upon its full collapse (visual manifestation, consequences for Circle Shiverveil, any final blessing/curse) is still to be developed.",
+    "priority": "high",
+    "status": "planning",
     "tags": [
       "overarching",
       "auriliths",
@@ -1283,10 +1340,25 @@
     "createdAt": "Aurilith Details"
   },
   {
+    "id": 21,
+    "title": "Karexil the Heatrobber (Easthaven)",
+    "category": "location",
+    "description": "Blackened by old fire and heatless flame, watches from ruins of old tower. Known to punish warmth and mercy, but its true purpose is much narrower than general anti-fire enforcement: it is the dedicated warden of the Gardener, an ancient envoy of Ylmyo-Aldon sealed beneath the frost giant sacred spring in the Cauldron Caves (see Karexil's True Purpose entry). Appears where flame once bloomed.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "ten-towns",
+      "great old one"
+    ],
+    "createdAt": "Aurilith Details"
+  },
+  {
     "id": 20,
     "title": "Yll-Varn the Drowned Choir (Targos/Bremen)",
     "category": "location",
-    "description": "Partially submerged in Maer Dualdon. Blue-black ice tower on delicate arch (50ft tall, 100ft wide) with spiral towers around it. Hums low when sacrifices missed, ice vibrates. Makes wailing, musical sounds in wind. Fisherfolk say it sings to something deeper. Some towers appear humanoid/monstrous.\n\nAwakened the lake monster. Is influenced by Zhent.",
+    "description": "Partially submerged in Maer Dualdon. Blue-black ice tower on delicate arch (50ft tall, 100ft wide) with spiral towers around it. Hums low when sacrifices missed, ice vibrates. Makes wailing, musical sounds in wind. Fisherfolk say it sings to something deeper. Some towers appear humanoid/monstrous. Awakened the lake monster (now nicknamed 'Khaleesi' by the party). Is influenced by Zhent.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -1301,7 +1373,7 @@
     "id": 19,
     "title": "Tal-Kora the Black Shard (Bryn Shander)",
     "category": "location",
-    "description": "Symbol: Three-pointed spike. Black crystalline spire visible from city wall, looks like ancient guardian clawing up from underground. One of the few Auriliths that has NOT been proven to move at night. Threatens to emerge if sacrifices stop.\n\n\nTal-Kora the Black Shard exerts influence through constant surveillance and paranoia --the oppressive feeling of being watched. Bryn Shander residents report: shadows moving wrong, feeling eyes on them from empty windows, mirrors reflecting the Black Shard when it shouldn't be visible, and compulsive need to confess secrets or wrongdoings. Tal-Kora doesn't whisper demands - it creates overwhelming guilt and paranoia until people voluntarily confess crimes, turn in neighbors, or perform acts of penance. Those who resist the urge to 'come clean' begin seeing the Black Shard in reflections everywhere, growing larger and more threatening until they break. \n\nSephek targets those who know they're being watched but refuse to submit to the judgment.\n",
+    "description": "Symbol: Three-pointed spike. Black crystalline spire visible from city wall, looks like ancient guardian clawing up from underground. One of the few Auriliths that has NOT been proven to move at night. Threatens to emerge if sacrifices stop. Tal-Kora the Black Shard exerts influence through constant surveillance and paranoia - the oppressive feeling of being watched. Bryn Shander residents report: shadows moving wrong, feeling eyes on them from empty windows, mirrors reflecting the Black Shard when it shouldn't be visible, and compulsive need to confess secrets or wrongdoings. Tal-Kora doesn't whisper demands - it creates overwhelming guilt and paranoia until people voluntarily confess crimes, turn in neighbors, or perform acts of penance. Those who resist the urge to 'come clean' begin seeing the Black Shard in reflections everywhere, growing larger and more threatening until they break. Sephek (now deceased) targeted those who knew they were being watched but refused to submit to the judgment.",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -1312,15 +1384,18 @@
     "createdAt": "Aurilith Details"
   },
   {
-  "id": 18,
-  "title": "Chardalyn Corruption Network",
-  "category": "plot",
-  "description": "Chardalyn is naturally occurring psi-reactive crystal that two factions corrupt differently through divine influence. Deep Duerra's duergar use psionic corruption for constructs and weapons (causes madness, paranoia, violence in handlers). Auril's forces use cold stasis corruption through autonomous Auriliths like Uthessil (causes winter worship, personality changes toward indifference). Same base material, competing divine influences. Both factions actively mining and stealing chardalyn throughout Ten-Towns, unknowingly working against each other. This creates network of corrupted items spreading through the Dale - Black Swords' amulets, duergar weapons, found artifacts. Mind flayers were also attracted to chardalyn's psionic signature before being driven out.",
-  "priority": "medium",
-  "status": "brainstorming",
-  "tags": ["overarching", "chardalyn"],
-  "createdAt": "Plot Development"
-},
+    "id": 18,
+    "title": "Chardalyn Corruption Network",
+    "category": "plot",
+    "description": "Chardalyn is naturally occurring psi-reactive crystal that two factions corrupt differently through divine influence. Deep Duerra's duergar use psionic corruption for constructs and weapons (causes madness, paranoia, violence in handlers). Auril's forces use cold stasis corruption through autonomous Auriliths like Uthessil (causes winter worship, personality changes toward indifference). Same base material, competing divine influences. Both factions actively mining and stealing chardalyn throughout Ten-Towns, unknowingly working against each other. This creates network of corrupted items spreading through the Dale - Black Swords' amulets, duergar weapons, found artifacts. Mind flayers were also attracted to chardalyn's psionic signature before being driven out.",
+    "priority": "medium",
+    "status": "brainstorming",
+    "tags": [
+      "overarching",
+      "chardalyn"
+    ],
+    "createdAt": "Plot Development"
+  },
   {
     "id": 17,
     "title": "Frozen Lake Aurilith Locations",
@@ -1338,7 +1413,7 @@
     "id": 16,
     "title": "Aurilith Encounter Mechanics",
     "category": "encounter",
-    "description": "Auriliths have psychic whisper abilities (no sound, direct to mind/dreams). They move when not observed, change expressions subtly. Could create horror-style encounters where PCs notice changes but can't prove it. Potential for madness/paranoia effects.",
+    "description": "Auriliths have psychic whisper abilities (no sound, direct to mind/dreams). They move when not observed, change expressions subtly. Could create horror-style encounters where PCs notice changes but can't prove it. Potential for madness/paranoia effects. See also Fear Rules entry for formal mechanics.",
     "priority": "medium",
     "status": "brainstorming",
     "tags": [
@@ -1362,9 +1437,9 @@
   },
   {
     "id": 14,
-    "title": "Sephek as Patron Identity Clue",
+    "title": "Sephek's Death as Patron Identity Clue",
     "category": "plot",
-    "description": "Party discovering Sephek's true nature (undead possessed by frost spirit) will provide crucial clue about their patron Wynnette/Aiswyn's similar condition and true identity.",
+    "description": "Party discovering Sephek's true nature (undead possessed by frost spirit) provided a crucial clue about their patron Wynnette/Aiswyn's similar condition and true identity. UPDATE: Sephek is now dead - killed by Waylen in Good Mead. Joosep specifically noticed Wynnette does not breathe, and after killing Sephek (also breathless, also housing a frost spirit), now has the context to understand what Wynnette likely is. Joosep has NOT confronted her or shared this with the party. This is a live, unresolved secret.",
     "priority": "medium",
     "status": "planning",
     "tags": [
@@ -1377,9 +1452,9 @@
     "id": 13,
     "title": "Zethryn Connection Mystery",
     "category": "plot",
-    "description": "Mysterious entity Zethryn contacted Joosep and provides divination through the Zethrynstone. Need to explore who/what Zethryn is and their agenda in the Dale.",
+    "description": "Mysterious entity Zethryn contacted Joosep and provides divination through the Zethrynstone. Zethryn is confirmed as an autonomous, rebelling Aurilith connected to living trees and opposed to frozen stasis - but is now weakening/collapsing (see Zethryn the Root-Taker entry). Its full agenda beyond its own freedom is still unclear.",
     "priority": "medium",
-    "status": "brainstorming",
+    "status": "planning",
     "tags": [
       "overarching"
     ],
@@ -1414,7 +1489,7 @@
     "id": 10,
     "title": "Circle Shiverveil Hidden Settlements",
     "category": "location",
-    "description": "Reclusive and secretive Firbolg clan locations. Bad reputation among regular Icewind Dale residents but respected by Reghed Nomads. Could be source of useful but dangerous knowledge.",
+    "description": "Reclusive and secretive Firbolg clan locations. Bad reputation among regular Icewind Dale residents but respected by Reghed Nomads. Could be source of useful but dangerous knowledge. UPDATE: The clan's leaders (including Gorlayne and Rolla) are missing, sent through Morskaya's one-way drowning pool to the Sea of Moving Ice, believing they served Auril. DM note: likely dead unless retrieved via a specific ritual at the Umberlee shrine before too long. Joosep will need to find surviving Circle members to learn what happened - a timely return to Lonelywood is unlikely given the party's current trajectory. The Circle is also divided over Zethryn's dream-whispers and is likely to lose its Aurilith patron soon as Zethryn collapses.",
     "priority": "medium",
     "status": "brainstorming",
     "tags": [
@@ -1426,7 +1501,7 @@
     "id": 9,
     "title": "Circle Blackgleam Territory",
     "category": "location",
-    "description": "Firbolg clan territory with crystal caves they grow themselves. Clan specializes in crystal/ice magic and believes crystal manipulation is key to ending perpetual winter. Well-respected among those who know of them.",
+    "description": "Firbolg clan territory with crystal caves they grow themselves. Clan specializes in crystal/ice magic and believes crystal manipulation is key to ending perpetual winter. Well-respected among those who know of them. Members include Delemak, Cromley, and Celor. Their crystal gardens are being corrupted by spreading duergar chardalyn mining activity.",
     "priority": "medium",
     "status": "brainstorming",
     "tags": [
@@ -1438,7 +1513,7 @@
     "id": 8,
     "title": "Waylen the Tall - Helm Cleric",
     "category": "pc",
-    "description": "Human Cleric of Helm (Matt). Motivations: protect weak, overcome personal failings, make a name. Seeks Regis Rumblebelly's enchanted ruby (rumored buried in Mithral Hall) as solution. Heard ruby rumors among dwarves at Kelvin's Cairn. Has weather-protection smoking pipe. +1 attitude bonus (people like Helm up North).",
+    "description": "Human Cleric of Helm (Matt). Motivations: protect weak, overcome personal failings, make a name. Seeks Regis Rumblebelly's enchanted ruby (rumored buried in Mithral Hall) as solution. Heard ruby rumors among dwarves at Kelvin's Cairn. Has weather-protection smoking pipe. +1 attitude bonus (people like Helm up North). UPDATE: Received a psychic demand from Ishkar (Caer-Konig Aurilith) to sacrifice his smoking pipe - refused. Ishkar dispatched Sephek to kill him for this defiance; Sephek attacked him at night in Good Mead while he stood vigil, and Waylen killed both Sephek and the frost spirit/Chwinga possessing him. Ishkar's response to losing its enforcer is unresolved.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -1450,7 +1525,7 @@
     "id": 7,
     "title": "Keogr - Skytower Shelter Barbarian",
     "category": "pc",
-    "description": "Goliath Barbarian/Werebear (Kris). From Skytower Shelter - competitive goliath settlement in Spine of the World that dislikes strangers and tames griffons. SECRETLY AFFLICTED with lycanthropy (werebear). His clan sent him away on a quest to find Oyaminartok, the legendary Polar Werebear, believing this ancient werebear can teach him to control his curse. Special rage ability: icy focus state with auto rage damage but crits on 18-20. His lycanthropic condition may be connected to his unique rage mechanics - the 'icy focus' could be his attempt to suppress the bear's fury through cold discipline.\n  ",
+    "description": "Goliath Barbarian/Werebear (Kris). From Skytower Shelter - competitive goliath settlement in Spine of the World that dislikes strangers and tames griffons. SECRETLY AFFLICTED with lycanthropy (werebear). His clan sent him away on a quest to find Oyaminartok, the legendary Polar Werebear, believing this ancient werebear can teach him to control his curse. Special rage ability: icy focus state with auto rage damage but crits on 18-20. UPDATE: Oyaminartok has been placed at/near the Dark Duchess shipwreck. If the party is stranded on the Sea of Moving Ice (via the one-way drowning pool), Angajuk the whale can carry them toward this location, giving Keogr a natural path to his personal quest.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -1462,7 +1537,7 @@
     "id": 6,
     "title": "Joosep - Circle Shiverveil Ranger",
     "category": "pc",
-    "description": "Firbolg Ranger (Marvin). From Circle Shiverveil - particularly reclusive/secretive clan. Bad reputation among regular Icewind Dale folk, better reputation with Reghed Nomads. Contacted by Zethryn. Has Zethrynstone (ice sphere that can't melt, daily Augury from Zethryn's perspective).",
+    "description": "Firbolg Ranger (Marvin). From Circle Shiverveil - particularly reclusive/secretive clan. Bad reputation among regular Icewind Dale folk, better reputation with Reghed Nomads. Contacted by Zethryn. Has Zethrynstone (ice sphere that can't melt, daily Augury from Zethryn's perspective). UPDATE: Has received escalating visions from Zethryn, including one showing shambling blue-lit figures now confirmed as Coldlight Walkers - Joosep will recognize them in the wild before anyone else understands what they are. Also privately noticed that Wynnette does not breathe; after killing Sephek (who shared this trait and housed a frost spirit), Joosep now suspects Wynnette's true nature but has not shared this with the party. Circle Shiverveil's leaders are missing (sent through the one-way drowning pool) and Zethryn itself is weakening/collapsing.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -1482,16 +1557,19 @@
     ],
     "createdAt": "Character Creation"
   },
-{
-  "id": 4,
-  "title": "Wynnette Rimevein (True Identity: Aiswyn)",
-  "category": "npc",
-  "description": "Party patron who head-hunted the team. Publicly wants to stop escalating sacrifices before total chaos. SECRETLY: Actually fae spirit Aiswyn, one of Auril's frost spirit creations who has rebelled. Tired of being glorified babysitter to mortals. Wynnette is undead corpse possessed by frost spirit (like Sephek). Result of Auril's indifference to controlling her creations - sometimes they develop autonomy and rebel. Wynnette doesn't know Zethryn is also rebelling against Auril. Has ruby gem giving ambition to rise above deity. Air genasi woman appearing 60s, deathly pale skin (color of sun through glacier), lightning scar over left eye, long braided hair like woven scarf. Wears knucklehead scrimshaw flute around neck. Goal: guide party through tailored experiences to become heroes who can reverse the curse.",
-  "priority": "high",
-  "status": "planning",
-  "tags": ["overarching", "early"],
-  "createdAt": "Campaign Start"
-},
+  {
+    "id": 4,
+    "title": "Wynnette Rimevein (True Identity: Aiswyn)",
+    "category": "npc",
+    "description": "Party patron who head-hunted the team. Publicly wants to stop escalating sacrifices before total chaos. SECRETLY: Actually fae spirit Aiswyn, one of Auril's frost spirit creations who has rebelled. Tired of being glorified babysitter to mortals. Wynnette is undead corpse possessed by frost spirit (like Sephek was). Result of Auril's indifference to controlling her creations - sometimes they develop autonomy and rebel. Wynnette doesn't know Zethryn is also rebelling against Auril. Has ruby gem giving ambition to rise above deity. Air genasi woman appearing 60s, deathly pale skin (color of sun through glacier), lightning scar over left eye, long braided hair like woven scarf. Wears knucklehead scrimshaw flute around neck. Goal: guide party through tailored experiences to become heroes who can reverse the curse. UPDATE: With Vellynne Harpell cut from the campaign, Wynnette now also takes over Vellynne's post-Sunblight rescue/transport role and combat-ally role during the chardalyn dragon fight. Joosep has privately noticed she doesn't breathe and suspects her true nature but hasn't confronted her.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching",
+      "early"
+    ],
+    "createdAt": "Campaign Start"
+  },
   {
     "id": 3,
     "title": "Escalating Sacrificial Practices",
@@ -1523,7 +1601,7 @@
     "id": 1,
     "title": "Auril's Perpetual Winter",
     "category": "plot",
-    "description": "Icewind Dale frozen by Auril (NE goddess of cold, indifference, preservation). Temperature -49°F, constant howling winds, frequent blizzards. Sun only shines dimly 10am-2pm, otherwise dark except for aurora/full moon.",
+    "description": "Icewind Dale frozen by Auril (NE goddess of cold, indifference, preservation). Temperature -49F, constant howling winds, frequent blizzards. Sun only shines dimly 10am-2pm, otherwise dark except for aurora/full moon.",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -1535,17 +1613,20 @@
     "id": 1749075785068,
     "title": "Oyaminartok - The Polar Werebear Legend",
     "category": "npc",
-    "description": "Ancient polar werebear of legendary status, rumored to dwell in the deepest reaches of Icewind Dale's wilderness. Known among northern tribes as the 'Ice Walker' or 'White Bear of the Endless Hunt.' Oyaminartok allegedly achieved perfect balance between human consciousness and bear instincts - neither fully human nor fully beast, but something greater. Keogr's clan believes finding this legendary figure is the only way for their exiled kinsman to master his lycanthropic curse. ",
+    "description": "Ancient polar werebear of legendary status, rumored to dwell in the deepest reaches of Icewind Dale's wilderness. Known among northern tribes as the 'Ice Walker' or 'White Bear of the Endless Hunt.' Oyaminartok allegedly achieved perfect balance between human consciousness and bear instincts - neither fully human nor fully beast, but something greater. Keogr's clan believes finding this legendary figure is the only way for their exiled kinsman to master his lycanthropic curse. UPDATE: Located at/near the Dark Duchess shipwreck. Reachable via the Sea of Moving Ice (one-way drowning pool + Angajuk the whale as guide) or via the Bremen 'Zero Rum'/Dark Duchess quest route.",
     "priority": "high",
     "status": "brainstorming",
-    "tags": [],
+    "tags": [
+      "werebear",
+      "keogr"
+    ],
     "createdAt": "6/4/2025"
   },
   {
     "id": 1749078786335,
     "title": "Termalaine Mine - Chardalyn Corruption Site",
     "category": "encounter",
-    "description": "Former mining operation overrun by kobolds, but the true threat is chardalyn corruption. Miners unknowingly struck a vein of chardalyn ore, which began corrupting the kobold leader and driving the creatures mad with paranoia and aggression. The grell was attracted by the psychic emanations from the corrupted chardalyn. Ghost possession of kobold leader may be result of chardalyn's ability to thin the veil between life and death. Characters must decide whether to destroy the chardalyn (losing valuable resource), contain it, or find way to purify it. Connects to broader chardalyn corruption network affecting Ten-Towns.\n\nEncounter: A Beautiful Mine",
+    "description": "Former mining operation overrun by kobolds, but the true threat is chardalyn corruption. Miners unknowingly struck a vein of chardalyn ore, which began corrupting the kobold leader and driving the creatures mad with paranoia and aggression. The grell was attracted by the psychic emanations from the corrupted chardalyn. Ghost possession of kobold leader may be result of chardalyn's ability to thin the veil between life and death. Characters must decide whether to destroy the chardalyn (losing valuable resource), contain it, or find way to purify it. Connects to broader chardalyn corruption network affecting Ten-Towns. Encounter: A Beautiful Mine",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -1561,7 +1642,7 @@
     "id": 1749078827471,
     "title": "Corrupted Kobold Chieftain - Chardalyn Vessel",
     "category": "npc",
-    "description": "Kobold leader possessed by ghost, but possession made possible by chardalyn corruption weakening his mind and spirit. The 'ghost' may actually be psychic echoes from the chardalyn itself - memories of those who died mining or handling the corrupted crystal. Speaks in multiple voices, sometimes coherent warnings about the 'black ice that watches,' other times ranting about ancient cold and endless winter. If freed from corruption, could provide valuable intelligence about chardalyn's effects and locations of other veins. Knowledge of underground tunnels that might connect to other corrupted sites.\n\nEncounter: A Beautiful Mine",
+    "description": "Kobold leader possessed by ghost, but possession made possible by chardalyn corruption weakening his mind and spirit. The 'ghost' may actually be psychic echoes from the chardalyn itself - memories of those who died mining or handling the corrupted crystal. Speaks in multiple voices, sometimes coherent warnings about the 'black ice that watches,' other times ranting about ancient cold and endless winter. If freed from corruption, could provide valuable intelligence about chardalyn's effects and locations of other veins. Knowledge of underground tunnels that might connect to other corrupted sites. Encounter: A Beautiful Mine",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -1575,16 +1656,17 @@
   },
   {
     "id": 1749160820402,
-    "title": "Sephek as Aurilith Enforcer - The Winter's Blade",
+    "title": "Sephek as Aurilith Enforcer - The Winter's Blade (DECEASED)",
     "category": "plot",
-    "description": "Sephek doesn't kill randomly - he targets individuals who defy specific Auriliths' psychic demands. When someone refuses an Aurilith's mental compulsions or challenges their authority, Sephek is dispatched as Auril's physical enforcer. Gorga refused Ishkar the Silver Mirror's demand to sacrifice something precious, so Sephek was sent to kill her. This creates a pattern: Auriliths psychically manipulate and test people, and those who resist face Sephek's ice daggers. Each murder location corresponds to someone who defied a specific Aurilith's will. The frost spirit inside Sephek can sense these acts of defiance across Ten-Towns, making him an extension of the Auriliths' influence.\nTags: ",
+    "description": "Sephek doesn't kill randomly - he targeted individuals who defied specific Auriliths' psychic demands. When someone refused an Aurilith's mental compulsions or challenged their authority, Sephek was dispatched as Auril's physical enforcer. Gorga refused Ishkar the Silver Mirror's demand to sacrifice something precious, so Sephek was sent to kill her. This created a pattern: Auriliths psychically manipulate and test people, and those who resist face Sephek's ice daggers. Each murder location corresponded to someone who defied a specific Aurilith's will. MAJOR UPDATE: Sephek is DEAD. He was sent to kill Waylen for refusing Ishkar's demand (sacrifice of his smoking pipe), attacked him at night in Good Mead, and was killed by Waylen along with the frost spirit/Chwinga inhabiting him. No witnesses. This removes Auril's primary enforcer from the board - open questions include whether Auril creates a new enforcer, whether individual Auriliths become more direct, or whether nothing immediate happens due to Auril's distance/indifference. Coldlight Walkers have begun escalating/spreading in the aftermath, which may be a related development.",
     "priority": "high",
-    "status": "planning",
+    "status": "used",
     "tags": [
       "sephek",
       "auriliths",
       "overarching",
-      "investigation"
+      "investigation",
+      "resolved"
     ],
     "createdAt": "6/5/2025"
   },
@@ -1602,5 +1684,171 @@
       "social"
     ],
     "createdAt": "6/5/2025"
+  },
+  {
+    "id": 1751000000001,
+    "title": "The Gardener - Envoy of Ylmyo-Aldon",
+    "category": "npc",
+    "description": "CR 12 Huge Aberration, weakened/immobilized envoy of the Great Old One Ylmyo-Aldon, imprisoned beneath the sacred frost giant spring in the Cauldron Caves. Discovered and raised from death by Dzaan, who wanted to study its connection to Ythryn and Netherese secrets. Karexil is its dedicated warden and began re-freezing it after Dzaan's execution, but the imprisonment is incomplete. Stat block: AC 17 (natural armor), HP 195 (17d12+85), Speed 0 ft. (immobilized), STR 8/DEX 6/CON 20/INT 22/WIS 20/CHA 18, resistances to acid/cold/necrotic, immune to poison, immune to charmed/exhaustion/frightened/paralyzed/petrified/poisoned/prone, blindsight 120 ft., Deep Speech + telepathy 120 ft. Traits: Immobilized (cannot move or take physical attack actions due to Karexil's ice), Corpse Network (animates/speaks through nearby corpses - a frost giant skeleton and four fishermen - which can be attacked separately; if all destroyed, the Gardener becomes 'Toothless' and loses most abilities), Mycelial Awareness (senses any creature touching the ground within 120 ft., can't be surprised by anyone in contact with the cave floor). RESOLUTION: The party made a compromise deal - Glix took the Gardener's spores (now permanent, in his plasma, with an ongoing communication channel) and the party left the Gardener imprisoned rather than freeing it or completing its seal.",
+    "priority": "high",
+    "status": "used",
+    "tags": [
+      "early",
+      "great old one",
+      "combat",
+      "easthaven",
+      "resolved"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000002,
+    "title": "Ylmyo-Aldon - Weakened Great Old One",
+    "category": "npc",
+    "description": "Eldritch god of fungus and decay, seeing no difference between life and death - views all creatures as the next generation's soil, the philosophical opposite of Auril's preservation-through-stasis. In a previous campaign (unrelated to this game's players), Ylmyo-Aldon's plot to infect the entire planar system was thwarted: by freeing an NPC named Jaysennia Amanita and completing 'the Amanita Effect,' that campaign's party severed her access to the Nexus and collapsed her planar machinery. She was not destroyed (impossible for a being of her nature) but was starved, scattered, and forced into dormant, diffuse existence. Her creatures withered, her doctrines lost coherence. What remains persists only as faint spores of influence - whispers in dying dreams, fragments of rot without a voice, still dangerous but no longer ascendant. This weakened state explains why her envoy (the Gardener) cannot break free of Karexil's imprisonment on its own. Thematically opposed to Auril (transformation/decay vs. stasis/preservation) and philosophically kindred to Flux'thuun (both oppose stasis, through very different means).",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "great old one"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000003,
+    "title": "The Spindle - Pre-Netherese Artifact",
+    "category": "misc",
+    "description": "An artifact predating Auril herself, of Ostorian (ancient giant) origin - far older than Netheril. Auril discovered the Spindle, recognized it as a potential threat to her, and deliberately surfaced it from the Sea of Moving Ice specifically to lure Iriolarthas's Netherese expedition. She used Netherese ambition as a weapon against them: the Archwizard's people retrieved the strange stone object shortly before Ythryn's fall (-343 DR, notably before Karsus's Folly at -339 DR, so Ythryn's destruction is independent of and unrelated to Netheril's eventual collapse). The Spindle kept pulsing for fifty years after the crash, blocking all magical means of escape and trapping survivors so they couldn't report what happened. The Spindle is now inside the fallen city. Auril's ongoing reason for keeping Ythryn buried is NOT to hide the Spindle itself, but to protect herself from whatever weapon inside Ythryn (likely connected to the mythallar) is capable of harming Auriliths and making her vulnerable.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching",
+      "ythryn",
+      "auriliths"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000004,
+    "title": "Codicil of the White",
+    "category": "misc",
+    "description": "Sacred relic currently held by the Wardens of the White cult in Caer-Dineval. Uthessil told the Wardens it is 'vital to Auril's reign' - true, but they don't understand why, and believe they're protecting a holy object of their goddess's winter. In truth, the Codicil is the key to entering and navigating Ythryn's magic once the party reaches the fallen city. The Wardens will not give it up willingly. This repositions the original book's Ythryn-access-item away from an island location and into the ongoing Wardens of the White / Caer-Dineval plotline, tying two previously separate plot threads together.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching",
+      "ythryn",
+      "auriliths",
+      "chardalyn"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000005,
+    "title": "Bill - Human Monk (Hermit)",
+    "category": "pc",
+    "description": "Player character, human monk with a Hermit background. His hermitage is a splinter of Ythryn lodged in the Spine of the World, where he found and studied the writings of Polybeus, a junior Netherese wizard who survived Ythryn's crash. Knows Netherese and has advantage on skill checks regarding Netheril as a result. Knows: Ythryn was a Netherese flying enclave that fell into the Far North before the empire's collapse; the city is preserved under a glacier and its mythallar may have survived; a strange stone object (the Spindle) was brought into the city shortly before the fall, and Polybeus didn't think it was Netherese; Iriolarthas was already an undying lich-like figure when the city flew, and kept the mythallar in his citadel; after the crash, all magic failed for days, which Polybeus attributed to the Spindle; Ythryn's fall was NOT the same event that destroyed Netheril itself (Polybeus died before that happened and never knew why the empire fell). Uniquely positioned to recognize that the Lost Spire near Ten-Towns is ALSO a Ythryn splinter. Does NOT yet know that Ythryn holds a weapon capable of killing Auriliths and making Auril vulnerable - that gap between what he knows and what's true is a planned slow revelation across Ch. 5-6. With Vellynne Harpell cut from the campaign, Bill now carries her Ythryn-exposition/quest-pitch role.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "ythryn"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000006,
+    "title": "Polybeus - Netherese Survivor & Scholar",
+    "category": "npc",
+    "description": "Junior Netherese wizard who survived Ythryn's crash into the Spine of the World, living out his days in what is now Bill's hermitage. Not privy to Iriolarthas's inner circle - knew the city, its culture, and general workings, but not its deeper secrets. Wrote extensively about Netheril's magocracy, the Archwizards, the mythallar, and his own survivor experience (grief for lost people disguised as academic notation, records of failed signaling attempts, a bestiary of Spine of the World creatures, anxiety about the slowly-moving glacier). Created one spell of his own, Polybeus's Radiance (a permanent light effect, inverse of Darkness), and was very proud of it. His final journal entry is undated, short, and unfinished - something happened to him and he never got to write about it. His writings are the sole source of Bill's Ythryn/Netheril knowledge.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "ythryn"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000007,
+    "title": "Coldlight Walker Escalation",
+    "category": "plot",
+    "description": "Coldlight Walkers (undead-like shambling figures with faces replaced by blinding blue light) are spreading outward from Caer-Dineval (Uthessil/Wardens of White territory) toward Targos and into the Dwarven Valley, possibly moving toward the Lost Spire of Netheril. Open questions: are Frostlings (chaotic chwinga) fragmenting themselves into these things, is Uthessil directing their creation, or is this an automatic defensive response to Sephek's death? Rate of creation and whether they'll eventually overwhelm Ten-Towns is undetermined. Joosep will recognize these figures on sight from Zethryn's vision before anyone else understands what they are, adding urgency and personal stakes to his character arc. Trovus is planning to confront Uthessil directly at Caer-Dineval in response to this threat.",
+    "priority": "high",
+    "status": "brainstorming",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "combat"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000008,
+    "title": "Trovus - Caer-Konig Militia Leader",
+    "category": "npc",
+    "description": "Militia figure planning to confront Uthessil directly at Caer-Dineval in response to the Coldlight Walker escalation and general Black Swords cult activity. Open questions: does he ask the party to join him or go alone; does he know about the full Wardens of the White cult, or is he only suspicious; does he succeed, fail, or die; should the party witness this directly or encounter only the aftermath. Also associated with a gnoll bounty at Cackling Chasm as an alternate hook.",
+    "priority": "medium",
+    "status": "brainstorming",
+    "tags": [
+      "midgame",
+      "auriliths"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000009,
+    "title": "Karkolohk Goblins - Spellix Romwod & Makrud",
+    "category": "encounter",
+    "description": "Combined/rebuilt encounter merging goblin-tribe diplomacy with the Black Cabin mystery. Spellix Romwod is actually a rock gnome sorcerer disguised as goblin Chief 'Yarb-Gnock,' genuinely attached to his tribe and grieving his brother. Macreadus ('Makrud' to the goblins) is Spellix's brother, an artificer who built both their metal disguises; inspired by goblin ingenuity, he built a device called the Summer Star, hoping to use it as an in with Ten-Towns, but it malfunctioned and killed him three days before the party's likely arrival. His restless spirit now haunts the Black Cabin, which contains his lab and his private stash of Sweetberry Summer Wine (the same wine found on the Dark Duchess). Two friendly goblin envoys, Rik and Rak, intercept the party leaving Bryn Shander with peace offerings (alchemical supplies, alchemist's fires, a Clockwork Amulet, a Mystery Key) as a diplomatic overture, with Oarus (Termalaine's speaker) encouraging the meeting. Manafek, a goblin healer, has seen through Spellix's disguise and is weighing whether to blackmail or expose him. Distrust between the goblins and Ten-Towns has been intentionally lessened from the book's default, and combat with the goblins is not anticipated.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "karkolohk",
+      "social",
+      "investigation"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000010,
+    "title": "Dark Duchess Shipwreck",
+    "category": "location",
+    "description": "Pirate ship encounter (captained by the late Bluemoon) reworked as the location where Oyaminartok, the legendary polar werebear, can be found - fulfilling Keogr's personal quest. Core encounter (Arveiaturace the dragon, her hoard, Meltharond's corpse, an ice troll, kobold worshippers who are friendly to the party after a prior good deed) is largely unchanged from the book. Known modifications: Tinjong (a separate werebear NPC) no longer offers to escort the party to Auril's island - that hook is cut to preserve the party's mid-campaign structure. The book's 'no rum aboard' twist (Zero Rum quest) is intentionally kept as a dead end - the treasure is the real reward. Coldlight Walkers (1d4+1) interrupt any long rest attempted aboard the ship - a homebrew addition. Sweetberry Summer Wine (Captain Bluemoon's empty bottles) is the same wine found in the Black Cabin/Makrud's stash - a small-world detail worth having a throwaway explanation for if a player connects the two. Reachable via the Sea of Moving Ice, potentially with Angajuk the whale's help if the party was stranded there via the one-way drowning pool.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "keogr",
+      "combat",
+      "investigation"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000011,
+    "title": "Angajuk - Whale Ally of the Sea of Moving Ice",
+    "category": "npc",
+    "description": "A whale that can be befriended by a party stranded on the Sea of Moving Ice (after passing through Morskaya's one-way drowning pool). Angajuk can carry the party close to the Dark Duchess wreck, providing both a practical rescue/travel solution and a memorable roleplay opportunity, along with whichever Circle Shiverveil leader(s) survive the ordeal.",
+    "priority": "medium",
+    "status": "planning",
+    "tags": [
+      "midgame",
+      "umberlee"
+    ],
+    "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1751000000012,
+    "title": "Campaign Status Snapshot (as of latest session)",
+    "category": "misc",
+    "description": "Party is level 4+, working through Ch. 2 material while mopping up remaining Ch. 1 threads. Completed: Foaming Mugs (dwarf rescue, Gorga's murder discovered), Lake Monster (awakened by Yll-Varn, renamed 'Khaleesi,' negotiated but not stopped), Mountain Climb (rescued Garrett Velryn & Perilou Fishfinger), The Unseen (duergar hideout in Caer-Konig, let Nildar escape for stolen goods), met Circle Blackgleam members, Toil & Trouble/Cauldron Caves (compromise deal with the Gardener, Glix permanently spored), Sephek's caravan arrival and subsequent death (killed by Waylen in Good Mead). Major open threads: Wardens of the White/Codicil of the White quest in Caer-Dineval, Circle Shiverveil leaders missing on the Sea of Moving Ice, Zethryn collapsing, Coldlight Walker escalation, Joosep's suspicion about Wynnette, Trovus's planned confrontation with Uthessil, Karkolohk goblin diplomacy, Dark Duchess/Oyaminartok for Keogr, and the eventual Sunblight Fortress/chardalyn dragon arc (Ch. 3-4) leading into the Ythryn arc (Ch. 5-6) with Vellynne Harpell removed in favor of Wynnette and Bill.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching"
+    ],
+    "createdAt": "7/7/2026"
   }
 ]
