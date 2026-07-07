@@ -553,7 +553,7 @@
                 </p>
                 <div style="background: #374151; padding: 12px; border-radius: 6px; margin-bottom: 16px; font-family: monospace; font-size: 12px;">
                     <div style="color: #9ca3af; margin-bottom: 8px;">Single entry:</div>
-                    <div style="color: #d1d5db;">{"id": 200, "title": "New Idea", "category": "plot", "description": "...", "priority": "high", "status": "ready", "tags": ["early", "combat"], "createdAt": "Today"}</div>
+                    <div style="color: #d1d5db;">{"id": 200, "title": "New Idea", "category": "plot", "description": "...", "priority": "high", "status": "planning", "tags": ["early", "combat"], "createdAt": "Today"}</div>
                     <div style="color: #9ca3af; margin: 12px 0 8px 0;">Multiple entries (array):</div>
                     <div style="color: #d1d5db;">[{"id": 201, "title": "Idea 1", ...}, {"id": 202, "title": "Idea 2", ...}]</div>
                 </div>
@@ -589,10 +589,8 @@
                         <option value="low">Low Priority</option>
                     </select>
                     <select id="newStatus" class="select">
-                        <option value="brainstorming">Brainstorming</option>
                         <option value="planning">Planning</option>
-                        <option value="ready">Ready to Use</option>
-                        <option value="used">Used</option>
+                        <option value="in_use">In Use</option>
                         <option value="archived">Archived</option>
                     </select>
                 </div>
@@ -686,13 +684,28 @@
             low: { name: 'Low', color: 'priority-low' }
         };
 
+        // Maps legacy status values already stored in your JSON data to the
+        // new consolidated status categories. No need to edit existing entries!
+        const STATUS_MAP = {
+            brainstorming: 'planning',
+            planning: 'planning',
+            ready: 'in_use',
+            used: 'archived',
+            archived: 'archived'
+        };
+
+        // The new consolidated statuses shown throughout the UI
         const statuses = {
-            brainstorming: 'Brainstorming',
             planning: 'Planning',
-            ready: 'Ready to Use',
-            used: 'Used',
+            in_use: 'In Use',
             archived: 'Archived'
         };
+
+        // Helper: get the consolidated status for any idea, regardless of
+        // what raw value is stored in its "status" field
+        function getStatus(idea) {
+            return STATUS_MAP[idea.status] || idea.status;
+        }
 
         // Initialize the app
         async function init() {
@@ -1040,8 +1053,8 @@
             const sortBy = document.getElementById('sortBy')?.value || 'newest';
             
             let filtered = ideas.filter(idea => {
-                // Filter by completion status
-                if (!showCompleted && (idea.status === 'used' || idea.status === 'archived')) {
+                // Filter by completion status (archived = "completed")
+                if (!showCompleted && getStatus(idea) === 'archived') {
                     return false;
                 }
 
@@ -1058,9 +1071,9 @@
                     if (!hasAllTags) return false;
                 }
 
-                // Filter by selected statuses
+                // Filter by selected statuses (using consolidated status)
                 if (selectedStatuses.length > 0) {
-                    if (!selectedStatuses.includes(idea.status)) {
+                    if (!selectedStatuses.includes(getStatus(idea))) {
                         return false;
                     }
                 }
@@ -1099,9 +1112,9 @@
                     case 'title-reverse':
                         return b.title.toLowerCase().localeCompare(a.title.toLowerCase());
                     case 'status':
-                        const statusOrder = { brainstorming: 1, planning: 2, ready: 3, used: 4, archived: 5 };
-                        const aStatus = statusOrder[a.status] || 99;
-                        const bStatus = statusOrder[b.status] || 99;
+                        const statusOrder = { planning: 1, in_use: 2, archived: 3 };
+                        const aStatus = statusOrder[getStatus(a)] || 99;
+                        const bStatus = statusOrder[getStatus(b)] || 99;
                         return aStatus - bStatus;
                     case 'category':
                         return a.category.localeCompare(b.category);
@@ -1133,7 +1146,7 @@
                 `;
             });
 
-            // Add status filters
+            // Add status filters (using consolidated statuses)
             html += `<div style="width: 100%; margin: 8px 0; border-top: 1px solid #374151;"></div>`;
             html += `<div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">`;
             html += `<span style="color: #d1d5db; font-size: 12px; font-weight: 500;">📊 Filter by Status:</span>`;
@@ -1143,7 +1156,7 @@
             }
 
             Object.entries(statuses).forEach(([key, status]) => {
-                const count = ideas.filter(idea => idea.status === key).length;
+                const count = ideas.filter(idea => getStatus(idea) === key).length;
                 const isActive = selectedStatuses.includes(key);
                 html += `
                     <button class="filter-btn ${isActive ? 'active' : ''}" onclick="toggleStatusFilter('${key}')">
@@ -1155,7 +1168,7 @@
 
             html += `
                 <button class="filter-btn" onclick="toggleCompleted()">
-                    ${showCompleted ? '👁️' : '🙈'} ${showCompleted ? 'Hide' : 'Show'} Used/Archived
+                    ${showCompleted ? '👁️' : '🙈'} ${showCompleted ? 'Hide' : 'Show'} Archived
                 </button>
             `;
 
@@ -1240,7 +1253,7 @@
                                         <h3>${escapeHtml(idea.title)}</h3>
                                         <div class="idea-meta">
                                             <span class="${priority.color}">⭐ ${priority.name} Priority</span>
-                                            <span>${statuses[idea.status]}</span>
+                                            <span>${statuses[getStatus(idea)]}</span>
                                             <span>Added ${idea.createdAt}</span>
                                         </div>
                                     </div>
@@ -1284,7 +1297,7 @@
                         </select>
                         <select id="edit-status-${idea.id}" class="select">
                             ${Object.entries(statuses).map(([key, status]) => 
-                                `<option value="${key}" ${idea.status === key ? 'selected' : ''}>${status}</option>`
+                                `<option value="${key}" ${getStatus(idea) === key ? 'selected' : ''}>${status}</option>`
                             ).join('')}
                         </select>
                     </div>
@@ -1319,8 +1332,8 @@
                     <div class="stat-label">Total Ideas</div>
                 </div>
                 <div class="stat-item">
-                    <div class="stat-number stat-green">${ideas.filter(i => i.status === 'ready').length}</div>
-                    <div class="stat-label">Ready to Use</div>
+                    <div class="stat-number stat-green">${ideas.filter(i => getStatus(i) === 'in_use').length}</div>
+                    <div class="stat-label">In Use</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number stat-yellow">${ideas.filter(i => i.priority === 'high').length}</div>
