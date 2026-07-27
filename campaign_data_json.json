@@ -21,16 +21,17 @@
     "id": 1734467200002,
     "title": "Dzaan's Simulacrum",
     "category": "npc",
-    "description": "Illusory duplicate of the executed Red Wizard Dzaan, created before his death. Still seeking Dzaan's research materials and spellbook from the Cauldron Caves. Unaware of or unconcerned with the danger of the Gardener. Member of Arcane Brotherhood obsessed with finding Ythryn. The simulacrum has all of Dzaan's knowledge up to the point of its creation, including theories about Karexil's vulnerability and the Gardener's connection to Netherese secrets. May approach party as potential allies or competitors. Could provide valuable information about Ythryn's location, the nature of the Auriliths, or — with Vellynne Harpell cut from the campaign — could be the one to carry a professor orb or similar Arcane Brotherhood plot thread into Ch. 5. Personality matches Dzaan - intellectual, ambitious, dismissive of non-wizards, fascinated by death and undeath.",
+    "description": "Illusory duplicate of the executed Red Wizard Dzaan, still seeking his research materials and spellbook from the Cauldron Caves. Member of the Arcane Brotherhood obsessed with finding Ythryn; has all of Dzaan's knowledge up to the point of its creation, including theories about Karexil's vulnerability and the Gardener's connection to Netherese secrets. UPDATE: Avarice (the Arcane Brotherhood wizard embedded with the Wardens of the White in Caer-Dineval) is aware of Dzaan and his simulacrum. Their Ythryn research is a connected Arcane Brotherhood thread rather than two independent, coincidental pursuits - meaning either NPC could plausibly reference or lead to the other.",
     "priority": "medium",
     "status": "planning",
     "tags": [
       "early",
       "arcane brotherhood",
       "social",
-      "easthaven"
+      "easthaven",
+      "ythryn"
     ],
-    "createdAt": "12/17/2024"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 1734467200003,
@@ -50,30 +51,31 @@
     "id": 1734467200005,
     "title": "Umberlee Shrine - Lonelywood Hidden Temple",
     "category": "location",
-    "description": "Hidden shrine to Umberlee (goddess of oceans, wave, and change) maintained by Morskaya the sea elf wereshark druid. Located in Lonelywood forest, discovered during White Moose quest investigation. Contains drowning pool - magical portal that transports victims to the Sea of Moving Ice. UPDATED: The drowning pool is confirmed ONE-WAY ONLY - there is no return trip via the pool. Morskaya uses shrine as base for opposing Auril's frozen stasis (Umberlee represents chaotic change vs Auril's permanence). Shrine has limited power - Umberlee's influence is weak in Icewind Dale compared to Auril's dominance. Morskaya mistakenly sent Circle Shiverveil leaders (Joosep's clan) through the drowning pool, believing they served Auril; they are now stranded on the Sea of Moving Ice (DM note: likely dead unless retrieved via ritual - see Circle Shiverveil entry). Morskaya does not apologize easily; retrieving the leaders would function as her act of penance. If the party is ever stranded on the Sea of Moving Ice themselves (via the one-way pool), Angajuk the whale can be befriended and can carry them toward the Dark Duchess wreck / Oyaminartok. Ongoing plot thread: Morskaya senses Umberlee's agitation building for months - unclear if it's Umberlee moving against Auril, Auril retaliating against the shrine, or something else.",
+    "description": "Hidden shrine to Umberlee maintained by Morskaya the sea-elf wereshark druid, opposing Auril's frozen stasis. Contains the drowning pool (one-way portal to the Sea of Moving Ice) and the Marble Gazebo ritual basin (U3): combining seawater/Maer Dualdon water, storm-tossed driftwood, a storm petrel feather, and a drowned humanoid's bone causes the basin to glow for a tenday, which is the requirement to open the sealed sarcophagus (U4). RESOLVED: the party performed this ritual and opened the sarcophagus, releasing a Drowned Priest - obeys whoever freed it until reduced to 0 HP, knows the tide ritual but nothing of current events (sealed for centuries), and can cast Greater Restoration once. Morskaya mistakenly sent the Circle Shiverveil leaders through the drowning pool earlier, believing they served Auril; the party has since retrieved survivors via Angajuk (see Circle Shiverveil entry). Morskaya reacted with shock both that the party survived the pool and that they returned at all. Ongoing thread: Morskaya senses Umberlee's agitation building for months, cause undetermined.",
     "priority": "high",
-    "status": "planning",
+    "status": "archived",
     "tags": [
       "early",
       "umberlee",
       "lonelywood",
-      "investigation"
+      "resolved"
     ],
-    "createdAt": "12/17/2024"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 1734467200006,
     "title": "Drowning Pool Portal (ONE-WAY)",
     "category": "misc",
-    "description": "Magical pool in Umberlee shrine that transports those who drown in it to the Sea of Moving Ice. CONFIRMED ONE-WAY: there is no return trip through the pool itself. Used by Morskaya as both trial and punishment. Circle Shiverveil leaders were sent through pool when Morskaya mistook them for Auril servants - they're now stranded on ice floes/islands in the Sea of Moving Ice, likely requiring a retrieval ritual (storm + Maer Dualdon water + driftwood + storm petrel feather + a humanoid bone from a drowned person) performed at the shrine to bring them back, rather than a return trip through the pool. If the party themselves goes through the pool, they can be rescued/guided by Angajuk the whale toward the Dark Duchess wreck, tying this location into the Oyaminartok/Keogr plotline. Connection to larger plot: Sea of Moving Ice contains important late-game locations including approach to Grimskalle (Auril's fortress).",
+    "description": "Magical pool in the Umberlee shrine that transports those who drown in it to the Sea of Moving Ice. CONFIRMED: the pool itself remains strictly one-way; there is no return trip through the pool. The party's demonstrated return method was external to the pool - they contacted and befriended Angajuk the whale, who carried them back from the Sea of Moving Ice toward the Dark Duchess wreck and eventually to shore. This is now the established precedent for how anyone stranded via the pool gets back.",
     "priority": "medium",
-    "status": "planning",
+    "status": "archived",
     "tags": [
       "early",
       "umberlee",
-      "lonelywood"
+      "lonelywood",
+      "resolved"
     ],
-    "createdAt": "12/17/2024"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 1734467200007,
@@ -365,7 +367,7 @@
     "id": 104,
     "title": "Wardens of the White - Caer Dineval",
     "category": "encounter",
-    "description": "Cult operating from Caer Dineval, serving Uthessil the Warden in White directly. Like Circle Shiverveil serves Zethryn, Wardens of the White serve their Aurilith with autonomy, allowing Auril to remain distant and unknowable. Members wear black ice amulets made from chardalyn corrupted by Auril's cold stasis through Uthessil's influence. Recruits those already showing signs of chardalyn corruption, offering them 'sanctuary' and purpose. MAJOR UPDATE: The Wardens are now the keepers of the Codicil of the White, a sacred relic they believe is a holy object of Auril's winter. In truth, it is the key to entering and navigating Ythryn's magic - Uthessil told them it is 'vital to Auril's reign,' which is technically true, but the Wardens don't know why. They will not give it up willingly. Connected to tiefling recruiters who actively seek corrupted individuals like Huarwar. Trovus is reportedly planning to confront Uthessil directly at Caer-Dineval with militia support - outcome TBD.",
+    "description": "Secret cult in Caer-Dineval devoted to Uthessil the Warden in White, serving Auril through him. Cultists are Icewind Dale natives corrupted by chardalyn amulets seeded in places the desperate or vulnerable would find them; wearing one for more than a day begins a slow alignment shift toward lawful evil and cold emotional detachment, culminating in hearing Uthessil's commands directly. The cult has taken over Caer-Dineval castle and holds town speaker Crannoc Siever prisoner, keeping him alive as a hostage/public face while claiming he's too ill for visitors. Leadership: Kadroth, a tiefling cult fanatic who runs day-to-day cult operations and falsely claims to commune directly with Uthessil (contact is actually one-way and infrequent); Hethyl Arkorran, the cult's dying elder soothsayer, who has genuine prophetic insight via Uthessil and holds more real respect within the cult than Kadroth does - before dying of natural causes she can be a source of major intel on Xardorok Sunblight and his fortress. Avarice, an albino tiefling Arcane Brotherhood wizard, lairs in the castle's cistern under orders from her patron Levistus not to antagonize the party until they help her reach Ythryn; she has no true loyalty to the cult (convenient local cover only) and IS aware of Dzaan and his simulacrum - her Ythryn research and Dzaan's are connected Arcane Brotherhood threads, not independent ones. If the cult falls, Avarice is positioned to fill the power vacuum. ALLIANCE STATUS: Uthessil has already instructed the cult to ally with anyone opposing the duergar; the party meddled in Nildar/Durth Sunblight's affairs during 'The Unseen,' meaning the trigger condition for the Wardens to welcome the party as allies is already satisfied, whenever the party actually shows up. The Codicil of the White (see that entry) is NOT stored in a room at the castle in this version - its location/access has been redesigned as an extradimensional vault, not yet fleshed out. Intended to be run as a simplified off-screen or lightly-run investigation rather than a full dungeon crawl.",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -376,7 +378,7 @@
       "auriliths",
       "ythryn"
     ],
-    "createdAt": "6/4/2025"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 105,
@@ -396,7 +398,7 @@
     "id": 106,
     "title": "Chardalyn Dragon - Doomsday Weapon",
     "category": "plot",
-    "description": "Massive construct dragon built by Xardorok from Duerra-corrupted chardalyn. Programmed to destroy each Ten-Towns settlement in sequence: Dougan's Hole -> Good Mead -> Easthaven -> Caer-Dineval -> Caer-Konig -> Termalaine -> Lonelywood -> Bremen -> Targos -> Bryn Shander. Creates ultimate time pressure and represents escalation of chardalyn corruption threat. MAJOR ADDITION: The dragon's attack is now planned to demonstrate, for the first time, that concentrated/weaponized chardalyn can destroy Auriliths - the dragon obliterating one or more Auriliths during its rampage gives the party their first proof-of-concept that Auriliths CAN be killed, seeding the Ch.5-6 Ythryn/mythallar plotline.",
+    "description": "Massive construct dragon built by Xardorok from Duerra-corrupted chardalyn, programmed to destroy Ten-Towns settlements in sequence. CLARIFICATION: the dragon's attack is the specific mechanism by which the party learns concentrated/weaponized Deep Duerra-corrupted chardalyn can damage or destroy an Aurilith - this is a property of the dragon itself (its corrupted chardalyn body/attacks), not a general effect of dual-corruption zones elsewhere in the Dale (e.g., the Dwarven Valley chardalyn feedback loop between Circle Blackgleam and the Battlehammer dwarves is a separate, non-Aurilith-damaging phenomenon). The dragon obliterating one or more Auriliths during its rampage is the party's first proof-of-concept that Auriliths CAN be killed, seeding the Ch.5-6 Ythryn/mythallar plotline.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -405,7 +407,7 @@
       "combat",
       "auriliths"
     ],
-    "createdAt": "Original Adventure"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 107,
@@ -1249,7 +1251,7 @@
     "id": 22,
     "title": "Zethryn the Root-Taker (Termalaine/Lonelywood) - COLLAPSING",
     "category": "location",
-    "description": "Symbol: Upside-down tree. In copse of frozen-alive trees (green but frozen solid, don't sway). Stalagmite of ice with tree-trunk core, branch tendrils touching each frozen tree. Half-buried in clear ice, covered in crystalline moss-like growths. No humanoid qualities. Animals avoid area. Like Uthessil, Zethryn has developed autonomy and directly contacts mortals. However, Zethryn has turned against Auril - its nature as being connected to living trees makes it rebel against frozen stasis. It wants to grow, not remain frozen. Zethryn works covertly to undermine the eternal winter through Circle Shiverveil, but has no greater endgame beyond its own freedom from stasis. Auril's indifference allows this rebellion to continue unnoticed. MAJOR UPDATE: Zethryn is now dying/collapsing, weakened significantly by Joosep's severance from the Circle. Recent visions to Joosep show the ice-tree damaged (branches snapped), a massive wave rising from Maer Dualdon and sweeping over Lonelywood (not yet happened), and shambling figures with faces replaced by blinding blue light emerging from the trees - confirmed to be Coldlight Walkers, which Joosep will recognize on sight before anyone else understands what they are. Zethryn's trunk is cracking. What happens upon its full collapse (visual manifestation, consequences for Circle Shiverveil, any final blessing/curse) is still to be developed.",
+    "description": "Autonomous, rebelling Aurilith connected to living trees, working covertly against Auril through Circle Shiverveil, now dying/collapsing following Joosep's severance from the Circle. Session 23 visit: the party found Zethryn as a cracked, holed ice stalagmite with a tree-trunk core in a clearing of frozen, dying trees. Zethryn spoke directly to the party (a broken, jagged psychic voice), naming itself alongside Flux'thuun ('the Tide-Changer') and Ylmyo-Aldon ('the Rot that Calls') as forces its urged listeners are connected to, and referencing the other Auriliths breaking or burning - specifically naming 'the madness of the Queen of the Invisible Art' (Deep Duerra) as a force fracturing its siblings. It warned of several possible fates for the Dale (burning, starving, drowning, freezing, rotting) and said there is a path through the coming choices. Zethryn's trunk contains a core of chardalyn that once housed Auril's power and is now draining; Glix can sense this directly. Because Zethryn has already fallen out of Auril's favor, its remaining defenses are weakened enough that Mama Chrys and Glix can hasten its collapse using radiant and psychic damage specifically, if the party chooses to actively finish it rather than let it die naturally.",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -1257,7 +1259,7 @@
       "auriliths",
       "ten-towns"
     ],
-    "createdAt": "Aurilith Details"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 21,
@@ -1396,13 +1398,14 @@
     "id": 10,
     "title": "Circle Shiverveil Hidden Settlements",
     "category": "location",
-    "description": "Reclusive and secretive Firbolg clan locations. Bad reputation among regular Icewind Dale residents but respected by Reghed Nomads. Could be source of useful but dangerous knowledge. UPDATE: The clan's leaders (including Gorlayne and Rolla) are missing, sent through Morskaya's one-way drowning pool to the Sea of Moving Ice, believing they served Auril. DM note: likely dead unless retrieved via a specific ritual at the Umberlee shrine before too long. Joosep will need to find surviving Circle members to learn what happened - a timely return to Lonelywood is unlikely given the party's current trajectory. The Circle is also divided over Zethryn's dream-whispers and is likely to lose its Aurilith patron soon as Zethryn collapses.",
+    "description": "Reclusive and secretive Firbolg clan locations. Bad reputation among regular Icewind Dale residents but respected by Reghed Nomads. RESOLVED: the clan's missing leaders (including Gorlayne and Rolla, sent through Morskaya's one-way drowning pool) were retrieved when the party contacted and befriended Angajuk the whale on the Sea of Moving Ice; Angajuk carried the party (and whichever leaders survived) back toward the Dark Duchess wreck area and eventually to Lonelywood. The Circle is still divided over Zethryn's dream-whispers and is losing its Aurilith patron as Zethryn collapses (see Zethryn entry).",
     "priority": "medium",
-    "status": "ready",
+    "status": "archived",
     "tags": [
-      "overarching"
+      "overarching",
+      "resolved"
     ],
-    "createdAt": "World Building"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 9,
@@ -1418,15 +1421,17 @@
   },
   {
     "id": 8,
-    "title": "Waylen the Tall - Helm Cleric",
+    "title": "Waylen the Tall - Helm Cleric (DECEASED)",
     "category": "pc",
-    "description": "Human Cleric of Helm (Matt). Motivations: protect weak, overcome personal failings, make a name. Seeks Regis Rumblebelly's enchanted ruby (rumored buried in Mithral Hall) as solution. Heard ruby rumors among dwarves at Kelvin's Cairn. Has weather-protection smoking pipe. +1 attitude bonus (people like Helm up North). UPDATE: Received a psychic demand from Ishkar (Caer-Konig Aurilith) to sacrifice his smoking pipe - refused. Ishkar dispatched Sephek to kill him for this defiance; Sephek attacked him at night in Good Mead while he stood vigil, and Waylen killed both Sephek and the frost spirit/Chwinga possessing him. Ishkar's response to losing its enforcer is unresolved.",
+    "description": "Human Cleric of Helm (Matt). Motivations: protect weak, overcome personal failings, make a name. Sought Regis Rumblebelly's enchanted ruby as a solution to the winter. Refused Ishkar's demand to sacrifice his smoking pipe; Sephek was sent to kill him for this defiance, attacked him at night in Good Mead, and Waylen killed both Sephek and the frost spirit/Chwinga possessing him. MAJOR UPDATE: Waylen died in a random yeti encounter, shortly before the party's mind flayer encounter (the transition point between Ch.1 wrap-up and firmly entering Ch.2). His player now plays Bill. The Helm boon offered to Waylen was never fully detailed and is now moot. Ishkar's open thread (its response to losing Sephek) is closed as far as targeting Waylen specifically, though Ishkar itself remains an active, unaddressed Aurilith that could redirect attention elsewhere at the DM's discretion.",
     "priority": "medium",
     "status": "archived",
     "tags": [
-      "overarching"
+      "overarching",
+      "resolved",
+      "deceased"
     ],
-    "createdAt": "Character Creation"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 7,
@@ -1626,7 +1631,7 @@
     "id": 1751000000004,
     "title": "Codicil of the White",
     "category": "misc",
-    "description": "Sacred relic currently held by the Wardens of the White cult in Caer-Dineval. Uthessil told the Wardens it is 'vital to Auril's reign' - true, but they don't understand why, and believe they're protecting a holy object of their goddess's winter. In truth, the Codicil is the key to entering and navigating Ythryn's magic once the party reaches the fallen city. The Wardens will not give it up willingly. This repositions the original book's Ythryn-access-item away from an island location and into the ongoing Wardens of the White / Caer-Dineval plotline, tying two previously separate plot threads together.",
+    "description": "Relic tied to Uthessil and the Wardens of the White; the true key to entering and navigating Ythryn's magic. Uthessil told the Wardens it is 'vital to Auril's reign' without explaining why. DESIGN UPDATE: rather than sitting in a room at Caer-Dineval castle, the Codicil's access is being reworked as an extradimensional space locked behind a vault - inspired by a Pillars of Eternity-style sequence. Not yet fleshed out; deliberately deferred until closer to when the party pursues it. Trovus's planned confrontation with the Wardens will NOT involve pursuing the Codicil itself - that thread stays separate from his off-screen resolution.",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -1635,20 +1640,20 @@
       "auriliths",
       "chardalyn"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 1751000000005,
     "title": "Bill - Human Monk (Hermit)",
     "category": "pc",
-    "description": "Player character, human monk with a Hermit background. His hermitage is a splinter of Ythryn lodged in the Spine of the World, where he found and studied the writings of Polybeus, a junior Netherese wizard who survived Ythryn's crash. Knows Netherese and has advantage on skill checks regarding Netheril as a result. Knows: Ythryn was a Netherese flying enclave that fell into the Far North before the empire's collapse; the city is preserved under a glacier and its mythallar may have survived; a strange stone object (the Spindle) was brought into the city shortly before the fall, and Polybeus didn't think it was Netherese; Iriolarthas was already an undying lich-like figure when the city flew, and kept the mythallar in his citadel; after the crash, all magic failed for days, which Polybeus attributed to the Spindle; Ythryn's fall was NOT the same event that destroyed Netheril itself (Polybeus died before that happened and never knew why the empire fell). Uniquely positioned to recognize that the Lost Spire near Ten-Towns is ALSO a Ythryn splinter. Does NOT yet know that Ythryn holds a weapon capable of killing Auriliths and making Auril vulnerable - that gap between what he knows and what's true is a planned slow revelation across Ch. 5-6. With Vellynne Harpell cut from the campaign, Bill now carries her Ythryn-exposition/quest-pitch role.",
+    "description": "Player character, human monk with a Hermit background. His hermitage is a splinter of Ythryn lodged in the Spine of the World, where he found and studied the writings of Polybeus, a junior Netherese wizard who survived Ythryn's crash. Knows Netherese and has advantage on skill checks regarding Netheril as a result. Knows: Ythryn was a Netherese flying enclave that fell into the Far North before the empire's collapse; the city is preserved under a glacier and its mythallar may have survived; a strange stone object (the Spindle) was brought into the city shortly before the fall and Polybeus didn't think it was Netherese; Iriolarthas was already an undying lich-like figure when the city flew; after the crash, all magic failed for days, which Polybeus attributed to the Spindle; Ythryn's fall was NOT the same event that destroyed Netheril itself. Uniquely positioned to recognize that the Lost Spire near Ten-Towns is ALSO a Ythryn splinter. Does NOT yet know that Ythryn holds a weapon capable of killing Auriliths - that gap is a planned slow revelation across Ch. 5-6. Carries Vellynne Harpell's old Ythryn-exposition/quest-pitch role. UPDATE: Following Waylen's death (yeti encounter, just before the mind flayer encounter), Bill became a full active party member rather than a secondary/support character.",
     "priority": "high",
     "status": "ready",
     "tags": [
       "overarching",
       "ythryn"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 1751000000006,
@@ -1667,28 +1672,29 @@
     "id": 1751000000007,
     "title": "Coldlight Walker Escalation",
     "category": "plot",
-    "description": "Coldlight Walkers (undead-like shambling figures with faces replaced by blinding blue light) are spreading outward from Caer-Dineval (Uthessil/Wardens of White territory) toward Targos and into the Dwarven Valley, possibly moving toward the Lost Spire of Netheril. Open questions: are Frostlings (chaotic chwinga) fragmenting themselves into these things, is Uthessil directing their creation, or is this an automatic defensive response to Sephek's death? Rate of creation and whether they'll eventually overwhelm Ten-Towns is undetermined. Joosep will recognize these figures on sight from Zethryn's vision before anyone else understands what they are, adding urgency and personal stakes to his character arc. Trovus is planning to confront Uthessil directly at Caer-Dineval in response to this threat.",
+    "description": "Coldlight Walkers (shambling figures with faces replaced by blinding blue light) are true mindless undead following Auril's direct commands. MAJOR CLARIFICATION: the Walkers ARE the sacrifice victims - specifically those sacrificed by Targos (which escalated to humanoid sacrifice) and by Uthessil's followers, the Wardens of the White cult in Caer-Dineval. This is the source of the corpses and explains why sightings cluster specifically around Targos and Caer-Dineval rather than spreading evenly across Ten-Towns. Sephek was a related but distinct case - undead of similar make who retained his personality for other reasons - and that distinction is now considered closed/not worth further investigation. Session 23 update: Walkers sighted in the wilderness near Targos, near Caer-Dineval, and in the Dwarven Valley. Party encountered the last of a pack (its two mates already destroyed earlier) during a blizzard; it dropped a mask made of smooth, lightweight material with Auril-attuned chardalyn inlays. Oyaminartok has independently connected the Walkers to dark-masked Chwinga (the Frostlings) - she suspects something has been animating corpses using the frost spirits, though most Chwinga only carry a fragment of a personality. This lines up with the Frostling faction's prior worship of Sephek as 'Chosen of Winter.'",
     "priority": "high",
     "status": "ready",
     "tags": [
       "overarching",
       "auriliths",
-      "combat"
+      "combat",
+      "chwinga"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 1751000000008,
     "title": "Trovus - Caer-Konig Militia Leader",
     "category": "npc",
-    "description": "Militia figure planning to confront Uthessil directly at Caer-Dineval in response to the Coldlight Walker escalation and general Black Swords cult activity. Open questions: does he ask the party to join him or go alone; does he know about the full Wardens of the White cult, or is he only suspicious; does he succeed, fail, or die; should the party witness this directly or encounter only the aftermath. Also associated with a gnoll bounty at Cackling Chasm as an alternate hook.",
+    "description": "Militia figure planning to confront the Wardens of the White cult's stronghold in Caer-Dineval, prompted by Coldlight Walker sightings near Caer-Dineval and general suspicious activity at the castle. UPDATE: his actual target is Speaker Crannoc Siever, not Uthessil directly - Trovus believes he's confronting political corruption/negligence (a speaker gone silent, a castle turned insular), unaware that Crannoc is himself a prisoner of the cult (see Wardens of the White). Whether Trovus knows the full truth of the Wardens/Uthessil connection going in is undetermined. This confrontation will be resolved off-screen. Also associated with a gnoll bounty at Cackling Chasm as an alternate hook.",
     "priority": "medium",
     "status": "ready",
     "tags": [
       "midgame",
       "auriliths"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 1751000000009,
@@ -1737,13 +1743,13 @@
     "id": 1751000000012,
     "title": "Campaign Status Snapshot (as of latest session)",
     "category": "misc",
-    "description": "Party is level 4+, working through Ch. 2 material while mopping up remaining Ch. 1 threads. Completed: Foaming Mugs (dwarf rescue, Gorga's murder discovered), Lake Monster (awakened by Yll-Varn, renamed 'Khaleesi,' negotiated but not stopped), Mountain Climb (rescued Garrett Velryn & Perilou Fishfinger), The Unseen (duergar hideout in Caer-Konig, let Nildar escape for stolen goods), met Circle Blackgleam members, Toil & Trouble/Cauldron Caves (compromise deal with the Gardener, Glix permanently spored), Sephek's caravan arrival and subsequent death (killed by Waylen in Good Mead). Major open threads: Wardens of the White/Codicil of the White quest in Caer-Dineval, Circle Shiverveil leaders missing on the Sea of Moving Ice, Zethryn collapsing, Coldlight Walker escalation, Joosep's suspicion about Wynnette, Trovus's planned confrontation with Uthessil, Karkolohk goblin diplomacy, Dark Duchess/Oyaminartok for Keogr, and the eventual Sunblight Fortress/chardalyn dragon arc (Ch. 3-4) leading into the Ythryn arc (Ch. 5-6) with Vellynne Harpell removed in favor of Wynnette and Bill.",
+    "description": "Party is level 5, firmly in Ch. 2. Waylen died in a random yeti encounter shortly before the mind flayer encounter; his player now plays Bill. Resolved since last snapshot: Circle Shiverveil leaders retrieved via Angajuk the whale; Umberlee shrine ritual completed (Drowned Priest freed, Greater Restoration available); drowning pool confirmed one-way with Angajuk-assisted return as the established workaround; Zethryn visited directly, its dying speech delivered, its chardalyn core identified as hastenable via radiant/psychic damage. Major open threads: Wardens of the White/Codicil of the White (Codicil redesigned as an extradimensional vault, not yet detailed), Trovus's off-screen confrontation with the Wardens over Speaker Crannoc Siever, Coldlight Walker escalation (now confirmed to be generated directly from Targos/Caer-Dineval sacrifice victims), Joosep's suspicion about Wynnette, Oyaminartok/Keogr's 'prove your control' scene (still being developed), Chardalyn Berserkers (Reghed Nomads) as a new active threat, Avarice/Dzaan's simulacrum as a connected Arcane Brotherhood Ythryn thread, and the mind flayer encounter needing full session detail logged. Eventual arcs: Sunblight Fortress/chardalyn dragon (Ch. 3-4, dragon rampage to demonstrate Aurilith-killing chardalyn) leading into Ythryn (Ch. 5-6).",
     "priority": "high",
     "status": "planning",
     "tags": [
       "overarching"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "7/27/2026"
   },
   {
     "id": 1751000000101,
@@ -1818,5 +1824,77 @@
       "keogr"
     ],
     "createdAt": "7/7/2026"
+  },
+  {
+    "id": 1753600000001,
+    "title": "Avarice - Arcane Brotherhood Wizard (Caer-Dineval)",
+    "category": "npc",
+    "description": "Albino tiefling wizard of the Arcane Brotherhood, currently lairing in the cistern beneath Caer-Dineval castle (Wardens of the White stronghold). Sent there under instruction from her patron Levistus, who has warned her not to antagonize a certain party of adventurers until they've helped her reach her true goal: the lost Netherese city of Ythryn. She has no genuine loyalty to the Wardens of the White cult - they are convenient local cover only - and avoids involving herself in cult politics. She is aware of Dzaan and his simulacrum; her Ythryn pursuit and his are connected Arcane Brotherhood threads. Carries a staff of frost, has a raven familiar (Skelm), and commands two gargoyles (Gargle and Gurgle) currently used for spying on rival wizards. If the Wardens of the White cult collapses (e.g., via Trovus's off-screen confrontation), Avarice is positioned to fill the resulting power vacuum. If she feels unsafe, she leaves the castle without a fight rather than engaging directly.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "arcane brotherhood",
+      "ythryn",
+      "social"
+    ],
+    "createdAt": "7/27/2026"
+  },
+  {
+    "id": 1753600000002,
+    "title": "Oyaminartok - The Polar Werebear (Detailed)",
+    "category": "npc",
+    "description": "CR 8 werebear. Not a single individual - Oyaminartok is a title/role handed down over generations; both goliath settlements (Skytower Shelter and Keogr's clan) claim she came from them, but she predates either. Near-mythic progenitor figure of goliath werebears. Scratchy voice from going weeks without speaking to another humanoid. Appearance: humanoid polar bear form with arms nearly reaching her feet, hair in thick braids decorated with metal beads, furs and murky green garb fastened with a leather belt and crochet-stitched sinew thread that stretches through her shapechanges. Her eyepatch is not covering a missing eye - it conceals a cursed eye capable of paralyzing anyone who meets its gaze; the eyepatch item itself grants +3 to Perception checks and passive Perception, plus the ability to identify shapechangers on sight. Tall tale: she once reeled in a juvenile sperm whale in the Sea of Moving Ice. During the winter, the burden of choosing which goliaths become werebears has lapsed as the two settlements squabble amongst themselves - this is why Keogr was mauled by an out-of-control lycanthrope rather than ritually chosen and bitten by her. Encountered near the Lost Spire, where she is seen destroying a Coldlight Walker. Intel she can offer: she has connected the Coldlight Walkers to dark-masked Chwinga (Frostlings), suspecting something is using the frost spirits to animate corpses; she knows the lair location of Chardalyn Berserkers (corrupted Reghed Nomads); she has killed multiple duergar in the mountains but never entered Sunblight fortress itself, so she can offer external intel/map info on it but not interior details. Potential test for Keogr ('prove your control'/'tell me of your deeds and failures') is still being developed - open direction is a test of restraint rather than raw combat, given Keogr's actual arc is about controlling the curse, not proving strength.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "werebear",
+      "keogr",
+      "midgame"
+    ],
+    "createdAt": "7/27/2026"
+  },
+  {
+    "id": 1753600000003,
+    "title": "Chardalyn Berserkers - Corrupted Reghed Nomads",
+    "category": "npc",
+    "description": "Humanoids driven into violent insanity by exposure to Deep Duerra's psionic chardalyn corruption. Confirmed to be mostly Reghed Nomad tribespeople rather than Ten-Towners or duergar thralls. Oyaminartok knows the location of their lair and can mark it on the map. Ties the Reghed Nomads (previously background flavor - respected by Circle Shiverveil, disliked by regular Ten-Towners) directly into the chardalyn corruption network as an active threat/faction rather than a passive one.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "chardalyn",
+      "combat"
+    ],
+    "createdAt": "7/27/2026"
+  },
+  {
+    "id": 1753600000004,
+    "title": "Mind Flayer Encounter (Ch. 1→2 Transition)",
+    "category": "encounter",
+    "description": "PLACEHOLDER - occurred shortly after Waylen's death (yeti encounter) and marks the transition into Ch. 2 proper. Full details not yet logged; likely connects to the previously-established mind flayer/psi crystal/chardalyn interest thread (see Mind Flayer Chardalyn Interest entry) and to Glix's backstory (his home village was destroyed by mind flayers). Update this entry once session notes/summary are available.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "midgame",
+      "combat",
+      "glix"
+    ],
+    "createdAt": "7/27/2026"
+  },
+  {
+    "id": 1753600000005,
+    "title": "Mama Chrys's Flux'thuun Boon - Escalation Brainstorm (Open)",
+    "category": "plot",
+    "description": "Brainstorming notes for expanding Mama Chrys's Flux'thuun boon beyond its current baseline (2 uses of Anarchic Weird wildshape, CR 1, random elemental damage + death-explosion, traded for her Lathander blessing). None of these are locked in. Minor/flavor options: normal wildshapes occasionally glitch cosmetically (wrong color, extra joint, wrong texture); unspent uses cause faint elemental 'weather' to cling to her after a long rest (frost breath, static hair, heat shimmer). Mechanical growth options: a third use unlocked by willingly changing something significant (relationship, oath, location) rather than passive accumulation; choosing the death-explosion's damage type once per long rest instead of it being random. Escalation/danger options: Anarchic Weird uses persisting past their normal duration under stress, mirroring Flux'thuun's actual cosmic problem (things refusing to change back); a further use gated behind Mama Chrys performing a real 'change' ritual each level-up, which would merge this boon with her still-undecided Unquiet Ore consequence (Change Imperative vs. Flux'thuun's Mark) into one unified mechanic instead of two separate threads.",
+    "priority": "medium",
+    "status": "planning",
+    "tags": [
+      "overarching",
+      "great old one",
+      "pc-deal",
+      "mama-chrys"
+    ],
+    "createdAt": "7/27/2026"
   }
 ]
