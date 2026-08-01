@@ -21,17 +21,17 @@
     "id": 1734467200002,
     "title": "Dzaan's Simulacrum",
     "category": "npc",
-    "description": "Illusory duplicate of the executed Red Wizard Dzaan, still seeking his research materials and spellbook from the Cauldron Caves. Member of the Arcane Brotherhood obsessed with finding Ythryn; has all of Dzaan's knowledge up to the point of its creation, including theories about Karexil's vulnerability and the Gardener's connection to Netherese secrets. UPDATE: Avarice (the Arcane Brotherhood wizard embedded with the Wardens of the White in Caer-Dineval) is aware of Dzaan and his simulacrum. Their Ythryn research is a connected Arcane Brotherhood thread rather than two independent, coincidental pursuits - meaning either NPC could plausibly reference or lead to the other.",
-    "priority": "medium",
-    "status": "planning",
+    "description": "Illusory duplicate of Dzaan, created and stationed in the Lost Spire of Netheril before Dzaan's Cauldron Caves research or execution - it has NO knowledge of the Gardener, Karexil, or Dzaan's death. It is self-aware, honest with strangers, and desperate to become a real flesh-and-blood clone of Dzaan via the Lost Spire's rune chamber (area P16), which requires a life-spark it doesn't possess. Its wight bodyguard Krintaas (also lacking a life-spark) is equally fixated on getting it one. Both are found in area P12, in possession of a shield guardian's control amulet Dzaan retrieved from area P15 - neither knows what it does. The simulacrum will bargain, befriend, or threaten to get characters to help it reach the rune chamber; learning that the real Dzaan is dead only makes it more desperate rather than deterring it. Member of the Arcane Brotherhood, obsessed with reaching Ythryn. If it succeeds at the rune chamber and becomes a true Dzaan clone, it asks the party to hunt down named Arcane Brotherhood rivals - as written this includes Avarice (consistent - already established as embedded at Caer-Dineval and aware of Dzaan/simulacrum), but also Nass Lantomir and Vellynne Harpell, both of whom are cut/altered in this campaign and need this dialogue edited if that branch is reached. If attacked, its instinct is to turn invisible and flee via levitate, with Krintaas covering its escape; it can survive the open tundra afterward and would make its way toward Ten-Towns.",
+    "priority": "high",
+    "status": "ready",
     "tags": [
-      "early",
+      "midgame",
       "arcane brotherhood",
+      "ythryn",
       "social",
-      "easthaven",
-      "ythryn"
+      "combat"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 1734467200003,
@@ -51,7 +51,7 @@
     "id": 1734467200005,
     "title": "Umberlee Shrine - Lonelywood Hidden Temple",
     "category": "location",
-    "description": "Hidden shrine to Umberlee maintained by Morskaya the sea-elf wereshark druid, opposing Auril's frozen stasis. Contains the drowning pool (one-way portal to the Sea of Moving Ice) and the Marble Gazebo ritual basin (U3): combining seawater/Maer Dualdon water, storm-tossed driftwood, a storm petrel feather, and a drowned humanoid's bone causes the basin to glow for a tenday, which is the requirement to open the sealed sarcophagus (U4). RESOLVED: the party performed this ritual and opened the sarcophagus, releasing a Drowned Priest - obeys whoever freed it until reduced to 0 HP, knows the tide ritual but nothing of current events (sealed for centuries), and can cast Greater Restoration once. Morskaya mistakenly sent the Circle Shiverveil leaders through the drowning pool earlier, believing they served Auril; the party has since retrieved survivors via Angajuk (see Circle Shiverveil entry). Morskaya reacted with shock both that the party survived the pool and that they returned at all. Ongoing thread: Morskaya senses Umberlee's agitation building for months, cause undetermined.",
+    "description": "Hidden shrine to Umberlee maintained by Morskaya the sea-elf wereshark druid, opposing Auril's frozen stasis. Contains the drowning pool (one-way portal to the Sea of Moving Ice, resolved via Angajuk - see that entry) and the Marble Gazebo ritual basin. RESOLVED: while the rest of the party dealt with Zethryn's aftermath, Glix went alone to the shrine and helped Morskaya perform the ritual (driftwood, storm petrel feather, drowned humanoid bone, water) to free the Drowned Priest sealed in the sarcophagus (see that entry). Morskaya was shocked the party had survived the drowning pool and doubly shocked they'd returned at all. She promised to aid Glix if he ever has need, healed him, and then went out and personally whipped up a maelstrom on Maer Dualdon. Possible open connection, not yet confirmed: this may be the first stirring of the 'great wave rising from Maer Dualdon over Lonelywood' that Zethryn showed Joosep in an earlier vision - worth watching for. Ongoing thread: Morskaya's months-long sense of Umberlee's agitation building may be tied to this same event.",
     "priority": "high",
     "status": "archived",
     "tags": [
@@ -60,7 +60,7 @@
       "lonelywood",
       "resolved"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 1734467200006,
@@ -799,7 +799,7 @@
     "id": 67,
     "title": "Targos Humanoid Sacrifices",
     "category": "plot",
-    "description": "Targos has escalated to HUMANOID sacrifices to Auril - most extreme of all Ten-Towns. This could be Naerth/Zhentarim manipulation to create fear and consolidate power, or genuine desperation from largest population. Creates moral urgency for party intervention.",
+    "description": "Targos has escalated to HUMANOID sacrifices to Auril - most extreme of all Ten-Towns. UPDATE: passing through Targos, the party sensed a general relief that this cycle's sacrifice had already been made, and picked up the impression that Speaker Naerth Maxildanarr can be bribed - some citizens aren't at risk of being chosen specifically because of this. Confirms the sacrifice system in Targos is at least partly a corrupt/bribable process rather than pure blind desperation. Glix wants Naerth dead over this; the party has deprioritized it in favor of other quests, but it's a live tension.",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -807,7 +807,7 @@
       "ten-towns",
       "auriliths"
     ],
-    "createdAt": "Targos Details"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 66,
@@ -910,7 +910,7 @@
     "id": 57,
     "title": "Speaker Naerth Maxildanarr - Zhentarim Leader",
     "category": "npc",
-    "description": "Former Luskan rogue, moved to Targos couple years ago. Took residence in Luskan Arms largest suite, spread gold around earning fisher loyalty. Cordial, down-to-earth demeanor. Replaced well-liked Speaker who didn't want job. SECRETLY: Head of Zhentarim in Ten-Towns, wants to make it trade hub for Black Network. Commands 12+ Zhentarim spies throughout Ten-Towns, disposing Harper spies and convincing businesses to buy Targos fish over competitors. Uses THREE FLYING SNAKES in his room to deliver messages to spies.",
+    "description": "Former Luskan rogue, secretly head of Zhentarim in Ten-Towns, wants to make Targos a trade hub for the Black Network. Commands 12+ spies throughout Ten-Towns. Uses three flying snakes to relay messages. UPDATE: confirmed to accept bribes in exchange for exempting specific citizens from Targos's humanoid sacrifice rotation (see Targos Humanoid Sacrifices entry). Glix has openly expressed a desire to kill him; the party chose to deprioritize this in favor of other quests, but it remains unresolved and could resurface.",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -919,7 +919,7 @@
       "ten-towns",
       "social"
     ],
-    "createdAt": "Town Details"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 56,
@@ -1249,17 +1249,18 @@
   },
   {
     "id": 22,
-    "title": "Zethryn the Root-Taker (Termalaine/Lonelywood) - COLLAPSING",
+    "title": "Zethryn the Root-Taker - DESTROYED",
     "category": "location",
-    "description": "Autonomous, rebelling Aurilith connected to living trees, working covertly against Auril through Circle Shiverveil, now dying/collapsing following Joosep's severance from the Circle. Session 23 visit: the party found Zethryn as a cracked, holed ice stalagmite with a tree-trunk core in a clearing of frozen, dying trees. Zethryn spoke directly to the party (a broken, jagged psychic voice), naming itself alongside Flux'thuun ('the Tide-Changer') and Ylmyo-Aldon ('the Rot that Calls') as forces its urged listeners are connected to, and referencing the other Auriliths breaking or burning - specifically naming 'the madness of the Queen of the Invisible Art' (Deep Duerra) as a force fracturing its siblings. It warned of several possible fates for the Dale (burning, starving, drowning, freezing, rotting) and said there is a path through the coming choices. Zethryn's trunk contains a core of chardalyn that once housed Auril's power and is now draining; Glix can sense this directly. Because Zethryn has already fallen out of Auril's favor, its remaining defenses are weakened enough that Mama Chrys and Glix can hasten its collapse using radiant and psychic damage specifically, if the party chooses to actively finish it rather than let it die naturally.",
+    "description": "Formerly an autonomous, rebelling Aurilith connected to living trees, working covertly against Auril through Circle Shiverveil. RESOLVED - DESTROYED: the party found Zethryn as a cracked, dying ice stalagmite with a tree-trunk core in a clearing of frozen trees. Zethryn spoke to the party telepathically (Glix was out of range and didn't hear it), naming Flux'thuun ('the Tide-Changer') and Ylmyo-Aldon ('the Rot that Calls'), referencing its siblings breaking or burning - specifically naming 'the madness of the Queen of the Invisible Art' (Deep Duerra) - and warning of several possible fates for the Dale, with a path through the coming choices. The party then destroyed it outright: Joosep with axes, Bill with stunning strike, Mama Chrys with Moonbeam, Glix with eldritch blast. Moonlight through the cracks revealed an empty chardalyn vessel that had once housed Auril's power. Glix attempted to fill the vessel with Flux'thuun's power as the final blow landed - the Aurilith was destroyed before attunement completed, but something happened to Glix in that instant (see Glix's Zethryn Vessel Interaction entry). Zethryn shattered into loose power, and Auril immediately, personally retaliated with a wave of cold damage against the whole party (see Auril's Direct Retaliation entry) - knocking Glix unconscious and instantly freezing Vega Shiverveil to death. Joosep, already grieving the near-loss of the Circle's leaders and his severed connection to Zethryn, was deeply affected by this second loss; he and Mama Chrys built a cairn for Vega while Bill and Keogr rested.",
     "priority": "high",
-    "status": "planning",
+    "status": "archived",
     "tags": [
       "overarching",
       "auriliths",
-      "ten-towns"
+      "ten-towns",
+      "resolved"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 21,
@@ -1449,13 +1450,14 @@
     "id": 6,
     "title": "Joosep - Circle Shiverveil Ranger",
     "category": "pc",
-    "description": "Firbolg Ranger (Marvin). From Circle Shiverveil - particularly reclusive/secretive clan. Bad reputation among regular Icewind Dale folk, better reputation with Reghed Nomads. Contacted by Zethryn. Has Zethrynstone (ice sphere that can't melt, daily Augury from Zethryn's perspective). UPDATE: Has received escalating visions from Zethryn, including one showing shambling blue-lit figures now confirmed as Coldlight Walkers - Joosep will recognize them in the wild before anyone else understands what they are. Also privately noticed that Wynnette does not breathe; after killing Sephek (who shared this trait and housed a frost spirit), Joosep now suspects Wynnette's true nature but has not shared this with the party. Circle Shiverveil's leaders are missing (sent through the one-way drowning pool) and Zethryn itself is weakening/collapsing.",
+    "description": "Firbolg Ranger (Marvin). From Circle Shiverveil. Broke his connection to Zethryn in exchange for a +1/+1 bonus against intelligent creatures willingly serving Auril. Privately suspects Wynnette's true nature (doesn't breathe) but hasn't told the party. Circle Shiverveil's leaders were retrieved via Angajuk after being stranded on the Sea of Moving Ice. UPDATE: present for Zethryn's destruction and the direct retaliation from Auril that followed - lost Vega Shiverveil, another Circle contact, to that retaliation. This is now the second major loss tied to the Circle in short order (the leaders' near-death, and now Vega's actual death), on top of his own severed connection to Zethryn. He and Mama Chrys built a cairn for Vega while the rest of the party rested. Deeply affected by this; worth tracking as an emotional throughline rather than a closed incident.",
     "priority": "medium",
     "status": "ready",
     "tags": [
-      "overarching"
+      "overarching",
+      "resolved"
     ],
-    "createdAt": "Character Creation"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 5,
@@ -1672,7 +1674,7 @@
     "id": 1751000000007,
     "title": "Coldlight Walker Escalation",
     "category": "plot",
-    "description": "Coldlight Walkers (shambling figures with faces replaced by blinding blue light) are true mindless undead following Auril's direct commands. MAJOR CLARIFICATION: the Walkers ARE the sacrifice victims - specifically those sacrificed by Targos (which escalated to humanoid sacrifice) and by Uthessil's followers, the Wardens of the White cult in Caer-Dineval. This is the source of the corpses and explains why sightings cluster specifically around Targos and Caer-Dineval rather than spreading evenly across Ten-Towns. Sephek was a related but distinct case - undead of similar make who retained his personality for other reasons - and that distinction is now considered closed/not worth further investigation. Session 23 update: Walkers sighted in the wilderness near Targos, near Caer-Dineval, and in the Dwarven Valley. Party encountered the last of a pack (its two mates already destroyed earlier) during a blizzard; it dropped a mask made of smooth, lightweight material with Auril-attuned chardalyn inlays. Oyaminartok has independently connected the Walkers to dark-masked Chwinga (the Frostlings) - she suspects something has been animating corpses using the frost spirits, though most Chwinga only carry a fragment of a personality. This lines up with the Frostling faction's prior worship of Sephek as 'Chosen of Winter.'",
+    "description": "Coldlight Walkers (shambling figures with faces replaced by blinding blue light) are true mindless undead following Auril's direct commands. MAJOR CLARIFICATION: the Walkers ARE the sacrifice victims - specifically those sacrificed by Targos (which escalated to humanoid sacrifice) and by Uthessil's followers, the Wardens of the White cult in Caer-Dineval. This explains why sightings cluster around Targos and Caer-Dineval rather than spreading evenly across Ten-Towns. Sephek was a related but distinct case, considered closed. Session update: the party killed a lone Walker (last of an earlier-destroyed pack) during a Day 12 blizzard, but destroyed its mask immediately - so the party has gained no closer look at the chardalyn-inlay mystery from this encounter. Oyaminartok's intel connecting the Walkers to dark-masked Chwinga (Frostlings) is still pending - her meeting with the party has been pushed until after the Lost Spire.",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -1681,7 +1683,7 @@
       "combat",
       "chwinga"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 1751000000008,
@@ -1743,13 +1745,13 @@
     "id": 1751000000012,
     "title": "Campaign Status Snapshot (as of latest session)",
     "category": "misc",
-    "description": "Party is level 5, firmly in Ch. 2. Waylen died in a random yeti encounter shortly before the mind flayer encounter; his player now plays Bill. Resolved since last snapshot: Circle Shiverveil leaders retrieved via Angajuk the whale; Umberlee shrine ritual completed (Drowned Priest freed, Greater Restoration available); drowning pool confirmed one-way with Angajuk-assisted return as the established workaround; Zethryn visited directly, its dying speech delivered, its chardalyn core identified as hastenable via radiant/psychic damage. Major open threads: Wardens of the White/Codicil of the White (Codicil redesigned as an extradimensional vault, not yet detailed), Trovus's off-screen confrontation with the Wardens over Speaker Crannoc Siever, Coldlight Walker escalation (now confirmed to be generated directly from Targos/Caer-Dineval sacrifice victims), Joosep's suspicion about Wynnette, Oyaminartok/Keogr's 'prove your control' scene (still being developed), Chardalyn Berserkers (Reghed Nomads) as a new active threat, Avarice/Dzaan's simulacrum as a connected Arcane Brotherhood Ythryn thread, and the mind flayer encounter needing full session detail logged. Eventual arcs: Sunblight Fortress/chardalyn dragon (Ch. 3-4, dragon rampage to demonstrate Aurilith-killing chardalyn) leading into Ythryn (Ch. 5-6).",
+    "description": "Party is level 6 (leveled up this session), Ch. 2, currently around Day 14-15, having just resolved Lonelywood before continuing toward the Lost Spire. Waylen died in a random yeti encounter; Bill is now active. Party has named itself the Anti-Auril Rebel Parade (AARP). Recently resolved: a Coldlight Walker encounter (killed, mask destroyed, no new intel); town stops at Bremen (met Tali), Targos (sensed sacrifice relief + Naerth's bribery), Bryn Shander (Scramsax bought the rum barrel 'Arveiaturace's Tears,' Sheriff Southwell gave Council updates, Wynnette absent), and Termalaine (picked up animals from Oarus); Zethryn deliberately destroyed by the party, triggering Auril's first confirmed direct retaliation (a party-wide cold-damage smite that killed Vega Shiverveil and knocked out Glix) - both the retaliation and Glix's interrupted vessel-attunement attempt are flagged as open threads; the Umberlee shrine ritual completed solo by Glix, freeing the Drowned Priest and securing Morskaya's promise of aid, followed by Morskaya raising a maelstrom on Maer Dualdon (possibly connected to Zethryn's earlier 'great wave' vision). Major still-open threads: Wardens of the White/Codicil of the White (vault redesign pending), Trovus's off-screen confrontation over Speaker Crannoc Siever, Avarice/Dzaan's simulacrum as a connected Ythryn thread, Chardalyn Berserkers (Reghed Nomads), the mind flayer encounter (still needs full detail logged), Glix's desire to kill Naerth (deprioritized, not dropped). Next session: travel to the Lost Spire and begin that content, expected to involve Dzaan's simulacrum. Oyaminartok's first meeting has been deliberately pushed until after the Spire - worth watching against Keogr's Tymora deadline (full moon on the 19th) if the Spire runs long.",
     "priority": "high",
     "status": "planning",
     "tags": [
       "overarching"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 1751000000101,
@@ -1896,5 +1898,216 @@
       "mama-chrys"
     ],
     "createdAt": "7/27/2026"
+  },
+  {
+    "id": 1753700000001,
+    "title": "The Anti-Auril Rebel Parade (AARP) - Party Name",
+    "category": "misc",
+    "description": "The party has named itself the Anti-Auril Rebel Parade, abbreviated AARP.",
+    "priority": "low",
+    "status": "ready",
+    "tags": [
+      "overarching"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1753700000002,
+    "title": "Tali - Magical Beast Researcher (Bremen)",
+    "category": "npc",
+    "description": "Researcher of magical beasts, met by the party in Bremen. Not yet developed beyond the introduction - open for expansion if the party follows up with her.",
+    "priority": "low",
+    "status": "planning",
+    "tags": [
+      "early",
+      "ten-towns"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1753700000003,
+    "title": "Vega Shiverveil (DECEASED)",
+    "category": "npc",
+    "description": "Circle Shiverveil member who served as the party's point of contact near the Umberlee shrine in Lonelywood, relaying the crisis of the clan's missing leaders. Found asleep at her post on this visit, in a stretch of forest that felt notably more normal than usual. Present at Zethryn's destruction - when the Aurilith shattered and Auril directly retaliated with a wave of cold damage against the party (see Auril's Direct Retaliation entry), Vega was instantly frozen and killed. This is a second, more direct loss to Circle Shiverveil on top of the earlier near-loss of its leaders, and hit Joosep hard - he and Mama Chrys built a cairn for her while Bill and Keogr rested.",
+    "priority": "medium",
+    "status": "archived",
+    "tags": [
+      "umberlee",
+      "lonelywood",
+      "resolved",
+      "deceased"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1753700000004,
+    "title": "Auril's Direct Retaliation - Zethryn's Destruction",
+    "category": "plot",
+    "description": "The party deliberately destroyed Zethryn, triggering an immediate cold-damage retaliation against the whole party that killed Vega Shiverveil and knocked out Glix. CLARIFIED: this response was deliberately dampened - Auril didn't personally appear or escalate further, she simply blasted the party with ice, specifically because Zethryn was already a known traitor being punished rather than a loyal Aurilith being avenged. This is not evidence of universal, maximal retaliation for any Aurilith's death. Ch. 4 preview: the chardalyn dragon's eventual Aurilith kill(s) will provoke a more complicated backlash - the dragon will be built to withstand or avoid multiple retaliatory blasts, which is precisely what will demonstrate to the party that concentrated Duerra-corrupted chardalyn can resist/counter Auril's own power, a clearer and bigger proof-of-concept than what happened with Zethryn. Zethryn itself didn't simply vanish - it shattered into loose power that Glix nearly captured (see Glix's Zethryn Vessel Interaction entry).",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "combat"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1753700000005,
+    "title": "Glix's Zethryn Vessel Interaction",
+    "category": "plot",
+    "description": "During Zethryn's destruction, Glix attempted to fill the Aurilith's empty chardalyn vessel with Flux'thuun's power via the Unquiet Ore. CLARIFIED: this attempt could have worked had Zethryn not been destroyed in the same instant - what Glix actually felt was Flux'thuun's psychic power beginning to attune to the now-empty chardalyn heart that used to be Zethryn, interrupted mid-process. Still open: whether that vessel/pocket of power still exists somewhere findable (i.e., the attunement attempt could theoretically be resumed or completed later) or whether it dissipated for good the moment Zethryn shattered. Worth deciding before this comes up again in play.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching",
+      "great old one",
+      "auriliths",
+      "glix"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1785554037454.1672,
+    "title": "Zethryn the Root-Taker - DESTROYED",
+    "category": "location",
+    "description": "Formerly an autonomous, rebelling Aurilith connected to living trees, working covertly against Auril through Circle Shiverveil. RESOLVED - DESTROYED: the party found Zethryn as a cracked, dying ice stalagmite with a tree-trunk core in a clearing of frozen trees. Zethryn spoke to the party telepathically (Glix was out of range and didn't hear it), naming Flux'thuun ('the Tide-Changer') and Ylmyo-Aldon ('the Rot that Calls'), referencing its siblings breaking or burning - specifically naming 'the madness of the Queen of the Invisible Art' (Deep Duerra) - and warning of several possible fates for the Dale, with a path through the coming choices. The party then destroyed it outright: Joosep with axes, Bill with stunning strike, Mama Chrys with Moonbeam, Glix with eldritch blast. Moonlight through the cracks revealed an empty chardalyn vessel that had once housed Auril's power. Glix attempted to fill the vessel with Flux'thuun's power as the final blow landed - the Aurilith was destroyed before attunement completed, but something happened to Glix in that instant (see Glix's Zethryn Vessel Interaction entry). Zethryn shattered into loose power, and Auril immediately, personally retaliated with a wave of cold damage against the whole party (see Auril's Direct Retaliation entry) - knocking Glix unconscious and instantly freezing Vega Shiverveil to death. Joosep, already grieving the near-loss of the Circle's leaders and his severed connection to Zethryn, was deeply affected by this second loss; he and Mama Chrys built a cairn for Vega while Bill and Keogr rested.",
+    "priority": "high",
+    "status": "archived",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "ten-towns",
+      "resolved"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1785554037454.5117,
+    "title": "Umberlee Shrine - Lonelywood Hidden Temple",
+    "category": "location",
+    "description": "Hidden shrine to Umberlee maintained by Morskaya the sea-elf wereshark druid, opposing Auril's frozen stasis. Contains the drowning pool (one-way portal to the Sea of Moving Ice, resolved via Angajuk - see that entry) and the Marble Gazebo ritual basin. RESOLVED: while the rest of the party dealt with Zethryn's aftermath, Glix went alone to the shrine and helped Morskaya perform the ritual (driftwood, storm petrel feather, drowned humanoid bone, water) to free the Drowned Priest sealed in the sarcophagus (see that entry). Morskaya was shocked the party had survived the drowning pool and doubly shocked they'd returned at all. She promised to aid Glix if he ever has need, healed him, and then went out and personally whipped up a maelstrom on Maer Dualdon. Possible open connection, not yet confirmed: this may be the first stirring of the 'great wave rising from Maer Dualdon over Lonelywood' that Zethryn showed Joosep in an earlier vision - worth watching for. Ongoing thread: Morskaya's months-long sense of Umberlee's agitation building may be tied to this same event.",
+    "priority": "high",
+    "status": "archived",
+    "tags": [
+      "early",
+      "umberlee",
+      "lonelywood",
+      "resolved"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1753700000006,
+    "title": "The Drowned Priest (Freed)",
+    "category": "npc",
+    "description": "Freed from the sarcophagus at the Umberlee shrine via the completed ritual. Physically a mummy-like figure in sodden robes that never freeze. Not exactly sentient - simple, bound to whoever freed it (Glix), knows the tide ritual but nothing of current events, having been sealed for centuries. Can cast Greater Restoration once (not yet used as of this session). After the ritual, it waved goodbye to Glix and went on its way rather than staying as an active companion. Flagged by the DM as a new relationship for Glix that 'totally won't become a problem later' - treat as a planted complication for a future session.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "umberlee",
+      "lonelywood",
+      "glix"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1785554037454.526,
+    "title": "Coldlight Walker Escalation",
+    "category": "plot",
+    "description": "Coldlight Walkers (shambling figures with faces replaced by blinding blue light) are true mindless undead following Auril's direct commands. MAJOR CLARIFICATION: the Walkers ARE the sacrifice victims - specifically those sacrificed by Targos (which escalated to humanoid sacrifice) and by Uthessil's followers, the Wardens of the White cult in Caer-Dineval. This explains why sightings cluster around Targos and Caer-Dineval rather than spreading evenly across Ten-Towns. Sephek was a related but distinct case, considered closed. Session update: the party killed a lone Walker (last of an earlier-destroyed pack) during a Day 12 blizzard, but destroyed its mask immediately - so the party has gained no closer look at the chardalyn-inlay mystery from this encounter. Oyaminartok's intel connecting the Walkers to dark-masked Chwinga (Frostlings) is still pending - her meeting with the party has been pushed until after the Lost Spire.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "combat",
+      "chwinga"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1785554037454.7776,
+    "title": "Targos Humanoid Sacrifices",
+    "category": "plot",
+    "description": "Targos has escalated to HUMANOID sacrifices to Auril - most extreme of all Ten-Towns. UPDATE: passing through Targos, the party sensed a general relief that this cycle's sacrifice had already been made, and picked up the impression that Speaker Naerth Maxildanarr can be bribed - some citizens aren't at risk of being chosen specifically because of this. Confirms the sacrifice system in Targos is at least partly a corrupt/bribable process rather than pure blind desperation. Glix wants Naerth dead over this; the party has deprioritized it in favor of other quests, but it's a live tension.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "early",
+      "ten-towns",
+      "auriliths"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1785554037454.954,
+    "title": "Speaker Naerth Maxildanarr - Zhentarim Leader",
+    "category": "npc",
+    "description": "Former Luskan rogue, secretly head of Zhentarim in Ten-Towns, wants to make Targos a trade hub for the Black Network. Commands 12+ spies throughout Ten-Towns. Uses three flying snakes to relay messages. UPDATE: confirmed to accept bribes in exchange for exempting specific citizens from Targos's humanoid sacrifice rotation (see Targos Humanoid Sacrifices entry). Glix has openly expressed a desire to kill him; the party chose to deprioritize this in favor of other quests, but it remains unresolved and could resurface.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "early",
+      "zhentarim",
+      "ten-towns",
+      "social"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1785554037454.162,
+    "title": "Joosep - Circle Shiverveil Ranger",
+    "category": "pc",
+    "description": "Firbolg Ranger (Marvin). From Circle Shiverveil. Broke his connection to Zethryn in exchange for a +1/+1 bonus against intelligent creatures willingly serving Auril. Privately suspects Wynnette's true nature (doesn't breathe) but hasn't told the party. Circle Shiverveil's leaders were retrieved via Angajuk after being stranded on the Sea of Moving Ice. UPDATE: present for Zethryn's destruction and the direct retaliation from Auril that followed - lost Vega Shiverveil, another Circle contact, to that retaliation. This is now the second major loss tied to the Circle in short order (the leaders' near-death, and now Vega's actual death), on top of his own severed connection to Zethryn. He and Mama Chrys built a cairn for Vega while the rest of the party rested. Deeply affected by this; worth tracking as an emotional throughline rather than a closed incident.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "resolved"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1785554037454.5232,
+    "title": "Campaign Status Snapshot 7/31/26",
+    "category": "misc",
+    "description": "Party is level 6 (leveled up this session), Ch. 2, currently around Day 14-15, having just resolved Lonelywood before continuing toward the Lost Spire. Waylen died in a random yeti encounter; Bill is now active. Party has named itself the Anti-Auril Rebel Parade (AARP). Recently resolved: a Coldlight Walker encounter (killed, mask destroyed, no new intel); town stops at Bremen (met Tali), Targos (sensed sacrifice relief + Naerth's bribery), Bryn Shander (Scramsax bought the rum barrel 'Arveiaturace's Tears,' Sheriff Southwell gave Council updates, Wynnette absent), and Termalaine (picked up animals from Oarus); Zethryn deliberately destroyed by the party, triggering Auril's first confirmed direct retaliation (a party-wide cold-damage smite that killed Vega Shiverveil and knocked out Glix) - both the retaliation and Glix's interrupted vessel-attunement attempt are flagged as open threads; the Umberlee shrine ritual completed solo by Glix, freeing the Drowned Priest and securing Morskaya's promise of aid, followed by Morskaya raising a maelstrom on Maer Dualdon (possibly connected to Zethryn's earlier 'great wave' vision). Major still-open threads: Wardens of the White/Codicil of the White (vault redesign pending), Trovus's off-screen confrontation over Speaker Crannoc Siever, Avarice/Dzaan's simulacrum as a connected Ythryn thread, Chardalyn Berserkers (Reghed Nomads), the mind flayer encounter (still needs full detail logged), Glix's desire to kill Naerth (deprioritized, not dropped). Next session: travel to the Lost Spire and begin that content, expected to involve Dzaan's simulacrum. Oyaminartok's first meeting has been deliberately pushed until after the Spire - worth watching against Keogr's Tymora deadline (full moon on the 19th) if the Spire runs long.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1753800000001,
+    "title": "Krintaas - Wight Bodyguard",
+    "category": "npc",
+    "description": "Dzaan's undead bodyguard, stationed with the simulacrum in the Lost Spire of Netheril. Lacks a life-spark itself. Was ordered to watch over the simulacrum and keep it from testing the rune chamber, but since it doesn't know Dzaan is dead, it now does whatever it takes to help the simulacrum get a life-spark instead - including manipulating or coercing the party. Covers the simulacrum's escape if a fight breaks out.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "combat",
+      "ythryn"
+    ],
+    "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1753800000002,
+    "title": "Lost Spire of Netheril - Location Notes",
+    "category": "location",
+    "description": "A splinter of Ythryn, embedded upside-down in the tundra, reachable via a slippery entrance tunnel. Everything inside is inverted (walking on ceilings, climbing over doorway tops); lit by upward-pointing continual flame with no heat. Four ruined levels, connected by rough tunnels the original shield guardian punched through during its escape. Notable contents: a library with Netherese texts on mythallars and phaerimm; a workshop/potion storage with four potions of resistance (acid/cold/fire/force); a laboratory with a thri-kreen carapace and a chardalyn scroll tube (safe to handle - uncorrupted) holding a scroll of invisibility; Dzaan's simulacrum and Krintaas in a makeshift office (area P12) with the shield guardian's control amulet; a ruined Mystryl shrine that yields a one-time minor illusion elixir; a refectory currently occupied by a hostile basilisk; a bedchamber with the original wizard's remains (disturbing them summons a bound will-o'-wisp) and an invisible chest holding a spellbook that disintegrates on opening; and the rune chamber itself (P16) on the lowest level, which can turn illusory objects/creatures real given a life-spark, with a chance of failure, hostile transformation, temporary reality, or permanent success that burns out the chamber. A group of six bugbears (led by the bribable Brekk) may stumble in partway through the party's exploration. STRUCTURAL NOTE: the printed adventure assumes the tower's shield guardian was already found by goblins and taken to Karkolohk - this was never addressed in the already-resolved Karkolohk session and needs a decision (retcon a return visit, relocate the guardian, or drop the payoff).",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "ythryn",
+      "combat",
+      "investigation"
+    ],
+    "createdAt": "7/31/2026"
   }
 ]
