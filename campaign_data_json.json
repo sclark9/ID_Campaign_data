@@ -1846,7 +1846,7 @@
     "id": 1753600000002,
     "title": "Oyaminartok - The Polar Werebear (Detailed)",
     "category": "npc",
-    "description": "CR 8 werebear. Not a single individual - Oyaminartok is a title/role handed down over generations; both goliath settlements (Skytower Shelter and Keogr's clan) claim she came from them, but she predates either. Near-mythic progenitor figure of goliath werebears. Scratchy voice from going weeks without speaking to another humanoid. Appearance: humanoid polar bear form with arms nearly reaching her feet, hair in thick braids decorated with metal beads, furs and murky green garb fastened with a leather belt and crochet-stitched sinew thread that stretches through her shapechanges. Her eyepatch is not covering a missing eye - it conceals a cursed eye capable of paralyzing anyone who meets its gaze; the eyepatch item itself grants +3 to Perception checks and passive Perception, plus the ability to identify shapechangers on sight. Tall tale: she once reeled in a juvenile sperm whale in the Sea of Moving Ice. During the winter, the burden of choosing which goliaths become werebears has lapsed as the two settlements squabble amongst themselves - this is why Keogr was mauled by an out-of-control lycanthrope rather than ritually chosen and bitten by her. Encountered near the Lost Spire, where she is seen destroying a Coldlight Walker. Intel she can offer: she has connected the Coldlight Walkers to dark-masked Chwinga (Frostlings), suspecting something is using the frost spirits to animate corpses; she knows the lair location of Chardalyn Berserkers (corrupted Reghed Nomads); she has killed multiple duergar in the mountains but never entered Sunblight fortress itself, so she can offer external intel/map info on it but not interior details. Potential test for Keogr ('prove your control'/'tell me of your deeds and failures') is still being developed - open direction is a test of restraint rather than raw combat, given Keogr's actual arc is about controlling the curse, not proving strength.",
+    "description": "CR 8 werebear. Not a single individual - Oyaminartok is a title/role handed down over generations; both goliath settlements (Skytower Shelter and Keogr's clan) claim she came from them, but she predates either. Near-mythic progenitor figure of goliath werebears. Scratchy voice from going weeks without speaking to another humanoid. Appearance: humanoid polar bear form with arms nearly reaching her feet, hair in thick braids decorated with metal beads, furs and murky green garb fastened with a leather belt and crochet-stitched sinew thread that stretches through her shapechanges. Her eyepatch is not covering a missing eye - it conceals a cursed eye capable of paralyzing anyone who meets its gaze; the eyepatch item itself grants +3 to Perception checks and passive Perception, plus the ability to identify shapechangers on sight. Tall tale: she once reeled in a juvenile sperm whale in the Sea of Moving Ice. During the winter, the burden of choosing which goliaths become werebears has lapsed as the two settlements squabble amongst themselves - this is why Keogr was mauled by an out-of-control lycanthrope rather than ritually chosen and bitten by her. Meeting pushed to after the Lost Spire. Intel she can offer: she has connected the Coldlight Walkers to dark-masked Chwinga (Frostlings), suspecting something is using the frost spirits to animate corpses; she has killed multiple duergar in the mountains but never entered Sunblight fortress itself, so she can offer external intel/map info on it but not interior details. (Chardalyn Berserker lair intel is cut - see that entry - she may mention them in passing but there's no follow-through planned.) Potential test for Keogr ('prove your control'/'tell me of your deeds and failures') is still being developed - open direction is a test of restraint rather than raw combat, given Keogr's actual arc is about controlling the curse, not proving strength. Watch Keogr's Tymora deadline (full moon, the 19th) against however long the Spire takes.",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -1854,21 +1854,21 @@
       "keogr",
       "midgame"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "7/31/2026"
   },
   {
-    "id": 1753600000003,
-    "title": "Chardalyn Berserkers - Corrupted Reghed Nomads",
+     "id": 1753600000003,
+    "title": "Chardalyn Berserkers - Corrupted Reghed Nomads (CUT)",
     "category": "npc",
-    "description": "Humanoids driven into violent insanity by exposure to Deep Duerra's psionic chardalyn corruption. Confirmed to be mostly Reghed Nomad tribespeople rather than Ten-Towners or duergar thralls. Oyaminartok knows the location of their lair and can mark it on the map. Ties the Reghed Nomads (previously background flavor - respected by Circle Shiverveil, disliked by regular Ten-Towners) directly into the chardalyn corruption network as an active threat/faction rather than a passive one.",
-    "priority": "medium",
-    "status": "ready",
+    "description": "Humanoids driven into violent insanity by Deep Duerra's psionic chardalyn corruption, mostly Reghed Nomad tribespeople. Oyaminartok knows their lair location. CUT: no compelling loot and the party is overpowered for this encounter as designed. Not being pursued. Oyaminartok can still mention them in passing as color/intel if she comes up, but no follow-through is planned. Safe to ignore going forward.",
+    "priority": "low",
+    "status": "archived",
     "tags": [
       "midgame",
       "chardalyn",
-      "combat"
+      "cut"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "7/31/2026"
   },
   {
     "id": 1753600000004,
