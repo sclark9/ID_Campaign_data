@@ -51,7 +51,7 @@
     "id": 1734467200005,
     "title": "Umberlee Shrine - Lonelywood Hidden Temple",
     "category": "location",
-    "description": "Hidden shrine to Umberlee maintained by Morskaya the sea-elf wereshark druid, opposing Auril's frozen stasis. Contains the drowning pool (one-way portal to the Sea of Moving Ice, resolved via Angajuk - see that entry) and the Marble Gazebo ritual basin. RESOLVED: while the rest of the party dealt with Zethryn's aftermath, Glix went alone to the shrine and helped Morskaya perform the ritual (driftwood, storm petrel feather, drowned humanoid bone, water) to free the Drowned Priest sealed in the sarcophagus (see that entry). Morskaya was shocked the party had survived the drowning pool and doubly shocked they'd returned at all. She promised to aid Glix if he ever has need, healed him, and then went out and personally whipped up a maelstrom on Maer Dualdon. Possible open connection, not yet confirmed: this may be the first stirring of the 'great wave rising from Maer Dualdon over Lonelywood' that Zethryn showed Joosep in an earlier vision - worth watching for. Ongoing thread: Morskaya's months-long sense of Umberlee's agitation building may be tied to this same event.",
+    "description": "Hidden shrine to Umberlee maintained by Morskaya the sea-elf wereshark druid, opposing Auril's frozen stasis. Contains the drowning pool (resolved via Angajuk) and the Marble Gazebo ritual basin. RESOLVED: Glix helped Morskaya perform the ritual and free the Drowned Priest. Morskaya promised to aid Glix if needed, healed him, then whipped up a maelstrom on Maer Dualdon. UPDATE: this tempest is ongoing and likely to persist for as long as Morskaya remains in the area - the party experienced it firsthand as freezing rain 'like spears' while traveling from the shrine into Lonelywood town for the night. Possible open connection, not confirmed: this may be the first stirring of the 'great wave rising from Maer Dualdon over Lonelywood' from Zethryn's earlier vision to Joosep.",
     "priority": "high",
     "status": "archived",
     "tags": [
@@ -60,7 +60,7 @@
       "lonelywood",
       "resolved"
     ],
-    "createdAt": "7/31/2026"
+    "createdAt": "8/14/2026"
   },
   {
     "id": 1734467200006,
@@ -367,7 +367,7 @@
     "id": 104,
     "title": "Wardens of the White - Caer Dineval",
     "category": "encounter",
-    "description": "Secret cult in Caer-Dineval devoted to Uthessil the Warden in White, serving Auril through him. Cultists are Icewind Dale natives corrupted by chardalyn amulets seeded in places the desperate or vulnerable would find them; wearing one for more than a day begins a slow alignment shift toward lawful evil and cold emotional detachment, culminating in hearing Uthessil's commands directly. The cult has taken over Caer-Dineval castle and holds town speaker Crannoc Siever prisoner, keeping him alive as a hostage/public face while claiming he's too ill for visitors. Leadership: Kadroth, a tiefling cult fanatic who runs day-to-day cult operations and falsely claims to commune directly with Uthessil (contact is actually one-way and infrequent); Hethyl Arkorran, the cult's dying elder soothsayer, who has genuine prophetic insight via Uthessil and holds more real respect within the cult than Kadroth does - before dying of natural causes she can be a source of major intel on Xardorok Sunblight and his fortress. Avarice, an albino tiefling Arcane Brotherhood wizard, lairs in the castle's cistern under orders from her patron Levistus not to antagonize the party until they help her reach Ythryn; she has no true loyalty to the cult (convenient local cover only) and IS aware of Dzaan and his simulacrum - her Ythryn research and Dzaan's are connected Arcane Brotherhood threads, not independent ones. If the cult falls, Avarice is positioned to fill the power vacuum. ALLIANCE STATUS: Uthessil has already instructed the cult to ally with anyone opposing the duergar; the party meddled in Nildar/Durth Sunblight's affairs during 'The Unseen,' meaning the trigger condition for the Wardens to welcome the party as allies is already satisfied, whenever the party actually shows up. The Codicil of the White (see that entry) is NOT stored in a room at the castle in this version - its location/access has been redesigned as an extradimensional vault, not yet fleshed out. Intended to be run as a simplified off-screen or lightly-run investigation rather than a full dungeon crawl.",
+    "description": "MAJOR REWORK. The cult's public face still looks like Auril/Uthessil worship (chardalyn pendants, low-level cultists occasionally hearing Uthessil's commands), but the true power structure underneath is a bargain gone wrong. Kadroth is not a true believer - see his own entry. He struck a deal with a coven of hags (see Hag Coven entry) lairing on an iceberg in the Sea of Moving Ice to seize control of Caer-Dineval; the hags, via Hethyl (now revealed as one of their own - see her entry), are the ones actually in contact with Uthessil, not Kadroth. The hags live in the cistern beneath the Caer as constant leverage over Kadroth. Crannoc Siever is being slowly poisoned over months (not naturally ill) to make his decline look plausible - see his entry. SESSION STATE (not yet resolved at the table): Bill, Mama Chrys, and Keogr are with Kadroth in the Speaker's Office; Kadroth has just learned the party destroyed an Aurilith and is more forthcoming as a result, and is on the verge of admitting the hag situation outright. Glix, invisible, is scouting near Crannoc's room and has just surprised him on the chamberpot. Alliance-trigger condition (party meddled in Nildar/Durth's affairs) is already satisfied and should still hold - Kadroth has every personal incentive to want capable allies against his hag problem regardless of his lack of genuine faith. Castle layout and room assignments are detailed in the Caer-Dineval Castle Layout entry. The Codicil of the White is not physically here - see that entry and the Uthessil Open Redesign entry, both significantly advanced by this rework (a 'key' tied to Uthessil grants access to it, and multiple parties want it).",
     "priority": "high",
     "status": "planning",
     "tags": [
@@ -378,7 +378,7 @@
       "auriliths",
       "ythryn"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "8/15/2026"
   },
   {
     "id": 105,
@@ -1633,16 +1633,16 @@
     "id": 1751000000004,
     "title": "Codicil of the White",
     "category": "misc",
-    "description": "Relic tied to Uthessil and the Wardens of the White; the true key to entering and navigating Ythryn's magic. Uthessil told the Wardens it is 'vital to Auril's reign' without explaining why. DESIGN UPDATE: rather than sitting in a room at Caer-Dineval castle, the Codicil's access is being reworked as an extradimensional space locked behind a vault - inspired by a Pillars of Eternity-style sequence. Not yet fleshed out; deliberately deferred until closer to when the party pursues it. Trovus's planned confrontation with the Wardens will NOT involve pursuing the Codicil itself - that thread stays separate from his off-screen resolution.",
+    "description": "Relic tied to Uthessil and the Wardens of the White; the true key to entering and navigating Ythryn's magic. RESOLVED LOCATION: held in a dimensionally-locked vault at Caer-Dineval, hidden behind/beneath the ice statue of Auril in the cistern shrine (area C20). The statue functions as a conduit, not as Uthessil itself (see Uthessil's entry) - the vault only opens when the real Uthessil, currently held by the hag coven, is physically presented to it. This is a deliberately deferred Ch.5+ thread: the party needs to defeat the hag coven (planned for after Ch.4) to retrieve Uthessil before this vault can be opened at all.",
     "priority": "high",
-    "status": "planning",
+    "status": "ready",
     "tags": [
       "overarching",
       "ythryn",
       "auriliths",
       "chardalyn"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "8/15/2026"
   },
   {
     "id": 1751000000005,
@@ -1831,16 +1831,17 @@
     "id": 1753600000001,
     "title": "Avarice - Arcane Brotherhood Wizard (Caer-Dineval)",
     "category": "npc",
-    "description": "Albino tiefling wizard of the Arcane Brotherhood, currently lairing in the cistern beneath Caer-Dineval castle (Wardens of the White stronghold). Sent there under instruction from her patron Levistus, who has warned her not to antagonize a certain party of adventurers until they've helped her reach her true goal: the lost Netherese city of Ythryn. She has no genuine loyalty to the Wardens of the White cult - they are convenient local cover only - and avoids involving herself in cult politics. She is aware of Dzaan and his simulacrum; her Ythryn pursuit and his are connected Arcane Brotherhood threads. Carries a staff of frost, has a raven familiar (Skelm), and commands two gargoyles (Gargle and Gurgle) currently used for spying on rival wizards. If the Wardens of the White cult collapses (e.g., via Trovus's off-screen confrontation), Avarice is positioned to fill the resulting power vacuum. If she feels unsafe, she leaves the castle without a fight rather than engaging directly.",
-    "priority": "medium",
+    "description": "Albino tiefling wizard of the Arcane Brotherhood, relocated to the castle's second floor (former Hethyl location - see the location-swap note). Desk, white leather spellbook, staff of frost, familiar crow Skelm. Gargoyles Gargle and Gurgle are out in the field specifically looking for Dzaan - ties directly to the Dzaan/simulacrum thread. Confirmed knowledge: (1) she knows about the hag coven; (2) she's here because she believes the Wardens have access to the Codicil of the White, necessary to locate and enter Ythryn - she suspects the cistern's Auril shrine is likely part of the Codicil's protection, but hasn't worked out the exact mechanism (she doesn't know about the statue-as-conduit/vault-behind-it setup, or that the real Uthessil must be physically retrieved from the hag coven and presented to unlock it); (3) she's seen the Auril statue herself and doesn't believe it holds significant power - if it's an Aurilith at all, she considers it an especially weak one. Dramatic irony: her instinct is correct (the statue genuinely isn't Uthessil) but for the wrong reason, and it means her own plan - reportedly to trick the party into misidentifying some other artifact as 'the Aurilith' so she can take a key for herself - is likely to fail regardless, since she doesn't understand the true retrieval requirement. She'll help depose the hag coven if pressed and promised help finding Ythryn in return; otherwise stays mostly uninvolved. Discoverable clue in her room: Perception 15 spots a symbol (a warship beneath a tree-like tower) among her research; Intelligence/Memory 15 recalls the same symbol among Dzaan's belongings. Bill will automatically notice she's researching Netherese/Ythryn material.",
+    "priority": "high",
     "status": "ready",
     "tags": [
       "midgame",
       "arcane brotherhood",
       "ythryn",
-      "social"
+      "social",
+      "auriliths"
     ],
-    "createdAt": "7/27/2026"
+    "createdAt": "8/15/2026"
   },
   {
     "id": 1753600000002,
@@ -1857,7 +1858,7 @@
     "createdAt": "7/31/2026"
   },
   {
-     "id": 1753600000003,
+    "id": 1753600000003,
     "title": "Chardalyn Berserkers - Corrupted Reghed Nomads (CUT)",
     "category": "npc",
     "description": "Humanoids driven into violent insanity by Deep Duerra's psionic chardalyn corruption, mostly Reghed Nomad tribespeople. Oyaminartok knows their lair location. CUT: no compelling loot and the party is overpowered for this encounter as designed. Not being pursued. Oyaminartok can still mention them in passing as color/intel if she comes up, but no follow-through is planned. Safe to ignore going forward.",
@@ -2109,5 +2110,187 @@
       "investigation"
     ],
     "createdAt": "7/31/2026"
+  },
+  {
+    "id": 1754000000001,
+    "title": "Kadroth - Grifter, Not True Believer",
+    "category": "npc",
+    "description": "Tiefling cult fanatic who runs Caer-Dineval's day-to-day operations. TRUE BACKSTORY: fled Baldur's Gate after grifting got him into trouble with the thieves' guilds there, wandered into Icewind Dale, ended up in Targos selling himself to Speaker Naerth Maxildanarr as 'a man of action.' Naerth, finalizing his own compromise with Auril's forces and unwilling to personally deal with hags, let Kadroth take that risk instead. Kadroth's resulting deal with a hag coven (lair on an iceberg in the Sea of Moving Ice - see Hag Coven entry) got him control of Caer-Dineval and little else. Not suited for leadership and aware of it, though he won't admit it. Genuinely, mistakenly believes the ice statue of Auril in the cistern shrine IS Uthessil - this is sincere belief, not a lie he's telling the party (see Uthessil's entry for the actual truth). The hags live in the cistern directly beneath him as permanent leverage. Won't kill Crannoc directly, which is why Crannoc is being slowly poisoned instead. Wears an immaculate Auril-attuned chardalyn pendant. Currently more forthcoming after learning the party destroyed an Aurilith, on the verge of revealing the hag situation outright.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "auriliths",
+      "social",
+      "chardalyn"
+    ],
+    "createdAt": "8/15/2026"
+  },
+  {
+    "id": 1754000000002,
+    "title": "Hethyl Arkorran - Bheur Hag (REVISED)",
+    "category": "npc",
+    "description": "MAJOR REVISION - Hethyl is not a dwarf soothsayer. She is a Bheur hag, daughter of Grandmother Cottongrass (leader of the hag coven - see that entry). She is the true communication link to Uthessil, and also stays in contact with her mother's coven - the hags are generally aware of goings-on across the Dale but haven't bothered informing Kadroth, who's been content to stay in his own small bubble of influence. She has been promised the vacant seat of one of the other coven hags should that hag die. This gives her a concrete incentive: she can be persuaded to let Crannoc go if the party is willing to try to kill Auntie Sedge, the weakest member of the coven (a sea hag) - doing so would advance Hethyl's own promised promotion. Relocated (per the Avarice/Hethyl location swap) to the cistern - see Caer-Dineval Castle Layout, area C21, Hethyl's Abode. CR 7 Bheur hag. Combat note: the party is likely overpowered for her alone at level 6 - see the Cistern Zombie Contingency entry for the DM's planned escalation if a fight against her goes too easily.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "auriliths",
+      "combat",
+      "social"
+    ],
+    "createdAt": "8/15/2026"
+  },
+  {
+    "id": 1754000000003,
+    "title": "The Hag Coven - Sea of Moving Ice",
+    "category": "npc",
+    "description": "A coven of three hags lairing on an iceberg in the Sea of Moving Ice, holding effective leverage over Caer-Dineval through Kadroth's bargain. CONFIRMED: the coven physically holds/controls the real Uthessil (see that entry) - this is the actual mechanism behind Hethyl's stated communication with the Aurilith, not just a metaphorical link. Members: Grandmother Cottongrass, a powerful Bheur hag and the coven's leader (Hethyl's mother); Auntie Felsenmeer, a large, imposing Annis hag; Auntie Sedge, a sea hag and the weakest of the three - killing her is the price Hethyl has set for releasing Crannoc, since her death would open a coven seat Hethyl has been promised. SEQUENCING: the party is expected to confront this coven and retrieve Uthessil from them as a Ch.5+ questline, deliberately deferred until after Ch.4 (the Sunblight/chardalyn dragon arc) - not part of the current Caer-Dineval visit.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "combat",
+      "ythryn"
+    ],
+    "createdAt": "8/15/2026"
+  },
+  {
+    "id": 1753900000006,
+    "title": "Speaker Crannoc Siever - Caer-Dineval Captive",
+    "category": "npc",
+    "description": "Town speaker of Caer-Dineval, held under confinement by Kadroth and the Wardens of the White. UPDATE/CORRECTION: not a natural chronic illness as previously logged - he is being deliberately, slowly poisoned over months by the cult to make his decline look plausible rather than suspicious. It's backfiring: the slow decline reads as increasingly suspicious rather than convincingly natural. Crannoc knows about 'the hag' (Hethyl, whom he's personally encountered and been frightened by) but not the specifics of Kadroth's actual deal with the wider coven. He hired Kadroth as head manservant several months ago; Kadroth told him his old servants had left and needed replacing, when in fact most of them are imprisoned in the cistern, tormented by Hethyl (see Caer-Dineval Castle Layout, area C24). His 'chronic stomach ailment' (the poisoning) began around that same time. By the time he connected his illness to the new servants and Kadroth, he was too weak to act. The one time he tried to resist, Hethyl emerged and her power frightened him badly enough that he stopped resisting altogether. Session: invisible Glix found his chambers and surprised him by speaking directly into his mind while he was on the chamberpot.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "auriliths",
+      "social"
+    ],
+    "createdAt": "8/15/2026"
+  },
+  {
+    "id": 1753900000007,
+    "title": "Uthessil - Location and True Nature (RESOLVED)",
+    "category": "plot",
+    "description": "RESOLVED DESIGN. Uthessil is likely not physically present at Caer-Dineval at all - it is held by the hag coven at their lair on an iceberg in the Sea of Moving Ice (see Hag Coven entry), which is also why Hethyl, one of the coven, is the one in actual contact with it. What Kadroth and the cult believe is Uthessil - the ice statue of Auril in the cistern shrine (area C20) - is not the Aurilith itself. It is a conduit tied to a dimensionally-locked vault hidden behind/beneath the statue. The vault (holding the Codicil of the White - see that entry) will not open or allow the statue to move until the real Uthessil is physically presented to it. Kadroth genuinely, mistakenly believes the statue IS Uthessil - this isn't a lie he's telling, it's his actual (wrong) understanding. SEQUENCING: this is a deliberately deferred Ch.5+ questline, not something to resolve during the current Caer-Dineval visit. The party will need to defeat the hag coven - planned for after Ch.4 (after the Sunblight/chardalyn dragon arc) - to retrieve the actual Uthessil, bring it back to Caer-Dineval, present it to the statue/conduit to unlock the vault, and finally obtain the Codicil.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "ythryn"
+    ],
+    "createdAt": "8/15/2026"
+  },
+  {
+    "id": 1754000000004,
+    "title": "Caer-Dineval Castle Layout & Current Assignments",
+    "category": "location",
+    "description": "First floor: Great Hall (empty, dinner dishes still out; exits to courtyard, sitting room, kitchen, servants' quarters, 2nd floor). Sitting Room (Throob generally here). Office (Kadroth's usual spot; secret entrance to the NW guard tower/cistern access). Kitchen (Karou Salafan, the cook - not a cultist; two goats). Servants' Quarters (two cultists: Huarwar and Tam Sharf, a mute housemaid - NOTE: Tam Sharf's role has changed from the original plan, where she was one of Crannoc's imprisoned/loyal servants; she is now a cultist stationed here instead, not a captive). Kennel (Alassar, the 8-year-old human kennelboy - matches established lore; currently where the party's dogs are). Courtyard (empty merchant stalls). Guard Towers (manned by only one guard at a time currently; current guard is Mere, the 14-year-old tiefling kin to Kadroth; NW tower's first floor holds the cistern entrance). Second floor: Crannoc's Room (lavish but barred, guarded by Yajath, a human cultist). Avarice's Room (per the location swap - see her entry). Cistern: C16-19 match the published module (entry ladder; cold storage with four wrapped cultist bodies; flooded cistern with a two-person rowboat and twelve submerged guard corpses; a hidden blue marble slab gate blocking C23 that only Glix can currently see, per this session's staging). C20 is now a Shrine to Auril specifically (not Uthessil) - an ice sculpture of Auril herself (owl-faced, horned, clawed), kept frozen by brown mold, correctly identifiable as the cultists' altar with a DC 10 Religion check. C21 is Hethyl's Abode (new - see her entry). C22 holds the iron lever controlling the marble slab. C23 is cistern continuing beyond the slab, clear of bodies. C24 holds Crannoc's remaining imprisoned servants (Lanthis Alderdusk, Elprekt Norbrav, Mylbara Norbrav, Dassir Ravenscar - Tam Sharf is no longer among them, see above), planning their own prison break attempt. NOTE: Fel Suparra (previously Huarwar's cult-fanatic partner at the gatehouse) is not mentioned in this version and her current status/placement is undetermined.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "auriliths",
+      "investigation"
+    ],
+    "createdAt": "8/15/2026"
+  },
+  {
+    "id": 1754000000005,
+    "title": "Hethyl Fight - Cistern Zombie Contingency",
+    "category": "encounter",
+    "description": "Design note for a potential fight against Hethyl (CR 7 Bheur hag - see her entry). The party (level 6) is likely overpowered for her on her own. Planned escalation if the fight is going too easily: the twelve submerged guard corpses in the flooded cistern (area C18) can reanimate as zombies and crawl out of the water to reinforce her mid-fight.",
+    "priority": "medium",
+    "status": "planning",
+    "tags": [
+      "midgame",
+      "combat",
+      "auriliths"
+    ],
+    "createdAt": "8/15/2026"
+  },
+  {
+    "id": 1753900000001,
+    "title": "Danae Xotal - Thayan Agent (Lonelywood)",
+    "category": "npc",
+    "description": "Barkeep at The Lucky Liar, the only tavern in Lonelywood. Secretly a Thayan agent working for Szass Tam, the most powerful lich in Thay - planted in Icewind Dale years ago to watch for enemies of Szass Tam seeking refuge in Ten-Towns. No one else in Ten-Towns knows her secret; those she's marked as enemies in the past have quietly vanished. Doesn't currently bear on the plot but is worth keeping documented. Session: the tavern cleared out when Glix bragged (nat 20 persuasion) about supplying rum to the Northlook Inn, costing her business, but the party's actual heroics (destroying an Aurilith) won her over - she's friendly toward them now. Can see through Glix's disguise.",
+    "priority": "low",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "lonelywood",
+      "social"
+    ],
+    "createdAt": "8/14/2026"
+  },
+  {
+    "id": 1753900000002,
+    "title": "Iriskree Harrowhill - Scrimshaw Shop Owner (Lonelywood)",
+    "category": "npc",
+    "description": "Owns a scrimshaw shop in the town of Lonelywood. Outwardly a 'doughy spinster'; secretly a retired assassin. Party passed by but hasn't interacted with her directly yet - open for future development.",
+    "priority": "low",
+    "status": "planning",
+    "tags": [
+      "lonelywood",
+      "social"
+    ],
+    "createdAt": "8/14/2026"
+  },
+  {
+    "id": 1753900000003,
+    "title": "The Lucky Liar - Tavern Regulars (Lonelywood)",
+    "category": "npc",
+    "description": "Patrons encountered at The Lucky Liar, Lonelywood's only tavern, during the party's overnight stay: Panic, an older red-skinned tiefling man with long white hair; Elgin, a half-elf who gave Bill a cot to sleep in; and Lenore, an older dwarven woman who was unswayed by Glix's attempt to sell her rocks. Everyone but Bill slept in the tavern overnight. Light flavor NPCs, open for reuse if the party returns to Lonelywood.",
+    "priority": "low",
+    "status": "ready",
+    "tags": [
+      "lonelywood",
+      "social"
+    ],
+    "createdAt": "8/14/2026"
+  },
+  {
+    "id": 1753900000004,
+    "title": "Nimsy",
+    "category": "npc",
+    "description": "Accompanied Joosep toward Lonelywood earlier in the campaign. Session update: found the party the morning after their stay in Lonelywood town, irate that they hadn't brought her the head of the white moose. After some annoyed back-and-forth, she was convinced that destroying the Aurilith (Zethryn) was probably better for her community than the moose would have been.",
+    "priority": "low",
+    "status": "ready",
+    "tags": [
+      "lonelywood",
+      "social"
+    ],
+    "createdAt": "8/14/2026"
+  },
+  {
+    "id": 1753900000005,
+    "title": "Mere - Kadroth's Kin (Caer-Dineval Gatekeeper)",
+    "category": "npc",
+    "description": "A teenage tiefling (14 years old), kin to Kadroth, serving as a young gatekeeper/guard at Caer-Dineval castle - currently the only guard on rotation in the Guard Towers. Tricked by Glix's psychic communication into letting the party inside. Deliberately withheld his name from the party during the encounter, trying to avoid getting in trouble for letting them in - the party doesn't yet know his name.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "auriliths",
+      "social"
+    ],
+    "createdAt": "8/15/2026"
+  },
+  {
+    "id": 1753900000008,
+    "title": "Mama Chrys's Augury - Weal for the Spire Plan (Flux'thuun-Tinted)",
+    "category": "plot",
+    "description": "Before leaving Lonelywood, Mama Chrys cast Augury to check whether heading to the Lost Spire was a sound move toward the party's ultimate goal of defeating the Rime (their own shorthand for ending Auril's winter/curse for good). Result: Weal. Notably, the casting was visibly influenced by Flux'thuun, which reframed the reading to emphasize ongoing movement/process over any single fixed destination - implying the 'correct path' may not strictly require reaching or completing the Spire as originally conceived, so much as continuing to act and move forward generally. Worth remembering as a hedge if the Spire plan needs to pivot or gets interrupted - the augury doesn't lock the party into that specific location being the answer.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "great old one",
+      "mama-chrys",
+      "overarching"
+    ],
+    "createdAt": "8/14/2026"
   }
 ]
