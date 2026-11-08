@@ -1,1837 +1,88 @@
 [
   {
-    "id": 1734467200001,
-    "title": "Toil & Trouble - Dzaan's Fatal Mistake (RESOLVED)",
-    "category": "encounter",
-    "description": "Rewritten quest replacing hag coven with White Vault-inspired horror. Dzaan (Red Wizard of Thay, Arcane Brotherhood necromancer) established research outpost in Cauldron Caves to study Karexil the Heatrobber. Discovered the Gardener, an ancient envoy of Ylmyo-Aldon, buried in ice beneath the sacred frost giant spring. Dzaan raised it from death to study its connection to Ythryn and Netherese secrets. Karexil psychically influenced Easthaven citizens to discover Dzaan's identity and burn him alive. RESOLUTION: The party negotiated a compromise (Path B) with the Gardener rather than freeing it or completing its imprisonment. Glix took the Gardener's spores as payment/bond and now carries them permanently in his plasma, giving him an ongoing two-way communication channel with the creature. The fishermen's bodies were NOT returned to Easthaven. The Gardener remains imprisoned by Karexil, weakened but conscious. The party then left Easthaven quietly, aware Karexil might turn the town against them if their involvement became known.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "investigation",
-      "auriliths",
-      "easthaven",
-      "social",
-      "combat",
-      "resolved"
-    ],
-    "createdAt": "12/17/2024"
-  },
-  {
-    "id": 1734467200002,
-    "title": "Dzaan's Simulacrum",
-    "category": "npc",
-    "description": "Illusory duplicate of Dzaan, created and stationed in the Lost Spire of Netheril before Dzaan's Cauldron Caves research or execution - it has NO knowledge of the Gardener, Karexil, or Dzaan's death. It is self-aware, honest with strangers, and desperate to become a real flesh-and-blood clone of Dzaan via the Lost Spire's rune chamber (area P16), which requires a life-spark it doesn't possess. Its wight bodyguard Krintaas (also lacking a life-spark) is equally fixated on getting it one. Both are found in area P12, in possession of a shield guardian's control amulet Dzaan retrieved from area P15 - neither knows what it does. The simulacrum will bargain, befriend, or threaten to get characters to help it reach the rune chamber; learning that the real Dzaan is dead only makes it more desperate rather than deterring it. Member of the Arcane Brotherhood, obsessed with reaching Ythryn. If it succeeds at the rune chamber and becomes a true Dzaan clone, it asks the party to hunt down named Arcane Brotherhood rivals - as written this includes Avarice (consistent - already established as embedded at Caer-Dineval and aware of Dzaan/simulacrum), but also Nass Lantomir and Vellynne Harpell, both of whom are cut/altered in this campaign and need this dialogue edited if that branch is reached. If attacked, its instinct is to turn invisible and flee via levitate, with Krintaas covering its escape; it can survive the open tundra afterward and would make its way toward Ten-Towns.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "arcane brotherhood",
-      "ythryn",
-      "social",
-      "combat"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1734467200003,
-    "title": "Karexil's True Purpose - Warden of the Gardener",
-    "category": "plot",
-    "description": "Karexil the Heatrobber's unique nature among Auriliths, refined: it is NOT a general enforcer against resurrection/revival everywhere in the Dale (Auril herself uses undead servants like Sephek and Wynnette/Aiswyn without Karexil's interference). Karexil has one specific, narrow job: it is the dedicated warden of a single sealed threat — the Gardener, an ancient envoy of the Great Old One Ylmyo-Aldon, imprisoned in the Cauldron Caves long before the Auriliths appeared. When Dzaan performed the necromantic ritual to raise the Gardener, Karexil responded by psychically manipulating Easthaven citizens to execute him, rather than acting directly. After the execution, Karexil began re-freezing the Gardener, but the process is incomplete/weakened following the party's compromise deal. This reveals Auriliths can have narrow, specific purposes beyond enforcing Auril's general will - some are dedicated guardians of ancient sealed threats that predate Auril's dominion, and even Auril herself wants this one to stay buried.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "auriliths",
-      "overarching",
-      "easthaven"
-    ],
-    "createdAt": "12/17/2024"
-  },
-  {
-    "id": 1734467200005,
-    "title": "Umberlee Shrine - Lonelywood Hidden Temple",
-    "category": "location",
-    "description": "Hidden shrine to Umberlee maintained by Morskaya the sea-elf wereshark druid, opposing Auril's frozen stasis. Contains the drowning pool (resolved via Angajuk) and the Marble Gazebo ritual basin. RESOLVED: Glix helped Morskaya perform the ritual and free the Drowned Priest. Morskaya promised to aid Glix if needed, healed him, then whipped up a maelstrom on Maer Dualdon. UPDATE: this tempest is ongoing and likely to persist for as long as Morskaya remains in the area - the party experienced it firsthand as freezing rain 'like spears' while traveling from the shrine into Lonelywood town for the night. Possible open connection, not confirmed: this may be the first stirring of the 'great wave rising from Maer Dualdon over Lonelywood' from Zethryn's earlier vision to Joosep.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "umberlee",
-      "lonelywood",
-      "resolved"
-    ],
-    "createdAt": "8/14/2026"
-  },
-  {
-    "id": 1734467200006,
-    "title": "Drowning Pool Portal (ONE-WAY)",
-    "category": "misc",
-    "description": "Magical pool in the Umberlee shrine that transports those who drown in it to the Sea of Moving Ice. CONFIRMED: the pool itself remains strictly one-way; there is no return trip through the pool. The party's demonstrated return method was external to the pool - they contacted and befriended Angajuk the whale, who carried them back from the Sea of Moving Ice toward the Dark Duchess wreck and eventually to shore. This is now the established precedent for how anyone stranded via the pool gets back.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "umberlee",
-      "lonelywood",
-      "resolved"
-    ],
-    "createdAt": "7/27/2026"
-  },
-  {
-    "id": 1734467200007,
-    "title": "Dzaan's Ythryn Research",
-    "category": "plot",
-    "description": "Dzaan's true motivation for studying Karexil and raising the Gardener: he believed it held keys to understanding Ythryn's fall and Netherese secrets of immortality. His research notes suggest the creature 'knew death and returned from it once before.' UPDATED CONNECTION: this ties directly into the now-established Spindle/Codicil/mythallar plotline - Dzaan's instincts were correct that Ythryn holds something capable of affecting death/resurrection/divine power. The actual truth (not yet known to Dzaan or the party) is that Ythryn's mythallar may function as a god-dampener capable of suppressing/killing Auriliths, and Auril deliberately caused Ythryn's fall to bury this threat. Dzaan's simulacrum continues this research and could be a source (rival or ally) for the party as they piece the Ythryn/Auril connection together in Ch. 5-6.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "arcane brotherhood",
-      "investigation"
-    ],
-    "createdAt": "12/17/2024"
-  },
-  {
-    "id": 1733954820001,
-    "title": "Glix's Chardalyn Sensitivity & Permanent Gardener Bond",
-    "category": "plot",
-    "description": "Glix's psionic attunement through the Unquiet Ore makes him hypersensitive to chardalyn corruption, detecting both Deep Duerra's psionic corruption and Auril's cold stasis corruption simultaneously as competing psychic dissonance. MAJOR UPDATE: During the Toil & Trouble resolution, Glix took the Gardener's spores as part of the party's compromise deal. The spores are now permanently absorbed into his plasma - removing them would require a concentrated effort. This gives Glix an ongoing, escalating two-way communication channel with the Gardener; the Gardener can potentially sense/communicate through him at will. This is a significant unresolved thread - the extent to which the Gardener can perceive through Glix, and whether this connection grows over time, is still to be determined.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "chardalyn",
-      "great old one"
-    ],
-    "createdAt": "12/11/2024"
-  },
-  {
-    "id": 1733954820002,
-    "title": "Mind Flayer Chardalyn Interest",
-    "category": "plot",
-    "description": "Mind flayers were attracted to Icewind Dale by chardalyn's psionic signature. Mind flayer ship crashed just before campaign start. The psi crystal found in Termalaine mine is separate from chardalyn - it powers mind flayer vessels and connects to distress signals. Deep Duerra's duergar and mind flayers are ancient psionic enemies competing for chardalyn resources. Mind flayers likely attempted to study or weaponize the naturally psi-reactive mineral before being driven out or crashing. Glix was transported to this plane separately by Flux'thuun, not directly connected to the crashed vessel.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "chardalyn"
-    ],
-    "createdAt": "12/11/2024"
-  },
-  {
-    "id": 1733954820003,
-    "title": "Chardalyn - Dual Corruption Substance",
-    "category": "misc",
-    "description": "Chardalyn is naturally occurring psi-reactive crystal that is prone to corruption but not inherently corrupt. Two divine forces corrupt it differently: Deep Duerra's duergar use psionic corruption for constructs and weapons (causes madness, paranoia, violence). Auril's forces use cold stasis corruption through Auriliths like Uthessil (causes winter worship, personality changes toward cold indifference). Same base material, competing divine influences. Both factions actively mining and stealing chardalyn throughout Ten-Towns, unknowingly working against each other. Raw, uncorrupted chardalyn is psi-reactive but safe to handle briefly.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "chardalyn",
-      "auriliths"
-    ],
-    "createdAt": "12/11/2024"
-  },
-  {
-    "id": 1733954820004,
-    "title": "Aurilith Autonomy Levels",
-    "category": "plot",
-    "description": "Most Auriliths are tools being directly controlled by Auril with no independence. However, Uthessil the Warden in White and Zethryn the Root-Taker have developed autonomy and can directly communicate with mortals. This allows Auril to remain distant and unknowable while her will is still enforced. Uthessil remains loyal, creating the Black Swords cult to serve Auril. Zethryn has rebelled - its nature as being connected to living trees makes it resist the frozen stasis, and it works covertly against Auril through Circle Shiverveil. Auril's indifference means she doesn't closely monitor her creations, allowing some to develop independence or even betray her. Karexil represents a third category - not autonomous rebellion or loyal enforcement, but a narrow dedicated guardianship role predating Auril's general system.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths"
-    ],
-    "createdAt": "12/11/2024"
-  },
-  {
-    "id": 1749169876543,
-    "title": "Flux'thuun the Tide-Changer - Great Old One Patron",
-    "category": "npc",
-    "description": "Cosmic entity of inevitable change that flows through dimensions like water through cracks. Opposes Auril's perpetual winter because stagnation blocks its natural flow and threatens universal death. Does not understand morality - only that things MUST change or reality itself will calcify and die. Communicates through wind-like voices and grants powers that force transformation. Made pact with plasmoid warlock during mind flayer attack, demanding they 'make the ice flow again.' Views the frozen Dale as a dam blocking the natural tide of change that keeps existence alive. Would recognize philosophical kinship with Ylmyo-Aldon's Gardener - both oppose stasis, albeit through very different means (change/flow vs. decay/transformation).",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "early",
-      "great old one"
-    ],
-    "createdAt": "6/6/2025"
-  },
-  {
-    "id": 1749169876544,
-    "title": "The Unquiet Ore - Artifact of Change",
-    "category": "misc",
-    "description": "Ever-shifting mass of unrefined metal that exists in liquid form within its plasmoid host. Continually twists in shape and changes color, compelling constant restless movement. Artifact of Flux'thuun the Tide-Changer that established warlock pact during mind flayer attack. Grants power to transmute elemental damage types (once per long rest as reaction). The metal vibrates with hatred when exposed to Auril's influence or the musical wails of Yll-Varn the Drowned Choir. Physical manifestation of the cosmic force of change opposing the Dale's frozen stagnation. Now shares Glix's plasma with the Gardener's permanent spores - two competing Great Old One influences coexisting in one host.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "early"
-    ],
-    "createdAt": "6/6/2025"
-  },
-  {
-    "id": 97,
-    "title": "Easthaven Ferry - Duergar Outpost",
-    "category": "location",
-    "description": "Hidden duergar base under Easthaven's ferry. Was Durth Sunblight's operation for chardalyn theft throughout Ten-Towns; Durth is now dead. Contains map to Sunblight Fortress location. Opportunity for investigation and intelligence gathering about larger duergar conspiracy. Could be discovered through Zhentarim spy network.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "investigation",
-      "chardalyn"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 90,
-    "title": "Xardorok Sunblight - Duergar Warlord",
-    "category": "npc",
-    "description": "Paranoid duergar warlord obsessed with chardalyn. Building massive chardalyn dragon to destroy Ten-Towns using chardalyn corrupted by Deep Duerra's psionic energy. Head of Sunblight clan in fortress in Spine of the World. Devout follower of Deep Duerra, believes the goddess blesses his conquest through the psi-reactive chardalyn. Killed most of his own family through paranoia and violence. Two sons: Durth (now DEAD) and Nildar (currently in Easthaven, not on a distant mission as originally planned - was allowed to escape by the party during 'The Unseen' quest in exchange for returning stolen goods). Uses Klondorn's rituals and red dragon heart forge to create constructs. Wears a jagged black crown and spiky black gauntlet, both made of chardalyn. Entirely unaware that his trusted advisor Klondorn is secretly a meenlock.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "combat",
-      "chardalyn"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 91,
-    "title": "Grandolpha Muzgardt - Duergar Rebel",
-    "category": "npc",
-    "description": "Duergar matriarch secretly opposing Xardorok's plans. Grand dame of the Muzgardt clan, arrived at Sunblight Fortress as Xardorok's invited guest and prospective fourth wife - once wooed by Xardorok with promises of marriage and wealth, now sees his madness. Potential ally in Sunblight Fortress. Commands loyalty from some duergar (including guards Dreck and others) who question Xardorok's increasingly destructive obsessions. Key to creating internal faction conflict within fortress.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "social"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 92,
-    "title": "Durth Sunblight - Duergar Son (DECEASED)",
-    "category": "npc",
-    "description": "One of Xardorok's two sons. Formerly operated from Easthaven Ferry, sending duergar to steal chardalyn from nearby towns, and held a map showing the location of Sunblight Fortress. UPDATE: Durth is now dead. Cause/circumstances of death to be determined/retconned if not already established at the table - useful as a lingering plot thread (does Xardorok know? Does he blame the party or someone else?).",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "social",
-      "chardalyn",
-      "resolved"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 93,
-    "title": "Nildar Sunblight - Duergar Son",
-    "category": "npc",
-    "description": "Xardorok's surviving son. UPDATE: Not sent on a distant mission - Nildar is currently in Easthaven. He was captured/cornered by the party during 'The Unseen' investigation (duergar hideout in Caer-Konig) and was let escape in exchange for the return of stolen goods. He may still be operating in or around Easthaven, and could resurface as a contact, threat, or bargaining chip when the party reaches Sunblight Fortress and confronts Xardorok about Durth's death.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "social",
-      "easthaven"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 94,
-    "title": "Klondorn - Meenlock in Disguise (not a devil)",
-    "category": "npc",
-    "description": "Duergar priest of Deep Duerra and Xardorok's trusted advisor - in fact a MEENLOCK, not an Asmodeus-sent devil. The tall black miter is a hat of disguise concealing its true form and psionic projection. Klondorn arose spontaneously from the psychic anguish and accumulated fear saturating Xardorok's fortress, where faezress-touched Underdark stone amplified the conditions for meenlock spawning. It serves Deep Duerra's will as it understands it, and its own hunger for broken minds - it has NO connection to Asmodeus or the Nine Hells. Xardorok is entirely unaware of Klondorn's true nature, perceiving only the duergar priest Klondorn projects psionically. If threatened, Klondorn discards the miter and attacks in its true form; if reduced to 0 HP, it collapses into twitching shadows and dissolves, leaving only the hat of disguise behind. Spends its time chiseling ninety-two granite tablets inscribed with Dwarvish (not Infernal) theological writings arguing that chardalyn's psionic corruption is Deep Duerra's deliberate, ancient will, and that Xardorok's dragon is an unwitting sacrament in her long war against the surface world. CR 5 meenlock priest build. Key to understanding how Xardorok receives his 'divine inspiration' - and how thoroughly he's been manipulated.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "social",
-      "auriliths",
-      "chardalyn"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 96,
-    "title": "Sunblight Fortress - Duergar Stronghold",
-    "category": "location",
-    "description": "Three-level duergar fortress in Spine of the World. Top level: massive doors for dragon exit. Middle level: living quarters, Grandolpha's faction. Bottom level: forge with red dragon heart, construction hall, throne room, temple to Deep Duerra. About 30 rooms total. Faction dynamics between loyalists and rebels create infiltration opportunities. Everything within (dragon, throne, figurines, statuette) is Duerra-corrupted chardalyn specifically - psionic madness effects, not Auril's cold stasis.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "combat"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 98,
-    "title": "The Black Cabin - Cursed Location",
-    "category": "location",
-    "description": "Cabin where travelers die mysterious deaths. Connected to cursed magic items and chardalyn corruption. UPDATE: Now tied to the Karkolohk goblin encounter - contains Macreadus's (Makrud's) private stash of Sweetberry Summer Wine and the remnants of his lab, where he built the Summer Star device (inspired by goblin ingenuity) that malfunctioned and killed him three days prior to the party's arrival. His restless spirit haunts the cabin. Good location for horror-themed encounter reinforcing the deadly nature of Icewind Dale. NOTE: Sweetberry Summer Wine also appears on the Dark Duchess (Captain Bluemoon's stash) - worth having a throwaway explanation ready (popular regional import/long supply chain) if a player connects the two locations.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "midgame",
-      "chardalyn",
-      "investigation",
-      "karkolohk"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 99,
-    "title": "Cackling Chasm - Underground Passage",
-    "category": "location",
-    "description": "Underground route providing alternative access to various locations. Natural formation with unique dangers including unstable ice and strange acoustics. Useful for travel between areas or as escape route. Could connect to other Underdark passages leading to Sunblight. Also usable as an alternate route relevant to Trovus's gnoll bounty.",
-    "priority": "low",
-    "status": "planning",
-    "tags": [
-      "midgame"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 100,
-    "title": "The White Moose - Umberlee's Bait",
-    "category": "encounter",
-    "description": "Awakened moose created by Morskaya (sea elf wereshark druid) as bait to draw attention to Lonelywood forest. Attacks loggers to create crisis that will lead investigators to discover the hidden Umberlee shrine. Not corrupted by magic item - simply following Morskaya's commands. Connection to nature magic and Umberlee's opposition to Auril's frozen stasis. Could tie to Circle Shiverveil/Blackgleam firbolg knowledge of natural balance disruption. Quest leads to Umberlee shrine rather than frost druid villain.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "early",
-      "combat",
-      "umberlee",
-      "lonelywood"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 101,
-    "title": "A Beautiful Mine - Termalaine Quest",
-    "category": "encounter",
-    "description": "Kobolds have taken over gem mine in Termalaine. Involves negotiation with kobold chieftain Hrark. Mine produces precious gems valuable for trade. Could become party asset if handled diplomatically. Good early-level quest with multiple solutions - combat, negotiation, or trickery. True threat underneath is chardalyn corruption of the kobold leader.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "combat",
-      "social",
-      "ten-towns"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 102,
-    "title": "Mountain Climb - Yeti Investigation (RESOLVED)",
-    "category": "encounter",
-    "description": "Investigation into missing climbers on Kelvin's Cairn. Leads to yeti encounters and potentially discovers goliath settlements like Skytower Shelter. RESOLUTION: Party rescued Garrett Velryn and Perilou Fishfinger. Ties to survival themes and Keogr's background. Could still be revisited for supernatural mountain activity/goliath settlement hooks.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "combat",
-      "investigation",
-      "resolved"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 103,
-    "title": "Holed Up - Winter Wolf Encounter",
-    "category": "encounter",
-    "description": "Winter wolves have cornered travelers in Dougan's Hole area. Opportunity for negotiation or combat. Winter wolves can provide information about supernatural winter if approached correctly. Tests party's problem-solving skills and understanding of natural vs supernatural threats.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "early",
-      "combat",
-      "social"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
     "id": 104,
-    "title": "Wardens of the White - Caer Dineval",
+    "title": "Wardens of the White - Caer Dineval (DISMANTLED)",
     "category": "encounter",
-    "description": "MAJOR REWORK. The cult's public face still looks like Auril/Uthessil worship (chardalyn pendants, low-level cultists occasionally hearing Uthessil's commands), but the true power structure underneath is a bargain gone wrong. Kadroth is not a true believer - see his own entry. He struck a deal with a coven of hags (see Hag Coven entry) lairing on an iceberg in the Sea of Moving Ice to seize control of Caer-Dineval; the hags, via Hethyl (now revealed as one of their own - see her entry), are the ones actually in contact with Uthessil, not Kadroth. The hags live in the cistern beneath the Caer as constant leverage over Kadroth. Crannoc Siever is being slowly poisoned over months (not naturally ill) to make his decline look plausible - see his entry. SESSION STATE (not yet resolved at the table): Bill, Mama Chrys, and Keogr are with Kadroth in the Speaker's Office; Kadroth has just learned the party destroyed an Aurilith and is more forthcoming as a result, and is on the verge of admitting the hag situation outright. Glix, invisible, is scouting near Crannoc's room and has just surprised him on the chamberpot. Alliance-trigger condition (party meddled in Nildar/Durth's affairs) is already satisfied and should still hold - Kadroth has every personal incentive to want capable allies against his hag problem regardless of his lack of genuine faith. Castle layout and room assignments are detailed in the Caer-Dineval Castle Layout entry. The Codicil of the White is not physically here - see that entry and the Uthessil Open Redesign entry, both significantly advanced by this rework (a 'key' tied to Uthessil grants access to it, and multiple parties want it).",
+    "description": "The cult's public face looked like Auril/Uthessil worship, but the true power structure was a bargain gone wrong: Kadroth struck a deal with the Hoarfrost hag coven to seize Caer-Dineval, with Hethyl (one of the coven) as the real contact to Uthessil, not Kadroth. RESOLVED: the party fought into the cistern, dispatched Hethyl (fate likely death, not fully confirmed - see her entry) along with reanimated zombies and dangerous brown mold, freed Nirenoore and Falk, and recovered loot including Hethyl's Flying Staff and the Slow Mercy. Kadroth was captured by Trovus while fleeing and is facing justice. Crannoc Siever was saved from poisoning-induced exhaustion (see his entry) and is currently recovering in Lonelywood rather than back at the Caer. The castle is now effectively without clear leadership - Avarice (still in residence, see her entry) is a live candidate to fill that vacuum. The Codicil of the White was never physically here - see Uthessil's entry for the real mechanism, now tied to the rewritten Ch.5 (Hoarfrost confrontation, see Adventure Roadmap).",
     "priority": "high",
-    "status": "planning",
+    "status": "archived",
     "tags": [
       "early",
       "chardalyn",
       "social",
       "investigation",
       "auriliths",
-      "ythryn"
-    ],
-    "createdAt": "8/15/2026"
-  },
-  {
-    "id": 105,
-    "title": "The Unseen - Invisible Stalker Mystery (RESOLVED)",
-    "category": "encounter",
-    "description": "Invisible stalker murdering people in Caer-Konig. Summoned by bitter mage seeking revenge. RESOLUTION: Party discovered the duergar hideout connected to this mystery and encountered Nildar Sunblight, who was allowed to escape in exchange for returning stolen goods. Investigation led to information about the larger duergar conspiracy.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "investigation",
-      "resolved"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 106,
-    "title": "Chardalyn Dragon - Doomsday Weapon",
-    "category": "plot",
-    "description": "Massive construct dragon built by Xardorok from Duerra-corrupted chardalyn, programmed to destroy Ten-Towns settlements in sequence. CLARIFICATION: the dragon's attack is the specific mechanism by which the party learns concentrated/weaponized Deep Duerra-corrupted chardalyn can damage or destroy an Aurilith - this is a property of the dragon itself (its corrupted chardalyn body/attacks), not a general effect of dual-corruption zones elsewhere in the Dale (e.g., the Dwarven Valley chardalyn feedback loop between Circle Blackgleam and the Battlehammer dwarves is a separate, non-Aurilith-damaging phenomenon). The dragon obliterating one or more Auriliths during its rampage is the party's first proof-of-concept that Auriliths CAN be killed, seeding the Ch.5-6 Ythryn/mythallar plotline.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "chardalyn",
-      "combat",
-      "auriliths"
-    ],
-    "createdAt": "7/27/2026"
-  },
-  {
-    "id": 107,
-    "title": "Duergar Chardalyn Network",
-    "category": "plot",
-    "description": "Organized duergar operation stealing chardalyn from throughout Ten-Towns to corrupt with Deep Duerra's psionic energy for constructs and weapons. Multiple cells operating from hidden bases (Easthaven Ferry - Durth now dead, Caer-Konig hideout - tied to Nildar, possibly others). Duergar believe chardalyn is blessed by their goddess Deep Duerra. Unaware that Auril's forces also corrupt chardalyn differently for cold stasis purposes through Auriliths. Two factions unknowingly competing for same resource. Duergar mining operations destabilizing underground chardalyn veins, causing psionic corruption to spread - this is affecting Circle Blackgleam's crystal gardens as duergar activity spreads corruption through connected chardalyn networks.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "chardalyn",
-      "investigation"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 108,
-    "title": "Chardalyn Corruption Effects",
-    "category": "rules",
-    "description": "Extended exposure to CORRUPTED chardalyn causes effects based on corruption source. Deep Duerra's psionic corruption (duergar): causes paranoia, madness, and violent tendencies. Auril's cold stasis corruption (Auriliths): causes personality changes toward winter worship and cold indifference. CON saves DC 15 after each day of contact with corrupted chardalyn. Failure causes appropriate corruption effects. Raw, uncorrupted chardalyn is safe to handle briefly but is psi-reactive. Characters handling corrupted chardalyn items risk becoming like Huarwar or the Termalaine kobolds depending on corruption type.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "chardalyn",
-      "rules"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 109,
-    "title": "Fortress Siege Mechanics",
-    "category": "rules",
-    "description": "Time pressure during Sunblight infiltration. Dragon launch creates 2-day countdown to Ten-Towns destruction. Travel times: Sunblight to Dougan's Hole (15.5 hours), between towns (varies). Balances exploration with narrative urgency. Party must choose: stop Xardorok or chase dragon.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "combat",
-      "rules"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 110,
-    "title": "Construct Creation Rituals",
-    "category": "rules",
-    "description": "How duergar create chardalyn constructs using temple rituals and red dragon heart forge. Magic circles channel Deep Duerra's power through Klondorn's (meenlock) psionic rituals. Could be adapted for other chardalyn corruption processes. Destroying dragon heart forge cripples construct creation.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "rules"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 111,
-    "title": "Red Dragon Heart Forge",
-    "category": "location",
-    "description": "Beating heart of ancient red dragon powers Sunblight's forge. Allows creation of powerful constructs like chardalyn dragon. Located in lowest level forge room. Destroying it cripples duergar construct production. Heavily guarded and magically warded. Key target for disrupting Xardorok's plans.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "sunblight",
-      "combat"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 113,
-    "title": "Hrark - Kobold Chieftain",
-    "category": "npc",
-    "description": "Kobold leader who took over gem mine in Termalaine. Clever negotiator who can be reasoned with. Wants security for his tribe during harsh winter. Could become ally if party helps establish kobold-human trade relationship. Provides alternative to combat resolution in Beautiful Mine quest.",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "early",
-      "social",
-      "ten-towns"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 114,
-    "title": "Morskaya - Sea Elf Wereshark Druid",
-    "category": "npc",
-    "description": "Sea elf wereshark druid serving Umberlee. Awakened the white moose in Lonelywood forest as bait to lure people to the hidden Umberlee shrine. Opposes Auril's stasis (Umberlee represents change and chaos of the sea vs Auril's frozen permanence). Maintains the ONE-WAY drowning pool that transports to the Sea of Moving Ice. Mistakenly sent Circle Shiverveil leaders through the pool, believing they served Auril - does not apologize easily; retrieving them functions as her act of penance rather than a spoken apology. If reduced below half HP without a diplomatic attempt, transforms into wereshark form (panic/fury, not controlled) and her merrow allies in area U8 respond to her distress. If reduced below 10 HP with a prior diplomatic attempt, surrenders rather than dying. Can perform a retrieval ritual (with proper components: Maer Dualdon water, driftwood, storm petrel feather, a humanoid bone from a drowned person) to bring the Circle Shiverveil leaders back. Senses Umberlee's agitation building for months - possibly connected to a coming wave/attack (see Zethryn's visions). Potential ally or antagonist depending on party's approach.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "early",
-      "umberlee",
-      "lonelywood",
-      "social",
-      "combat"
-    ],
-    "createdAt": "12/17/2024"
-  },
-  {
-    "id": 115,
-    "title": "Chardalyn Dragon Attack Timeline",
-    "category": "encounter",
-    "description": "Precise timing of dragon's destructive path through Ten-Towns. Each town gets 2-4 hours of destruction before dragon moves on. Total attack takes ~48 hours. Party has limited time to intercept at specific towns. Creates difficult tactical decisions about which settlements can be saved. May include Aurilith-destruction moment (see Chardalyn Dragon - Doomsday Weapon entry).",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "chardalyn",
-      "combat"
-    ],
-    "createdAt": "Original Adventure"
-  },
-  {
-    "id": 89,
-    "title": "Wurther - Zhentarim Spy in Bremen",
-    "category": "npc",
-    "description": "Lawful evil human spy posing as humble fisherman. One of Naerth's 12+ Zhentarim agents throughout Ten-Towns. Keeps low profile, gathers intelligence on Bremen's struggling economy and Speaker Shalescar's mental decline. Reports back via Naerth's flying snakes. Potential to recruit desperate locals or exploit town's vulnerabilities for Black Network expansion.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "zhentarim",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "Bremen NPCs"
-  },
-  {
-    "id": 88,
-    "title": "Food, Water & Survival",
-    "category": "rules",
-    "description": "No food: CON save DC 15 after 5 days, then daily (+1 DC each day). No water: CON save DC 15 after 1 day. Failure = 2 exhaustion levels. Foraging: Survival DC 15 (varies by terrain). Extreme cold increases caloric needs.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "rules"
-    ],
-    "createdAt": "Game Rules"
-  },
-  {
-    "id": 87,
-    "title": "Falling Through Ice Rules",
-    "category": "rules",
-    "description": "Breaking through ice: 1d6 cold damage + frigid water exhaustion save. Climbing out: Athletics DC 15 (wet clothes = disadvantage). Each round in water: CON save DC 15 or gain exhaustion. Wet clothes in extreme cold = disadvantage on cold saves for 1 hour.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "rules"
-    ],
-    "createdAt": "Game Rules"
-  },
-  {
-    "id": 86,
-    "title": "Exhaustion Levels Reference",
-    "category": "rules",
-    "description": "1: Disadvantage ability checks. 2: Speed halved. 3: Disadvantage attacks/saves. 4: HP max halved. 5: Speed reduced to 0. 6: Death. Removed by long rest (1 level) or lesser/greater restoration. CRITICAL for cold survival tracking.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "rules"
-    ],
-    "createdAt": "Game Rules"
-  },
-  {
-    "id": 85,
-    "title": "Visibility & Weather Effects",
-    "category": "rules",
-    "description": "Heavy snow/blizzard: heavily obscured beyond 5ft (blind condition). Light snow: lightly obscured (disadvantage Perception). Bright snow: snow blindness, CON save DC 15 or temporary blindness. Tracking in snow: Survival advantages/disadvantages vary.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "rules"
-    ],
-    "createdAt": "Game Rules"
-  },
-  {
-    "id": 84,
-    "title": "Difficult Terrain & Movement",
-    "category": "rules",
-    "description": "Difficult terrain (snow, ice, rubble): costs 2 feet movement per 1 foot traveled. Climbing icy surfaces: Athletics DC varies (10-20). Prone on ice: Athletics/Acrobatics DC 10 to stand without falling. Thin ice breaks on failed DEX save.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "rules"
-    ],
-    "createdAt": "Game Rules"
-  },
-  {
-    "id": 83,
-    "title": "Frigid Water & Drowning",
-    "category": "rules",
-    "description": "Frigid water: CON save DC 15 or gain 1 exhaustion (cold shock). Drowning: hold breath for CON mod + 1 minutes (min 30 sec). After that, survive CON mod rounds before dropping to 0 HP and dying. Swimming in armor = disadvantage on STR checks.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "rules"
-    ],
-    "createdAt": "Game Rules"
-  },
-  {
-    "id": 82,
-    "title": "Extreme Cold Weather Rules",
-    "category": "rules",
-    "description": "Extreme cold (below 0F): CON save DC 10 every hour, +1 DC each hour. Failure = 1 level exhaustion. Warm clothing/heat sources = advantage. Cold resistance = automatic success. Exhaustion kills at level 6. Icewind Dale averages -49F.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "rules"
-    ],
-    "createdAt": "Game Rules"
-  },
-  {
-    "id": 81,
-    "title": "Tiefling Recruiters - Black Swords",
-    "category": "npc",
-    "description": "Male and female tieflings who recruited Huarwar. Wore amulets matching his black ice shard. Offered sanctuary at their castle (Caer-Dineval). Connected to Black Swords cult. Actively recruiting corrupted individuals with chardalyn artifacts.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "early",
-      "chardalyn",
-      "social"
-    ],
-    "createdAt": "Bremen Plot"
-  },
-  {
-    "id": 80,
-    "title": "Black Ice Shard - Corruption Artifact",
-    "category": "plot",
-    "description": "Mysterious black ice shard found by Huarwar during Speaker search. Changed his personality from kind to mean/threatening. Tieflings wore matching amulets. Connected to Black Swords cult at Caer-Dineval. Chardalyn corruption spreading through artifacts.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "early",
-      "chardalyn",
-      "investigation"
-    ],
-    "createdAt": "Bremen Plot"
-  },
-  {
-    "id": 79,
-    "title": "Huarwar Mulphoon - Corrupted Son",
-    "category": "plot",
-    "description": "Cora's adult son, joined search party for Speaker Shalescar two months ago. Got separated, returned with frostbite and BLACK ICE SHARD. Became mean/threatening toward mother (uncharacteristic). Two TIEFLINGS with matching amulets offered him sanctuary at their castle. Left willingly, took shard, said he'd never return. Now at Caer-Dineval keep with Black Swords cult, which currently guards the Codicil of the White for Uthessil.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "early",
-      "chardalyn",
-      "investigation"
-    ],
-    "createdAt": "Bremen Plot"
-  },
-  {
-    "id": 78,
-    "title": "Cora Mulphoon - Buried Treasure Innkeeper",
-    "category": "npc",
-    "description": "Neutral good human commoner, middle-aged innkeeper. Eager to please, apologizes constantly fearing guests displeasure. Barely making ends meet but treats guests like royalty. Lost her only child Huarwar two months ago to mysterious tieflings after he found BLACK ICE SHARD.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns",
-      "social",
-      "chardalyn"
-    ],
-    "createdAt": "Bremen NPCs"
-  },
-  {
-    "id": 77,
-    "title": "Bremen - Buried Treasure Inn",
-    "category": "location",
-    "description": "Inn catering to treasure-seekers who pan riverbank in warmer weather. Few/no visitors during winter. Run by middle-aged Cora Mulphoon who treats guests like royalty while barely making ends meet.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "Bremen Details"
-  },
-  {
-    "id": 76,
-    "title": "Owenn Tarsenel - Luskan Arms Proprietor",
-    "category": "npc",
-    "description": "Neutral human commoner, quiet balding man in deep depression. Fears summer will never return. Runs The Luskan Arms inn where Naerth Maxildanarr stays in the largest suite.",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "Targos NPCs"
-  },
-  {
-    "id": 75,
-    "title": "'Ma' Ethen Yarbroul - Three Flags Sailing Owner",
-    "category": "npc",
-    "description": "Neutral good human commoner, plump gray-haired widow with grandmotherly demeanor. Runs fisherman's tavern Three Flags Sailing. Good source for rumors and local fishing community gossip.",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "Targos NPCs"
-  },
-  {
-    "id": 74,
-    "title": "Jestin Hunrae - Triglio Proprietor",
-    "category": "npc",
-    "description": "Neutral good human commoner, scarecrow-like appearance. Ex-fisherman with crushed left hand from collision with Termalaine boat. Runs general goods store but doesn't sell fishing/sailing supplies (specialty crafters handle those). Sells common gear including fishing poles and snowshoes.",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "Targos NPCs"
-  },
-  {
-    "id": 73,
-    "title": "Targos Key Locations",
-    "category": "location",
-    "description": "Town Hall (government center). Triglio (general goods except fishing/sailing). Three Flags Sailing (fisherman's tavern, rumors). The Luskan Arms (inn where Naerth stays). Specialty fishing/sailing suppliers separate from general goods.",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Targos Details"
-  },
-  {
-    "id": 72,
-    "title": "Boat Hire Option",
-    "category": "encounter",
-    "description": "10gp per person to hire boat for river crossing. Could use skill challenge format. Represents safest but most expensive option for wealthy parties.",
-    "priority": "low",
-    "status": "archived",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Travel Rules"
-  },
-  {
-    "id": 70,
-    "title": "Shaengarne River Crossing Challenge",
-    "category": "encounter",
-    "description": "200ft wide mostly frozen river. Difficult terrain requiring INDIVIDUAL Survival DC 14 checks to avoid thin ice. Failure = DC 10 DEX save or fall through. Alternative: skill challenge format. 'Ice seems to lie in wait, howling wind through Drowned Choir raising tension.' Cannot see across river but know others have made this trip.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Travel Rules"
-  },
-  {
-    "id": 68,
-    "title": "Mountain Climb Quest Introduction (RESOLVED)",
-    "category": "encounter",
-    "description": "Introduce Mountain Climb quest when party returns to Targos after visiting Bremen and/or Termalaine. Timing allowed party to build relationships before major quest reveal. RESOLVED - see Mountain Climb entry for outcome (rescued Garrett Velryn & Perilou Fishfinger).",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "resolved"
-    ],
-    "createdAt": "Quest Timing"
-  },
-  {
-    "id": 67,
-    "title": "Targos Humanoid Sacrifices",
-    "category": "plot",
-    "description": "Targos has escalated to HUMANOID sacrifices to Auril - most extreme of all Ten-Towns. UPDATE: passing through Targos, the party sensed a general relief that this cycle's sacrifice had already been made, and picked up the impression that Speaker Naerth Maxildanarr can be bribed - some citizens aren't at risk of being chosen specifically because of this. Confirms the sacrifice system in Targos is at least partly a corrupt/bribable process rather than pure blind desperation. Glix wants Naerth dead over this; the party has deprioritized it in favor of other quests, but it's a live tension.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "early",
-      "ten-towns",
-      "auriliths"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 66,
-    "title": "Skath - Zhentarim Militia Commander",
-    "category": "npc",
-    "description": "Lawful evil tiefling veteran, leads Targos militia. Loyal to Speaker Naerth Maxildanarr. Commands 200 soldiers + 16 veterans - largest military force in Ten-Towns. Zhentarim enforcer ensuring Naerth's control over town and trade routes.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "zhentarim",
-      "ten-towns",
-      "combat"
-    ],
-    "createdAt": "Targos Details"
-  },
-  {
-    "id": 65,
-    "title": "Targos - In a Nutshell",
-    "category": "location",
-    "description": "Friendliness: 2/5. Services: 3/5. Comfort: 2/5. Population: 1,000 (largest town). Leaders: Speaker Naerth Maxildanarr (LE human spy, secret Zhentarim), Skath (LE tiefling veteran) leads militia. Militia: 200 soldiers + 16 veterans (strongest force). Heraldry: Single-sailed black ship on light blue field. Sacrifice to Auril: HUMANOID. Rivals: Bremen, Lonelywood, Termalaine.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Town Details"
-  },
-  {
-    "id": 64,
-    "title": "Bremen Military & Heraldry",
-    "category": "misc",
-    "description": "Militia: 25 soldiers (tribal warrior stats) + 2 veterans. Heraldry: Gold circle on white field, horizontal blue band left (Shaengarne River), flaring blue triangle right (Maer Dualdon). Gold circle = treasure from local floods, white field = snow. Small but organized defense force.",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Bremen Details"
-  },
-  {
-    "id": 63,
-    "title": "Speaker Dorbulgruf Shalescar - Addled Elder",
-    "category": "npc",
-    "description": "Lawful good shield dwarf commoner, Bremen's Speaker. Age has addled his mind - vacant-eyed stare often mistaken for unflappable calmness. TWICE in past two months residents mounted search parties, found him wandering frozen Shaengarne shores in heavy furs with NO MEMORY of how he got there. Old even by dwarf standards, not long for this world. Locals fear same is true of Bremen if winter doesn't abate.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "Bremen Details"
-  },
-  {
-    "id": 62,
-    "title": "Bremen - in a Nutshell",
-    "category": "location",
-    "description": "Friendliness: 3/5. Services: 1/5. Comfort: 2/5. Available Quest: Lake Monster. Population: 150. Leader: Speaker Dorbulgruf Shalescar (lawful good shield dwarf commoner). Rivals: Lonelywood, Targos, Termalaine.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Town Details"
-  },
-  {
-    "id": 61,
-    "title": "Lake Monster Quest (RESOLVED)",
-    "category": "encounter",
-    "description": "The lake monster's den is inside the Drowned Choir (Yll-Varn). RESOLUTION: The monster was awakened by Yll-Varn, renamed 'Khaleesi' by the party, and negotiated with - but the attacks were not fully stopped as a result.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "combat",
-      "ten-towns",
-      "resolved"
-    ],
-    "createdAt": "Encounter Design"
-  },
-  {
-    "id": 58,
-    "title": "Zhentarim Network in Ten-Towns",
-    "category": "plot",
-    "description": "Naerth commands 12+ Zhentarim spies across Ten-Towns including Wurther (Bremen fisherman spy). Active operations: disposing of suspected Harper spies, convincing business owners to buy fish exclusively from Targos. Goal is transforming Ten-Towns into Black Network trade hub. Creates faction conflict and espionage subplot throughout campaign. They have begun humanoid sacrifices, which is why Yll-Varn is following their bidding to attack Bremen.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "zhentarim",
-      "auriliths"
-    ],
-    "createdAt": "Town Details"
-  },
-  {
-    "id": 57,
-    "title": "Speaker Naerth Maxildanarr - Zhentarim Leader",
-    "category": "npc",
-    "description": "Former Luskan rogue, secretly head of Zhentarim in Ten-Towns, wants to make Targos a trade hub for the Black Network. Commands 12+ spies throughout Ten-Towns. Uses three flying snakes to relay messages. UPDATE: confirmed to accept bribes in exchange for exempting specific citizens from Targos's humanoid sacrifice rotation (see Targos Humanoid Sacrifices entry). Glix has openly expressed a desire to kill him; the party chose to deprioritize this in favor of other quests, but it remains unresolved and could resurface.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "early",
-      "zhentarim",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 56,
-    "title": "Targos - Frozen Harbor & Musical Winds",
-    "category": "location",
-    "description": "Wooden wall extends into Maer Dualdon creating safe harbor, now frozen solid trapping boats in ice. Fishers drag smaller vessels across ice to reach unfrozen water beyond walls. Biggest fishing fleet/industry in Ten-Towns, everything revolves around knucklehead trout fishing. Distinct musicality in air - wind blowing through large pipes of ever-shifting size (connected to Yll-Varn the Drowned Choir).",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Town Details"
-  },
-  {
-    "id": 55,
-    "title": "Chwinga Mask Doodles - Subconscious Connection",
-    "category": "plot",
-    "description": "Korux unconsciously drew mask patterns (matching Chwinga mask found on her body) throughout journal margins, along with crack patterns. Suggests psychic connection between Chwinga activity, mirror entity influence, and Sephek's victims. Victims may be marked/influenced before death.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "chwinga",
-      "investigation"
-    ],
-    "createdAt": "Journal Analysis"
-  },
-  {
-    "id": 54,
-    "title": "Sephek's Stalking Pattern",
-    "category": "plot",
-    "description": "Korux's final entry describes 'figure near sleds. Too tall. Too thin. Made of ice. Waiting for me.' This shows Sephek stalked victims before killing them, appearing as an unnatural ice figure. Historical/investigative detail - Sephek is now dead (killed by Waylen in Good Mead).",
-    "priority": "low",
-    "status": "archived",
-    "tags": [
-      "early",
-      "sephek",
-      "investigation"
-    ],
-    "createdAt": "Journal Analysis"
-  },
-  {
-    "id": 53,
-    "title": "Corrupted Ice - Unnatural Properties",
-    "category": "misc",
-    "description": "Ice in Icewind Dale 'doesn't melt right' - leaves vein-like lines and seems to watch where people walk. This suggests the winter curse has fundamentally altered the nature of ice itself. Could be connected to chardalyn corruption or Auril's influence seeping into the environment.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "Journal Analysis"
-  },
-  {
-    "id": 52,
-    "title": "The Mirror Entity - Dream Manipulator",
-    "category": "plot",
-    "description": "Mysterious entity appearing in Korux's dreams through mirrors. Demands impossible moral choices (treasure vs friend). When questioned about being a god, it cracks instead of answering. Connected to Ishkar the Silver Mirror Aurilith - this is how Ishkar psychically tests and influences victims before Sephek arrives as enforcement.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "auriliths",
-      "investigation"
-    ],
-    "createdAt": "Journal Analysis"
-  },
-  {
-    "id": 51,
-    "title": "Gorga's Journal - Mirror Visions & Sephek Encounter",
-    "category": "plot",
-    "description": "Journal from dead dwarf (Gorga Snowjaw) killed by Sephek in Session 1. Spans 1 month before death. Key entries: Dreams of mirror watching her, ice that 'doesn't melt right' with vein-like lines, mirror demanding choice between treasure/friend, final entry about tall thin figure made of ice waiting by sleds. Margins filled with mask doodles (like Chwinga mask found on body) and crack patterns. Last 2 pages are bland logkeeping.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "sephek",
-      "investigation"
-    ],
-    "createdAt": "Session Evidence"
-  },
-  {
-    "id": 47,
-    "title": "Carved Snowflake - Spirit Key Item",
-    "category": "misc",
-    "description": "Key item left by Whisperkin chwinga after successful first contact. Acts as spiritual key to later encounters. Physical proof of chwinga alliance and opens communication with other spirits throughout campaign.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "chwinga"
-    ],
-    "createdAt": "Clue Trail"
-  },
-  {
-    "id": 46,
-    "title": "Chwinga Trial - Choose Your Side",
-    "category": "encounter",
-    "description": "Optional encounter in glade/old druid circle. Party asked wordlessly (via illusion/emotion) to choose: uphold balance or give in to cold? Trial determines how spirits help/hinder rest of quest. Major moral decision affecting campaign direction.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "chwinga",
-      "social"
-    ],
-    "createdAt": "Clue Trail"
-  },
-  {
-    "id": 42,
-    "title": "The Frostlings (Chaotic Chwinga)",
-    "category": "npc",
-    "description": "Grey/black masks (icicles/bone shapes). Mischievous/aggressive - mess with gear, erase tracks, mislead PCs. WORSHIP(ped) SEPHEK as 'Chosen of Winter' or 'Spirit of Death' and tried to protect him. Use illusions/riddles to delay/derail the hunt. Sephek's death may have thrown this faction into disarray or vengeance-seeking.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "chwinga",
-      "sephek"
-    ],
-    "createdAt": "Chwinga Factions"
-  },
-  {
-    "id": 41,
-    "title": "The Whisperkin (Helpful Chwinga)",
-    "category": "npc",
-    "description": "Soft blue/white chwinga with swirling snowflake masks. Leave gifts: shiny rocks, warm food, helpful potions. One has SEEN SEPHEK and tries to guide PCs to truth. Fond of characters who respect nature (especially Mama Chrys druid and Joosep ranger). Pro-balance faction.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "chwinga"
-    ],
-    "createdAt": "Chwinga Factions"
-  },
-  {
-    "id": 40,
-    "title": "Chwinga Factions - The Mystery Revealed",
-    "category": "plot",
-    "description": "The 'tiny people dancing on corpses' are CHWINGA! Two opposing factions exist in Icewind Dale, creating complex moral dynamics around Sephek's murders and the winter curse.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "overarching",
-      "chwinga"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
-    "id": 38,
-    "title": "Clan Battlehammer Iron Trade Connection",
-    "category": "plot",
-    "description": "Dwarves still maintaining trade routes despite winter. Clan Battlehammer specifically transporting iron to Bryn Shander. Party now has dwarf friendship - could be important for Mithral Hall connections and Regis ruby quest later. Biltung (of this clan) has since retired to a hermitage that turned out to be a Ythryn splinter (see Bill/Polybeus entries).",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
-    "id": 36,
-    "title": "Bryn Shander Key Locations",
-    "category": "location",
-    "description": "Blackiron Blades (cheap adventuring gear, party has 10% discount), House of the Morninglord (Amauntor shrine, Priest Mishann), Town Hall, Northlook Inn. 30ft walls with concentric wooden poles, gates closed during darkness (most of the time).",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
-    "id": 35,
-    "title": "Sephek's Trading Caravan Arrival (RESOLVED)",
-    "category": "encounter",
-    "description": "Sephek arrived in Bryn Shander with trading caravan as planned. RESOLUTION: Sephek later attacked Waylen at night in Good Mead (enforcing Ishkar's demand after Waylen refused to sacrifice his smoking pipe). Waylen fought back and killed Sephek, along with the frost spirit/Chwinga inhabiting him. No witnesses. This is a major turning point - Auril's primary enforcer is dead, and Coldlight Walkers have begun appearing/escalating in the aftermath (see Coldlight Walker Escalation entry).",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "sephek",
-      "social",
-      "resolved"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
-    "id": 33,
-    "title": "Tiny Gray Masks - Murder Evidence",
-    "category": "plot",
-    "description": "Tiny gray masks found on Sephek's victims. First one found on Gorga Snowjaw's body.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "early",
-      "sephek",
-      "investigation",
-      "chwinga"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
-    "id": 32,
-    "title": "Gorga Snowjaw - Murdered Artisan",
-    "category": "npc",
-    "description": "Female dwarf artisan from Caer-Konig, killed by Sephek with icicle dagger for refusing Ishkar the Silver Mirror's psychic demands. Her journal reveals month-long torment by Ishkar appearing in her dreams through mirrors, demanding she sacrifice her father's treasured tankard - the most precious thing she owned. When she refused the Aurilith's test of devotion, asking 'what kind of god demands that,' Ishkar's mirror image cracked in her dreams. Days later, Sephek arrived as enforcement. Journal margins filled with unconscious doodles of masks and cracks, suggesting Ishkar's influence was affecting her subconscious. Her defiance of an Aurilith's will made her Sephek's target - first documented case of the Aurilith-Sephek enforcement pattern.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "sephek",
-      "investigation",
-      "auriliths"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
-    "id": 31,
-    "title": "Foaming Mugs Quest - Dwarf Courier Rescue",
-    "category": "encounter",
-    "description": "Hruna, Korux, and Storn (Clan Battlehammer couriers) attacked by yeti while transporting iron. Party rescued them. Reward: 50gp gemstones each + 10% discount at Blackiron Blades + dwarf friendship. TWIST: Two corpses found - Oobok killed by yeti, but Gorga Snowjaw murdered with icicle dagger by Sephek.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "combat"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
-    "id": 30,
-    "title": "Scramsax - Northlook Inn Proprietor",
-    "category": "npc",
-    "description": "N human veteran, proprietor of Northlook Inn in Bryn Shander. Facilitates meeting between party and Wynnette. Cautious - warns 'never know who's watching.' Potential ally or information source.",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "early",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "Session 1"
-  },
-  {
-    "id": 29,
-    "title": "The Drowned Choir's Deep Song",
-    "category": "encounter",
-    "description": "Yll-Varn sings to 'something deeper' in Maer Dualdon. What's beneath the lake responding to its call? Ancient entity, Auril's true form, or something else entirely? Musical/sonic encounter possibilities. Party has since encountered/named the lake monster ('Khaleesi') - see Lake Monster Quest.",
-    "priority": "medium",
-    "status": "brainstorming",
-    "tags": [
-      "overarching",
-      "auriliths"
-    ],
-    "createdAt": "Encounter Design"
-  },
-  {
-    "id": 27,
-    "title": "Chardalyn Teeth - Virnax Connection",
-    "category": "plot",
-    "description": "Virnax the Pale Maw has chardalyn teeth. This connects to the corrupted ruby theory - chardalyn corruption is spreading through Auril's servants/creations. Could be harvesting/corrupting magical materials.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "overarching",
-      "chardalyn"
-    ],
-    "createdAt": "Plot Development"
-  },
-  {
-    "id": 26,
-    "title": "Zethryn's Divided Influence on Shiverveil Clan",
-    "category": "plot",
-    "description": "Zethryn whispers in Shiverveil firbolg dreams nightly, giving cryptic appeasement instructions while urging resistance/secrecy. Clan is divided: some think it's not Zethryn, others think it's Auril's trick, some believe Zethryn genuinely wants to end the curse. Creates internal clan conflict. UPDATE: Zethryn is now weakening/collapsing (see 'Zethryn the Root-Taker' entry) - the divided clan may soon lose their patron entirely.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "Plot Development"
-  },
-  {
-    "id": 25,
-    "title": "Uthessil the Warden in White (Caer Dineval)",
-    "category": "location",
-    "description": "Towering sentinel of smooth marble-white ice, arms ever outstretched. Said to carry away those who curse the Cold Lady (Auril) too loudly, even in jest. Enforces reverence through fear. Unlike most Auriliths, Uthessil has developed autonomy from Auril and actively communicates with followers, creating the Black Swords cult (Wardens of the White) to enforce Auril's will. This independence allows Auril to remain removed from mortal concerns while her goals are still accomplished. Uthessil remains loyal to the Frostmaiden and corrupts chardalyn with cold stasis energy for the cult's use. UPDATE: Uthessil's cult now guards the Codicil of the White, believing it a sacred relic - it is actually the key to entering/navigating Ythryn. Uthessil told the Wardens it is 'vital to Auril's reign' without explaining why. Trovus is reportedly planning to confront Uthessil directly with militia support; outcome undetermined. Coldlight Walkers appear to be spreading outward from Caer-Dineval.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns",
-      "ythryn"
-    ],
-    "createdAt": "Aurilith Details"
-  },
-  {
-    "id": 24,
-    "title": "Ishkar the Silver Mirror (Caer Konig)",
-    "category": "location",
-    "description": "Jagged, angular Aurilith near Caer Konig that reflects not just image but intentions. Shows viewers committing acts they've never done - yet. Exerts influence through mirror-based dreams and psychological torture, appearing to victims in reflective surfaces to demand impossible moral choices. Ishkar tests devotion by demanding people sacrifice their most precious possessions or relationships. Those who refuse face escalating torment - mirrors crack in dreams, reflective surfaces show the Aurilith growing closer and more threatening. Victims report feeling watched through every mirror, window, or ice surface. When someone definitively refuses Ishkar's demands (like Gorga Snowjaw, and more recently Waylen), Sephek was historically dispatched as enforcement. Creates mirror phobia in those exposed to its influence - they must make WIS saves to look at reflective surfaces without fear. UPDATE: Waylen refused Ishkar's demand to sacrifice his smoking pipe; Sephek was sent and was KILLED by Waylen. Ishkar's response to losing its enforcer is a major open thread.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns"
-    ],
-    "createdAt": "Aurilith Details"
-  },
-  {
-    "id": 23,
-    "title": "Virnax the Pale Maw (Good Mead/Dougan's Hole)",
-    "category": "location",
-    "description": "Symbol: Toothy grin. Squat, wide-mouthed figure with chardalyn teeth. Children who wander too far hear 'a throat made of wind' calling their names. Child-targeting threat.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns"
-    ],
-    "createdAt": "Aurilith Details"
-  },
-  {
-    "id": 22,
-    "title": "Zethryn the Root-Taker - DESTROYED",
-    "category": "location",
-    "description": "Formerly an autonomous, rebelling Aurilith connected to living trees, working covertly against Auril through Circle Shiverveil. RESOLVED - DESTROYED: the party found Zethryn as a cracked, dying ice stalagmite with a tree-trunk core in a clearing of frozen trees. Zethryn spoke to the party telepathically (Glix was out of range and didn't hear it), naming Flux'thuun ('the Tide-Changer') and Ylmyo-Aldon ('the Rot that Calls'), referencing its siblings breaking or burning - specifically naming 'the madness of the Queen of the Invisible Art' (Deep Duerra) - and warning of several possible fates for the Dale, with a path through the coming choices. The party then destroyed it outright: Joosep with axes, Bill with stunning strike, Mama Chrys with Moonbeam, Glix with eldritch blast. Moonlight through the cracks revealed an empty chardalyn vessel that had once housed Auril's power. Glix attempted to fill the vessel with Flux'thuun's power as the final blow landed - the Aurilith was destroyed before attunement completed, but something happened to Glix in that instant (see Glix's Zethryn Vessel Interaction entry). Zethryn shattered into loose power, and Auril immediately, personally retaliated with a wave of cold damage against the whole party (see Auril's Direct Retaliation entry) - knocking Glix unconscious and instantly freezing Vega Shiverveil to death. Joosep, already grieving the near-loss of the Circle's leaders and his severed connection to Zethryn, was deeply affected by this second loss; he and Mama Chrys built a cairn for Vega while Bill and Keogr rested.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns",
-      "resolved"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 21,
-    "title": "Karexil the Heatrobber (Easthaven)",
-    "category": "location",
-    "description": "Blackened by old fire and heatless flame, watches from ruins of old tower. Known to punish warmth and mercy, but its true purpose is much narrower than general anti-fire enforcement: it is the dedicated warden of the Gardener, an ancient envoy of Ylmyo-Aldon sealed beneath the frost giant sacred spring in the Cauldron Caves (see Karexil's True Purpose entry). Appears where flame once bloomed.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns",
-      "great old one"
-    ],
-    "createdAt": "Aurilith Details"
-  },
-  {
-    "id": 20,
-    "title": "Yll-Varn the Drowned Choir (Targos/Bremen)",
-    "category": "location",
-    "description": "Partially submerged in Maer Dualdon. Blue-black ice tower on delicate arch (50ft tall, 100ft wide) with spiral towers around it. Hums low when sacrifices missed, ice vibrates. Makes wailing, musical sounds in wind. Fisherfolk say it sings to something deeper. Some towers appear humanoid/monstrous. Awakened the lake monster (now nicknamed 'Khaleesi' by the party). Is influenced by Zhent.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns",
-      "zhentarim"
-    ],
-    "createdAt": "Aurilith Details"
-  },
-  {
-    "id": 19,
-    "title": "Tal-Kora the Black Shard (Bryn Shander)",
-    "category": "location",
-    "description": "Symbol: Three-pointed spike. Black crystalline spire visible from city wall, looks like ancient guardian clawing up from underground. One of the few Auriliths that has NOT been proven to move at night. Threatens to emerge if sacrifices stop. Tal-Kora the Black Shard exerts influence through constant surveillance and paranoia - the oppressive feeling of being watched. Bryn Shander residents report: shadows moving wrong, feeling eyes on them from empty windows, mirrors reflecting the Black Shard when it shouldn't be visible, and compulsive need to confess secrets or wrongdoings. Tal-Kora doesn't whisper demands - it creates overwhelming guilt and paranoia until people voluntarily confess crimes, turn in neighbors, or perform acts of penance. Those who resist the urge to 'come clean' begin seeing the Black Shard in reflections everywhere, growing larger and more threatening until they break. Sephek (now deceased) targeted those who knew they were being watched but refused to submit to the judgment.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns"
-    ],
-    "createdAt": "Aurilith Details"
-  },
-  {
-    "id": 18,
-    "title": "Chardalyn Corruption Network",
-    "category": "plot",
-    "description": "Chardalyn is naturally occurring psi-reactive crystal that two factions corrupt differently through divine influence. Deep Duerra's duergar use psionic corruption for constructs and weapons (causes madness, paranoia, violence in handlers). Auril's forces use cold stasis corruption through autonomous Auriliths like Uthessil (causes winter worship, personality changes toward indifference). Same base material, competing divine influences. Both factions actively mining and stealing chardalyn throughout Ten-Towns, unknowingly working against each other. This creates network of corrupted items spreading through the Dale - Black Swords' amulets, duergar weapons, found artifacts. Mind flayers were also attracted to chardalyn's psionic signature before being driven out.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "chardalyn"
-    ],
-    "createdAt": "Plot Development"
-  },
-  {
-    "id": 16,
-    "title": "Aurilith Encounter Mechanics",
-    "category": "encounter",
-    "description": "Auriliths have psychic whisper abilities (no sound, direct to mind/dreams). They move when not observed, change expressions subtly. Could create horror-style encounters where PCs notice changes but can't prove it. Potential for madness/paranoia effects. See also Fear Rules entry for formal mechanics.",
-    "priority": "medium",
-    "status": "brainstorming",
-    "tags": [
-      "overarching",
-      "auriliths"
-    ],
-    "createdAt": "Encounter Design"
-  },
-  {
-    "id": 15,
-    "title": "Speakers vs Auriliths Power Dynamic",
-    "category": "plot",
-    "description": "Town Speakers believe they are directing sacrifices to appease Auril, but the Auriliths are the true source of demands. Do the Speakers know? Are they complicit or being manipulated? This deception could create major political upheaval when revealed.",
-    "priority": "high",
-    "status": "brainstorming",
-    "tags": [
-      "overarching",
-      "auriliths"
-    ],
-    "createdAt": "Plot Development"
-  },
-  {
-    "id": 14,
-    "title": "Sephek's Death as Patron Identity Clue",
-    "category": "plot",
-    "description": "Party discovering Sephek's true nature (undead possessed by frost spirit) provided a crucial clue about their patron Wynnette/Aiswyn's similar condition and true identity. UPDATE: Sephek is now dead - killed by Waylen in Good Mead. Joosep specifically noticed Wynnette does not breathe, and after killing Sephek (also breathless, also housing a frost spirit), now has the context to understand what Wynnette likely is. Joosep has NOT confronted her or shared this with the party. This is a live, unresolved secret.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "early",
-      "sephek"
-    ],
-    "createdAt": "Plot Development"
-  },
-  {
-    "id": 13,
-    "title": "Zethryn Connection Mystery",
-    "category": "plot",
-    "description": "Mysterious entity Zethryn contacted Joosep and provides divination through the Zethrynstone. Zethryn is confirmed as an autonomous, rebelling Aurilith connected to living trees and opposed to frozen stasis - but is now weakening/collapsing (see Zethryn the Root-Taker entry). Its full agenda beyond its own freedom is still unclear.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "Plot Development"
-  },
-  {
-    "id": 12,
-    "title": "Regis's Ruby - Corrupted by Chardalyn",
-    "category": "plot",
-    "description": "Mythical tales of Regis's enchanted ruby being solution to winter curse. Rumored buried with him in Mithral Hall. Waylen believes freeing Icewind Dale could earn dwarf aid to petition for the ruby. Ruby rumors circulating among Kelvin's Cairn dwarves. TWIST: Ruby has been corrupted by chardalyn and is now being used by Auril's servants!",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "lategame",
-      "chardalyn"
-    ],
-    "createdAt": "Plot Development"
-  },
-  {
-    "id": 11,
-    "title": "Skytower Shelter",
-    "category": "location",
-    "description": "Competitive goliath settlement in Spine of the World. Known for disliking strangers and taming griffons. Rival to another goliath settlement. Could be source of aerial reconnaissance or conflict.",
-    "priority": "low",
-    "status": "brainstorming",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "World Building"
-  },
-  {
-    "id": 10,
-    "title": "Circle Shiverveil Hidden Settlements",
-    "category": "location",
-    "description": "Reclusive and secretive Firbolg clan locations. Bad reputation among regular Icewind Dale residents but respected by Reghed Nomads. RESOLVED: the clan's missing leaders (including Gorlayne and Rolla, sent through Morskaya's one-way drowning pool) were retrieved when the party contacted and befriended Angajuk the whale on the Sea of Moving Ice; Angajuk carried the party (and whichever leaders survived) back toward the Dark Duchess wreck area and eventually to Lonelywood. The Circle is still divided over Zethryn's dream-whispers and is losing its Aurilith patron as Zethryn collapses (see Zethryn entry).",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "overarching",
-      "resolved"
-    ],
-    "createdAt": "7/27/2026"
-  },
-  {
-    "id": 9,
-    "title": "Circle Blackgleam Territory",
-    "category": "location",
-    "description": "Firbolg clan territory with crystal caves they grow themselves, mostly around the Dwarven Valley. Clan specializes in crystal/ice magic and believes crystal manipulation is key to ending perpetual winter. Well-respected among those who know of them. Members include Delemak, Cromley, and Celor. Their crystal gardens are being corrupted by spreading duergar chardalyn mining activity.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "World Building"
-  },
-  {
-    "id": 8,
-    "title": "Waylen the Tall - Helm Cleric (DECEASED)",
-    "category": "pc",
-    "description": "Human Cleric of Helm (Matt). Motivations: protect weak, overcome personal failings, make a name. Sought Regis Rumblebelly's enchanted ruby as a solution to the winter. Refused Ishkar's demand to sacrifice his smoking pipe; Sephek was sent to kill him for this defiance, attacked him at night in Good Mead, and Waylen killed both Sephek and the frost spirit/Chwinga possessing him. MAJOR UPDATE: Waylen died in a random yeti encounter, shortly before the party's mind flayer encounter (the transition point between Ch.1 wrap-up and firmly entering Ch.2). His player now plays Bill. The Helm boon offered to Waylen was never fully detailed and is now moot. Ishkar's open thread (its response to losing Sephek) is closed as far as targeting Waylen specifically, though Ishkar itself remains an active, unaddressed Aurilith that could redirect attention elsewhere at the DM's discretion.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "overarching",
-      "resolved",
-      "deceased"
-    ],
-    "createdAt": "7/27/2026"
-  },
-  {
-    "id": 7,
-    "title": "Keogr - Skytower Shelter Barbarian",
-    "category": "pc",
-    "description": "Goliath Barbarian/Werebear (Kris). From Skytower Shelter - competitive goliath settlement in Spine of the World that dislikes strangers and tames griffons. SECRETLY AFFLICTED with lycanthropy (werebear). His clan sent him away on a quest to find Oyaminartok, the legendary Polar Werebear, believing this ancient werebear can teach him to control his curse. Special rage ability: icy focus state with auto rage damage but crits on 18-20. UPDATE: Oyaminartok has been placed at/near the Dark Duchess shipwreck. If the party is stranded on the Sea of Moving Ice (via the one-way drowning pool), Angajuk the whale can carry them toward this location, giving Keogr a natural path to his personal quest.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "Character Creation"
-  },
-  {
-    "id": 6,
-    "title": "Joosep - Circle Shiverveil Ranger",
-    "category": "pc",
-    "description": "Firbolg Ranger (Marvin). From Circle Shiverveil. Broke his connection to Zethryn in exchange for a +1/+1 bonus against intelligent creatures willingly serving Auril. Privately suspects Wynnette's true nature (doesn't breathe) but hasn't told the party. Circle Shiverveil's leaders were retrieved via Angajuk after being stranded on the Sea of Moving Ice. UPDATE: present for Zethryn's destruction and the direct retaliation from Auril that followed - lost Vega Shiverveil, another Circle contact, to that retaliation. This is now the second major loss tied to the Circle in short order (the leaders' near-death, and now Vega's actual death), on top of his own severed connection to Zethryn. He and Mama Chrys built a cairn for Vega while the rest of the party rested. Deeply affected by this; worth tracking as an emotional throughline rather than a closed incident.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "resolved"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 5,
-    "title": "Mama Chrys - Circle Blackgleam Druid",
-    "category": "pc",
-    "description": "Firbolg Druid (Taylor). From Circle Blackgleam clan - holds crystals/ice in high regard, grows crystal caves. Clan believes manipulating crystals instrumental in lifting perpetual winter. Well respected among those who know them. Has Rimestone Salve special item.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "Character Creation"
-  },
-  {
-    "id": 4,
-    "title": "Wynnette Rimevein (True Identity: Aiswyn)",
-    "category": "npc",
-    "description": "Party patron who head-hunted the team. Publicly wants to stop escalating sacrifices before total chaos. SECRETLY: Actually fae spirit Aiswyn, one of Auril's frost spirit creations who has rebelled. Tired of being glorified babysitter to mortals. Wynnette is undead corpse possessed by frost spirit (like Sephek was). Result of Auril's indifference to controlling her creations - sometimes they develop autonomy and rebel. Wynnette doesn't know Zethryn is also rebelling against Auril. Has ruby gem giving ambition to rise above deity. Air genasi woman appearing 60s, deathly pale skin (color of sun through glacier), lightning scar over left eye, long braided hair like woven scarf. Wears knucklehead scrimshaw flute around neck. Goal: guide party through tailored experiences to become heroes who can reverse the curse. UPDATE: With Vellynne Harpell cut from the campaign, Wynnette now also takes over Vellynne's post-Sunblight rescue/transport role and combat-ally role during the chardalyn dragon fight. Joosep has privately noticed she doesn't breathe and suspects her true nature but hasn't confronted her.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "early"
-    ],
-    "createdAt": "Campaign Start"
-  },
-  {
-    "id": 2,
-    "title": "Seven Auriliths - The True Watchers",
-    "category": "location",
-    "description": "Seven massive monolith structures (Auriliths) appeared last year - these are the REAL source of sacrifice demands, not town Speakers! Ominous forms that watch Dalefolk, some half-submerged in frozen lakes. Move subtly between visits, change expressions/positions without evidence. Whisper directly into thoughts/dreams (not through sound). Appear when sacrifices aren't made OR always watching?",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns"
-    ],
-    "createdAt": "Campaign Start"
-  },
-  {
-    "id": 1,
-    "title": "Auril's Perpetual Winter",
-    "category": "plot",
-    "description": "Icewind Dale frozen by Auril (NE goddess of cold, indifference, preservation). Temperature -49F, constant howling winds, frequent blizzards. Sun only shines dimly 10am-2pm, otherwise dark except for aurora/full moon.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "Campaign Start"
-  },
-  {
-    "id": 1749075785068,
-    "title": "Oyaminartok - The Polar Werebear Legend",
-    "category": "npc",
-    "description": "Ancient polar werebear of legendary status, rumored to dwell in the deepest reaches of Icewind Dale's wilderness. Known among northern tribes as the 'Ice Walker' or 'White Bear of the Endless Hunt.' Oyaminartok allegedly achieved perfect balance between human consciousness and bear instincts - neither fully human nor fully beast, but something greater. Keogr's clan believes finding this legendary figure is the only way for their exiled kinsman to master his lycanthropic curse. UPDATE: Will encounter the party outside of the Lost Spire.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "werebear",
-      "keogr"
-    ],
-    "createdAt": "6/4/2025"
-  },
-  {
-    "id": 1749078786335,
-    "title": "Termalaine Mine - Chardalyn Corruption Site",
-    "category": "encounter",
-    "description": "Former mining operation overrun by kobolds, but the true threat is chardalyn corruption. Miners unknowingly struck a vein of chardalyn ore, which began corrupting the kobold leader and driving the creatures mad with paranoia and aggression. The grell was attracted by the psychic emanations from the corrupted chardalyn. Ghost possession of kobold leader may be result of chardalyn's ability to thin the veil between life and death. Characters must decide whether to destroy the chardalyn (losing valuable resource), contain it, or find way to purify it. Connects to broader chardalyn corruption network affecting Ten-Towns. Encounter: A Beautiful Mine",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "chardalyn",
-      "ten-towns",
-      "combat",
-      "investigation"
-    ],
-    "createdAt": "6/4/2025"
-  },
-  {
-    "id": 1749078827471,
-    "title": "Corrupted Kobold Chieftain - Chardalyn Vessel",
-    "category": "npc",
-    "description": "Kobold leader possessed by ghost, but possession made possible by chardalyn corruption weakening his mind and spirit. The 'ghost' may actually be psychic echoes from the chardalyn itself - memories of those who died mining or handling the corrupted crystal. Speaks in multiple voices, sometimes coherent warnings about the 'black ice that watches,' other times ranting about ancient cold and endless winter. If freed from corruption, could provide valuable intelligence about chardalyn's effects and locations of other veins. Knowledge of underground tunnels that might connect to other corrupted sites. Encounter: A Beautiful Mine",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "early",
-      "chardalyn",
-      "ten-towns",
-      "social",
-      "investigation"
-    ],
-    "createdAt": "6/4/2025"
-  },
-  {
-    "id": 1749160820402,
-    "title": "Sephek as Aurilith Enforcer - The Winter's Blade (DECEASED)",
-    "category": "plot",
-    "description": "Sephek doesn't kill randomly - he targeted individuals who defied specific Auriliths' psychic demands. When someone refused an Aurilith's mental compulsions or challenged their authority, Sephek was dispatched as Auril's physical enforcer. Gorga refused Ishkar the Silver Mirror's demand to sacrifice something precious, so Sephek was sent to kill her. This created a pattern: Auriliths psychically manipulate and test people, and those who resist face Sephek's ice daggers. Each murder location corresponded to someone who defied a specific Aurilith's will. MAJOR UPDATE: Sephek is DEAD. He was sent to kill Waylen for refusing Ishkar's demand (sacrifice of his smoking pipe), attacked him at night in Good Mead, and was killed by Waylen along with the frost spirit/Chwinga inhabiting him. No witnesses. This removes Auril's primary enforcer from the board - open questions include whether Auril creates a new enforcer, whether individual Auriliths become more direct, or whether nothing immediate happens due to Auril's distance/indifference. Coldlight Walkers have begun escalating/spreading in the aftermath, which may be a related development.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "sephek",
-      "auriliths",
-      "overarching",
-      "investigation",
-      "resolved"
-    ],
-    "createdAt": "6/5/2025"
-  },
-  {
-    "id": 1749166155463,
-    "title": "Fear Rules - Aurilith Psychological Effects",
-    "category": "rules",
-    "description": "Auriliths and their associated encounters can trigger fear effects beyond standard frightened condition. When exposed to Aurilith influence: WIS save DC 13-15 (varies by proximity/duration). Failure = frightened for 1 minute, can repeat save at end of each turn. Critical failure (natural 1) = additional effects: Tal-Kora causes paranoia (disadvantage on Insight checks for 24 hours), Ishkar causes mirror phobia (must save to look at reflective surfaces), Yll-Varn causes auditory hallucinations (hear phantom music). Repeated exposure increases DC by +1 per previous encounter. Characters with passive Insight 15+ notice when others are being psychically influenced. Calm Emotions ends most effects early. Fear immunity protects against basic frightened condition but not unique psychological effects.",
-    "priority": "low",
-    "status": "brainstorming",
-    "tags": [
-      "rules",
-      "auriliths",
-      "combat",
-      "social"
-    ],
-    "createdAt": "6/5/2025"
-  },
-  {
-    "id": 1751000000001,
-    "title": "The Gardener - Envoy of Ylmyo-Aldon",
-    "category": "npc",
-    "description": "CR 12 Huge Aberration, weakened/immobilized envoy of the Great Old One Ylmyo-Aldon, imprisoned beneath the sacred frost giant spring in the Cauldron Caves. Discovered and raised from death by Dzaan, who wanted to study its connection to Ythryn and Netherese secrets. Karexil is its dedicated warden and began re-freezing it after Dzaan's execution, but the imprisonment is incomplete. Stat block: AC 17 (natural armor), HP 195 (17d12+85), Speed 0 ft. (immobilized), STR 8/DEX 6/CON 20/INT 22/WIS 20/CHA 18, resistances to acid/cold/necrotic, immune to poison, immune to charmed/exhaustion/frightened/paralyzed/petrified/poisoned/prone, blindsight 120 ft., Deep Speech + telepathy 120 ft. Traits: Immobilized (cannot move or take physical attack actions due to Karexil's ice), Corpse Network (animates/speaks through nearby corpses - a frost giant skeleton and four fishermen - which can be attacked separately; if all destroyed, the Gardener becomes 'Toothless' and loses most abilities), Mycelial Awareness (senses any creature touching the ground within 120 ft., can't be surprised by anyone in contact with the cave floor). RESOLUTION: The party made a compromise deal - Glix took the Gardener's spores (now permanent, in his plasma, with an ongoing communication channel) and the party left the Gardener imprisoned rather than freeing it or completing its seal.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "early",
-      "great old one",
-      "combat",
-      "easthaven",
-      "resolved"
-    ],
-    "createdAt": "7/7/2026"
-  },
-  {
-    "id": 1751000000002,
-    "title": "Ylmyo-Aldon - Weakened Great Old One",
-    "category": "npc",
-    "description": "Eldritch god of fungus and decay, seeing no difference between life and death - views all creatures as the next generation's soil, the philosophical opposite of Auril's preservation-through-stasis. In a previous campaign (unrelated to this game's players), Ylmyo-Aldon's plot to infect the entire planar system was thwarted: by freeing an NPC named Jaysennia Amanita and completing 'the Amanita Effect,' that campaign's party severed her access to the Nexus and collapsed her planar machinery. She was not destroyed (impossible for a being of her nature) but was starved, scattered, and forced into dormant, diffuse existence. Her creatures withered, her doctrines lost coherence. What remains persists only as faint spores of influence - whispers in dying dreams, fragments of rot without a voice, still dangerous but no longer ascendant. This weakened state explains why her envoy (the Gardener) cannot break free of Karexil's imprisonment on its own. Thematically opposed to Auril (transformation/decay vs. stasis/preservation) and philosophically kindred to Flux'thuun (both oppose stasis, through very different means).",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "great old one"
-    ],
-    "createdAt": "7/7/2026"
-  },
-  {
-    "id": 1751000000003,
-    "title": "The Spindle - Pre-Netherese Artifact",
-    "category": "misc",
-    "description": "An artifact predating Auril herself, of Ostorian (ancient giant) origin - far older than Netheril. Auril discovered the Spindle, recognized it as a potential threat to her, and deliberately surfaced it from the Sea of Moving Ice specifically to lure Iriolarthas's Netherese expedition. She used Netherese ambition as a weapon against them: the Archwizard's people retrieved the strange stone object shortly before Ythryn's fall (-343 DR, notably before Karsus's Folly at -339 DR, so Ythryn's destruction is independent of and unrelated to Netheril's eventual collapse). The Spindle kept pulsing for fifty years after the crash, blocking all magical means of escape and trapping survivors so they couldn't report what happened. The Spindle is now inside the fallen city. Auril's ongoing reason for keeping Ythryn buried is NOT to hide the Spindle itself, but to protect herself from whatever weapon inside Ythryn (likely connected to the mythallar) is capable of harming Auriliths and making her vulnerable.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching",
       "ythryn",
-      "auriliths"
+      "resolved"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "10/9/2026"
   },
   {
-    "id": 1751000000004,
-    "title": "Codicil of the White",
-    "category": "misc",
-    "description": "Relic tied to Uthessil and the Wardens of the White; the true key to entering and navigating Ythryn's magic. RESOLVED LOCATION: held in a dimensionally-locked vault at Caer-Dineval, hidden behind/beneath the ice statue of Auril in the cistern shrine (area C20). The statue functions as a conduit, not as Uthessil itself (see Uthessil's entry) - the vault only opens when the real Uthessil, currently held by the hag coven, is physically presented to it. This is a deliberately deferred Ch.5+ thread: the party needs to defeat the hag coven (planned for after Ch.4) to retrieve Uthessil before this vault can be opened at all.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "ythryn",
-      "auriliths",
-      "chardalyn"
-    ],
-    "createdAt": "8/15/2026"
-  },
-  {
-    "id": 1751000000005,
-    "title": "Bill - Human Monk (Hermit)",
-    "category": "pc",
-    "description": "Player character, human monk with a Hermit background. His hermitage is a splinter of Ythryn lodged in the Spine of the World, where he found and studied the writings of Polybeus, a junior Netherese wizard who survived Ythryn's crash. Knows Netherese and has advantage on skill checks regarding Netheril as a result. Knows: Ythryn was a Netherese flying enclave that fell into the Far North before the empire's collapse; the city is preserved under a glacier and its mythallar may have survived; a strange stone object (the Spindle) was brought into the city shortly before the fall and Polybeus didn't think it was Netherese; Iriolarthas was already an undying lich-like figure when the city flew; after the crash, all magic failed for days, which Polybeus attributed to the Spindle; Ythryn's fall was NOT the same event that destroyed Netheril itself. Uniquely positioned to recognize that the Lost Spire near Ten-Towns is ALSO a Ythryn splinter. Does NOT yet know that Ythryn holds a weapon capable of killing Auriliths - that gap is a planned slow revelation across Ch. 5-6. Carries Vellynne Harpell's old Ythryn-exposition/quest-pitch role. UPDATE: Following Waylen's death (yeti encounter, just before the mind flayer encounter), Bill became a full active party member rather than a secondary/support character.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "ythryn"
-    ],
-    "createdAt": "7/27/2026"
-  },
-  {
-    "id": 1751000000006,
-    "title": "Polybeus - Netherese Survivor & Scholar",
+    "id": 1754000000001,
+    "title": "Kadroth - Grifter, Not True Believer (CAPTURED)",
     "category": "npc",
-    "description": "Junior Netherese wizard who survived Ythryn's crash into the Spine of the World, living out his days in what is now Bill's hermitage. Not privy to Iriolarthas's inner circle - knew the city, its culture, and general workings, but not its deeper secrets. Wrote extensively about Netheril's magocracy, the Archwizards, the mythallar, and his own survivor experience (grief for lost people disguised as academic notation, records of failed signaling attempts, a bestiary of Spine of the World creatures, anxiety about the slowly-moving glacier). Created one spell of his own, Polybeus's Radiance (a permanent light effect, inverse of Darkness), and was very proud of it. His final journal entry is undated, short, and unfinished - something happened to him and he never got to write about it. His writings are the sole source of Bill's Ythryn/Netheril knowledge.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "ythryn"
-    ],
-    "createdAt": "7/7/2026"
-  },
-  {
-    "id": 1751000000007,
-    "title": "Coldlight Walker Escalation",
-    "category": "plot",
-    "description": "Coldlight Walkers (shambling figures with faces replaced by blinding blue light) are true mindless undead following Auril's direct commands. MAJOR CLARIFICATION: the Walkers ARE the sacrifice victims - specifically those sacrificed by Targos (which escalated to humanoid sacrifice) and by Uthessil's followers, the Wardens of the White cult in Caer-Dineval. This explains why sightings cluster around Targos and Caer-Dineval rather than spreading evenly across Ten-Towns. Sephek was a related but distinct case, considered closed. Session update: the party killed a lone Walker (last of an earlier-destroyed pack) during a Day 12 blizzard, but destroyed its mask immediately - so the party has gained no closer look at the chardalyn-inlay mystery from this encounter. Oyaminartok's intel connecting the Walkers to dark-masked Chwinga (Frostlings) is still pending - her meeting with the party has been pushed until after the Lost Spire.",
+    "description": "Tiefling cult fanatic who ran Caer-Dineval's day-to-day operations. TRUE BACKSTORY: fled Baldur's Gate after grifting trouble with the thieves' guilds, wandered into Icewind Dale, ended up in Targos selling himself to Speaker Naerth Maxildanarr as 'a man of action.' Naerth, finalizing his own compromise with Auril's forces and unwilling to personally risk dealing with hags, let Kadroth take that risk instead - and continued directing Kadroth's operation from Targos on an ongoing basis, not as a one-time handoff (confirmed under pressure from Joosep). Kadroth's deal with the Hoarfrost hag coven got him control of Caer-Dineval and little else; not suited for leadership, aware of it, won't admit it. Genuinely, mistakenly believed the ice statue of Auril in the cistern shrine WAS Uthessil - sincere belief, not a lie. Wouldn't kill Crannoc directly, hence the slow poisoning instead. Wore an immaculate Auril-attuned chardalyn pendant. CAPTURED while attempting to flee - Trovus is bringing him to Caer-Konig to face justice; whether his confession about Naerth becomes public depends on how that plays out.",
     "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "combat",
-      "chwinga"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1751000000008,
-    "title": "Trovus - Caer-Konig Militia Leader",
-    "category": "npc",
-    "description": "Militia figure planning to confront the Wardens of the White cult's stronghold in Caer-Dineval, prompted by Coldlight Walker sightings near Caer-Dineval and general suspicious activity at the castle. UPDATE: his actual target is Speaker Crannoc Siever, not Uthessil directly - Trovus believes he's confronting political corruption/negligence (a speaker gone silent, a castle turned insular), unaware that Crannoc is himself a prisoner of the cult (see Wardens of the White). Whether Trovus knows the full truth of the Wardens/Uthessil connection going in is undetermined. This confrontation will be resolved off-screen. Also associated with a gnoll bounty at Cackling Chasm as an alternate hook.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "auriliths"
-    ],
-    "createdAt": "7/27/2026"
-  },
-  {
-    "id": 1751000000009,
-    "title": "Karkolohk Goblins - Spellix Romwod & Makrud",
-    "category": "encounter",
-    "description": "Combined/rebuilt encounter merging goblin-tribe diplomacy with the Black Cabin mystery. Spellix Romwod is actually a rock gnome sorcerer disguised as goblin Chief 'Yarb-Gnock,' genuinely attached to his tribe and grieving his brother. Macreadus ('Makrud' to the goblins) is Spellix's brother, an artificer who built both their metal disguises; inspired by goblin ingenuity, he built a device called the Summer Star, hoping to use it as an in with Ten-Towns, but it malfunctioned and killed him three days before the party's likely arrival. His restless spirit now haunts the Black Cabin, which contains his lab and his private stash of Sweetberry Summer Wine (the same wine found on the Dark Duchess). Two friendly goblin envoys, Rik and Rak, intercept the party leaving Bryn Shander with peace offerings (alchemical supplies, alchemist's fires, a Clockwork Amulet, a Mystery Key) as a diplomatic overture, with Oarus (Termalaine's speaker) encouraging the meeting. Manafek, a goblin healer, has seen through Spellix's disguise and is weighing whether to blackmail or expose him. Distrust between the goblins and Ten-Towns has been intentionally lessened from the book's default, and combat with the goblins is not anticipated.",
-    "priority": "medium",
     "status": "archived",
     "tags": [
       "midgame",
-      "karkolohk",
+      "auriliths",
       "social",
-      "investigation"
+      "chardalyn",
+      "resolved"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "10/9/2026"
   },
   {
-    "id": 1751000000010,
-    "title": "Dark Duchess Shipwreck",
-    "category": "location",
-    "description": "Pirate ship encounter (captained by the late Bluemoon) reworked as the location where Oyaminartok, the legendary polar werebear, can be found - fulfilling Keogr's personal quest. Core encounter (Arveiaturace the dragon, her hoard, Meltharond's corpse, an ice troll, kobold worshippers who are friendly to the party after a prior good deed) is largely unchanged from the book. Known modifications: Tinjong (a separate werebear NPC) no longer offers to escort the party to Auril's island - that hook is cut to preserve the party's mid-campaign structure. The book's 'no rum aboard' twist (Zero Rum quest) is intentionally kept as a dead end - the treasure is the real reward. Coldlight Walkers (1d4+1) interrupt any long rest attempted aboard the ship - a homebrew addition. Sweetberry Summer Wine (Captain Bluemoon's empty bottles) is the same wine found in the Black Cabin/Makrud's stash - a small-world detail worth having a throwaway explanation for if a player connects the two. Reachable via the Sea of Moving Ice, potentially with Angajuk the whale's help if the party was stranded there via the one-way drowning pool.",
+    "id": 1754000000002,
+    "title": "Hethyl Arkorran - Bheur Hag (LIKELY DEFEATED, UNCONFIRMED)",
+    "category": "npc",
+    "description": "Bheur hag, daughter of Grandmother Cottongrass, true communication link to Uthessil, stationed in Caer-Dineval's cistern. Promised a coven seat if Auntie Sedge (weakest of the Hoarfrost) died - could be persuaded to free Crannoc in exchange for Sedge's death. Used Zirael's captivity as psychological leverage against Nirenoore. Let slip to Nirenoore (now party-known - see Hethyl's Intel entry) her contempt for Kadroth, doubts about the statue being Uthessil, frustration at being stuck at the Caer, irritation at the slow poisoning, and fragments about 'the vault' and 'the key.' FOUGHT: Bill's repeated Stunning Strikes kept her from acting at all before the fight turned into a battle against 8 reanimated cistern zombies and dangerous brown mold. Nirenoore and Falk were freed from her captivity in the process. LIKELY DEFEATED but NOT explicitly confirmed dead vs. fled/captured - still needs a decision. This matters significantly for Ch.5: if she's dead, the negotiated path (trading Sedge's death for cooperation) is closed, and the Hoarfrost confrontation becomes a straight assault with no inside informant.",
     "priority": "high",
     "status": "archived",
     "tags": [
       "midgame",
-      "keogr",
+      "auriliths",
       "combat",
-      "investigation"
+      "resolved"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "10/9/2026"
   },
   {
-    "id": 1751000000011,
-    "title": "Angajuk - Whale Ally of the Sea of Moving Ice",
+    "id": 1754000000003,
+    "title": "The Hoarfrost - Hag Coven (Sea of Moving Ice)",
     "category": "npc",
-    "description": "A whale that can be befriended by a party stranded on the Sea of Moving Ice (after passing through Morskaya's one-way drowning pool). Angajuk can carry the party close to the Dark Duchess wreck, providing both a practical rescue/travel solution and a memorable roleplay opportunity, along with whichever Circle Shiverveil leader(s) survive the ordeal.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "umberlee"
-    ],
-    "createdAt": "7/7/2026"
-  },
-  {
-    "id": 1751000000012,
-    "title": "Campaign Status Snapshot (as of latest session)",
-    "category": "misc",
-    "description": "Party is level 6 (leveled up this session), Ch. 2, currently around Day 14-15, having just resolved Lonelywood before continuing toward the Lost Spire. Waylen died in a random yeti encounter; Bill is now active. Party has named itself the Anti-Auril Rebel Parade (AARP). Recently resolved: a Coldlight Walker encounter (killed, mask destroyed, no new intel); town stops at Bremen (met Tali), Targos (sensed sacrifice relief + Naerth's bribery), Bryn Shander (Scramsax bought the rum barrel 'Arveiaturace's Tears,' Sheriff Southwell gave Council updates, Wynnette absent), and Termalaine (picked up animals from Oarus); Zethryn deliberately destroyed by the party, triggering Auril's first confirmed direct retaliation (a party-wide cold-damage smite that killed Vega Shiverveil and knocked out Glix) - both the retaliation and Glix's interrupted vessel-attunement attempt are flagged as open threads; the Umberlee shrine ritual completed solo by Glix, freeing the Drowned Priest and securing Morskaya's promise of aid, followed by Morskaya raising a maelstrom on Maer Dualdon (possibly connected to Zethryn's earlier 'great wave' vision). Major still-open threads: Wardens of the White/Codicil of the White (vault redesign pending), Trovus's off-screen confrontation over Speaker Crannoc Siever, Avarice/Dzaan's simulacrum as a connected Ythryn thread, Chardalyn Berserkers (Reghed Nomads), the mind flayer encounter (still needs full detail logged), Glix's desire to kill Naerth (deprioritized, not dropped). Next session: travel to the Lost Spire and begin that content, expected to involve Dzaan's simulacrum. Oyaminartok's first meeting has been deliberately pushed until after the Spire - worth watching against Keogr's Tymora deadline (full moon on the 19th) if the Spire runs long.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1751000000101,
-    "title": "Joosep's Deal - Zethryn's Abandonment",
-    "category": "plot",
-    "description": "Joosep has +1/+1 on attacks vs intelligent creatures willingly serving Auril in exchange for letting Zethryn die.",
+    "description": "A coven of three hags - Grandmother Cottongrass (powerful Bheur hag, coven leader, Hethyl's mother), Auntie Felsenmeer (large, imposing Annis hag), and Auntie Sedge (sea hag, weakest) - lairing on an iceberg in the Sea of Moving Ice, collectively known as the Hoarfrost. They hold leverage over Caer-Dineval through Kadroth's bargain, and physically hold/control the real Uthessil - the actual mechanism behind Hethyl's communication with it, not just a metaphorical link. Generally aware of events across the Dale but never bothered informing Kadroth, content to let him manage his small bubble of influence while they held the real power. CONFIRMED: this coven's confrontation is now the rewritten Ch.5 of the campaign, replacing the published adventure's Island of Solstice/Auril's Abode chapter entirely (see Adventure Roadmap entry). The party needs to defeat the Hoarfrost to retrieve Uthessil, bring it to Caer-Dineval, and unlock the vault holding the Codicil of the White. Naerth has prior history with this coven (he dealt with them before handing the risk to Kadroth) - expect his full involvement to surface around this confrontation.",
     "priority": "high",
     "status": "ready",
     "tags": [
       "overarching",
       "auriliths",
-      "pc-deal",
-      "joosep"
+      "combat",
+      "ythryn"
     ],
-    "createdAt": "7/7/2026"
+    "createdAt": "10/9/2026"
   },
   {
-    "id": 1751000000102,
-    "title": "Bill's Deal - Oghma's Offer of Netherese Insight",
-    "category": "plot",
-    "description": "Boon offered to Bill (human monk, hermit background) by Oghma, god of knowledge, tied directly to his Polybeus/Ythryn backstory. The offer: automatic success on checks related to Netherese technology and history (a huge benefit given his ongoing role piecing together the Ythryn/Codicil/mythallar mystery). The power may be regained on a long rest - beginning at a 2xLevel% chance/effect and growing as Bill learns more about Netheril over the course of the campaign.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "ythryn",
-      "pc-deal",
-      "bill"
-    ],
-    "createdAt": "7/7/2026"
-  },
-  {
-    "id": 1751000000103,
-    "title": "Glix's Deals - Flux'thuun (original pact) & Ylmyo-Aldon (spore bond)",
-    "category": "plot",
-    "description": "Glix carries two active Great Old One relationships. ORIGINAL PACT: Warlock patron Flux'thuun the Tide-Changer, sealed via the Unquiet Ore during the mind flayer attack that first brought Glix to this plane - grants the power to transmute elemental damage types once per long rest. NEW BOND: After the Gardener/Toil & Trouble compromise, Glix took the Gardener's spores and now carries a permanent, escalating connection to Ylmyo-Aldon. Mechanically discussed as a 2xLevel% chance per long rest to generate a spore 'bulb' (which lasts 3 days or until a new one is generated) - with further engagement with Ylmyo-Aldon (via the Gardener or the bulbs themselves) increasing that percentage, though whether that means using bulbs, visiting the Gardener, or both was still undecided. MAJOR CHARACTER MOMENT: During the Karkolohk/Black Cabin session, Glix's body was destroyed by a trap and he was resurrected via Lathander's blessing (channeled through the restored Summer Star, not through either patron). This was his first experience of 'true divinity' as distinct from his patrons' influence. Glix realized his relationships with Flux'thuun and the Gardener are essentially parasitic - they take more than they give - but he still feels he needs them, remembering the helplessness he felt when mind flayers destroyed his home village. He immediately burst a spore bomb upon revival to re-secure the Gardener connection despite this realization. ",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "great old one",
-      "pc-deal",
-      "glix"
-    ],
-    "createdAt": "7/7/2026"
-  },
-  {
-    "id": 1751000000104,
-    "title": "Mama Chrys's Entanglement - Flux'thuun's Mark & the Lathander Trade",
-    "category": "plot",
-    "description": "During the same session where Glix was resurrected by Lathander, Mama Chrys touched Glix's Unquiet Ore (Flux'thuun's artifact) and failed a Charisma saving throw. No immediate effect occurred - the consequence was intentionally left delayed. Flux'thuun has also offered Mama Chrys the ability to wildshape into an Anarchic Weird (a chaotic elemental form, CR 1, that deals random elemental damage and explodes on death) for 2 uses - but accepting this costs her the Lathander blessing she received during Glix's resurrection. She accepted this deal. The restlessness/pull toward change continues, and it is undetermined whether this feels like Flux'thuun testing her commitment or simply genuine cosmic discomfort. ",
+    "id": 1753900000006,
+    "title": "Speaker Crannoc Siever (SAVED, RECOVERING)",
+    "category": "npc",
+    "description": "Town speaker of Caer-Dineval. Was being deliberately, slowly poisoned over months by a chardalyn amulet (a Slow Mercy or a twin of it) to disguise the cult's takeover as natural decline - it was backfiring by looking increasingly suspicious rather than convincing. He knew about 'the hag' (Hethyl, whom he'd personally encountered and been frightened into submission by once) but not the specifics of Kadroth's wider coven deal; he'd hired Kadroth as head manservant months ago, told his old servants had left and needed replacing, when in fact most were imprisoned in the cistern. RESOLVED: in danger of dying from exhaustion, the party convinced him to ride along via dogsled across the wild country to reach Morskaya and the Drowned Priest, taking a 'shortcut' that didn't save time but let them track and kill an ice troll, using its heart to help him survive the journey (see Ice Troll Heart entry). Arriving near Maer Dualdon in brutal weather, Morskaya's awakened moose called her and the Drowned Priest, who used his one-time Greater Restoration to clear Crannoc's exhaustion entirely. Crannoc now owes the party a major debt. He is NOT returning to Caer-Dineval yet - staying with Nimsy in Lonelywood to recover, which leaves Caer-Dineval currently leaderless (see Wardens of the White entry) and will likely mean more people learn of Morskaya's existence over time.",
     "priority": "medium",
-    "status": "ready",
+    "status": "archived",
     "tags": [
-      "overarching",
-      "great old one",
-      "pc-deal",
-      "mama-chrys"
+      "midgame",
+      "auriliths",
+      "social",
+      "resolved"
     ],
-    "createdAt": "7/7/2026"
-  },
-  {
-    "id": 1751000000105,
-    "title": "Keogr's Deal - Tymora's Guarantee",
-    "category": "plot",
-    "description": "Boon offered to Keogr from Tymora, goddess of luck, regarding his search for Oyaminartok (the legendary polar werebear who can teach him to control his lycanthropy). The offer is a guarantee tied to 'the next full moon' in the campaign calendar - though it is undecided whether Tymora's guarantee is that Keogr will definitely MEET Oyaminartok by that deadline, or that some other significant event related to his curse will occur. Simpler and more thematic than the other PCs' deals - luck-based, time-boxed, and directly tied to his core personal quest. ",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "pc-deal",
-      "keogr"
-    ],
-    "createdAt": "7/7/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1753600000001,
     "title": "Avarice - Arcane Brotherhood Wizard (Caer-Dineval)",
     "category": "npc",
-    "description": "Albino tiefling wizard of the Arcane Brotherhood, relocated to the castle's second floor (former Hethyl location - see the location-swap note). Desk, white leather spellbook, staff of frost, familiar crow Skelm. Gargoyles Gargle and Gurgle are out in the field specifically looking for Dzaan - ties directly to the Dzaan/simulacrum thread. Confirmed knowledge: (1) she knows about the hag coven; (2) she's here because she believes the Wardens have access to the Codicil of the White, necessary to locate and enter Ythryn - she suspects the cistern's Auril shrine is likely part of the Codicil's protection, but hasn't worked out the exact mechanism (she doesn't know about the statue-as-conduit/vault-behind-it setup, or that the real Uthessil must be physically retrieved from the hag coven and presented to unlock it); (3) she's seen the Auril statue herself and doesn't believe it holds significant power - if it's an Aurilith at all, she considers it an especially weak one. Dramatic irony: her instinct is correct (the statue genuinely isn't Uthessil) but for the wrong reason, and it means her own plan - reportedly to trick the party into misidentifying some other artifact as 'the Aurilith' so she can take a key for herself - is likely to fail regardless, since she doesn't understand the true retrieval requirement. She'll help depose the hag coven if pressed and promised help finding Ythryn in return; otherwise stays mostly uninvolved. Discoverable clue in her room: Perception 15 spots a symbol (a warship beneath a tree-like tower) among her research; Intelligence/Memory 15 recalls the same symbol among Dzaan's belongings. Bill will automatically notice she's researching Netherese/Ythryn material.",
+    "description": "Albino tiefling wizard of the Arcane Brotherhood, occupying the castle's second floor (former Hethyl location - see the location-swap). Desk, white leather spellbook, red rug, narrow bed, freestanding mirror, a staff of frost against the wall. Familiar: ink-black crow Skelm. Her two gargoyles, Gargle and Gurgle, are out in the field specifically looking for Dzaan - a concrete tie to the Dzaan/simulacrum thread, not generic rival-spying. She's here specifically to gain access to Uthessil by deposing the hag coven's control over it, believing the Wardens have access to the Codicil of the White, necessary to locate and enter Ythryn. She's seen the Auril statue herself and correctly senses it isn't powerful - if it's an Aurilith at all, an especially weak one - but doesn't know why (she doesn't realize it's a conduit, not Uthessil itself; see Uthessil's entry). Her scheme - tricking the party into misidentifying a decoy artifact as 'the Aurilith' to take a key for herself - is likely to fail regardless of success, since she doesn't understand the true retrieval requirement (the real Uthessil must come from the hag coven). She'll help depose the coven if pressed and promised help finding Ythryn in return; otherwise stays mostly uninvolved. Discoverable clue in her room: Perception 15 spots a symbol (a warship beneath a tree-like tower) among her research; Intelligence/Memory 15 recalls the same symbol among Dzaan's belongings. Bill will automatically notice she's researching Netherese/Ythryn material. With Kadroth captured and the castle leaderless, she's a live candidate to fill the power vacuum.",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -1841,340 +92,13 @@
       "social",
       "auriliths"
     ],
-    "createdAt": "8/15/2026"
-  },
-  {
-    "id": 1753600000002,
-    "title": "Oyaminartok - The Polar Werebear (Detailed)",
-    "category": "npc",
-    "description": "CR 8 werebear. Not a single individual - Oyaminartok is a title/role handed down over generations; both goliath settlements (Skytower Shelter and Keogr's clan) claim she came from them, but she predates either. Near-mythic progenitor figure of goliath werebears. Scratchy voice from going weeks without speaking to another humanoid. Appearance: humanoid polar bear form with arms nearly reaching her feet, hair in thick braids decorated with metal beads, furs and murky green garb fastened with a leather belt and crochet-stitched sinew thread that stretches through her shapechanges. Her eyepatch is not covering a missing eye - it conceals a cursed eye capable of paralyzing anyone who meets its gaze; the eyepatch item itself grants +3 to Perception checks and passive Perception, plus the ability to identify shapechangers on sight. Tall tale: she once reeled in a juvenile sperm whale in the Sea of Moving Ice. During the winter, the burden of choosing which goliaths become werebears has lapsed as the two settlements squabble amongst themselves - this is why Keogr was mauled by an out-of-control lycanthrope rather than ritually chosen and bitten by her. Meeting pushed to after the Lost Spire. Intel she can offer: she has connected the Coldlight Walkers to dark-masked Chwinga (Frostlings), suspecting something is using the frost spirits to animate corpses; she has killed multiple duergar in the mountains but never entered Sunblight fortress itself, so she can offer external intel/map info on it but not interior details. (Chardalyn Berserker lair intel is cut - see that entry - she may mention them in passing but there's no follow-through planned.) Potential test for Keogr ('prove your control'/'tell me of your deeds and failures') is still being developed - open direction is a test of restraint rather than raw combat, given Keogr's actual arc is about controlling the curse, not proving strength. Watch Keogr's Tymora deadline (full moon, the 19th) against however long the Spire takes.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "werebear",
-      "keogr",
-      "midgame"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753600000003,
-    "title": "Chardalyn Berserkers - Corrupted Reghed Nomads (CUT)",
-    "category": "npc",
-    "description": "Humanoids driven into violent insanity by Deep Duerra's psionic chardalyn corruption, mostly Reghed Nomad tribespeople. Oyaminartok knows their lair location. CUT: no compelling loot and the party is overpowered for this encounter as designed. Not being pursued. Oyaminartok can still mention them in passing as color/intel if she comes up, but no follow-through is planned. Safe to ignore going forward.",
-    "priority": "low",
-    "status": "archived",
-    "tags": [
-      "midgame",
-      "chardalyn",
-      "cut"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753600000004,
-    "title": "Mind Flayer Encounter (Ch. 1→2 Transition)",
-    "category": "encounter",
-    "description": "PLACEHOLDER - occurred shortly after Waylen's death (yeti encounter) and marks the transition into Ch. 2 proper. Full details not yet logged; likely connects to the previously-established mind flayer/psi crystal/chardalyn interest thread (see Mind Flayer Chardalyn Interest entry) and to Glix's backstory (his home village was destroyed by mind flayers). Update this entry once session notes/summary are available.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "midgame",
-      "combat",
-      "glix"
-    ],
-    "createdAt": "7/27/2026"
-  },
-  {
-    "id": 1753600000005,
-    "title": "Mama Chrys's Flux'thuun Boon - Escalation Brainstorm (Open)",
-    "category": "plot",
-    "description": "Brainstorming notes for expanding Mama Chrys's Flux'thuun boon beyond its current baseline (2 uses of Anarchic Weird wildshape, CR 1, random elemental damage + death-explosion, traded for her Lathander blessing). None of these are locked in. Minor/flavor options: normal wildshapes occasionally glitch cosmetically (wrong color, extra joint, wrong texture); unspent uses cause faint elemental 'weather' to cling to her after a long rest (frost breath, static hair, heat shimmer). Mechanical growth options: a third use unlocked by willingly changing something significant (relationship, oath, location) rather than passive accumulation; choosing the death-explosion's damage type once per long rest instead of it being random. Escalation/danger options: Anarchic Weird uses persisting past their normal duration under stress, mirroring Flux'thuun's actual cosmic problem (things refusing to change back); a further use gated behind Mama Chrys performing a real 'change' ritual each level-up, which would merge this boon with her still-undecided Unquiet Ore consequence (Change Imperative vs. Flux'thuun's Mark) into one unified mechanic instead of two separate threads.",
-    "priority": "medium",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "great old one",
-      "pc-deal",
-      "mama-chrys"
-    ],
-    "createdAt": "7/27/2026"
-  },
-  {
-    "id": 1753700000001,
-    "title": "The Anti-Auril Rebel Parade (AARP) - Party Name",
-    "category": "misc",
-    "description": "The party has named itself the Anti-Auril Rebel Parade, abbreviated AARP.",
-    "priority": "low",
-    "status": "ready",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753700000002,
-    "title": "Tali - Magical Beast Researcher (Bremen)",
-    "category": "npc",
-    "description": "Researcher of magical beasts, met by the party in Bremen. Not yet developed beyond the introduction - open for expansion if the party follows up with her.",
-    "priority": "low",
-    "status": "planning",
-    "tags": [
-      "early",
-      "ten-towns"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753700000003,
-    "title": "Vega Shiverveil (DECEASED)",
-    "category": "npc",
-    "description": "Circle Shiverveil member who served as the party's point of contact near the Umberlee shrine in Lonelywood, relaying the crisis of the clan's missing leaders. Found asleep at her post on this visit, in a stretch of forest that felt notably more normal than usual. Present at Zethryn's destruction - when the Aurilith shattered and Auril directly retaliated with a wave of cold damage against the party (see Auril's Direct Retaliation entry), Vega was instantly frozen and killed. This is a second, more direct loss to Circle Shiverveil on top of the earlier near-loss of its leaders, and hit Joosep hard - he and Mama Chrys built a cairn for her while Bill and Keogr rested.",
-    "priority": "medium",
-    "status": "archived",
-    "tags": [
-      "umberlee",
-      "lonelywood",
-      "resolved",
-      "deceased"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753700000004,
-    "title": "Auril's Direct Retaliation - Zethryn's Destruction",
-    "category": "plot",
-    "description": "The party deliberately destroyed Zethryn, triggering an immediate cold-damage retaliation against the whole party that killed Vega Shiverveil and knocked out Glix. CLARIFIED: this response was deliberately dampened - Auril didn't personally appear or escalate further, she simply blasted the party with ice, specifically because Zethryn was already a known traitor being punished rather than a loyal Aurilith being avenged. This is not evidence of universal, maximal retaliation for any Aurilith's death. Ch. 4 preview: the chardalyn dragon's eventual Aurilith kill(s) will provoke a more complicated backlash - the dragon will be built to withstand or avoid multiple retaliatory blasts, which is precisely what will demonstrate to the party that concentrated Duerra-corrupted chardalyn can resist/counter Auril's own power, a clearer and bigger proof-of-concept than what happened with Zethryn. Zethryn itself didn't simply vanish - it shattered into loose power that Glix nearly captured (see Glix's Zethryn Vessel Interaction entry).",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "combat"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753700000005,
-    "title": "Glix's Zethryn Vessel Interaction",
-    "category": "plot",
-    "description": "During Zethryn's destruction, Glix attempted to fill the Aurilith's empty chardalyn vessel with Flux'thuun's power via the Unquiet Ore. CLARIFIED: this attempt could have worked had Zethryn not been destroyed in the same instant - what Glix actually felt was Flux'thuun's psychic power beginning to attune to the now-empty chardalyn heart that used to be Zethryn, interrupted mid-process. Still open: whether that vessel/pocket of power still exists somewhere findable (i.e., the attunement attempt could theoretically be resumed or completed later) or whether it dissipated for good the moment Zethryn shattered. Worth deciding before this comes up again in play.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching",
-      "great old one",
-      "auriliths",
-      "glix"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1785554037454.1672,
-    "title": "Zethryn the Root-Taker - DESTROYED",
-    "category": "location",
-    "description": "Formerly an autonomous, rebelling Aurilith connected to living trees, working covertly against Auril through Circle Shiverveil. RESOLVED - DESTROYED: the party found Zethryn as a cracked, dying ice stalagmite with a tree-trunk core in a clearing of frozen trees. Zethryn spoke to the party telepathically (Glix was out of range and didn't hear it), naming Flux'thuun ('the Tide-Changer') and Ylmyo-Aldon ('the Rot that Calls'), referencing its siblings breaking or burning - specifically naming 'the madness of the Queen of the Invisible Art' (Deep Duerra) - and warning of several possible fates for the Dale, with a path through the coming choices. The party then destroyed it outright: Joosep with axes, Bill with stunning strike, Mama Chrys with Moonbeam, Glix with eldritch blast. Moonlight through the cracks revealed an empty chardalyn vessel that had once housed Auril's power. Glix attempted to fill the vessel with Flux'thuun's power as the final blow landed - the Aurilith was destroyed before attunement completed, but something happened to Glix in that instant (see Glix's Zethryn Vessel Interaction entry). Zethryn shattered into loose power, and Auril immediately, personally retaliated with a wave of cold damage against the whole party (see Auril's Direct Retaliation entry) - knocking Glix unconscious and instantly freezing Vega Shiverveil to death. Joosep, already grieving the near-loss of the Circle's leaders and his severed connection to Zethryn, was deeply affected by this second loss; he and Mama Chrys built a cairn for Vega while Bill and Keogr rested.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "ten-towns",
-      "resolved"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1785554037454.5117,
-    "title": "Umberlee Shrine - Lonelywood Hidden Temple",
-    "category": "location",
-    "description": "Hidden shrine to Umberlee maintained by Morskaya the sea-elf wereshark druid, opposing Auril's frozen stasis. Contains the drowning pool (one-way portal to the Sea of Moving Ice, resolved via Angajuk - see that entry) and the Marble Gazebo ritual basin. RESOLVED: while the rest of the party dealt with Zethryn's aftermath, Glix went alone to the shrine and helped Morskaya perform the ritual (driftwood, storm petrel feather, drowned humanoid bone, water) to free the Drowned Priest sealed in the sarcophagus (see that entry). Morskaya was shocked the party had survived the drowning pool and doubly shocked they'd returned at all. She promised to aid Glix if he ever has need, healed him, and then went out and personally whipped up a maelstrom on Maer Dualdon. Possible open connection, not yet confirmed: this may be the first stirring of the 'great wave rising from Maer Dualdon over Lonelywood' that Zethryn showed Joosep in an earlier vision - worth watching for. Ongoing thread: Morskaya's months-long sense of Umberlee's agitation building may be tied to this same event.",
-    "priority": "high",
-    "status": "archived",
-    "tags": [
-      "early",
-      "umberlee",
-      "lonelywood",
-      "resolved"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753700000006,
-    "title": "The Drowned Priest (Freed)",
-    "category": "npc",
-    "description": "Freed from the sarcophagus at the Umberlee shrine via the completed ritual. Physically a mummy-like figure in sodden robes that never freeze. Not exactly sentient - simple, bound to whoever freed it (Glix), knows the tide ritual but nothing of current events, having been sealed for centuries. Can cast Greater Restoration once (not yet used as of this session). After the ritual, it waved goodbye to Glix and went on its way rather than staying as an active companion. Flagged by the DM as a new relationship for Glix that 'totally won't become a problem later' - treat as a planted complication for a future session.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "umberlee",
-      "lonelywood",
-      "glix"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1785554037454.526,
-    "title": "Coldlight Walker Escalation",
-    "category": "plot",
-    "description": "Coldlight Walkers (shambling figures with faces replaced by blinding blue light) are true mindless undead following Auril's direct commands. MAJOR CLARIFICATION: the Walkers ARE the sacrifice victims - specifically those sacrificed by Targos (which escalated to humanoid sacrifice) and by Uthessil's followers, the Wardens of the White cult in Caer-Dineval. This explains why sightings cluster around Targos and Caer-Dineval rather than spreading evenly across Ten-Towns. Sephek was a related but distinct case, considered closed. Session update: the party killed a lone Walker (last of an earlier-destroyed pack) during a Day 12 blizzard, but destroyed its mask immediately - so the party has gained no closer look at the chardalyn-inlay mystery from this encounter. Oyaminartok's intel connecting the Walkers to dark-masked Chwinga (Frostlings) is still pending - her meeting with the party has been pushed until after the Lost Spire.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "combat",
-      "chwinga"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1785554037454.7776,
-    "title": "Targos Humanoid Sacrifices",
-    "category": "plot",
-    "description": "Targos has escalated to HUMANOID sacrifices to Auril - most extreme of all Ten-Towns. UPDATE: passing through Targos, the party sensed a general relief that this cycle's sacrifice had already been made, and picked up the impression that Speaker Naerth Maxildanarr can be bribed - some citizens aren't at risk of being chosen specifically because of this. Confirms the sacrifice system in Targos is at least partly a corrupt/bribable process rather than pure blind desperation. Glix wants Naerth dead over this; the party has deprioritized it in favor of other quests, but it's a live tension.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "early",
-      "ten-towns",
-      "auriliths"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1785554037454.954,
-    "title": "Speaker Naerth Maxildanarr - Zhentarim Leader",
-    "category": "npc",
-    "description": "Former Luskan rogue, secretly head of Zhentarim in Ten-Towns, wants to make Targos a trade hub for the Black Network. Commands 12+ spies throughout Ten-Towns. Uses three flying snakes to relay messages. UPDATE: confirmed to accept bribes in exchange for exempting specific citizens from Targos's humanoid sacrifice rotation (see Targos Humanoid Sacrifices entry). Glix has openly expressed a desire to kill him; the party chose to deprioritize this in favor of other quests, but it remains unresolved and could resurface.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "early",
-      "zhentarim",
-      "ten-towns",
-      "social"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1785554037454.162,
-    "title": "Joosep - Circle Shiverveil Ranger",
-    "category": "pc",
-    "description": "Firbolg Ranger (Marvin). From Circle Shiverveil. Broke his connection to Zethryn in exchange for a +1/+1 bonus against intelligent creatures willingly serving Auril. Privately suspects Wynnette's true nature (doesn't breathe) but hasn't told the party. Circle Shiverveil's leaders were retrieved via Angajuk after being stranded on the Sea of Moving Ice. UPDATE: present for Zethryn's destruction and the direct retaliation from Auril that followed - lost Vega Shiverveil, another Circle contact, to that retaliation. This is now the second major loss tied to the Circle in short order (the leaders' near-death, and now Vega's actual death), on top of his own severed connection to Zethryn. He and Mama Chrys built a cairn for Vega while the rest of the party rested. Deeply affected by this; worth tracking as an emotional throughline rather than a closed incident.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "resolved"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1785554037454.5232,
-    "title": "Campaign Status Snapshot 7/31/26",
-    "category": "misc",
-    "description": "Party is level 6 (leveled up this session), Ch. 2, currently around Day 14-15, having just resolved Lonelywood before continuing toward the Lost Spire. Waylen died in a random yeti encounter; Bill is now active. Party has named itself the Anti-Auril Rebel Parade (AARP). Recently resolved: a Coldlight Walker encounter (killed, mask destroyed, no new intel); town stops at Bremen (met Tali), Targos (sensed sacrifice relief + Naerth's bribery), Bryn Shander (Scramsax bought the rum barrel 'Arveiaturace's Tears,' Sheriff Southwell gave Council updates, Wynnette absent), and Termalaine (picked up animals from Oarus); Zethryn deliberately destroyed by the party, triggering Auril's first confirmed direct retaliation (a party-wide cold-damage smite that killed Vega Shiverveil and knocked out Glix) - both the retaliation and Glix's interrupted vessel-attunement attempt are flagged as open threads; the Umberlee shrine ritual completed solo by Glix, freeing the Drowned Priest and securing Morskaya's promise of aid, followed by Morskaya raising a maelstrom on Maer Dualdon (possibly connected to Zethryn's earlier 'great wave' vision). Major still-open threads: Wardens of the White/Codicil of the White (vault redesign pending), Trovus's off-screen confrontation over Speaker Crannoc Siever, Avarice/Dzaan's simulacrum as a connected Ythryn thread, Chardalyn Berserkers (Reghed Nomads), the mind flayer encounter (still needs full detail logged), Glix's desire to kill Naerth (deprioritized, not dropped). Next session: travel to the Lost Spire and begin that content, expected to involve Dzaan's simulacrum. Oyaminartok's first meeting has been deliberately pushed until after the Spire - worth watching against Keogr's Tymora deadline (full moon on the 19th) if the Spire runs long.",
-    "priority": "high",
-    "status": "planning",
-    "tags": [
-      "overarching"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753800000001,
-    "title": "Krintaas - Wight Bodyguard",
-    "category": "npc",
-    "description": "Dzaan's undead bodyguard, stationed with the simulacrum in the Lost Spire of Netheril. Lacks a life-spark itself. Was ordered to watch over the simulacrum and keep it from testing the rune chamber, but since it doesn't know Dzaan is dead, it now does whatever it takes to help the simulacrum get a life-spark instead - including manipulating or coercing the party. Covers the simulacrum's escape if a fight breaks out.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "combat",
-      "ythryn"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1753800000002,
-    "title": "Lost Spire of Netheril - Location Notes",
-    "category": "location",
-    "description": "A splinter of Ythryn, embedded upside-down in the tundra, reachable via a slippery entrance tunnel. Everything inside is inverted (walking on ceilings, climbing over doorway tops); lit by upward-pointing continual flame with no heat. Four ruined levels, connected by rough tunnels the original shield guardian punched through during its escape. Notable contents: a library with Netherese texts on mythallars and phaerimm; a workshop/potion storage with four potions of resistance (acid/cold/fire/force); a laboratory with a thri-kreen carapace and a chardalyn scroll tube (safe to handle - uncorrupted) holding a scroll of invisibility; Dzaan's simulacrum and Krintaas in a makeshift office (area P12) with the shield guardian's control amulet; a ruined Mystryl shrine that yields a one-time minor illusion elixir; a refectory currently occupied by a hostile basilisk; a bedchamber with the original wizard's remains (disturbing them summons a bound will-o'-wisp) and an invisible chest holding a spellbook that disintegrates on opening; and the rune chamber itself (P16) on the lowest level, which can turn illusory objects/creatures real given a life-spark, with a chance of failure, hostile transformation, temporary reality, or permanent success that burns out the chamber. A group of six bugbears (led by the bribable Brekk) may stumble in partway through the party's exploration. STRUCTURAL NOTE: the printed adventure assumes the tower's shield guardian was already found by goblins and taken to Karkolohk - this was never addressed in the already-resolved Karkolohk session and needs a decision (retcon a return visit, relocate the guardian, or drop the payoff).",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "ythryn",
-      "combat",
-      "investigation"
-    ],
-    "createdAt": "7/31/2026"
-  },
-  {
-    "id": 1754000000001,
-    "title": "Kadroth - Grifter, Not True Believer",
-    "category": "npc",
-    "description": "Tiefling cult fanatic who runs Caer-Dineval's day-to-day operations. TRUE BACKSTORY: fled Baldur's Gate after grifting got him into trouble with the thieves' guilds there, wandered into Icewind Dale, ended up in Targos selling himself to Speaker Naerth Maxildanarr as 'a man of action.' Naerth, finalizing his own compromise with Auril's forces and unwilling to personally deal with hags, let Kadroth take that risk instead. Kadroth's resulting deal with a hag coven (lair on an iceberg in the Sea of Moving Ice - see Hag Coven entry) got him control of Caer-Dineval and little else. Not suited for leadership and aware of it, though he won't admit it. Genuinely, mistakenly believes the ice statue of Auril in the cistern shrine IS Uthessil - this is sincere belief, not a lie he's telling the party (see Uthessil's entry for the actual truth). The hags live in the cistern directly beneath him as permanent leverage. Won't kill Crannoc directly, which is why Crannoc is being slowly poisoned instead. Wears an immaculate Auril-attuned chardalyn pendant. Currently more forthcoming after learning the party destroyed an Aurilith, on the verge of revealing the hag situation outright.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "auriliths",
-      "social",
-      "chardalyn"
-    ],
-    "createdAt": "8/15/2026"
-  },
-  {
-    "id": 1754000000002,
-    "title": "Hethyl Arkorran - Bheur Hag (REVISED)",
-    "category": "npc",
-    "description": "MAJOR REVISION - Hethyl is not a dwarf soothsayer. She is a Bheur hag, daughter of Grandmother Cottongrass (leader of the hag coven - see that entry). She is the true communication link to Uthessil, and also stays in contact with her mother's coven - the hags are generally aware of goings-on across the Dale but haven't bothered informing Kadroth, who's been content to stay in his own small bubble of influence. She has been promised the vacant seat of one of the other coven hags should that hag die. This gives her a concrete incentive: she can be persuaded to let Crannoc go if the party is willing to try to kill Auntie Sedge, the weakest member of the coven (a sea hag) - doing so would advance Hethyl's own promised promotion. Relocated (per the Avarice/Hethyl location swap) to the cistern - see Caer-Dineval Castle Layout, area C21, Hethyl's Abode. CR 7 Bheur hag. Combat note: the party is likely overpowered for her alone at level 6 - see the Cistern Zombie Contingency entry for the DM's planned escalation if a fight against her goes too easily.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "auriliths",
-      "combat",
-      "social"
-    ],
-    "createdAt": "8/15/2026"
-  },
-  {
-    "id": 1754000000003,
-    "title": "The Hag Coven - Sea of Moving Ice",
-    "category": "npc",
-    "description": "A coven of three hags lairing on an iceberg in the Sea of Moving Ice, holding effective leverage over Caer-Dineval through Kadroth's bargain. CONFIRMED: the coven physically holds/controls the real Uthessil (see that entry) - this is the actual mechanism behind Hethyl's stated communication with the Aurilith, not just a metaphorical link. Members: Grandmother Cottongrass, a powerful Bheur hag and the coven's leader (Hethyl's mother); Auntie Felsenmeer, a large, imposing Annis hag; Auntie Sedge, a sea hag and the weakest of the three - killing her is the price Hethyl has set for releasing Crannoc, since her death would open a coven seat Hethyl has been promised. SEQUENCING: the party is expected to confront this coven and retrieve Uthessil from them as a Ch.5+ questline, deliberately deferred until after Ch.4 (the Sunblight/chardalyn dragon arc) - not part of the current Caer-Dineval visit.",
-    "priority": "high",
-    "status": "ready",
-    "tags": [
-      "overarching",
-      "auriliths",
-      "combat",
-      "ythryn"
-    ],
-    "createdAt": "8/15/2026"
-  },
-  {
-    "id": 1753900000006,
-    "title": "Speaker Crannoc Siever - Caer-Dineval Captive",
-    "category": "npc",
-    "description": "Town speaker of Caer-Dineval, held under confinement by Kadroth and the Wardens of the White. UPDATE/CORRECTION: not a natural chronic illness as previously logged - he is being deliberately, slowly poisoned over months by the cult to make his decline look plausible rather than suspicious. It's backfiring: the slow decline reads as increasingly suspicious rather than convincingly natural. Crannoc knows about 'the hag' (Hethyl, whom he's personally encountered and been frightened by) but not the specifics of Kadroth's actual deal with the wider coven. He hired Kadroth as head manservant several months ago; Kadroth told him his old servants had left and needed replacing, when in fact most of them are imprisoned in the cistern, tormented by Hethyl (see Caer-Dineval Castle Layout, area C24). His 'chronic stomach ailment' (the poisoning) began around that same time. By the time he connected his illness to the new servants and Kadroth, he was too weak to act. The one time he tried to resist, Hethyl emerged and her power frightened him badly enough that he stopped resisting altogether. Session: invisible Glix found his chambers and surprised him by speaking directly into his mind while he was on the chamberpot.",
-    "priority": "medium",
-    "status": "ready",
-    "tags": [
-      "midgame",
-      "auriliths",
-      "social"
-    ],
-    "createdAt": "8/15/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1753900000007,
     "title": "Uthessil - Location and True Nature (RESOLVED)",
     "category": "plot",
-    "description": "RESOLVED DESIGN. Uthessil is likely not physically present at Caer-Dineval at all - it is held by the hag coven at their lair on an iceberg in the Sea of Moving Ice (see Hag Coven entry), which is also why Hethyl, one of the coven, is the one in actual contact with it. What Kadroth and the cult believe is Uthessil - the ice statue of Auril in the cistern shrine (area C20) - is not the Aurilith itself. It is a conduit tied to a dimensionally-locked vault hidden behind/beneath the statue. The vault (holding the Codicil of the White - see that entry) will not open or allow the statue to move until the real Uthessil is physically presented to it. Kadroth genuinely, mistakenly believes the statue IS Uthessil - this isn't a lie he's telling, it's his actual (wrong) understanding. SEQUENCING: this is a deliberately deferred Ch.5+ questline, not something to resolve during the current Caer-Dineval visit. The party will need to defeat the hag coven - planned for after Ch.4 (after the Sunblight/chardalyn dragon arc) - to retrieve the actual Uthessil, bring it back to Caer-Dineval, present it to the statue/conduit to unlock the vault, and finally obtain the Codicil.",
+    "description": "Uthessil is held by the Hoarfrost hag coven at their iceberg lair, not physically present at Caer-Dineval. What Kadroth and the cult believed was Uthessil - the ice statue of Auril in the cistern shrine - is not the Aurilith itself, but a conduit tied to a dimensionally-locked vault behind it (holding the Codicil of the White). The vault only opens when the real Uthessil is physically presented to it. Kadroth's belief that the statue WAS Uthessil was a sincere mistake, not a lie. RESOLVED INCIDENT: Glix attempted to destroy the statue after mostly clearing the brown mold that kept it frozen - the attempt got him stunned, and the statue/conduit remains intact and unharmed. No further consequence materialized from the attempt. CONFIRMED SEQUENCING: retrieving the real Uthessil from the Hoarfrost is now locked in as the rewritten Ch.5 of the campaign, replacing the published Island of Solstice/Auril's Abode chapter (see Adventure Roadmap entry).",
     "priority": "high",
     "status": "ready",
     "tags": [
@@ -2182,41 +106,44 @@
       "auriliths",
       "ythryn"
     ],
-    "createdAt": "8/15/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1754000000004,
     "title": "Caer-Dineval Castle Layout & Current Assignments",
     "category": "location",
-    "description": "First floor: Great Hall (empty, dinner dishes still out; exits to courtyard, sitting room, kitchen, servants' quarters, 2nd floor). Sitting Room (Throob generally here). Office (Kadroth's usual spot; secret entrance to the NW guard tower/cistern access). Kitchen (Karou Salafan, the cook - not a cultist; two goats). Servants' Quarters (two cultists: Huarwar and Tam Sharf, a mute housemaid - NOTE: Tam Sharf's role has changed from the original plan, where she was one of Crannoc's imprisoned/loyal servants; she is now a cultist stationed here instead, not a captive). Kennel (Alassar, the 8-year-old human kennelboy - matches established lore; currently where the party's dogs are). Courtyard (empty merchant stalls). Guard Towers (manned by only one guard at a time currently; current guard is Mere, the 14-year-old tiefling kin to Kadroth; NW tower's first floor holds the cistern entrance). Second floor: Crannoc's Room (lavish but barred, guarded by Yajath, a human cultist). Avarice's Room (per the location swap - see her entry). Cistern: C16-19 match the published module (entry ladder; cold storage with four wrapped cultist bodies; flooded cistern with a two-person rowboat and twelve submerged guard corpses; a hidden blue marble slab gate blocking C23 that only Glix can currently see, per this session's staging). C20 is now a Shrine to Auril specifically (not Uthessil) - an ice sculpture of Auril herself (owl-faced, horned, clawed), kept frozen by brown mold, correctly identifiable as the cultists' altar with a DC 10 Religion check. C21 is Hethyl's Abode (new - see her entry). C22 holds the iron lever controlling the marble slab. C23 is cistern continuing beyond the slab, clear of bodies. C24 holds Crannoc's remaining imprisoned servants (Lanthis Alderdusk, Elprekt Norbrav, Mylbara Norbrav, Dassir Ravenscar - Tam Sharf is no longer among them, see above), planning their own prison break attempt. NOTE: Fel Suparra (previously Huarwar's cult-fanatic partner at the gatehouse) is not mentioned in this version and her current status/placement is undetermined.",
+    "description": "First floor: Great Hall, Sitting Room (Throob), Office (Kadroth's former spot), Kitchen (Karou Salafan, non-cultist cook, two goats), Servants' Quarters (cultists Huarwar and Tam Sharf - mute housemaid, reassigned from captive to cultist in this version), Kennel (Alassar, 8yo human kennelboy - also where Zirael was held among the dogs, alongside the party's own sled dogs), Courtyard, Guard Towers (Mere, 14yo tiefling, Kadroth's kin). Second floor: Crannoc's former room (was guarded by Yajath), Avarice's Room (per the location swap). Cistern: C16-19 as published (entry ladder, cold storage with wrapped cultist bodies, flooded cistern with rowboat and submerged guard corpses, hidden marble slab gate). C20, Shrine to Auril - the statue/Uthessil conduit, kept frozen by brown mold, which was mostly but not entirely destroyed by Glix during the fight (see Uthessil's entry for the resolved outcome). C21, Hethyl's Abode - resolved, fight occurred here, Nirenoore and Falk freed. C22 (iron lever), C23/C24 (deeper cistern, Crannoc's remaining imprisoned servants - Lanthis Alderdusk, Elprekt Norbrav, Mylbara Norbrav, Dassir Ravenscar) have NOT yet been reached or retrieved - still an open loose end. Fel Suparra's status/placement remains undetermined, absent from recent material. Glix is no longer trapped behind the mold as of later sessions - he rejoined the others off-screen before the Trovus/Kadroth/Crannoc material played out.",
     "priority": "medium",
-    "status": "ready",
+    "status": "archived",
     "tags": [
       "midgame",
       "auriliths",
-      "investigation"
+      "investigation",
+      "combat",
+      "resolved"
     ],
-    "createdAt": "8/15/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1754000000005,
-    "title": "Hethyl Fight - Cistern Zombie Contingency",
+    "title": "Hethyl Fight - Cistern Zombie Contingency (TRIGGERED)",
     "category": "encounter",
-    "description": "Design note for a potential fight against Hethyl (CR 7 Bheur hag - see her entry). The party (level 6) is likely overpowered for her on her own. Planned escalation if the fight is going too easily: the twelve submerged guard corpses in the flooded cistern (area C18) can reanimate as zombies and crawl out of the water to reinforce her mid-fight.",
+    "description": "Design note for the fight against Hethyl - CONFIRMED TRIGGERED. The twelve submerged guard corpses in the flooded cistern reanimated as 8 ice zombies and joined the fight after Hethyl was quickly neutralized by repeated Stunning Strikes. The brown mold in the shrine room proved the most dangerous element of the encounter. Joosep went down to the zombies but survived.",
     "priority": "medium",
-    "status": "planning",
+    "status": "archived",
     "tags": [
       "midgame",
       "combat",
-      "auriliths"
+      "auriliths",
+      "resolved"
     ],
-    "createdAt": "8/15/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1753900000001,
     "title": "Danae Xotal - Thayan Agent (Lonelywood)",
     "category": "npc",
-    "description": "Barkeep at The Lucky Liar, the only tavern in Lonelywood. Secretly a Thayan agent working for Szass Tam, the most powerful lich in Thay - planted in Icewind Dale years ago to watch for enemies of Szass Tam seeking refuge in Ten-Towns. No one else in Ten-Towns knows her secret; those she's marked as enemies in the past have quietly vanished. Doesn't currently bear on the plot but is worth keeping documented. Session: the tavern cleared out when Glix bragged (nat 20 persuasion) about supplying rum to the Northlook Inn, costing her business, but the party's actual heroics (destroying an Aurilith) won her over - she's friendly toward them now. Can see through Glix's disguise.",
+    "description": "Barkeep at The Lucky Liar, the only tavern in Lonelywood. Secretly a Thayan agent working for Szass Tam, the most powerful lich in Thay - planted in Icewind Dale years ago to watch for enemies of Szass Tam seeking refuge in Ten-Towns. No one else in Ten-Towns knows her secret; those she's marked as enemies in the past have quietly vanished. Doesn't currently bear on the plot but is worth keeping documented. The tavern cleared out when Glix bragged (nat 20 persuasion) about supplying rum to the Northlook Inn, but the party's actual heroics (destroying an Aurilith) won her over - she's friendly toward them now. Can see through Glix's disguise.",
     "priority": "low",
     "status": "ready",
     "tags": [
@@ -2224,52 +151,52 @@
       "lonelywood",
       "social"
     ],
-    "createdAt": "8/14/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1753900000002,
     "title": "Iriskree Harrowhill - Scrimshaw Shop Owner (Lonelywood)",
     "category": "npc",
-    "description": "Owns a scrimshaw shop in the town of Lonelywood. Outwardly a 'doughy spinster'; secretly a retired assassin. Party passed by but hasn't interacted with her directly yet - open for future development.",
+    "description": "Owns a scrimshaw shop in the town of Lonelywood. Outwardly a 'doughy spinster'; secretly a retired assassin. Party passed by but hasn't interacted with her directly - open for future development.",
     "priority": "low",
     "status": "planning",
     "tags": [
       "lonelywood",
       "social"
     ],
-    "createdAt": "8/14/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1753900000003,
     "title": "The Lucky Liar - Tavern Regulars (Lonelywood)",
     "category": "npc",
-    "description": "Patrons encountered at The Lucky Liar, Lonelywood's only tavern, during the party's overnight stay: Panic, an older red-skinned tiefling man with long white hair; Elgin, a half-elf who gave Bill a cot to sleep in; and Lenore, an older dwarven woman who was unswayed by Glix's attempt to sell her rocks. Everyone but Bill slept in the tavern overnight. Light flavor NPCs, open for reuse if the party returns to Lonelywood.",
+    "description": "Patrons at The Lucky Liar during the party's overnight stay in Lonelywood: Panic, an older red-skinned tiefling man with long white hair; Elgin, a half-elf who gave Bill a cot; and Lenore, an older dwarven woman unswayed by Glix's attempt to sell her rocks. Light flavor NPCs, open for reuse.",
     "priority": "low",
     "status": "ready",
     "tags": [
       "lonelywood",
       "social"
     ],
-    "createdAt": "8/14/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1753900000004,
     "title": "Nimsy",
     "category": "npc",
-    "description": "Accompanied Joosep toward Lonelywood earlier in the campaign. Session update: found the party the morning after their stay in Lonelywood town, irate that they hadn't brought her the head of the white moose. After some annoyed back-and-forth, she was convinced that destroying the Aurilith (Zethryn) was probably better for her community than the moose would have been.",
+    "description": "Accompanied Joosep toward Lonelywood earlier in the campaign. Found the party irate that they hadn't brought her the head of the white moose, then was won over once she learned Zethryn had been destroyed. Currently hosting Crannoc Siever in Lonelywood during his recovery (see his entry) - likely to result in more people eventually learning of Morskaya's existence.",
     "priority": "low",
     "status": "ready",
     "tags": [
       "lonelywood",
       "social"
     ],
-    "createdAt": "8/14/2026"
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1753900000005,
     "title": "Mere - Kadroth's Kin (Caer-Dineval Gatekeeper)",
     "category": "npc",
-    "description": "A teenage tiefling (14 years old), kin to Kadroth, serving as a young gatekeeper/guard at Caer-Dineval castle - currently the only guard on rotation in the Guard Towers. Tricked by Glix's psychic communication into letting the party inside. Deliberately withheld his name from the party during the encounter, trying to avoid getting in trouble for letting them in - the party doesn't yet know his name.",
+    "description": "A teenage tiefling (14 years old), kin to Kadroth, the only guard on rotation in the Guard Towers at the time the party arrived. Tricked by Glix's psychic communication into letting the party inside. Withheld his name to avoid getting in trouble for letting them in - the party still doesn't know it.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -2277,13 +204,28 @@
       "auriliths",
       "social"
     ],
-    "createdAt": "8/15/2026"
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1734467200005,
+    "title": "Umberlee Shrine - Lonelywood Hidden Temple",
+    "category": "location",
+    "description": "Hidden shrine to Umberlee maintained by Morskaya, opposing Auril's frozen stasis. Contains the drowning pool (resolved via Angajuk) and the Marble Gazebo ritual basin. RESOLVED: Glix helped Morskaya free the Drowned Priest. Morskaya promised to aid Glix if needed, healed him, then whipped up a maelstrom on Maer Dualdon - ongoing for as long as she's in the area, demonstrated firsthand as freezing rain 'like spears' during later travel. The Drowned Priest's one-time Greater Restoration was later used to save Crannoc Siever. Possible open connection, unconfirmed: this may be the first stirring of Zethryn's 'great wave' vision to Joosep.",
+    "priority": "high",
+    "status": "archived",
+    "tags": [
+      "early",
+      "umberlee",
+      "lonelywood",
+      "resolved"
+    ],
+    "createdAt": "10/9/2026"
   },
   {
     "id": 1753900000008,
     "title": "Mama Chrys's Augury - Weal for the Spire Plan (Flux'thuun-Tinted)",
     "category": "plot",
-    "description": "Before leaving Lonelywood, Mama Chrys cast Augury to check whether heading to the Lost Spire was a sound move toward the party's ultimate goal of defeating the Rime (their own shorthand for ending Auril's winter/curse for good). Result: Weal. Notably, the casting was visibly influenced by Flux'thuun, which reframed the reading to emphasize ongoing movement/process over any single fixed destination - implying the 'correct path' may not strictly require reaching or completing the Spire as originally conceived, so much as continuing to act and move forward generally. Worth remembering as a hedge if the Spire plan needs to pivot or gets interrupted - the augury doesn't lock the party into that specific location being the answer.",
+    "description": "Before leaving Lonelywood, Mama Chrys cast Augury on heading to the Lost Spire toward the party's goal of defeating 'the Rime' (their shorthand for ending Auril's winter). Result: Weal, visibly influenced by Flux'thuun, which reframed the reading to emphasize ongoing movement/process over any fixed destination. NOTE: the Spire itself has since been deliberately deferred past Ch.2 (see Adventure Roadmap) - this augury's framing arguably predicted that outcome, since it never locked the party into that specific destination being the answer.",
     "priority": "medium",
     "status": "ready",
     "tags": [
@@ -2291,6 +233,328 @@
       "mama-chrys",
       "overarching"
     ],
-    "createdAt": "8/14/2026"
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754100000001,
+    "title": "Nirenoore - Wild Elf Ranger/Rogue (PC)",
+    "category": "pc",
+    "description": "Player character (Arianna), Ranger 4/Rogue 2 (Hunter). Tracked her wolf companion Zirael to Caer-Dineval, staked out the castle for days, was captured during a solo attempt to force her way in, and held as a 'pet' by Hethyl in a hidden cistern chamber - used as leverage and false hope of reunion. Freed by the party along with fellow captive Falk. Relayed everything Hethyl had let slip during captivity to the party (see Hethyl's Intel entry). Participated in the Elk Tribe cave raid alongside Mama Chrys, Joosep, and Falk. Open/undeveloped: Zirael's unusual age/intelligence has no locked explanation; a possible tie to Fenmarel Mestarine has been floated as flavor, not confirmed.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754100000002,
+    "title": "Zirael - Wolf Companion (Nirenoore)",
+    "category": "npc",
+    "description": "Nirenoore's wolf companion. Retconned as one of the dogs in Caer-Dineval's courtyard kennel, tended by Alassar, alongside the party's own sled dogs. Captured with intent to be trained; unusually intelligent - firbolg animal-empathy (Mama Chrys, Joosep) picked up on this as the hook toward discovering Nirenoore's captivity. Used successfully during the Elk Tribe raid (alongside a second wolf/sled dog) to distract the white dragon wyrmlings Gelym and Tyzar, letting the raiding party sneak in undetected. Stat block: standard wolf (AC 13, HP 11, Speed 40 ft., STR 12/DEX 15/CON 12/WIS 12/CHA 6) with INT raised from 3 to 10 to reflect his unusual intelligence (understands Common and Elvish but can't speak); Bite attack's knockdown effect only applies against targets Large or smaller.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754100000003,
+    "title": "Falk - Elk Tribe Captive, Freed",
+    "category": "npc",
+    "description": "Elk Tribe member held alongside Nirenoore in Hethyl's cistern lair - was to be sacrificed by Hethyl if a fight broke out. Freed by the party along with Nirenoore. Was originally sent by his tribe to Ten-Towns to beg for outside help against the chardalyn berserker corruption spreading through the Elk Tribe, but was waylaid and captured at Caer-Dineval before delivering his message. Finally completed that errand by leading Mama Chrys, Joosep, and Nirenoore to the Cave of the Berserkers, where the corruption source was dealt with (see Chardalyn Berserkers entry). Absent from the subsequent Cackling Chasm session.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "auriliths",
+      "reghed"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754100000004,
+    "title": "Hethyl's Flying Staff (Loot)",
+    "category": "misc",
+    "description": "Wondrous item, uncommon, no attunement required. A slender white staff, cold to the touch and faintly rimed with frost, looted from Hethyl. Command word (action) makes it hover beside the holder or stop hovering/fall; bonus action to mount it (one additional Medium or smaller creature can ride behind); once mounted, an action commands it to fly up to 50 feet in any direction. Drops if not held or mounted. Given to Mama Chrys.",
+    "priority": "low",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "auriliths"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 6,
+    "title": "Joosep - Circle Shiverveil Ranger",
+    "category": "pc",
+    "description": "Firbolg Ranger (Marvin). Broke his connection to Zethryn for a +1/+1 bonus against intelligent Auril-servants. Privately suspects Wynnette's true nature but hasn't told the party. Lost Vega Shiverveil to Auril's retaliation after Zethryn's destruction. Went down to zombies at Caer-Dineval, survived; went down twice during the Elk Tribe cave raid, revived both times by Mama Chrys - a repeating near-death pattern worth watching, especially relevant to the still-undeveloped unconsciousness/stakes homebrew mechanic. See Joosep's Secret entry (DM-facing only, not party knowledge) regarding the Elk Tribe raid. Absent from the Caer-Dineval resolution session and the Cackling Chasm session.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "resolved"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 57,
+    "title": "Speaker Naerth Maxildanarr - Zhentarim Leader",
+    "category": "npc",
+    "description": "Former Luskan rogue, secretly head of Zhentarim in Ten-Towns, wants to make Targos a trade hub for the Black Network. Commands 12+ spies throughout Ten-Towns, uses three flying snakes to relay messages. Accepts bribes to exempt specific citizens from Targos's sacrifice rotation. Glix has openly wanted him dead; the party deprioritized this - still a live, unresolved tension. CONFIRMED: has a deal with the Hoarfrost hag coven, and used Kadroth as a disposable proxy to avoid personal risk, continuing to direct Kadroth's operation at Caer-Dineval on an ongoing basis from Targos rather than a one-time handoff - making his Zhentarim network directly complicit in the Caer-Dineval situation. With Kadroth captured by Trovus, Naerth will almost certainly learn his operation has been exposed very quickly. Given the party's trajectory into Ch.3 soon, the practical result is that he won't bother maintaining secrecy by the time the party reaches Ch.5 (the Hoarfrost confrontation, replacing the published Island of Solstice chapter) - expect him to be upfront about his goals and affiliations once that point is reached, rather than continuing to hide. This sets up a likely major Naerth confrontation or reveal scene around Ch.5, tied directly to his own prior history with the coven.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "early",
+      "zhentarim",
+      "ten-towns",
+      "social",
+      "auriliths",
+      "ythryn"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754300000001,
+    "title": "Hethyl's Intel - Party-Known",
+    "category": "plot",
+    "description": "Nirenoore relayed to the whole party what Hethyl let slip during her captivity: contempt for Kadroth as an undeserving con man; that the ice statue in the Caer-Dineval shrine isn't really Uthessil; resentment at being stuck at the Caer instead of properly seated with her mother's coven; repeated wishes for Auntie Sedge's death to open a coven seat; contempt for Uthessil treating her as disposable; irritation that Crannoc's poisoning was taking too long; a sneering aside that the real power was never at the castle, but out on the ice; bitter, unexplained mutters about 'the vault' and 'the key'; and real fear, unlike her usual contempt, when the wider coven itself came up by name. All of this is now shared party knowledge.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "ythryn"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754300000002,
+    "title": "Trovus - Caer-Konig Militia Leader",
+    "category": "npc",
+    "description": "Caer-Konig militia figure, also associated with a gnoll bounty at Cackling Chasm (now fulfilled - see that entry). Confronted the Wardens of the White situation at Caer-Dineval, catching Kadroth attempting to flee and taking him into custody to face justice at Caer-Konig - not simply to rest, as first assumed. Whether Kadroth's confession about Naerth's involvement becomes public depends on how that plays out. Afterward, caught Glix, Keogr, and Bill up on everything learned since Hethyl's death, and pushed the party toward prioritizing the duergar/Sunblight threat next, offering the Cackling Chasm bounty as an interim, trust-building task - which the party completed. His handling of Kadroth's actual fate/justice is presumed to have proceeded off-screen; confirm outcome if it matters later, especially regarding Naerth's exposure.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "auriliths"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754300000003,
+    "title": "The Slow Mercy (Item)",
+    "category": "misc",
+    "description": "Wondrous item (chardalyn pendant), rare, requires attunement. A blade-shaped pendant of corrupted chardalyn, colder than the air around it - a crueler cousin of the Wardens' standard amulets, and very likely the actual method used to poison Crannoc Siever. As an action, the wearer can touch a creature and force a DC 13 Constitution saving throw; on a failure, the target gains one level of exhaustion at each subsequent dawn until cured by remove curse, greater restoration, or similar. Curse of Corruption: while attuned, roll a d6 at each dawn - on a 1, DC 12 Charisma save or move one step closer to Lawful Evil (deliberately left mysterious beyond that - track fails, don't reveal an endpoint). Iceheart Adhesion: the wearer may attune to it as an action, but unattuning requires a long rest spent by a warm fire. Currently held by Mama Chrys, deliberately kept unattuned.",
+    "priority": "medium",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "chardalyn",
+      "mama-chrys"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754300000004,
+    "title": "Joosep's Secret - Falk's Kill (DM-FACING, PARTY DOES NOT KNOW)",
+    "category": "plot",
+    "description": "SENSITIVE - handle carefully. During the Elk Tribe cave raid, Joosep secretly turned Falk's final blow against a subdued tribesman from nonlethal to lethal, without Falk's knowledge or consent. Only Mama Chrys witnessed this and knows the truth - the party believes both deaths were unavoidable casualties, not a deliberate, hidden escalation by one of their own. Sits on top of Joosep's ongoing grief (Vega's death, his severed Zethryn bond, repeatedly going down in recent fights) - whether this reads as cracking under strain, misplaced anger at the corrupted tribesmen, or something colder is intentionally undefined. Live risks: Mama Chrys sitting on this indefinitely, confronting Joosep privately, or it surfacing to the wider party - any could significantly affect party trust and Joosep's arc. Not to be revealed or hinted at outside DM planning.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching",
+      "joosep",
+      "mama-chrys",
+      "brainstorming"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754300000005,
+    "title": "DM Prep Checklist - Post-Session Tasks",
+    "category": "misc",
+    "description": "COMPLETED: printable item sheets for the flying staff and Slow Mercy; Zirael's character sheet (standard wolf, INT raised to 10, knockdown restricted to Large or smaller); a narrated description for what the two wolves did to distract the wyrmlings during the Elk Tribe raid. STILL OPEN: a homebrew mechanic to make falling unconscious feel higher-stakes, requested by the players - increasingly relevant given Joosep's and now Bill's repeated close calls.",
+    "priority": "low",
+    "status": "planning",
+    "tags": [
+      "overarching",
+      "brainstorming"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1753600000003,
+    "title": "Chardalyn Berserkers - Elk Tribe (RESOLVED)",
+    "category": "npc",
+    "description": "Deep Duerra psionic corruption - not demonic influence, not Auril's favor - affecting a splinter of the Elk Tribe (see that entry), likely from duergar chardalyn mining/theft bleeding into their territory, the same mechanism affecting Circle Blackgleam's crystal gardens elsewhere. The cave (former dwarf mining tunnels) housed a Deep Duerra psi-crystal shrine (see that entry) in place of the published module's divine brazier. RESOLVED: Falk led Mama Chrys, Joosep, and Nirenoore to the cave. They used two wolves (Zirael plus a second wolf/sled dog) to distract the white dragon wyrmlings Gelym and Tyzar, sneaking in undetected; knocked out the butcher and carefully extracted the psi-crystal from its altar before real fighting began, then subsequently destroyed it. Two tribesmen were subdued nonlethally and tied up; two died - one an unavoidable casualty, the other due to Joosep secretly turning a nonlethal blow lethal (see Joosep's Secret entry - not party knowledge). Duerra-attuned chardalyn was confiscated from survivors. DM note: berserker HP was scaled down for the reduced 4-person raiding party.",
+    "priority": "high",
+    "status": "archived",
+    "tags": [
+      "midgame",
+      "chardalyn",
+      "combat",
+      "reghed",
+      "resolved"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754200000001,
+    "title": "Deep Duerra Psi-Crystal (Cave of the Berserkers) - DESTROYED",
+    "category": "misc",
+    "description": "Replaced the published module's Frostmaiden's Fire brazier - a fist-sized corrupted chardalyn crystal set into a small altar bearing Deep Duerra's symbol (a mind flayer skull), kept berserkers in the cave from dropping below 1 HP while active. RESOLVED: carefully extracted intact (DC 15 Arcana/Religion to spot it was socketed rather than fused, DC 13 Strength/thieves' tools to remove it safely) rather than destroyed on the spot - but the party subsequently destroyed it afterward anyway, permanently ending its effect.",
+    "priority": "low",
+    "status": "archived",
+    "tags": [
+      "midgame",
+      "chardalyn",
+      "combat",
+      "reghed",
+      "resolved"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754200000002,
+    "title": "Tribe of the Elk - Reghed Nomads",
+    "category": "npc",
+    "description": "Largest and most outsider-tolerant of the four remaining Reghed tribes; tribe of the hero Wulfgar, son of Beornegar. Views Ten-Towners as 'tame folk.' King Jarund Elkhardt: nearly 50, terse, cautious after decades of rule; lost his only heir, Jarund Twice-Born, to a cave bear roughly a decade ago, succession uncertain. Deeply concerned about Auril's winter; his shaman Mjenir believes the only way to break the curse is to kill the goddess in her own home - a striking, unprompted echo of the campaign's own endgame roadmap. The tribe's fracturing under Deep Duerra chardalyn corruption has been resolved (see Chardalyn Berserkers entry) via Falk's intervention.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "reghed",
+      "midgame",
+      "social"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1753600000002,
+    "title": "Oyaminartok - The Polar Werebear (MET)",
+    "category": "npc",
+    "description": "CR 8 werebear, title/role handed down over generations, near-mythic progenitor of goliath werebears, predating both goliath settlements' claims on her. Eyepatch hides a cursed paralysis-gaze eye (not a missing eye); grants +3 Perception and shapechanger detection. During the winter, the burden of choosing new werebears has lapsed amid the settlements' squabbling - why Keogr was mauled by a rogue lycanthrope rather than ritually chosen. RESOLVED: finally met via a random encounter en route to Cackling Chasm. Her poor social skills made her a genuinely off-putting figure on first impression. Told Keogr his curse might be a gift, and implied that if he proves he's earned it, she can help him find/unlock it. Followed the party into the gnoll hideout afterward purely as an observer, apparently watching Keogr specifically. OPEN QUESTION: Keogr went on to personally kill the Gnoll Fang (Chyzka) during that fight - does this satisfy her 'prove yourself' condition, or does she want something more deliberate? Needs a decision before she comes up again. Other intel (Coldlight Walkers/Frostling connection, external Sunblight knowledge) hasn't come up yet but remains available.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "werebear",
+      "keogr",
+      "midgame"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 99,
+    "title": "Cackling Chasm - Underground Passage (RESOLVED)",
+    "category": "location",
+    "description": "Underground route with unstable ice and strange acoustics, tied to Trovus's gnoll bounty. RESOLVED: taken on as a reward-motivated side quest from Trovus. No party member shared a language with the gnolls inside. Glix scouted invisibly, found the Gnoll Fang (Chyzka), spored him, and attempted communication; Bill recognized Yeenoghu's symbol but didn't communicate this clearly, and a fight broke out despite the gnolls being individually weak (CR 1/2, buffed with two longbow attacks each). The chasm's terrain made positioning difficult, and roughly 5 critical hits turned the fight dangerous - two shove attacks knocked Bill 200 feet down into the chasm, where he failed two death saves before Mama Chrys revived him, only after falling 50 feet herself attempting the rescue. Keogr personally killed the Gnoll Fang. The party collected gnoll ears, fulfilling Trovus's bounty. Both Keogr and Bill came away with lingering injuries - see that entry.",
+    "priority": "medium",
+    "status": "archived",
+    "tags": [
+      "midgame",
+      "combat",
+      "resolved"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754400000001,
+    "title": "Ice Troll Heart - Travel Resource",
+    "category": "misc",
+    "description": "An ice troll was tracked and killed during the dogsled journey to save Crannoc Siever; its heart was used to help him survive the trip's exhaustion risk. Light worldbuilding note - may be a reusable survival resource for future desperate travel situations.",
+    "priority": "low",
+    "status": "ready",
+    "tags": [
+      "midgame"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754400000002,
+    "title": "Chyzka - Gnoll Fang of Yeenoghu (DECEASED)",
+    "category": "npc",
+    "description": "Gnoll fang of Yeenoghu, leader of the gnoll band at Cackling Chasm. Glix found and spored him during invisible scouting and attempted peaceful contact, but a language barrier and Bill's unclear handling of recognizing Yeenoghu's symbol led to a fight instead of a parley. Killed by Keogr during the resulting battle - possibly satisfying Oyaminartok's 'prove yourself' test (see her entry, still an open question).",
+    "priority": "medium",
+    "status": "archived",
+    "tags": [
+      "midgame",
+      "combat",
+      "resolved"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754400000003,
+    "title": "Lingering Injuries (Homebrew System)",
+    "category": "rules",
+    "description": "Homebrew mechanic for serious injuries beyond normal HP loss. Confirmed results so far: 'Bruised' (Keogr - minor, flavor-level). 'Festering Wound' (Bill - ACTIVE AND ONGOING: max HP reduced by 1d3 per day until either 40+ HP of total healing is received, or a DC 15 Medicine check successfully performs surgery). Bill's wound needs active tracking at the table - it's a worsening condition, not a one-time penalty.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "rules",
+      "bill"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754400000004,
+    "title": "Bill - Human Monk (Hermit) - Festering Wound",
+    "category": "pc",
+    "description": "Reads Netherese, learned Ythryn/Netheril lore from Polybeus's writings in his own hermitage (a Ythryn splinter). Carries an Oghma boon (auto-success on Netherese checks, escalation trigger still undefined) and the unresolved 'Auril-connection gap' - doesn't yet know Ythryn holds an Aurilith-killer. Became active after Waylen's death. SESSION UPDATE: fell 200 feet into Cackling Chasm after being shoved by gnoll crits, failed two death saves before Mama Chrys revived him. Came away with a Festering Wound (see Lingering Injuries entry) - max HP currently eroding by 1d3/day until treated. This is an active, urgent status effect, not resolved flavor text.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "midgame",
+      "bill",
+      "combat",
+      "ythryn"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1751000000012,
+    "title": "Campaign Status Snapshot (as of latest session)",
+    "category": "misc",
+    "description": "Party is level 6+, Ch. 2, closing out the chapter. STRUCTURAL: the Lost Spire of Netheril will NOT happen this chapter - deliberately deferred. Cackling Chasm (now resolved) was the final Ch.2 side quest, taken specifically to delay the Ch.3 dragon-vs-dungeon decision point until Joosep returns. Ch.5 is confirmed rewritten to center on the Hoarfrost hag coven confrontation, replacing the published Island of Solstice/Auril's Abode chapter (see Adventure Roadmap entry) - this is also expected to be when Naerth Maxildanarr stops hiding his Zhentarim affiliations. Current active roster has fluctuated: Joosep absent for several recent sessions; Nirenoore and Falk absent from the most recent (Cackling Chasm). RESOLVED since the last major snapshot: the Caer-Dineval cult dismantled (Kadroth captured, Hethyl likely dead - unconfirmed, Crannoc saved via the Drowned Priest's Greater Restoration and currently recovering in Lonelywood); the Elk Tribe's chardalyn berserker corruption cleared; the party's first meeting with Oyaminartok; the Cackling Chasm gnoll bounty, including Bill's near-fatal 200-foot fall and new Festering Wound (active, urgent - see that entry). Major still-open threads: Hethyl's exact fate, the Hoarfrost/Uthessil retrieval (now Ch.5), Joosep's secret (Falk's death - DM-facing only), Avarice's scheme and Dzaan connection, Glix wanting Naerth dead, Glix's interrupted Zethryn vessel attunement, Crannoc's recovery creating a Caer-Dineval power vacuum, whether Oyaminartok's 'prove yourself' condition for Keogr has been satisfied, and the still-undeveloped unconsciousness/stakes homebrew mechanic. Next: duergar/Sunblight threat, pending Joosep's return.",
+    "priority": "high",
+    "status": "planning",
+    "tags": [
+      "overarching"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1751000000004,
+    "title": "Codicil of the White",
+    "category": "misc",
+    "description": "The true key to entering and navigating Ythryn's magic. Held in a dimensionally-locked vault at Caer-Dineval, behind the ice statue of Auril (a conduit, not Uthessil itself - see Uthessil's entry). The vault only opens when the real Uthessil, held by the Hoarfrost hag coven, is presented to it. CONFIRMED: retrieving it is the central goal of the rewritten Ch.5 (replacing Island of Solstice/Auril's Abode) - see Adventure Roadmap entry.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "ythryn",
+      "auriliths",
+      "chardalyn"
+    ],
+    "createdAt": "10/9/2026"
+  },
+  {
+    "id": 1754500000001,
+    "title": "Adventure Roadmap - Chapter Structure",
+    "category": "plot",
+    "description": "Consolidated campaign structure. Ch.1 Ten-Towns - complete. Ch.2 Icewind Dale - closing out (Lost Spire deliberately deferred past this chapter; Cackling Chasm was the final Ch.2 side quest). Ch.3/4 Sunblight Fortress / chardalyn dragon rampage - upcoming, pending Joosep's return for the dragon-vs-dungeon decision point. Ch.5 - CONFIRMED REWRITE: the published adventure's Island of Solstice/Auril's Abode chapter is replaced entirely with a confrontation against the Hoarfrost hag coven (see that entry) - retrieving the real Uthessil to unlock the vault at Caer-Dineval and obtain the Codicil of the White. Also the expected point where Naerth Maxildanarr stops hiding and becomes forthright about his goals and affiliations. Ch.6 Ythryn - retrieve what's needed to end Auril's winter, using the Codicil to navigate. Endgame: Auril Confrontation - destroying enough Auriliths draws her out directly. OPEN: whether any of the published Island of Solstice content (trials, relics) should be ported into the Hoarfrost rewrite is undecided - not urgent until Ch.5 prep begins.",
+    "priority": "high",
+    "status": "ready",
+    "tags": [
+      "overarching",
+      "auriliths",
+      "ythryn"
+    ],
+    "createdAt": "10/9/2026"
   }
 ]
